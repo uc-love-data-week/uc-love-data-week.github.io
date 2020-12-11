@@ -359,6 +359,14 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        backdrop-filter: blur(5px);
+
+
 }
 
 header .intro-text .intro-heading {
@@ -368,7 +376,15 @@ header .intro-text .intro-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+
 }
+
 
 @media(min-width:768px) {    
     header .intro-text {
@@ -391,9 +407,13 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        background-color: rgba(red, green, blue, 1);
     }
 }
 
+div .intro-heading {
+    background-color: rgba(red, green, blue, 1);
+}
 section {
     padding: 100px 0;
 }
