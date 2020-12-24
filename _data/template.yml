@@ -4,6 +4,7 @@ color:
   secondary: ffe552
   secondary-dark: 00283c
   muted: bdbdbd
+  muted-dark: 777
 
 # Font Families
 font:

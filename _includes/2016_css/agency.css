@@ -44,6 +44,10 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+.text-muted-dark {
+    color: #{{ site.data.template.color.muted-dark }};
+}
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
