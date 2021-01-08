@@ -10,19 +10,21 @@
             <div class="row">
             {% for post in site.data.yml_2021.workshops %}
                 <div class="col-md-4 col-sm-6 speakers-item">
-                    <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
-                        <div class="speakers-hover">
-                            <div class="speakers-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                    <div style="height:600px;">
+                        <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
+                            <div class="speakers-hover">
+                                <div class="speakers-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
                             </div>
+                            <div style="display: table-cell; height:310px; vertical-align: middle;">
+                            <img src="../assets/img/workshops/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}" width="300">
                         </div>
-                        <div style="display: table-cell; height:300px; vertical-align: middle;">
-                        <img src="../assets/img/workshops/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}" width="300">
-                    </div>
-                    </a>
-                    <div class="speakers-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted-dark">{{ post.date }}</p><br><br>
+                        </a>
+                        <div class="speakers-caption">
+                            <h4>{{ post.title }}</h4>
+                            <p class="text-muted-dark">{{ post.date }}</p><br><br>
+                        </div>
                     </div>
                 </div>
             {% endfor %}
