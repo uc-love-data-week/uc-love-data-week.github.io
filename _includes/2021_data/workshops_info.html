@@ -24,36 +24,48 @@
                             The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in speakers.yml. 
                             {% endcomment %}
                             <h3>Event Registration Information</h3>
+                                {% assign reg = true %}
 
                                 {% comment %}
                                 EVENTBRITE
                                 {% endcomment %}
                                 {% if post.eventbrite %}
-                                <iframe
-                                  src="https://www.eventbrite.com/tickets-external?eid={{post.eventbrite}}&ref=etckt"
-                                  frameborder="0"
-                                  width="100%"
-                                  height="280px"
-                                  scrolling="auto">
-                                </iframe>
+                                    <iframe
+                                      src="https://www.eventbrite.com/tickets-external?eid={{post.eventbrite}}&ref=etckt"
+                                      frameborder="0"
+                                      width="100%"
+                                      height="280px"
+                                      scrolling="auto">
+                                    </iframe>
+                                    {% assign reg = false %}
                                 {% endif %}
+                                
                                 {% comment %}
                                 ZOOM
                                 {% endcomment %}
                                 {% if post.zoom %}
-                                <iframe src="https://zoom.us/meeting/register/{{post.zoom}}" width="1000px" height="500px"></iframe>
+                                    <iframe src="https://zoom.us/meeting/register/{{post.zoom}}" width="1000px" height="500px"></iframe>
+                                    {% assign reg = false %}
                                 {% endif %}
+
                                 {% comment %}
                                     Register on website
                                 {% endcomment %}
-                                {% if post.ical %}
-                                <p>Click <a href="{{post.url}}" title="Link to Registration page" target="_blank">here</a> to register. <br></p>
+                                {% if post.registration-page %}
+                                    <p>Click <a href="{{post.registration-page}}" title="Link to Registration page" target="_blank">here</a> to register. <br></p>
+                                    {% elsif post.url  %}
+                                    <p>Campus Event <a href="{{post.registration-page}}" title="Link to campus event page" target="_blank">page</a>. <br></p>
+                                    {% assign reg = false %}
                                 {% endif %}
                                 {% comment %}
                                 ICAL
                                 {% endcomment %}
                                 {% if post.ical %}
                                 <p>Add to Calendar using iCal.  <a class="btn btn-default" href="{{post.ical}}" title="Add to Calendar using iCal" id="s-lc-event-b-c"><i class="fa fa-calendar fa-lg"></i></a><br></p>
+                                {% endif %}
+
+                                {% if reg %}
+                                <p>Registration information coming soon!</p>
                                 {% endif %}
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
