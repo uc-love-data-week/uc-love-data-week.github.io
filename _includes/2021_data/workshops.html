@@ -23,7 +23,11 @@
                         </a>
                         <div class="speakers-caption">
                             <h4>{{ post.title }}</h4>
-                            <p class="text-muted-dark">{{ post.date }}</p><br><br>
+                            {% for day in site.data.yml_2021.dates %}
+                                {% if post.day == day.day-abbv %}
+                                <p class="text-muted-dark"> {{day.day-full }}, {{ post.time }} </p><br><br>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
