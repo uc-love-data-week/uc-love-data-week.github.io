@@ -4,7 +4,7 @@
 - time: 10:00 - 12:00 PM
   info: "<u>Geocoding Address Data: Approaches to Personally Identifiable Data</u><br><b>UC Davis</b><br><br>Geocoding is the process of estimating a real-world location (typically we think of latitude & longitude) from a postal address. In this workshop, we’ll discuss the concepts needed to geocode data, understand options for working with personally identifiable data and non-identifiable data, and gain some hands-on experience with geocoding address data using QGIS, a GIS with a graphical user interface."
 
-- time: 12:00 PM - 12:30 PM
+- time: 12:00 - 12:30 PM
   info: "<u>ProQuest TDM Studio demo</u><br><b>UC San Diego (speakers from ProQuest)</b><br><br>TBD from ProQuest"
 
 - time: 1:00 - 2:00 PM
