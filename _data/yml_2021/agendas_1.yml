@@ -1,5 +1,5 @@
-- time: 8:00 AM - 12:00 PM
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+- time: 11:00 AM - 12:00 PM
+  info: "<u>A Gentle and Friendly Introduction to APIs</u><br><b>Speakers: Tim Dennis (UCLA), Kat Koziar (UCR), Stephanie Labou (UCSD), Leigh Phan (UCLA)</b><br>Topic"
 
-- time: 12:00 PM - 3:00 PM
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+- time: 1:00 PM - 2:00 PM
+  info: "<u>SQL in 60 minutes</u><br><b>Colin Jemmott (UCSD)</b><br>Topic"
