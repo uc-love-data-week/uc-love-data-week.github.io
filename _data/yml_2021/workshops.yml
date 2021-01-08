@@ -5,7 +5,8 @@
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
   topic: Topic
-  date: Monday, 11 am - noon
+  day: m
+  time:  11 am - noon
   description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
   eventbrite: 132489617011
   registration-page:
@@ -19,7 +20,8 @@
   thumbnail: tt_logo_thumb.png
   alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
   topic: Topic
-  date: Tuesday, 1 - 2 pm
+  day: t
+  time: Tuesday, 1 - 2 pm
   description: "A weekly data project aimed at the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
   eventbrite:
   zoom: 
