@@ -1,6 +1,6 @@
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
-  speakers: UCR (Kat), UCLA (Tim, Leigh), UCSD (Stephanie)
+  speakers: Tim Dennis (UCLA), Kat Koziar (UCR), Stephanie Labou (UCSD), Leigh Phan (UCLA)
   img: apis.png
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
@@ -9,7 +9,6 @@
   description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
   eventbrite: 132489617011
   temp: https://www.eventbrite.com/myevent?eid=131428272501 
-  teaser: Have you wanted to use APIs to gather data, but aren’t quite sure where to start [...]
 
 
 - title: "Tidy Tuesday: clean up a data set"
@@ -38,8 +37,9 @@
   description: "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data and documentation for sharing, and selecting an appropriate data repository. This workshop is part of UC Love Data Week, a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation. All members of the University of California community are welcome to attend."
   eventbrite:
   zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  temp: 
+  url:
+  temp: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
+
 
 - title: Name
   name: Name-3
