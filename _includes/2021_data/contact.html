@@ -7,42 +7,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 text-center">
                         <div class="row">
+                            {% for post in site.data.yml_2021.contacts %}
                             <div class="col-md-6">
-                                <p class="text-muted">UCB</p>
+                                <p class="text-muted"><u>{{ post.campus }}</u><br>
+                                    {{ post.name }}<br>
+                                    {{ post.email }}
+                                </p>
                             </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCD</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCI</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCLA</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCM</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCR</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCSC</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCSB</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCSD</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">UCSF</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="text-muted">CDL</p>
-                            </div>
-
+                            {% endfor %}
                         </div>
                 </div>
             </div>
