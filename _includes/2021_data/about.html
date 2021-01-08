@@ -22,7 +22,11 @@
                                     <div class="timeline-heading">
                                         <p class="text-muted">{{ about_data.info }}</p>
                                     </div>
-                                    <a href="{{ about_data.link }}" class="page-scroll btn btn-sm">Learn More</a>
+                                    <a href="{{ about_data.link }}"
+                                    {% if about_data.link-tar %} 
+                                        target="{{ about_data.link-tar }}"
+                                    {% endif %}
+                                    class="page-scroll btn btn-sm">{{ about_data.button }}</a>
                                 </div>
                             </li>
                         {% endfor %}
