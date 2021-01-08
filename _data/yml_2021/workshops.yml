@@ -41,15 +41,15 @@
   temp: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
 
 
-- title: Name
-  name: Name-3
-  speakers: 
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
+- title: SQL in 60 minutes
+  name: SQL
+  speakers: Colin Jemmott (UCSD)
+  img: ldw-circuit-color-black-thumb.png
+  thumbnail: ldw-circuit-color-black-thumb.png
+  alt: love data week logo image
   topic: Topic
-  date: Day, time - time am/pm
-  description: More Info
+  date: Monday, 1 - 2 pm
+  description: "SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
   eventbrite:
   zoom: 
   ical: 
