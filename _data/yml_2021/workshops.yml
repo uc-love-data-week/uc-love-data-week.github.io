@@ -1,6 +1,6 @@
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
-  subtitle: UCR (Kat), UCLA (Tim, Leigh), UCSD (Stephanie)
+  speakers: UCR (Kat), UCLA (Tim, Leigh), UCSD (Stephanie)
   img: apis.png
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
@@ -14,7 +14,7 @@
 
 - title: "Tidy Tuesday: clean up a data set"
   name: tidy
-  subtitle: workshop? presentation? date/time? 
+  speakers: 
   img: tt_logo.png
   thumbnail: tt_logo_thumb.png
   alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
@@ -29,7 +29,7 @@
 
 - title: Data sharing 101<br><br>
   name: data-sharing
-  subtitle: Position
+  speakers: 
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
@@ -43,7 +43,7 @@
 
 - title: Name
   name: Name-3
-  subtitle: Position
+  speakers: 
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
@@ -58,7 +58,7 @@
 
 - title: Name
   name: Name-4
-  subtitle: Position
+  speakers: 
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
@@ -73,7 +73,7 @@
 
 - title: Name
   name: Name-5
-  subtitle: Position
+  speakers: 
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
