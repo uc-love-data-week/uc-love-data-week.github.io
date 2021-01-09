@@ -7,55 +7,55 @@
 - name: UC Davis
   abbv: ucd
   image: /assets/img/campuses/ucd.png
-  alt:
+  alt: UC Davis DataLab, Data Science and Informatics
   url: https://datalab.ucdavis.edu/
   
 - name: UC Irvine
   abbv: uci
-  image: /assets/img/campuses/uci-blue.png
-  alt:
-  url: 
+  image: /assets/img/campuses/uci.png
+  alt: UC Irvine Libraries
+  url: https://www.lib.uci.edu/dss/data-curation
   
-- name: UC 
-  abbv: uc
-  image: /assets/img/campuses/ucm.png
-  alt:
-  url: 
-  
-- name: UC 
-  abbv: uc
+- name: UCLA
+  abbv: ucla
   image: /assets/img/campuses/ucla.png
-  alt:
-  url: 
+  alt: UCLA Library Data Science Center
+  url: https://www.library.ucla.edu/location/data-science-center
   
-- name: UC 
-  abbv: uc
+- name: UC Merced
+  abbv: ucm
+  image: /assets/img/campuses/ucm.png
+  alt: UC Merced Library
+  url: http://library.ucmerced.edu/research-data-curation
+  
+- name: UC Riverside
+  abbv: ucr
   image: /assets/img/campuses/ucr.png
-  alt:
-  url: 
+  alt: UC Riverside Library
+  url: https://guides.lib.ucr.edu/datamanagement
   
-- name: UC 
-  abbv: uc
+- name: UC Santa Barbara
+  abbv: ucsb
   image: /assets/img/campuses/ucsb.png
-  alt:
+  alt: UC Santa Barbara Library
   url: https://www.library.ucsb.edu/research-data-services 
   
-- name: UC 
-  abbv: uc
+- name: UC San Diego
+  abbv: ucsd
   image: /assets/img/campuses/ucsd.png
-  alt:
-  url: 
+  alt: The Library, UC San Diego
+  url: https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/index.html
   
-- name: UC 
-  abbv: uc
+- name: UC San Francisco
+  abbv: ucsf
   image: /assets/img/campuses/ucsf.svg
-  alt:
-  url: 
+  alt: UCSF Library
+  url: https://www.library.ucsf.edu/ask-an-expert/data-science/data-management/
   
-- name: UC 
-  abbv: uc
+- name: CDL UC3
+  abbv: uc3
   image: /assets/img/campuses/uc3.png
-  alt:
-  url: 
+  alt: UC3 
+  url: https://uc3.cdlib.org/
 
 

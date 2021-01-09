@@ -1,3 +1,7 @@
+- campus: UC Berkeley
+  name: Erin Foster
+  email: edfoster&lt;at&gt;berkeley.edu
+
 - campus: UC Davis
   name: Pamela Reynolds 
   email: plreynolds&lt;at&gt;ucdavis.edu
@@ -13,10 +17,6 @@
 - campus: UC Merced
   name: Derek Devnich
   email: ddevnich&lt;at&gt;ucmerced.edu
-
-- campus: UC Merced
-  name: Elizabeth Salmon
-  email: esalmon&lt;at&gt;ucmerced.edu
 
 - campus: UC Riverside
   name: Kat Koziar
