@@ -20,7 +20,7 @@
                             {% endfor %}
                             <hr class="star-primary">
                             <img src="../assets/img/workshops/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.speakers %}{{post.speakers}}
+                            {% if post.speakers %}
                                 <p>Speakers: {% for speaker in post.speakers %}
                                 {{ speaker.name }} 
                                 {% for campus in site.data.yml_2021.campuses %}
