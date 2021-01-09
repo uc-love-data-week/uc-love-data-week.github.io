@@ -20,7 +20,9 @@
 
 - title: "Tidy Tuesday: clean up a data set"
   name: tidy
-  speakers: 
+  speakers: [ 
+     {name: none, org: none}
+  ]
   img: tt_logo.png
   thumbnail: tt_logo_thumb.png
   alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
@@ -36,7 +38,9 @@
 
 - title: Data sharing 101
   name: data-sharing
-  speakers: 
+  speakers: [ 
+     {name: none, org: none}
+  ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
@@ -71,7 +75,9 @@
 
 - title: Name
   name: Name-4
-  speakers: 
+  speakers: [ 
+     {name: none, org: none}
+  ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
@@ -88,7 +94,9 @@
 
 - title: Name
   name: Name-5
-  speakers: 
+  speakers: [ 
+     {name: none, org: none}
+  ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
