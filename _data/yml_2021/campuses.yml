@@ -1,0 +1,61 @@
+- name: UC Berkeley
+  abbv: ucb
+  image: ../assets/img/campuses/ucb.png
+  alt: Berkeley Research Data Management
+  url: https://researchdata.berkeley.edu/
+  
+- name: UC Davis
+  abbv: ucd
+  image: /assets/img/campuses/ucd.png
+  alt:
+  url: https://datalab.ucdavis.edu/
+  
+- name: UC Irvine
+  abbv: uci
+  image: /assets/img/campuses/uci-blue.png
+  alt:
+  url: 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/ucm.png
+  alt:
+  url: 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/ucla.png
+  alt:
+  url: 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/ucr.png
+  alt:
+  url: 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/ucsb.png
+  alt:
+  url: https://www.library.ucsb.edu/research-data-services 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/ucsd.png
+  alt:
+  url: 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/ucsf.svg
+  alt:
+  url: 
+  
+- name: UC 
+  abbv: uc
+  image: /assets/img/campuses/uc3.png
+  alt:
+  url: 
+
+

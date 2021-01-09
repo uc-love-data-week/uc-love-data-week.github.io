@@ -8,11 +8,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                {% for campus in site.data.yml_2021.campuses %}
+                <div class="col-md-4 col-sm-6" style="height:200px;">
                     <a href="#" class="portfolio-link" data-toggle="modal">
-                        <img src="../assets/img/workshops/ldw-circuit-color-506.png" class="img-responsive img-centered" alt="">
+                        <img src= {{ campus.image }} class="img-responsive img-centered" alt="{{ campus.alt }}" width="300">
                     </a>
                 </div>
+                {% endfor %}
                 <div class="col-md-4 col-sm-6">
                     <a href="#" class="portfolio-link" data-toggle="modal">
                         <img src="../assets/img/workshops/ldw-circuit-color-506.png" class="img-responsive img-centered" alt="">
