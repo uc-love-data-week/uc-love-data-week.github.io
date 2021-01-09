@@ -28,7 +28,7 @@ published: true
                     <tr>
                         {% if agenda.day == day.day-abbv %}
                         <td>{{ agenda.time }}</td>
-                        <td><u>{{ agenda.title }}</u><br><b>{{ agenda.speakers }}</b><br><br>{{ agenda.description }}  </td>
+                        <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = "" %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2021.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}<br>  </td>
                         {% endif %}
                     </tr> 
                 {% endfor %}
