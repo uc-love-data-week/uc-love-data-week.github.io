@@ -1,6 +1,11 @@
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
-  speakers: Tim Dennis (UCLA), Kat Koziar (UCR), Stephanie Labou (UCSD), Leigh Phan (UCLA)
+  speakers: [ 
+    {name: Tim Dennis, org: ucla-dsc}, 
+    {name: Kat Koziar, org: ucr-lib}, 
+    {name: Stephanie Labou, org: ucsd-lib}, 
+    {name: Leigh Phan, org: ucla-lib} 
+  ]
   img: apis.png
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
@@ -47,7 +52,9 @@
 
 - title: SQL in 60 minutes
   name: SQL
-  speakers: Colin Jemmott (UCSD)
+  speakers: [ 
+     {name: Colin Jemmott, org: ucsd}
+  ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
