@@ -91,7 +91,7 @@
 
 - name: ICPSR
   abbv: icpsr
-  image:  /assets/img/workshops/ICPSR_logo.png
+  image:  /assets/img/workshops/ICPSR_logo.PNG
   alt:  "ICPSR Sharing data to advance science"
   url: https://www.icpsr.umich.edu/icpsrweb/ICPSR
   p-campus: n
