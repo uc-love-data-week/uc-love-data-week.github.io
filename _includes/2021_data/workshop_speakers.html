@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                     {% for speaker in speakers-list  %}
-                    {% if speaker.name != "none" %}
+                    {% if speaker.name != "none" %}{% if speaker.name != "TBA" %}
                     <div class="col-md-4 col-sm-6 text-center" style="padding: 15px; ">
                         <div  style="height:200px; border: 1px solid lightgrey; padding: 0 15px;">
                             <h2>{{ speaker.name }}</h2>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     
-                    {% endif %}
+                    {% endif %}{% endif %}
                     {% endfor %}
             </div>
     </section>

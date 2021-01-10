@@ -82,3 +82,16 @@
   url: https://www.library.ucla.edu/location/data-science-center
   p-campus: n
 
+- name: California Digital Library
+  abbv: cdl
+  image: /assets/img/campuses/uc3.png
+  alt: UC3 
+  url: https://uc3.cdlib.org/
+  p-campus: n
+
+- name: ICPSR
+  abbv: icpsr
+  image:  /assets/img/workshops/ICPSR_logo.png
+  alt:  "ICPSR Sharing data to advance science"
+  url: https://www.icpsr.umich.edu/icpsrweb/ICPSR
+  p-campus: n

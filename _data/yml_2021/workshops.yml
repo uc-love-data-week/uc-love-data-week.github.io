@@ -88,12 +88,28 @@
   registration-page: https://calendar.library.ucla.edu/event/7328608
   temp: 
 
+- title:  Ethical considerations in data
+  name:   ethics
+  speakers: [ 
+     {name: none, org: ucla},
+     {name: none, org: ucb},
+     {name: none, org: ucsd}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   3-4 pm
+  description:  In this one hour interactive workshop, data librarians from UCLA, UCB, and UCSD will host an open discussion around data ethics focusing on case studies of participant data privacy, algorithmic bias, and the social justice components of research. The discussion will also include an overview of related resources available at various UC campuses, including further reading available through the libraries and groups on campus conducting research in these areas.
+  registration-page:  https://calendar.library.ucla.edu/event/7413125
+  temp:   
+
 # WEDNESDAY
 
 - title: Data sharing 101
   name: data-sharing
   speakers: [ 
-     {name: none, org: none}
+     {name: none, org: uci}
   ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
@@ -106,7 +122,63 @@
   registration-page:
   url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
 
+- title:  ICPSR presentation
+  name:   icpsr
+  speakers: [ 
+     {name: Anna Shelton, org: icpsr}
+  ]
+  img:  ICPSR_logo.png
+  thumbnail:  ICPSR_logo.png
+  alt:  "ICPSR Sharing data to advance science"
+  day:  w
+  time:   11am - noon
+  description:  Do you need data for the gagillion papers you have to write this quarter? Or maybe you're going up for tenure and need to publish? How about teaching students to use data (but you don't have time to create that lesson plan, we're in a pandemic after all!) Don't worry, ICPSR has you covered. Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, there is something data here for you. 
+
 # THURSDAY
+
+- title:  "Hacky Hours: Drop in and talk about code"
+  name:   hackyHours
+  speakers: [ 
+     {name: none, org: none}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  th
+  time:   11am - 1pm
+  description:  Take your computer coding to the next level. Whether you are a novice interested in learning to code or an experienced programmer comfortable with many languages and platforms, this is the place for you to learn from and share with others. Come talk with us about a variety of coding languages and topics, data management, data cleaning, data visualization, and data science methodologies. 
+  eventbrite: 132492232835
+  url:  https://www.eventbrite.com/e/hacky-hours-drop-in-and-talk-about-code-tickets-132492232835
+  
+- title:  Getting start with LastPass/Veracrypt
+  name:   LastPass
+  speakers: [ 
+     {name: none, org: ucb}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  th
+  time:   1:00 PM
+  description:  
+  url:  
+
+- title:  New NIH Data Sharing Requirements
+  name:   nih
+  speakers: [ 
+     {name: none, org: none},
+     {name: none, org: none}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  th
+  time:   2 - 3pm
+  description:  
+  eventbrite:
+  zoom:
+  registration-page:
+  url: 
 
 - title: Name
   name: Name-4
