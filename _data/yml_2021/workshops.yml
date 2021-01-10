@@ -12,7 +12,7 @@
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
   day: m
-  time:  11 am - noon
+  time:  11 am - Noon
   description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
   eventbrite: 132489617011
   registration-page:
@@ -55,6 +55,21 @@
   url: https://www.eventbrite.com/e/working-with-gis-data-tickets-132489937971
   temp: 
 
+- title:  "Excelling with Excel: Best Practices for Keeping Your Data Tidy"
+  name:   excel
+  speakers: [ 
+     {name: Dr. Pamela Reynolds, org: ucd-dl},
+     {name: Victoria Farrar, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  m
+  time:   3-5pm
+  description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
+  temp:   DataLab; capped at 60 learners.
+
   # TUESDAY
 
 - title:  "Geocoding Address Data: Approaches to Personally Identifiable Data"
@@ -66,7 +81,7 @@
   thumbnail: gis.png
   alt: "stylized globe of the earth "
   day:  t
-  time:   10am -noon
+  time:   10am -Noon
   description:  Geocoding is the process of estimating a real-world location (typically we think of latitude & longitude) from a postal address. In this workshop, we’ll discuss the concepts needed to geocode data, understand options for working with personally identifiable data and non-identifiable data, and gain some hands-on experience with geocoding address data using QGIS, a GIS with a graphical user interface.
   ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
   registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
@@ -121,6 +136,20 @@
 
 # WEDNESDAY
 
+- title:  "Data &quot;Ownership&quot;: Rights and Responsibilities"
+  name:   dataownership
+  speakers: [ 
+       {name: none, org: ucd-dl}
+    ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   9-10am
+  description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/data-ownership-rights-and-responsibilities/
+  temp:   DataLab/Library (Scholarly Communication). Cap of 45 registrants.
+
 - title: Data sharing 101
   name: data-sharing
   speakers: [ 
@@ -146,10 +175,52 @@
   thumbnail:  ICPSR_logo.png
   alt:  "ICPSR Sharing data to advance science"
   day:  w
-  time:   11am - noon
+  time:   11am - Noon
   description:  Do you need data for the gagillion papers you have to write this quarter? Or maybe you're going up for tenure and need to publish? How about teaching students to use data (but you don't have time to create that lesson plan, we're in a pandemic after all!) Don't worry, ICPSR has you covered. Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, there is something data here for you. 
 
+- title:  Data science student lightning talks
+  name:   lightning
+  speakers: [ 
+     {name: none, org: ucsd}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   1:00 - 2:00 PM
+  description:  Personal projects are a common way for data science students to gain experience and build up a project portfolio. Unlike projects for a course or capstone sequence, personal projects are entirely self-directed by students and can be on any topic - and topics can get quite creative! Join us for an hour of lightning talks from UCSD students as they share their data science focused personal projects, focusing on data access, data cleaning, and any data privacy concerns.
+  url:  
+  temp:   An hour of 5 minute lightning talks from students working on personal data science projects
+
+- title:  Introduction to Command Line
+  name:   cli
+  speakers: [ 
+     {name: none, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   3-5pm
+  description:  Learn and practice how to talk directly to your computer via command line. The shell is a very powerful tool for using scientific software and working with large data sets. It is primarily used to manage files and run programs, and it allows for automation of repetitive tasks. No prior coding experience is necessary. This workshop is a prerequisite for DataLab’s workshops on Introduction to Version Control with Git and Reproducible Research for Teams with GitHub. 
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-command-line/
+  temp:   DataLab; capped at 60 learners.
+
 # THURSDAY
+
+- title:  Basic Statistics in R (part 1)
+  name:   r
+  speakers: [ 
+     {name: Dr. Wesley Brooks, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  th
+  time:   10:00 am - Noon
+  description:  This 2-part workshop explores basic, practical applied statistics using the R statistical programming language. On the first day we’ll focus on common procedures like assessing the distribution of your data and calculating differences between groups. In the second day we’ll focus on common linear models (linear regression, ANOVA, etc.) in R. We will also calculate the power of a simple study. This workshop is appropriate for learners with various data types, but will most emphasize continuous numerical data. Prior experience with R and RStudio required.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-statistics-in-r-part-1/
+  temp:   DataLab; capped at 60 learners.
 
 - title:  "Hacky Hours: Drop in and talk about code"
   name:   hackyHours
@@ -215,20 +286,30 @@
 
 #FRIDAY
 
-- title: Name
-  name: Name-5
+- title:  Intro to Text Mining and NLP for Health Data
+  name:   nlp-health
   speakers: [ 
-     {name: none, org: none}
+     {name: none, org: ucd-dl}
   ]
-  img: ldw-circuit-color-506.png
-  thumbnail: ldw-circuit-color-506.png
-  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day: 
-  time: time - time am/pm
-  description: More Info
-  eventbrite:
-  zoom:
-  ical: 
-  registration-page:  
-  url: 
-  temp: 
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  f
+  time:   10:00 am - Noon
+  description:  This workshop covers an introduction to natural language processing (NLP) and caveats for its application to health data. Using the R programming language we will introduce the basics of text processing and demo how to calculate common metrics including word frequencies, term frequency-inverse document frequency (TFIDF), and principal component analysis (PCA) to explore important words and group similar documents. We will also introduce more advanced NLP topics (sentiment analysis, topic modeling, etc.) and discuss classical versus deep learning approaches, as time permits. Learners with proficient R skills are encouraged to code along.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-text-mining-and-nlp-for-health-data/
+  temp:   DataLab Research and Learning Cluster for Health Data Science and Systems. RLC members have priority registration. Capped at 60 learners.
+
+- title:  Critical Approach to Data Visualization
+  name:   dataviz
+  speakers: [ 
+     {name: none, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  f
+  time:   1:00 -3:00 pm
+  description:  This workshop will unpack the subjective process of data visualization and its relationship to concepts of diversity, equity and inclusion. We'll critically explore how data can be used to uphold and perpetuate, or quantify and demonstrate structural oppression. Through this workshop learners will practice the technique of "data visceralization," the process of experiencing differences in data and understanding them viscerally. This workshop is led by UC Davis DataLab's Data Feminism research and learning cluster, which focuses on thinking about data science and data ethics as informed by the ideas of intersectional feminism. Explore our Data Feminism reading list and activities, here.
+  url:  
+  temp:   "DataLab Research and Learning Cluster: Data Feminism; capped at 45 learners."
