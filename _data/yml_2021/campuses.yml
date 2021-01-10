@@ -95,3 +95,21 @@
   alt:  "ICPSR Sharing data to advance science"
   url: https://www.icpsr.umich.edu/icpsrweb/ICPSR
   p-campus: n
+
+- name: ProQuest
+  abbv: proquest
+  image:  /assets/img/workshops/PQTDM_logo.PNG
+  alt:  "ProQuest TDM Studio"
+  p-campus: n
+
+- name: Gale
+  abbv: gale
+  image:  /assets/img/workshops/Gale_DSL_logo.PNG
+  alt:  "Gale Digital Scholar Lab"
+  p-campus: n
+
+- name: HathiTrust Research Center
+  abbv: hathi
+  image:  /assets/img/workshops/HTRC_logo.PNG
+  alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
+  p-campus: n
