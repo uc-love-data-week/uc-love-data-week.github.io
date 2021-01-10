@@ -42,9 +42,9 @@
   speakers: [ 
      {name: Janet Reyes, org: ucr-lib}
   ]
-  img: ldw-circuit-color-506.png
-  thumbnail: ldw-circuit-color-506.png
-  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img: gis.png
+  thumbnail: gis.png
+  alt: "stylized globe of the earth "
   day: m
   time: 2 - 3 pm
   description: "A map in a GIS (geographic information system) may dazzle us with its visual appeal and complexity, but if the data it contains is out-of-date, offset, incomplete, or too generalized, how useful is it? <br><br>In this workshop you will learn what to look out for while discovering and managing GIS data. Topics include key parameters of geospatial data, acquiring data, file formats, and including tabular data in a GIS."
@@ -56,6 +56,21 @@
   temp: 
 
   # TUESDAY
+
+- title:  "Geocoding Address Data: Approaches to Personally Identifiable Data"
+  name:   geocoding
+  speakers: [ 
+     {name: Michele Tobias, org: ucd-dl}
+  ]
+  img: gis.png
+  thumbnail: gis.png
+  alt: "stylized globe of the earth "
+  day:  t
+  time:   10am -noon
+  description:  Geocoding is the process of estimating a real-world location (typically we think of latitude & longitude) from a postal address. In this workshop, we’ll discuss the concepts needed to geocode data, understand options for working with personally identifiable data and non-identifiable data, and gain some hands-on experience with geocoding address data using QGIS, a GIS with a graphical user interface.
+  ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
+  temp:   "DataLab Research and Learning Cluster: Spatial Sciences and #maptimeDavis"
 
 - title:  Introduction to Digital Humanities and Humanities Data
   name:   dh-intro
