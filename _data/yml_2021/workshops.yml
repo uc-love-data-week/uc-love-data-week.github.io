@@ -1,3 +1,5 @@
+# MONDAY
+
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
   speakers: [ 
@@ -9,7 +11,6 @@
   img: apis.png
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
-  topic: Topic
   day: m
   time:  11 am - noon
   description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
@@ -17,52 +18,14 @@
   registration-page:
   url: https://www.eventbrite.com/e/a-gentle-and-friendly-introduction-to-apis-tickets-132489617011
 
-
-- title: "Tidy Tuesday: clean up a data set"
-  name: tidy
-  speakers: [ 
-     {name: none, org: none}
-  ]
-  img: tt_logo.png
-  thumbnail: tt_logo_thumb.png
-  alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
-  topic: Topic
-  day: t
-  time: 1 - 2 pm
-  description: "A weekly data project aimed at the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
-  eventbrite:
-  zoom: 
-  ical: https://calendar.library.ucla.edu/event/ical?id=7328608
-  registration-page: https://calendar.library.ucla.edu/event/7328608
-  temp: 
-
-- title: Data sharing 101
-  name: data-sharing
-  speakers: [ 
-     {name: none, org: none}
-  ]
-  img: ldw-circuit-color-506.png
-  thumbnail: ldw-circuit-color-506.png
-  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  topic: Topic
-  day: w
-  time: 10 - 11 am
-  description: "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data and documentation for sharing, and selecting an appropriate data repository. This workshop is part of UC Love Data Week, a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation. All members of the University of California community are welcome to attend."
-  eventbrite:
-  zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  registration-page:
-  url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-
-
 - title: SQL in 60 minutes
   name: SQL
   speakers: [ 
      {name: Colin Jemmott, org: ucsd}
   ]
-  img: ldw-circuit-color-506.png
-  thumbnail: ldw-circuit-color-506.png
+  img: sql-icon.png
+  thumbnail: sql-icon.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  topic: Topic
   day: m
   time: 1 - 2 pm
   description: "SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
@@ -73,6 +36,60 @@
   url:
   temp: 
 
+- title:  Working with GIS Data
+  name:   gis
+  speakers:   [ 
+     {name: Janet Reyes, org: ucr-lib}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  m
+  time:   2 - 3 pm
+  description:  "A map in a GIS (geographic information system) may dazzle us with its visual appeal and complexity, but if the data it contains is out-of-date, offset, incomplete, or too generalized, how useful is it? <br><br>In this workshop you’ll learn what to look out for while discovering and managing GIS data. Topics include key parameters of geospatial data, acquiring data, file formats, and including tabular data in a GIS."
+  eventbrite: 132489937971
+  url:  https://www.eventbrite.com/e/working-with-gis-data-tickets-132489937971?aff=
+  temp:   
+
+# TUESDAY
+
+- title: "Tidy Tuesday: clean up a data set"
+  name: tidy
+  speakers: [ 
+     {name: none, org: none}
+  ]
+  img: tt_logo.png
+  thumbnail: tt_logo_thumb.png
+  alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
+  day: t
+  time: 1 - 2 pm
+  description: "A weekly data project aimed at the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
+  eventbrite:
+  zoom: 
+  ical: https://calendar.library.ucla.edu/event/ical?id=7328608
+  registration-page: https://calendar.library.ucla.edu/event/7328608
+  temp: 
+
+# WEDNESDAY
+
+- title: Data sharing 101
+  name: data-sharing
+  speakers: [ 
+     {name: none, org: none}
+  ]
+  img: ldw-circuit-color-506.png
+  thumbnail: ldw-circuit-color-506.png
+  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day: w
+  time: 10 - 11 am
+  description: "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data and documentation for sharing, and selecting an appropriate data repository. This workshop is part of UC Love Data Week, a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation. All members of the University of California community are welcome to attend."
+  eventbrite:
+  zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
+  registration-page:
+  url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
+
+# THURSDAY
+
 - title: Name
   name: Name-4
   speakers: [ 
@@ -81,7 +98,6 @@
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  topic: Topic
   day: 
   time: time - time am/pm
   description: More Info
@@ -92,6 +108,8 @@
   url: 
   temp: 
 
+#FRIDAY
+
 - title: Name
   name: Name-5
   speakers: [ 
@@ -100,7 +118,6 @@
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  topic: Topic
   day: 
   time: time - time am/pm
   description: More Info
