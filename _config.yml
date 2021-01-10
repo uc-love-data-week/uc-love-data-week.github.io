@@ -6,14 +6,11 @@ url: "uc-love-data-week.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-facebook:
-  app_id: 
-
-logo: "../css/2016_style/img/icon-large.png"
+logo: "../assets/img/ldw-circuit-light-transparent.png"
 
 social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
+  name: Slack
+  link: "https://uclovedataweek.slack.com/"
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
@@ -25,10 +22,8 @@ plugins:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com
-  - title: twitter
-    url: https://twitter.com
+  - title: slack
+    url: https://uclovedataweek.slack.com/
 
 # Build settings
 markdown: kramdown
