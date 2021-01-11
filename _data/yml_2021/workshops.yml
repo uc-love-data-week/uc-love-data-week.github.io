@@ -1,5 +1,21 @@
 # MONDAY
 
+- title: Publishing Data at Dryad
+  name: dryad
+  speakers: [ 
+    {name: Wasila Dahdul, org: uci-lib}, 
+    {name: Daniella Lowenberg, org: cdl}
+  ]
+  img: Dryad_finals-01.png
+  thumbnail: Dryad_finals-01.png
+  alt: Picture of tree of items controlled on the internet
+  day: m
+  time:  9:00 - 10:00 am
+  description: Dryad is an open data multidisciplinary publishing platform that allows UC researchers to archive and publish their data for free. Join the workshop to learn how to use Dryad to share research data for re-use and to meet publisher and funder data availability requirements. The workshop will also cover how to prepare data and documentation for archiving and to enable research reproducibility.
+  eventbrite: 
+  registration-page:
+  url: 
+
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
   speakers: [ 
@@ -43,11 +59,11 @@
   day: m
   time: 1:00 - 2:00 pm
   description: "SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
-  eventbrite:
+  eventbrite: 136314643769
   zoom:
   ical:
   registration-page:
-  url:
+  url: https://www.eventbrite.com/e/sql-in-60-minutes-tickets-136314643769
   temp: 
 
 
@@ -127,7 +143,8 @@
   day:  t
   time:   12:00 -12:30 pm
   description:  ProQuest’s TDM Studio is a text and data mining solution which opens up millions of newspaper articles, dissertations, and primary sources to text and data mining. It provides both Python and R interfaces alongside push-button data visualizations for research as well as teaching and learning. This presentation walk through a few TDM examples and possibilities.
-  url:  
+  eventbrite: 136320210419
+  url:  https://www.eventbrite.com/e/proquest-tdm-studio-demonstration-tickets-136320210419
   temp:   think UCSD and UCB currently only UCs with access to this, but there's a big push at UCSD so we have to run with it
 
 - title:  Introduction to Digital Humanities and Humanities Data
@@ -223,6 +240,8 @@
   day:  w
   time:   11:00 am - Noon
   description:  Do you need data for the gagillion papers you have to write this quarter? Or maybe you're going up for tenure and need to publish? How about teaching students to use data (but you don't have time to create that lesson plan, we're in a pandemic after all!) Don't worry, ICPSR has you covered. Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, there is something data here for you. 
+  url: https://www.eventbrite.com/e/icpsr-presentation-tickets-136319809219
+  eventbrite: 136319809219
 
 - title:  Gale Digital Scholar demo
   name:   gale
@@ -234,8 +253,9 @@
   alt:  "Gale Digital Scholar Lab"
   day:  w
   time:   12:00 - 12:30 pm
-  description:  TBD from Gale
-  url:  
+  description:  This session will provide an overview of the main text mining features of the Gale Digital Scholar Lab, and provide examples of research output using platform tools for topic modeling, sentiment analysis and named entity recognition.  The import and export options provided flexibility and extensibility, and the demo will showcase use cases using integrated Gale Primary Source archives, and the researcher’s own uploaded datasets.
+  eventbrite: 136320567487
+  url:  https://www.eventbrite.com/e/gale-digital-scholar-demonstration-tickets-136320567487
   temp:   think 7 UCs have access to this?
 
 - title:  Data science student lightning talks
@@ -249,7 +269,8 @@
   day:  w
   time:   1:00 - 2:00 PM
   description:  Personal projects are a common way for data science students to gain experience and build up a project portfolio. Unlike projects for a course or capstone sequence, personal projects are entirely self-directed by students and can be on any topic - and topics can get quite creative! Join us for an hour of lightning talks from UC students as they share their data science focused personal projects, focusing on data access, data cleaning, and any data privacy concerns.
-  url:  
+  eventbrite: 136319217449
+  url:  https://www.eventbrite.com/e/data-science-students-lightning-talks-tickets-136319217449
   temp:   An hour of 5 minute lightning talks from UC students working on personal data science projects
 
 - title:  Discovery and Evaluation of Social Science Data Sources

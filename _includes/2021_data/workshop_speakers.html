@@ -18,7 +18,7 @@
                     <div class="col-md-4 col-sm-6 text-center" style="padding: 15px; ">
                         <div  style="height:200px; border: 1px solid lightgrey; padding: 0 15px 15px 15px;">
                             <h2>{{ speaker.name }}</h2>
-                            <hr>
+                            <hr class="star-primary">
                                 {% for campus in site.data.yml_2021.campuses %}
                                     {% if speaker.org == campus.abbv %}
                                         <img src="{{ campus.image }}" class="img-responsive img-centered" alt="{{ campus.alt }}" style="max-height: 85px;">
