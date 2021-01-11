@@ -244,9 +244,9 @@
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
   time:   1:00 - 2:00 PM
-  description:  Personal projects are a common way for data science students to gain experience and build up a project portfolio. Unlike projects for a course or capstone sequence, personal projects are entirely self-directed by students and can be on any topic - and topics can get quite creative! Join us for an hour of lightning talks from UCSD students as they share their data science focused personal projects, focusing on data access, data cleaning, and any data privacy concerns.
+  description:  Personal projects are a common way for data science students to gain experience and build up a project portfolio. Unlike projects for a course or capstone sequence, personal projects are entirely self-directed by students and can be on any topic - and topics can get quite creative! Join us for an hour of lightning talks from UC students as they share their data science focused personal projects, focusing on data access, data cleaning, and any data privacy concerns.
   url:  
-  temp:   An hour of 5 minute lightning talks from students working on personal data science projects
+  temp:   An hour of 5 minute lightning talks from UC students working on personal data science projects
 
 - title:  Discovery and Evaluation of Social Science Data Sources
   name:   datasources
