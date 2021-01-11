@@ -12,7 +12,7 @@
   thumbnail: apis_thumb.png
   alt: Picture of tree of items controlled on the internet
   day: m
-  time:  11 am - Noon
+  time:  11:00 am - Noon
   description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
   eventbrite: 132489617011
   registration-page:
@@ -27,7 +27,7 @@
   thumbnail:  HTRC_logo.PNG
   alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
   day:  m
-  time:   12-12:30
+  time:   12:00 - 12:30 pm
   description:  This session will introduce the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!
   url:  
   temp:   multiple UCs have this
@@ -41,7 +41,7 @@
   thumbnail: sql-icon.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day: m
-  time: 1 - 2 pm
+  time: 1:00 - 2:00 pm
   description: "SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
   eventbrite:
   zoom:
@@ -60,7 +60,7 @@
   thumbnail: gis.png
   alt: "stylized globe of the earth "
   day: m
-  time: 2 - 3 pm
+  time: 2:00 - 3:00 pm
   description: "A map in a GIS (geographic information system) may dazzle us with its visual appeal and complexity, but if the data it contains is out-of-date, offset, incomplete, or too generalized, how useful is it? <br><br>In this workshop you will learn what to look out for while discovering and managing GIS data. Topics include key parameters of geospatial data, acquiring data, file formats, and including tabular data in a GIS."
   eventbrite: 132489937971
   zoom: 
@@ -79,7 +79,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  m
-  time:   3-5pm
+  time:   3:00 - 5:00 pm
   description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
   temp:   DataLab; capped at 60 learners.
@@ -109,7 +109,7 @@
   thumbnail: gis.png
   alt: "stylized globe of the earth "
   day:  t
-  time:   10am -Noon
+  time:   10:00 am - Noon
   description:  Geocoding is the process of estimating a real-world location (typically we think of latitude & longitude) from a postal address. In this workshop, we’ll discuss the concepts needed to geocode data, understand options for working with personally identifiable data and non-identifiable data, and gain some hands-on experience with geocoding address data using QGIS, a GIS with a graphical user interface.
   ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
   registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
@@ -138,7 +138,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  t
-  time:   1 - 2 pm
+  time:   1:00 - 2:00 pm
   description:  Interested in learning where to look for historical, cultural, or other kinds of humanities datasets? This workshop will share resources for discovering textual, visual, spatial, and social network data of use to students and scholars across humanities disciplines. We will also look at a variety of digital tools and methodologies that humanities researchers are using to computationally answer research questions and generate new ones. Whether you are new to Digital Humanities or have been engaged in digital research or teaching for years, join us to share your questions and connect with other UCR community members interested in DH.
   eventbrite: 132490280997
   url:  https://www.eventbrite.com/e/introduction-to-digital-humanities-and-humanities-data-tickets-132490280997?aff=
@@ -152,7 +152,7 @@
   thumbnail: tt_logo_thumb.png
   alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
   day: t
-  time: 2 - 3 pm
+  time: 2:00 - 3:00 pm
   description: "A weekly data project aimed at the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
   eventbrite:
   zoom: 
@@ -171,7 +171,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  t
-  time:   3-4 pm
+  time:   3:00 - 4:00 pm
   description:  In this one hour interactive workshop, data librarians from UCLA, UCB, and UCSD will host an open discussion around data ethics focusing on case studies of participant data privacy, algorithmic bias, and the social justice components of research. The discussion will also include an overview of related resources available at various UC campuses, including further reading available through the libraries and groups on campus conducting research in these areas.
   registration-page:  https://calendar.library.ucla.edu/event/7413125
   temp:   
@@ -187,7 +187,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
-  time:   9-10am
+  time:   9:00 - 10:00 am
   description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/data-ownership-rights-and-responsibilities/
   temp:   DataLab/Library (Scholarly Communication). Cap of 45 registrants.
@@ -201,7 +201,7 @@
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day: w
-  time: 10 - 11 am
+  time: 10:00 - 11:00 am
   description: "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data and documentation for sharing, and selecting an appropriate data repository. This workshop is part of UC Love Data Week, a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation. All members of the University of California community are welcome to attend."
   eventbrite:
   zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
@@ -285,7 +285,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
-  time:   3-5pm
+  time:   3:00 - 5:00 pm
   description:  Learn and practice how to talk directly to your computer via command line. The shell is a very powerful tool for using scientific software and working with large data sets. It is primarily used to manage files and run programs, and it allows for automation of repetitive tasks. No prior coding experience is necessary. This workshop is a prerequisite for DataLab’s workshops on Introduction to Version Control with Git and Reproducible Research for Teams with GitHub. 
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-command-line/
   temp:   DataLab; capped at 60 learners.
@@ -315,7 +315,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  th
-  time:   11am - 1pm
+  time:   11:00 am - 1:00 pm
   description:  Take your computer coding to the next level. Whether you are a novice interested in learning to code or an experienced programmer comfortable with many languages and platforms, this is the place for you to learn from and share with others. Come talk with us about a variety of coding languages and topics, data management, data cleaning, data visualization, and data science methodologies. 
   eventbrite: 132492232835
   url:  https://www.eventbrite.com/e/hacky-hours-drop-in-and-talk-about-code-tickets-132492232835
@@ -329,7 +329,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  th
-  time:   1:00 PM
+  time:   1:00 - 2:00 PM
   description:  
   url:  
 
@@ -343,7 +343,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  th
-  time:   2 - 3pm
+  time:   2:00 - 3:00 pm
   description:  
   eventbrite:
   zoom:
@@ -390,7 +390,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  f
-  time:   12:00-1:00pm
+  time:   12:00 - 1:00pm
   description:  Have you ever wanted to harvest data off a website that was not already in an analysis-friendly format? If so, this web scraping workshop is for you! Web scraping can be done entirely manually but it is usually faster, more efficient and less error-prone if automated. UCSB Research Data Services will navigate you through some basic web scraping techniques including how to use XPath and the Chrome web browser with the Scraper extension to extract data from the web with little technical knowlege.  We will also discuss the ethical issues of web scraping.
   url:  
 
@@ -403,7 +403,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  f
-  time:   1:00 -3:00 pm
+  time:   1:00 - 3:00 pm
   description:  This workshop will unpack the subjective process of data visualization and its relationship to concepts of diversity, equity and inclusion. We'll critically explore how data can be used to uphold and perpetuate, or quantify and demonstrate structural oppression. Through this workshop learners will practice the technique of "data visceralization," the process of experiencing differences in data and understanding them viscerally. This workshop is led by UC Davis DataLab's Data Feminism research and learning cluster, which focuses on thinking about data science and data ethics as informed by the ideas of intersectional feminism. Explore our Data Feminism reading list and activities, here.
   url:  
   temp:   "DataLab Research and Learning Cluster: Data Feminism; capped at 45 learners."
