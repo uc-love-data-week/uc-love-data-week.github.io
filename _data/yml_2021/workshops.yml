@@ -21,7 +21,7 @@
 - title:  Hathi Trust Research Center demo
   name:   hathi
   speakers: [ 
-     {name: none, org: hathi}
+     {name: Eleanor Dickson Koehl, org: hathi}
   ]
   img:  HTRC_logo.PNG
   thumbnail:  HTRC_logo.PNG
@@ -89,7 +89,7 @@
 - title:  "Introduction to Locating Secondary Data & Searching Data Repositories: Social Sciences Edition"
   name:   datarepos
   speakers: [ 
-     {name: Elizabeth S., org: ucm-lib}
+     {name: Elizabeth Salmon, org: ucm-lib}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
@@ -118,7 +118,8 @@
 - title:  ProQuest TDM Studio demo
   name:   proquest
   speakers: [ 
-     {name: none, org: proquest}
+     {name: John Dillon, org: proquest},
+     {name: Sara Randall, org: proquest}
   ]
   img:  PQTDM_logo.PNG
   thumbnail:  PQTDM_logo.PNG
@@ -163,9 +164,10 @@
 - title:  Ethical considerations in data
   name:   ethics
   speakers: [ 
-     {name: none, org: ucla},
-     {name: none, org: ucb},
-     {name: none, org: ucsd}
+     {name: Leigh Phan, org: ucla-lib},
+     {name: Ibraheem Ali, org: ucla-lib},
+     {name: Erin Foster, org: ucb-rdm},
+     {name: Stephanie Labou, org: ucsd-lib}
        ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
@@ -195,7 +197,9 @@
 - title: Data sharing 101
   name: data-sharing
   speakers: [ 
-     {name: none, org: uci}
+     {name: Wasila Dahdul, org: uci-lib},
+     {name: Ho Jung Yoo, org: ucsd-lib},
+     {name: Derek Devnich, org: ucm-lib}
   ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
@@ -223,7 +227,7 @@
 - title:  Gale Digital Scholar demo
   name:   gale
   speakers: [ 
-     {name: none, org: gale}
+     {name: Sarah Ketchley, org: gale}
   ]
   img:  Gale_DSL_logo.PNG
   thumbnail:  Gale_DSL_logo.PNG
@@ -383,8 +387,8 @@
 - title:  Web scraping Using XPath and Chrome Extension
   name:   webscraping
   speakers: [ 
-     {name: Greg, org: ucsb-lib},
-     {name: Renata, org: ucsb-lib}
+     {name: Greg Janée, org: ucsb-lib},
+     {name: Renata Curty, org: ucsb-lib}
        ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
