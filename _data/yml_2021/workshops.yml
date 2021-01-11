@@ -12,9 +12,9 @@
   day: m
   time:  9:00 - 10:00 am
   description: Dryad is an open data multidisciplinary publishing platform that allows UC researchers to archive and publish their data for free. Join the workshop to learn how to use Dryad to share research data for re-use and to meet publisher and funder data availability requirements. The workshop will also cover how to prepare data and documentation for archiving and to enable research reproducibility.
-  eventbrite: 
+  zoom: tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
   registration-page:
-  url: 
+  url:  https://uci.zoom.us/meeting/register/tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
 
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
@@ -89,7 +89,7 @@
 - title:  "Excelling with Excel: Best Practices for Keeping Your Data Tidy"
   name:   excel
   speakers: [ 
-     {name: Dr. Pamela Reynolds, org: ucd-dl},
+     {name: Pamela Reynolds, org: ucd-dl},
      {name: Victoria Farrar, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506.png
@@ -201,14 +201,14 @@
 - title:  "Data &quot;Ownership&quot;: Rights and Responsibilities"
   name:   dataownership
   speakers: [ 
-       {name: none, org: ucd-dl}
+       {name: Michael Ladisch, org: ucd-lib}
     ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
   time:   9:00 - 10:00 am
-  description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
+  description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data, and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/data-ownership-rights-and-responsibilities/
   temp:   DataLab/Library (Scholarly Communication). Cap of 45 registrants.
 
@@ -284,7 +284,7 @@
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
   time:   2:00 - 3:00 pm
-  description:  Governments, non-governmental organizations, and social scientists have amassed vast collections data about the social world sciences. Learn how to discover, evaluate, and access sources available for new analyses and visualizations
+  description:    Governments, non-governmental organizations, and social scientists have amassed vast collections of data about the social world. Learn how to discover, evaluate, and access sources available for new analyses and visualizations.
   url:  
   temp:   Co-hosted by DataLab and UC Davis Library
 
@@ -304,8 +304,9 @@
 
 - title:  Introduction to Command Line
   name:   cli
-  speakers: [ 
-     {name: none, org: ucd-dl}
+  speakers: [  
+     {name: Tyler Shoemaker, org: ucd-dl},
+     {name: Carl Stahmer, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
@@ -321,7 +322,7 @@
 - title:  Basic Statistics in R (part 1)
   name:   r
   speakers: [ 
-     {name: Dr. Wesley Brooks, org: ucd-dl}
+     {name: Wesley Brooks, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
@@ -394,8 +395,9 @@
 
 - title:  Intro to Text Mining and NLP for Health Data
   name:   nlp-health
-  speakers: [ 
-     {name: none, org: ucd-dl}
+  speakers: [  
+     {name: Wesley Brooks, org: ucd-dl},
+     {name: Arthur Koehl, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
@@ -422,8 +424,10 @@
 
 - title:  Critical Approach to Data Visualization
   name:   dataviz
-  speakers: [ 
-     {name: none, org: ucd-dl}
+  speakers: [  
+     {name: Lindsay Poirier, org: ucd-dl},
+     {name: Emily Merchant, org: ucd-dl},
+     {name: Pamela Reynolds, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
