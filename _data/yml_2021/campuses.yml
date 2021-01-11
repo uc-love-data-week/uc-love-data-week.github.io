@@ -113,3 +113,10 @@
   image:  /assets/img/workshops/HTRC_logo.PNG
   alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
   p-campus: n
+
+- name: UC Davis
+  abbv: ucd-lib
+  image: /assets/img/campuses/ucd-lib.jpg
+  alt: UC Davis Library
+  url: https://www.library.ucdavis.edu/
+  p-campus: n

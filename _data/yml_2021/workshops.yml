@@ -276,7 +276,7 @@
 - title:  Discovery and Evaluation of Social Science Data Sources
   name:   datasources
   speakers: [ 
-     {name: David Michalski, org: ucd-dl}
+     {name: David Michalski, org: ucd-lib}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
@@ -336,9 +336,9 @@
   speakers: [ 
      {name: none, org: none}
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  hackyhours.jfif
+  thumbnail:  hackyhours-thumb.jpg
+  alt:  "Text, The Carpentries Hacky Hours Drop-in Sessions; overlaying random code."
   day:  th
   time:   11:00 am - 1:00 pm
   description:  Take your computer coding to the next level. Whether you are a novice interested in learning to code or an experienced programmer comfortable with many languages and platforms, this is the place for you to learn from and share with others. Come talk with us about a variety of coding languages and topics, data management, data cleaning, data visualization, and data science methodologies. 
