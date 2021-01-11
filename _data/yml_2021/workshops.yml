@@ -45,7 +45,8 @@
   day:  m
   time:   12:00 - 12:30 pm
   description:  This session will introduce the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!
-  url:  
+  eventbrite: 136320659763
+  url:  https://www.eventbrite.com/e/hathi-trust-research-center-demonstration-tickets-136320659763
   temp:   multiple UCs have this
 
 - title: SQL in 60 minutes
