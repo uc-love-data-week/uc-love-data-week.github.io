@@ -3,7 +3,7 @@
   image: ../assets/img/campuses/ucb-rdm.png
   alt: Berkeley Research Data Management
   url: https://researchdata.berkeley.edu/
-  p-campus: y  # p-campus: will it show on front page logo for particpating campus?
+  p-campus: y  # p-campus: will it show on front page logo for particpating campus
   
 - name: UC Davis
   abbv: ucd-dl
