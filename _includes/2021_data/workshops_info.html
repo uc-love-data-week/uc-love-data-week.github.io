@@ -67,10 +67,13 @@
                                     Register on website
                                 {% endcomment %}
                                 {% if post.registration-page %}
-                                    <p>Click <a href="{{post.registration-page}}" title="Link to Registration page" target="_blank">here</a> to register. <br></p>
+                                    <p>Click <a href="{{post.registration-page}}" target="_blank"  title="Link to Registration page" 
+                                        onclick="getOutboundLink( {{post.registration-page}} ); return false;">here</a> to register. <br></p>
                                     {% assign reg = false %}
                                     {% elsif post.url  %}
-                                    <p>Campus Event <a href="{{ post.url }}" title="Link to campus event page" target="_blank">page</a>. <br></p>
+                                    <p>Campus Event <a href="{{post.url}}" target="_blank" title="Link to campus event page" 
+                                        onclick="getOutboundLink( {{post.url}} ); return false;">page</a>. <br>
+<a href="{{ post.url }}" title="Link to campus event page" target="_blank">page</a>. <br></p>
                                     {% assign reg = false %}
                                 {% endif %}
                                 {% comment %}
