@@ -121,6 +121,7 @@
   day:  t
   time:   9:00 - 10:00 am
   description:  Access to research data is essential for reproducing pre-existing findings, facilitating collaboration, and developing new insights through secondary analysis. As a researcher, how do you locate data sets that are relevant to your research? This workshop will provide an introduction to the data repository landscape and strategies for navigating data sources to discover relevant and usable data with a focus on supporting research in the social sciences.
+  registration-page:  https://libcal.ucmerced.edu/calendar/library_events/secondary-data-feb-9
   url:  
   temp:   
 
@@ -306,7 +307,7 @@
   url:  
   temp:   Co-hosted by DataLab and UC Davis Library
 
-- title:  Cybersecurity and securing your device
+- title:  Cybersecurity 101
   name:   cybersecurity
   speaker-type: "Speakers"
   speakers: [ 
@@ -317,7 +318,7 @@
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
   time:    2:00 - 3:00 pm
-  description:  
+  description:  In this session, UC Berkeley’s Chief Information Security Officer and other members of the Berkeley Information Security Office will discuss basic tenets of cybersecurity and how to secure devices to keep your information safe.
   url:  
   temp:     
 
@@ -369,7 +370,7 @@
   eventbrite: 132492232835
   url:  https://www.eventbrite.com/e/hacky-hours-drop-in-and-talk-about-code-tickets-132492232835
   
-- title:  Getting start with LastPass/Veracrypt
+- title:  Getting started with LastPass/Veracrypt
   name:   LastPass
   speaker-type: "Speakers"
   speakers: [ 
@@ -380,7 +381,7 @@
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  th
   time:   1:00 - 2:00 PM
-  description:  
+  description:  Join the UC Berkeley Information Security Office and Research IT to learn more about password managers and free tools to use in encrypting your devices.
   url:  
 
 - title:  New NIH Data Sharing Requirements
@@ -414,7 +415,8 @@
   day:  th
   time:   3:00 - 4:30 pm
   description:  twarc is a command line tool and Python library for gathering and working with Twitter JSON data via the public Twitter API. Emerging from the Black Lives Matter and Document the Now movements, twarc comes along with a loose set of community standards that respect the autonomy of the user and aligns with the EU's GDPR and Twitter's terms of service.  As part of supporting social media research, the UCSB Library Collaboratory will get you started with what you need to use twarc and present current ethical best practices that we use to orient researchers to social media research. 
-  url:  
+  eventbrite: 136354021549
+  url:    https://www.eventbrite.com/e/harvest-twitter-data-with-twarc-best-practices-for-social-media-research-tickets-136354021549
 
 #FRIDAY
 
@@ -447,7 +449,8 @@
   day:  f
   time:   12:00 - 1:00pm
   description:  Have you ever wanted to harvest data off a website that was not already in an analysis-friendly format? If so, this web scraping workshop is for you! Web scraping can be done entirely manually but it is usually faster, more efficient and less error-prone if automated. UCSB Research Data Services will navigate you through some basic web scraping techniques including how to use XPath and the Chrome web browser with the Scraper extension to extract data from the web with little technical knowlege.  We will also discuss the ethical issues of web scraping.
-  url:  
+  eventbrite: 136362665403
+  url:  https://www.eventbrite.com/e/web-scraping-using-xpath-and-chrome-extension-tickets-136362665403
 
 - title:  Critical Approach to Data Visualization
   name:   dataviz
