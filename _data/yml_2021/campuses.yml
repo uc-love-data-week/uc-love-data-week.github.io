@@ -42,7 +42,7 @@
   
 - name: UC Santa Barbara
   abbv: ucsb-lib
-  image: /assets/img/campuses/ucsb-lib.png
+  image: /assets/img/campuses/ucsb-library.png
   alt: UC Santa Barbara Library
   url: https://www.library.ucsb.edu/research-data-services 
   p-campus: y
