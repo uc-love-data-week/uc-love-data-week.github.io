@@ -463,5 +463,6 @@
   day:  f
   time:   1:00 - 3:00 pm
   description:  This workshop will unpack the subjective process of data visualization and its relationship to concepts of diversity, equity and inclusion. We'll critically explore how data can be used to uphold and perpetuate, or quantify and demonstrate structural oppression. Through this workshop learners will practice the technique of "data visceralization," the process of experiencing differences in data and understanding them viscerally. This workshop is led by UC Davis DataLab's Data Feminism research and learning cluster, which focuses on thinking about data science and data ethics as informed by the ideas of intersectional feminism. Explore our Data Feminism reading list and activities, here.
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/critical-approach-to-data-visualization/
   url:  
   temp:   "DataLab Research and Learning Cluster: Data Feminism; capped at 45 learners."
