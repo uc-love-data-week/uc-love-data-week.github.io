@@ -307,7 +307,7 @@
   url:  
   temp:   Co-hosted by DataLab and UC Davis Library
 
-- title:  Cybersecurity 101
+- title:  Cybersecurity for Graduate Students in Research
   name:   cybersecurity
   speaker-type: "Speakers"
   speakers: [ 
@@ -318,8 +318,9 @@
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
   time:    2:00 - 3:00 pm
-  description:  In this session, UC Berkeley’s Chief Information Security Officer and other members of the Berkeley Information Security Office will discuss basic tenets of cybersecurity and how to secure devices to keep your information safe.
-  url:  
+  description:  In this session for Love Data Week 2021, UC Berkeley’s Chief Information Security Officer and Research IT staff will talk about current trends in cybersecurity and campus resources to support graduate students and researchers at large. Members of the Berkeley Information Security Office will also discuss best practices for securing devices to keep your information safe.
+  zoom: tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
+  url:  https://berkeley.zoom.us/meeting/register/tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
   temp:     
 
 - title:  Introduction to Command Line
@@ -381,25 +382,26 @@
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  th
   time:   1:00 - 2:00 PM
-  description:  Join the UC Berkeley Information Security Office and Research IT to learn more about password managers and free tools to use in encrypting your devices.
-  url:  
+  description:  Join members of UC Berkeley Information Security Office and Research IT in this one-hour session to learn more about password managers, specifically LastPass Premium, and free tools to use in encrypting your devices.
+  zoom: tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
+  url:  https://berkeley.zoom.us/meeting/register/tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
 
-- title:  New NIH Data Sharing Requirements
+- title:  New NIH Policy for Data Management and Sharing - Get the Scoop!
   name:   nih
   speaker-type: "Speakers"
-  speakers: [ 
-     {name: none, org: none},
-     {name: none, org: none}
+  speakers: [  
+     {name: Maria Praetzellis, org: cdl},
+     {name: Ariel Deardorff, org: ucsf-lib}
        ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  th
   time:   2:00 - 3:00 pm
-  description:  
+  description:  In late 2020 the NIH announced their new Policy for Data Management and Sharing. Starting in 2023, this policy will require all NIH researchers to prospectively plan for how their scientific data will be preserved and shared through submission of a Data Management and Sharing Plan. While they might not be required by the NIH for two years, we encourage researchers to start writing data management plans now as they are a useful tool for planning and tracking research data.This session will give an overview of data management plans (DMPs), dive deep into the new NIH requirements, and share local resources and tools like DMPTool.
   eventbrite:
   zoom:
-  registration-page:
+  registration-page: https://calendars.library.ucsf.edu/event/7469386
   url: 
 
 - title:  Harvesting Twitter data with twarc and best practices for social media research
