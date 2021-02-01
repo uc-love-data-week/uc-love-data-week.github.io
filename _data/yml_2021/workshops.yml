@@ -438,6 +438,21 @@
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-text-mining-and-nlp-for-health-data/
   temp:   DataLab Research and Learning Cluster for Health Data Science and Systems. RLC members have priority registration. Capped at 60 learners.
 
+- title:  Web Scraping in R
+  name:   webscraping
+  speaker-type: "Speakers"
+  speakers: [  
+     {name: Derek Devnich, org: ucm-lib}
+  ]
+  img:  using-data-workshop.png
+  thumbnail:  using-data-workshop.png
+  alt:  "Using Data Workshop image: Using Data Workshop in front of a purple and orange background"
+  day:  f
+  time:   10:00 am - Noon
+  description:  This workshop will teach you how to gather information from websites using tools available in the R programmming language. You'll learn how scrape data from web tables using the rvest package, and how to track the social media trends captured in Twitter hashtags using the rtweet package. The workshop is geared towards intermediate R users, but we welcome a wide audience to join us and observe the demonstrations.
+  registration-page:  https://libcal.ucmerced.edu/event/7509065
+  temp:   Capped at 50 seats.
+
 - title:  Web scraping Using XPath and Chrome Extension
   name:   webscraping
   speaker-type: "Speakers"
