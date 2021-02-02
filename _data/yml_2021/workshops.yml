@@ -442,7 +442,7 @@
   name:   webscraping
   speaker-type: "Speakers"
   speakers: [  
-     {name: Derek Devnich, org: ucm-lib}
+     {name: Derek Sollberger, org: ucm-lib}
   ]
   img:  using-data-workshop.png
   thumbnail:  using-data-workshop.png
