@@ -439,7 +439,7 @@
   temp:   DataLab Research and Learning Cluster for Health Data Science and Systems. RLC members have priority registration. Capped at 60 learners.
 
 - title:  Web Scraping in R
-  name:   webscraping
+  name:   webscraping-ucm
   speaker-type: "Speakers"
   speakers: [  
      {name: Derek Sollberger, org: ucm-lib}
@@ -454,7 +454,7 @@
   temp:   Capped at 50 seats.
 
 - title:  Web scraping Using XPath and Chrome Extension
-  name:   webscraping
+  name:   webscraping-ucsb
   speaker-type: "Speakers"
   speakers: [ 
      {name: Greg Janée, org: ucsb-lib},
