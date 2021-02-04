@@ -278,15 +278,9 @@
 
 - title:  Data science student lightning talks
   name:   lightning
-  speaker-type: "Moderator", "Presenter"
+  speaker-type: "Moderator"
   speakers: [ 
      {name: Stephanie Labou, org: ucsd-lib}
-     {name: Gil Pasternak, talk-title: Likelihood - Reimagining Data Quality}
-     {name: Arunav Gupta, talk-title: Quantifying the legacy of redlining policies in the urban landscape of modern-day America}
-     {name: Advitya Gemawat, talk-title: Hyperparameter Optimization for Deep Neural Networks with Apache MADlib, an open source ML library for scalable in-database analytics}
-     {name: Ted Feng, talk-title: Analysis of the NBA Bubble}
-     {name: Bailey Man, talk-title: Analysis of the retreat of global Ice caps}
-     {name: Yifei Ning, Zhaoyi Hou, talk-title: USPTO Patent Application Prediction - Dealing with Extremely Unbalanced Text Data}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
