@@ -282,6 +282,15 @@
   speakers: [ 
      {name: Stephanie Labou, org: ucsd-lib}
   ]
+  speaker-type: "Presenter"
+  speakers: [ 
+     {presenter-name: Gil Pasternak, talk-title: Likelihood - Reimagining Data Quality}
+     {presenter-name: Arunav Gupta, talk-title: Quantifying the legacy of redlining policies in the urban landscape of modern-day America}
+     {presenter-name: Advitya Gemawat, talk-title: Hyperparameter Optimization for Deep Neural Networks with Apache MADlib, an open source ML library for scalable in-database analytics}
+     {presenter-name: Ted Feng, talk-title: Analysis of the NBA Bubble}
+     {presenter-name: Bailey Man, talk-title: Analysis of the retreat of global Ice caps}
+     {presenter-name: Yifei Ning, Zhaoyi Hou, talk-title: USPTO Patent Application Prediction - Dealing with Extremely Unbalanced Text Data}
+  ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
