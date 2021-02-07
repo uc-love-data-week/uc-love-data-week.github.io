@@ -1,9 +1,17 @@
-- name: Lorem ipsum
-  title:  dolor sit amet, consectetur adipiscing elit
+- name: Gil Pasternak
+  title:  Likelihood - Reimagining Data Quality
 
-- name: sed do
-  title:  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- name: Arunav Gupta
+  title:  Quantifying the legacy of redlining policies in the urban landscape of modern-day America
 
-- name: Ut enim
-  title:  ad minim veniam, quis nostrud exercitation
+- name: Advitya Gemawat
+  title:  Hyperparameter Optimization for Deep Neural Networks with Apache MADlib, an open source ML library for scalable in-database analytics
 
+- name: Ted Feng
+  title:  Analysis of the NBA Bubble
+  
+- name: Bailey Man
+  title:  Analysis of the retreat of global Ice caps
+  
+- name: Yifei Ning, Zhaoyi Hou
+  title:  USPTO Patent Application Prediction - Dealing with Extremely Unbalanced Text Data
