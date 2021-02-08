@@ -40,12 +40,12 @@ published: true
 
                             {% if table %} 
                             <table width="100%" align="center">
-                            	<tr><th>Presenter Name</th><th>Talk Title</th></tr>
+                            	<tr style="padding: 25px; border-bottom: 1px solid lightgray; border-collapse: collapse;" ><th width="25%">Presenter Name</th><th>Talk Title</th></tr>
                                 {% for presenter in site.data.yml_2021.lightning_table %}
-                                	<tr><td>{{presenter.name}}</td><td>{{presenter.title}}</td></tr>
+                                	<tr style="padding: 25px; border-bottom: 1px solid lightgray; border-collapse: collapse;" ><td>{{presenter.name}}</td><td>{{presenter.title}}</td></tr>
                                 {% endfor %}
                         	</table>
-                        	<hr>
+                        	<br>
                         	{% endif %}
 
 
