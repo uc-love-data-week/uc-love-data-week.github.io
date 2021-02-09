@@ -304,7 +304,7 @@
   day:  w
   time:   2:00 - 3:00 pm
   description:    Governments, non-governmental organizations, and social scientists have amassed vast collections of data about the social world. Learn how to discover, evaluate, and access sources available for new analyses and visualizations.
-  url:  
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/discovery-and-evaluation-of-social-science-data-sources/
   temp:   Co-hosted by DataLab and UC Davis Library
 
 - title:  Cybersecurity for Graduate Students in Research
