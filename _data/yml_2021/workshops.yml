@@ -398,8 +398,9 @@
   description:  This 2-part workshop explores basic, practical applied statistics using the R statistical programming language. On the first day we’ll focus on common procedures like assessing the distribution of your data and calculating differences between groups. In the second day we’ll focus on common linear models (linear regression, ANOVA, etc.) in R. We will also calculate the power of a simple study. This workshop is appropriate for learners with various data types, but will most emphasize continuous numerical data. Prior experience with R and RStudio required.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-statistics-in-r-part-1/
   temp:   DataLab; capped at 60 learners.
-  recording:
+  recording: https://www.youtube.com/embed/fit-KI4DdkQ
   slides:
+  reader: https://ucdavisdatalab.github.io/basic_stats_r_1/#probability-distributions-quantiles-and-densities
 
 - title:  "Hacky Hours: Drop in and talk about code"
   name:   hackyHours
@@ -434,6 +435,7 @@
   url:  https://berkeley.zoom.us/meeting/register/tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
   recording:
   slides:
+  reader:
 
 - title:  New NIH Policy for Data Management and Sharing - Get the Scoop!
   name:   nih
@@ -470,6 +472,9 @@
   description:  twarc is a command line tool and Python library for gathering and working with Twitter JSON data via the public Twitter API. Emerging from the Black Lives Matter and Document the Now movements, twarc comes along with a loose set of community standards that respect the autonomy of the user and aligns with the EU's GDPR and Twitter's terms of service.  As part of supporting social media research, the UCSB Library Collaboratory will get you started with what you need to use twarc and present current ethical best practices that we use to orient researchers to social media research. 
   eventbrite: 136354021549
   url:    https://www.eventbrite.com/e/harvest-twitter-data-with-twarc-best-practices-for-social-media-research-tickets-136354021549
+  recording:
+  slides:
+  reader:  
 
 #FRIDAY
 
@@ -488,6 +493,9 @@
   description:  This workshop covers an introduction to natural language processing (NLP) and caveats for its application to health data. Using the R programming language we will introduce the basics of text processing and demo how to calculate common metrics including word frequencies, term frequency-inverse document frequency (TFIDF), and principal component analysis (PCA) to explore important words and group similar documents. We will also introduce more advanced NLP topics (sentiment analysis, topic modeling, etc.) and discuss classical versus deep learning approaches, as time permits. Learners with proficient R skills are encouraged to code along.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-text-mining-and-nlp-for-health-data/
   temp:   DataLab Research and Learning Cluster for Health Data Science and Systems. RLC members have priority registration. Capped at 60 learners.
+  recording: https://www.youtube.com/embed/wFj44ehGpk0
+  slides:
+  reader: https://ucdavisdatalab.github.io/workshop-nlp-healthcare/
 
 - title:  Web Scraping in R
   name:   webscraping-ucm
@@ -503,6 +511,9 @@
   description:  This workshop will teach you how to gather information from websites using tools available in the R programmming language. You'll learn how scrape data from web tables using the rvest package, and how to track the social media trends captured in Twitter hashtags using the rtweet package. The workshop is geared towards intermediate R users, but we welcome a wide audience to join us and observe the demonstrations.
   registration-page:  https://libcal.ucmerced.edu/event/7509065
   temp:   Capped at 50 seats.
+  recording:
+  slides:
+  reader:  
 
 - title:  Web scraping Using XPath and Chrome Extension
   name:   webscraping-ucsb
@@ -519,6 +530,9 @@
   description:  Have you ever wanted to harvest data off a website that was not already in an analysis-friendly format? If so, this web scraping workshop is for you! Web scraping can be done entirely manually but it is usually faster, more efficient and less error-prone if automated. UCSB Research Data Services will navigate you through some basic web scraping techniques including how to use XPath and the Chrome web browser with the Scraper extension to extract data from the web with little technical knowlege.  We will also discuss the ethical issues of web scraping.
   eventbrite: 136362665403
   url:  https://www.eventbrite.com/e/web-scraping-using-xpath-and-chrome-extension-tickets-136362665403
+  recording:
+  slides:
+  reader:  
 
 - title:  Critical Approach to Data Visualization
   name:   dataviz
@@ -537,3 +551,6 @@
   registration-page: https://datalab.ucdavis.edu/eventscalendar/critical-approach-to-data-visualization/
   url:  
   temp:   "DataLab Research and Learning Cluster: Data Feminism; capped at 45 learners."
+  recording:
+  slides:
+  reader: https://ucdavisdatalab.github.io/workshop_critical_data_viz/
