@@ -16,6 +16,9 @@
   zoom: tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
   registration-page:
   url:  https://uci.zoom.us/meeting/register/tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
+  recording:  https://drive.google.com/file/d/1jLw1Wo8E73df3KiYvpePa9kC71xXxrJB/preview
+  slides: https://docs.google.com/presentation/d/11kRmEMvwqvMK0CqJuXUzMpsjHDX54gWb9ejxEx7d7x0/edit#slide=id.gb5cab6d681_0_5
+
 
 - title: A Gentle and Friendly Introduction to APIs
   name: apis
@@ -35,6 +38,8 @@
   eventbrite: 132489617011
   registration-page:
   url: https://www.eventbrite.com/e/a-gentle-and-friendly-introduction-to-apis-tickets-132489617011
+  recording: https://www.youtube.com/embed/xwqyya85b_E
+  slides: https://docs.google.com/presentation/d/11MQF4XUQ7s_Km_CxCWVvfG9md0Ya8F8lW4vRkhB4oxM/
 
 - title:  Hathi Trust Research Center demo
   name:   hathi
@@ -51,6 +56,8 @@
   eventbrite: 136320659763
   url:  https://www.eventbrite.com/e/hathi-trust-research-center-demonstration-tickets-136320659763
   temp:   multiple UCs have this
+  recording:
+  slides:
 
 - title: SQL in 60 minutes
   name: SQL
@@ -70,6 +77,8 @@
   registration-page:
   url: https://www.eventbrite.com/e/sql-in-60-minutes-tickets-136314643769
   temp: 
+  recording:
+  slides:
 
 
 - title: Working with GIS Data
@@ -89,7 +98,9 @@
   ical:
   registration-page: 
   url: https://www.eventbrite.com/e/working-with-gis-data-tickets-132489937971
-  temp: 
+  temp:
+  recording:
+  slides: 
 
 - title:  "Excelling with Excel: Best Practices for Keeping Your Data Tidy"
   name:   excel
@@ -106,6 +117,8 @@
   description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
   temp:   DataLab; capped at 60 learners.
+  recording:
+  slides:
 
   # TUESDAY
 
@@ -123,7 +136,9 @@
   description:  Access to research data is essential for reproducing pre-existing findings, facilitating collaboration, and developing new insights through secondary analysis. As a researcher, how do you locate data sets that are relevant to your research? This workshop will provide an introduction to the data repository landscape and strategies for navigating data sources to discover relevant and usable data with a focus on supporting research in the social sciences.
   registration-page:  https://libcal.ucmerced.edu/calendar/library_events/secondary-data-feb-9
   url:  
-  temp:   
+  temp:
+  recording:
+  slides:
 
 - title:  "Geocoding Address Data: Approaches to Personally Identifiable Data"
   name:   geocoding
@@ -140,6 +155,8 @@
   ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
   registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
   temp:   "DataLab Research and Learning Cluster: Spatial Sciences and #maptimeDavis"
+  recording:
+  slides:
 
 - title:  ProQuest TDM Studio demo
   name:   proquest
@@ -157,6 +174,8 @@
   eventbrite: 136320210419
   url:  https://www.eventbrite.com/e/proquest-tdm-studio-demonstration-tickets-136320210419
   temp:   think UCSD and UCB currently only UCs with access to this, but there's a big push at UCSD so we have to run with it
+  recording:
+  slides:
 
 - title:  Introduction to Digital Humanities and Humanities Data
   name:   dh-intro
@@ -172,6 +191,8 @@
   description:  Interested in learning where to look for historical, cultural, or other kinds of humanities datasets? This workshop will share resources for discovering textual, visual, spatial, and social network data of use to students and scholars across humanities disciplines. We will also look at a variety of digital tools and methodologies that humanities researchers are using to computationally answer research questions and generate new ones. Whether you are new to Digital Humanities or have been engaged in digital research or teaching for years, join us to share your questions and connect with other UCR community members interested in DH.
   eventbrite: 132490280997
   url:  https://www.eventbrite.com/e/introduction-to-digital-humanities-and-humanities-data-tickets-132490280997?aff=
+  recording:
+  slides:
 
 - title: "Tidy Tuesday: clean up a data set"
   name: tidy
@@ -189,7 +210,9 @@
   zoom: 
   ical: https://calendar.library.ucla.edu/event/ical?id=7328608
   registration-page: https://calendar.library.ucla.edu/event/7328608
-  temp: 
+  temp:
+  recording:
+  slides:
 
 - title:  Ethical considerations in data
   name:   ethics
@@ -207,7 +230,9 @@
   time:   3:00 - 4:00 pm
   description:  In this one hour interactive workshop, data librarians from UCLA, UCB, and UCSD will host an open discussion around data ethics focusing on case studies of participant data privacy, algorithmic bias, and the social justice components of research. The discussion will also include an overview of related resources available at various UC campuses, including further reading available through the libraries and groups on campus conducting research in these areas.
   registration-page:  https://calendar.library.ucla.edu/event/7413125
-  temp:   
+  temp:
+  recording:
+  slides:
 
 # WEDNESDAY
 
@@ -225,6 +250,8 @@
   description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data, and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/data-ownership-rights-and-responsibilities/
   temp:   DataLab/Library (Scholarly Communication). Cap of 45 registrants.
+  recording:
+  slides:
 
 - title: Data sharing 101
   name: data-sharing
@@ -244,6 +271,8 @@
   zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
   registration-page:
   url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
+  recording:
+  slides:
 
 - title:  ICPSR presentation
   name:   icpsr
@@ -259,6 +288,8 @@
   description:  Do you need data for the gagillion papers you have to write this quarter? Or maybe you're going up for tenure and need to publish? How about teaching students to use data (but you don't have time to create that lesson plan, we're in a pandemic after all!) Don't worry, ICPSR has you covered. Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, there is something data here for you. 
   url: https://www.eventbrite.com/e/icpsr-presentation-tickets-136319809219
   eventbrite: 136319809219
+  recording:
+  slides:
 
 - title:  Gale Digital Scholar demo
   name:   gale
@@ -275,6 +306,8 @@
   eventbrite: 136320567487
   url:  https://www.eventbrite.com/e/gale-digital-scholar-demonstration-tickets-136320567487
   temp:   think 7 UCs have access to this?
+  recording:
+  slides:
 
 - title:  Data science student lightning talks
   name:   lightning
@@ -291,6 +324,8 @@
   eventbrite: 136319217449
   url:  https://www.eventbrite.com/e/data-science-students-lightning-talks-tickets-136319217449
   temp:   An hour of 5 minute lightning talks from UC students working on personal data science projects
+  recording:
+  slides:
 
 - title:  Discovery and Evaluation of Social Science Data Sources
   name:   datasources
@@ -306,6 +341,8 @@
   description:    Governments, non-governmental organizations, and social scientists have amassed vast collections of data about the social world. Learn how to discover, evaluate, and access sources available for new analyses and visualizations.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/discovery-and-evaluation-of-social-science-data-sources/
   temp:   Co-hosted by DataLab and UC Davis Library
+  recording:
+  slides:
 
 - title:  Cybersecurity for Graduate Students in Research
   name:   cybersecurity
@@ -321,7 +358,9 @@
   description:  In this session for Love Data Week 2021, UC Berkeley’s Chief Information Security Officer and Research IT staff will talk about current trends in cybersecurity and campus resources to support graduate students and researchers at large. Members of the Berkeley Information Security Office will also discuss best practices for securing devices to keep your information safe.
   zoom: tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
   url:  https://berkeley.zoom.us/meeting/register/tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
-  temp:     
+  temp:
+  recording:
+  slides:
 
 - title:  Introduction to Command Line
   name:   cli
@@ -338,6 +377,8 @@
   description:  Learn and practice how to talk directly to your computer via command line. The shell is a very powerful tool for using scientific software and working with large data sets. It is primarily used to manage files and run programs, and it allows for automation of repetitive tasks. No prior coding experience is necessary. This workshop is a prerequisite for DataLab’s workshops on Introduction to Version Control with Git and Reproducible Research for Teams with GitHub. 
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-command-line/
   temp:   DataLab; capped at 60 learners.
+  recording:
+  slides:
 
 # THURSDAY
 
@@ -355,6 +396,8 @@
   description:  This 2-part workshop explores basic, practical applied statistics using the R statistical programming language. On the first day we’ll focus on common procedures like assessing the distribution of your data and calculating differences between groups. In the second day we’ll focus on common linear models (linear regression, ANOVA, etc.) in R. We will also calculate the power of a simple study. This workshop is appropriate for learners with various data types, but will most emphasize continuous numerical data. Prior experience with R and RStudio required.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-statistics-in-r-part-1/
   temp:   DataLab; capped at 60 learners.
+  recording:
+  slides:
 
 - title:  "Hacky Hours: Drop in and talk about code"
   name:   hackyHours
@@ -370,6 +413,8 @@
   description:  Take your computer coding to the next level. Whether you are a novice interested in learning to code or an experienced programmer comfortable with many languages and platforms, this is the place for you to learn from and share with others. Come talk with us about a variety of coding languages and topics, data management, data cleaning, data visualization, and data science methodologies. 
   eventbrite: 132492232835
   url:  https://www.eventbrite.com/e/hacky-hours-drop-in-and-talk-about-code-tickets-132492232835
+  recording:
+  slides:
   
 - title:  Getting started with LastPass/Veracrypt
   name:   LastPass
@@ -385,6 +430,8 @@
   description:  Join members of UC Berkeley Information Security Office and Research IT in this one-hour session to learn more about password managers, specifically LastPass Premium, and free tools to use in encrypting your devices.
   zoom: tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
   url:  https://berkeley.zoom.us/meeting/register/tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
+  recording:
+  slides:
 
 - title:  New NIH Policy for Data Management and Sharing - Get the Scoop!
   name:   nih
@@ -402,7 +449,9 @@
   eventbrite:
   zoom:
   registration-page: https://calendars.library.ucsf.edu/event/7469386
-  url: 
+  url:
+  recording:
+  slides:
 
 - title:  Harvesting Twitter data with twarc and best practices for social media research
   name:   twitter
