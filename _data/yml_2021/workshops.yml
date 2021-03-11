@@ -99,8 +99,8 @@
   registration-page: 
   url: https://www.eventbrite.com/e/working-with-gis-data-tickets-132489937971
   temp:
-  recording:
-  slides: 
+  recording: https://www.youtube.com/embed/RZE9Li1bQ7g
+  slides: https://osf.io/k654g/
 
 - title:  "Excelling with Excel: Best Practices for Keeping Your Data Tidy"
   name:   excel
@@ -117,8 +117,9 @@
   description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
   temp:   DataLab; capped at 60 learners.
-  recording:
-  slides:
+  recording: https://www.youtube.com/embed/1E3FT94pTLA
+  slides: https://github.com/ucdavisdatalab/workshop_keeping_data_tidy/blob/main/docs/2021_workshop_tidy-data_slides.pdf
+  reader: https://ucdavisdatalab.github.io/workshop_keeping_data_tidy/#data-validation-in-excel
 
   # TUESDAY
 
@@ -155,7 +156,7 @@
   ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
   registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
   temp:   "DataLab Research and Learning Cluster: Spatial Sciences and #maptimeDavis"
-  recording:
+  recording: https://www.youtube.com/embed/J3J1zADCBH0
   slides:
 
 - title:  ProQuest TDM Studio demo
@@ -271,8 +272,8 @@
   zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
   registration-page:
   url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  recording:
-  slides:
+  recording: https://drive.google.com/file/d/1GjXh1APnZQWThZ2NW5Xi5BoQfpV2mD2Z/preview
+  slides: https://docs.google.com/presentation/d/1-AWB8XLuJNuFzX78BFk9FjyVZBnsU1DfVL6AHV6OKQc/edit?usp=sharing 
 
 - title:  ICPSR presentation
   name:   icpsr
@@ -342,7 +343,7 @@
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/discovery-and-evaluation-of-social-science-data-sources/
   temp:   Co-hosted by DataLab and UC Davis Library
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/17uks6NcY-5kJWYKl0sd5pITd4caZp4vSes7HjwFiCWk/edit
 
 - title:  Cybersecurity for Graduate Students in Research
   name:   cybersecurity
@@ -377,8 +378,9 @@
   description:  Learn and practice how to talk directly to your computer via command line. The shell is a very powerful tool for using scientific software and working with large data sets. It is primarily used to manage files and run programs, and it allows for automation of repetitive tasks. No prior coding experience is necessary. This workshop is a prerequisite for DataLab’s workshops on Introduction to Version Control with Git and Reproducible Research for Teams with GitHub. 
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-command-line/
   temp:   DataLab; capped at 60 learners.
-  recording:
+  recording: https://www.youtube.com/embed/olkb9kihgO0
   slides:
+  reader: https://ucdavisdatalab.github.io/workshop_introduction_to_the_command_line/
 
 # THURSDAY
 
@@ -450,7 +452,7 @@
   zoom:
   registration-page: https://calendars.library.ucsf.edu/event/7469386
   url:
-  recording:
+  recording: https://courses.ucsf.edu/course/view.php?id=8435 
   slides:
 
 - title:  Harvesting Twitter data with twarc and best practices for social media research

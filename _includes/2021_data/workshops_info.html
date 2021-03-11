@@ -88,8 +88,18 @@
                             {% comment %}
                             The below blocks are for slides and recordings.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
-                            {% if post.slides %}
-                                <p><a href="{{post.slides}}" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( {{post.slides}} ); return false;">Workshop slides</a></p>
+                            {% if post.slides or post.reader %}
+                                <p>Workshop Materials: 
+                                {% if post.slides %}
+                                    <a href="{{post.slides}}" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( {{post.slides}} ); return false;">Slides</a>
+                                {% endif %}
+                                {% if post.slides and post.reader %}
+                                - 
+                                {% endif %}
+                                {% if post.reader %}
+                                    <a href="{{post.reader}}" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( {{post.reader}} ); return false;">Reader</a>
+                                {% endif %}
+                                </p>
                             {% endif %}
                             {% if post.recording %}
                             <p>Session Recording<br>
