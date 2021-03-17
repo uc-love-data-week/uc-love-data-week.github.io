@@ -23,6 +23,23 @@
                         </a>
                         <div class="speakers-caption">
                             <h4>{{ post.title }}</h4>
+                            {% assign mats = false %}
+                            {% if post.slides or post.reader %}
+                                {% assign mats = true %}
+                            {% endif %}
+                            {% if mats or post.recording %}
+                            <p><i>
+                                {% if post.recording %}
+                                    Recording
+                                {% endif %}
+                                {% if post.recording and mats %}
+                                and
+                                {% endif %}
+                                {% if mats %}
+                                    Materials
+                                {% endif %}
+                             Available</i></p>
+                            {% endif %}
                             {% for day in site.data.yml_2021.dates %}
                                 {% if post.day == day.day-abbv %}
                                 <p class="text-muted-dark"> {{day.day-full }}, {{ post.time }} </p><br><br>
