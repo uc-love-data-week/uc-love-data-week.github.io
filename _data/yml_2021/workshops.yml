@@ -56,7 +56,7 @@
   eventbrite: 136320659763
   url:  https://www.eventbrite.com/e/hathi-trust-research-center-demonstration-tickets-136320659763
   temp:   multiple UCs have this
-  recording:
+  recording: https://www.youtube.com/embed/6zHq5H9suF4
   slides:
 
 - title: SQL in 60 minutes
@@ -175,7 +175,7 @@
   eventbrite: 136320210419
   url:  https://www.eventbrite.com/e/proquest-tdm-studio-demonstration-tickets-136320210419
   temp:   think UCSD and UCB currently only UCs with access to this, but there's a big push at UCSD so we have to run with it
-  recording:
+  recording: https://www.youtube.com/embed/WZXx1jrOGRY
   slides:
 
 - title:  Introduction to Digital Humanities and Humanities Data
@@ -193,7 +193,7 @@
   eventbrite: 132490280997
   url:  https://www.eventbrite.com/e/introduction-to-digital-humanities-and-humanities-data-tickets-132490280997?aff=
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/1vYqIOm0YLVvosmKTDMmTeEDijmbkRE6OIqD0bishPo0/
 
 - title: "Tidy Tuesday: clean up a data set"
   name: tidy
@@ -307,7 +307,7 @@
   eventbrite: 136320567487
   url:  https://www.eventbrite.com/e/gale-digital-scholar-demonstration-tickets-136320567487
   temp:   think 7 UCs have access to this?
-  recording:
+  recording: https://www.youtube.com/embed/d1UaTTYhzVw
   slides:
 
 - title:  Data science student lightning talks
@@ -325,7 +325,7 @@
   eventbrite: 136319217449
   url:  https://www.eventbrite.com/e/data-science-students-lightning-talks-tickets-136319217449
   temp:   An hour of 5 minute lightning talks from UC students working on personal data science projects
-  recording:
+  recording: https://www.youtube.com/embed/lQwy-pVuMlE
   slides:
 
 - title:  Discovery and Evaluation of Social Science Data Sources
