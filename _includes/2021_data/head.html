@@ -45,6 +45,19 @@
     }
     </script>
 
+    <script>
+         function stopVideo(vidframeID) {
+        //First get the  iframe URL
+            var vidurl = $(vidframeID).attr('src');
+
+            //Then assign the src to null, this then stops the video been playing
+            $(vidframeID).attr('src', '');
+
+            // Finally you reasign the URL back to your iframe, so when you hide and load it again you still have the link
+            $(vidframeID).attr('src', vidurl);/**/
+    }
+    </script>
+
 
     <!--Remove image dragging -->
     <BODY ondragstart="return false;" ondrop="return false;">
