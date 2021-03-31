@@ -423,7 +423,11 @@
   name:   LastPass
   speaker-type: "Speakers"
   speakers: [ 
-     {name: none, org: ucb}
+     {name: Amy Neeser, org: ucb-rit},
+     {name: Rick Jaffe, org: ucb-rit},
+     {name: Carlos Ortega, org: ucb-datapeer},
+     {name: Allison Henry, org: ucb-iso},
+     {name: Summer Scanlan, org: ucb-iso}
        ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png

@@ -1,4 +1,25 @@
 - name: UC Berkeley
+  abbv: ucb-datapeer
+  image: ../assets/img/campuses/ucb-datapeer.png
+  alt: Berkeley Data Peer Consulting
+  url: https://data.berkeley.edu/ds-peer-consulting
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb-iso
+  image: ../assets/img/campuses/ucb-iso.png
+  alt: Berkeley Information Security Office
+  url: https://security.berkeley.edu/
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb-rit
+  image: ../assets/img/campuses/ucb-rit.png
+  alt: Berkeley Research IT
+  url: https://research-it.berkeley.edu/
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
   abbv: ucb-rdm
   image: ../assets/img/campuses/ucb-rdm.png
   alt: Berkeley Research Data Management
