@@ -349,8 +349,10 @@
   name:   cybersecurity
   speaker-type: "Speakers"
   speakers: [ 
-     {name: none, org: ucb-rdm}
-  ]
+     {name: Allison Henry, org: ucb-iso},
+     {name: James Duncan, org: ucb-rit},
+     {name: Erin Hancock, org: ucb-iso}
+       ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
@@ -360,7 +362,7 @@
   zoom: tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
   url:  https://berkeley.zoom.us/meeting/register/tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
   temp:
-  recording:
+  recording:  https://www.youtube.com/embed/1R5CpRBnJVg
   slides:
 
 - title:  Introduction to Command Line
@@ -437,7 +439,7 @@
   description:  Join members of UC Berkeley Information Security Office and Research IT in this one-hour session to learn more about password managers, specifically LastPass Premium, and free tools to use in encrypting your devices.
   zoom: tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
   url:  https://berkeley.zoom.us/meeting/register/tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
-  recording:
+  recording:  https://www.youtube.com/embed/sf42kxX8ikU
   slides:
   reader:
 
