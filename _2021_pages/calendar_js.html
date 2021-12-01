@@ -1,0 +1,130 @@
+---
+layout: 2022_test
+permalink: /calendar_js
+title: Calendar
+published: true
+---
+<head><link rel="stylesheet" href="{{ "../css/calendar-style.css" | prepend: site.baseurl }}">
+    </head>
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+    {%- capture workshop_info -%}
+        {%- for workshop in site.data.yml_2021.workshops -%}
+             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}%%
+        {%- endfor -%}
+    {%- endcapture -%}
+
+    <script type="text/javascript">
+        var day_start = 9;
+        var day_end = 5;
+        var conference_days_text = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
+        var conference_days_abbv = ["m","t","w","h","f"]
+        var block_duration = 30;
+
+        var times_array = new Array((5+12-9)*2);
+            times_array[0] = day_start;
+            for (let i = 1; i < times_array.length; i++){
+                times_array[i] = times_array[i-1]*1 + 0.5;
+                if (times_array[i] == 13) times_array[i] = 1;
+            }
+        var times_tr = new Array((5+12-9)*2).fill('')
+
+        let workshop_info = '{{workshop_info}}';
+            workshop_info = workshop_info.split('%%')
+            workshop_info = workshop_info.slice(0, workshop_info.length-1)
+        
+        let workshop_title = new Array(workshop_info.length);
+        let workshop_day = new Array(workshop_info.length);
+        let workshop_time = new Array(workshop_info.length);
+        let workshop_duration = new Array(workshop_info.length);
+        let workshop_start = new Array(workshop_info.length);
+        let workshop_type = new Array(workshop_info.length);
+        
+        for (let i = 0; i < workshop_info.length; i++){
+            let wk_info = workshop_info[i].split('&&');
+            workshop_title[i] = wk_info[0];
+            workshop_day[i] = wk_info[1];
+            workshop_time[i] = wk_info[2];
+            workshop_start[i] = wk_info[3];
+            workshop_duration[i] = wk_info[4];
+            workshop_type[i] = wk_info[5];
+        }
+        
+        var week = new Array((5+12-9)*2);
+            for (let i = 0; i < week.length; i++){
+                week[i] = new Array(5).fill(0);
+            }
+        var week_test = new Array((5+12-9)*2);
+            for (let i = 0; i < week_test.length; i++){
+                week_test[i] = new Array(5).fill(0);
+            }
+
+        for (let i = 0; i < workshop_title.length; i++){
+            let blocks = workshop_duration[i]/block_duration;
+            let timeIndex = times_array.indexOf(workshop_start[i]*1);
+            let dayIndex = conference_days_abbv.indexOf(workshop_day[i]);
+            for (let j = timeIndex; j < (blocks+timeIndex); j++){
+                    week[j][dayIndex] = (week[j][dayIndex])+1;
+            }
+        }
+
+        var maxCol = new Array(5);
+        for (let i = 0 ; i < maxCol.length; i++){
+            maxCol[i] = Math.max.apply(Math, week.map(v => v[i]));
+        }
+
+        let day_check = 1
+
+        for (let i = 0; i < workshop_title.length; i++){
+            let blocks = workshop_duration[i]/block_duration;
+            let timeIndex = times_array.indexOf(workshop_start[i]*1);
+            let dayIndex = conference_days_abbv.indexOf(workshop_day[i]);
+
+            if( conference_days_abbv.indexOf(workshop_day[i]) == day_check){
+                for (let j = 0; j < week_test.length; j++){
+                    let temp_dc = day_check*1-1
+                    if (week_test[j][temp_dc] < maxCol[temp_dc]){
+                        let temp = (maxCol[temp_dc]*1 -week_test[j][temp_dc]*1)
+                        times_tr[j] = times_tr[j] + ' <td colspan="'+temp +'" > </td>';
+                    }
+                }
+                day_check++;
+            } 
+            times_tr[timeIndex] = times_tr[timeIndex] + ' <td colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+ workshop_day[i] +', ' + workshop_time[i] + '</span></td>';
+            
+            for (let k = timeIndex; k < (blocks+timeIndex); k++){
+                    week_test[k][dayIndex] = (week_test[k][dayIndex])+1;
+            }
+        }
+
+    </script>
+
+
+    <div  class="event black-frame" <!-- -->
+      <h1>{{ page.title }}</h1>
+<table class="calendar">
+  <body class="calendar" >
+    <thead><tr> 
+            <th scope="col">time</th>
+            <script>
+                for (let i = 0; i < conference_days_text.length; i++){
+                    document.write ('<th scope="col" colspan="'+ maxCol[i]+ '"">'+ conference_days_text[i]+'</th>')
+                }
+            </script>
+
+        </tr>
+    </thead>
+    <script>
+        for (let i = 0; i < times_array.length; i += 2){
+             document.write ('<tr><th>'+ ((times_array[i] < 10) ? '0': ''),times_array[i]+':00</th>'+ times_tr[i] + '</tr>')
+             document.write ('<tr><th>'+ ((times_array[i] < 10) ? '0': ''),times_array[i]+':30</th>'+ times_tr[i+1] + '</tr>')
+        }
+    </script>
+    </tr></thead>
+
+
+</body>
+</table>
+    </div>

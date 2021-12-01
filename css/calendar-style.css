@@ -1,0 +1,79 @@
+.calendar body {
+/*  display: flex;*/
+  align-items: center;
+  justify-content: center;
+/*  flex-direction: column;/**/
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.calendar table{
+  width: 100%;
+  max-width: 100rem;
+  font-size: 16px;
+}
+
+.calendar table thead  th {
+  background-color: #3f87a6;
+  align-items: center;
+  justify-content: center;
+/*  flex-direction: column;/**/
+  font-size: 16px;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+
+.calendar table tr:nth-child(even) th {
+  color: #ccc;
+  font-weight: normal;
+}
+
+.calendar table th,
+table td {
+  padding: .5rem 1rem;
+}
+.calendar table th, table td{
+  font-weight: normal;
+  border-top: thin dotted #ccc;
+
+}
+.calendar table td {
+  font-size: 16px;
+  /*font-size: 1rem;*/
+  font-weight: bold;
+  line-height: 1.4;
+  border-radius: 0.2rem;
+  transition: opacity 0.3s ease;
+}
+
+
+.calendar table td > span {
+  font-size: 16px;
+  /*font-size: 1rem;*/
+  font-weight: normal;
+  display: block;
+  width: 100%;
+}
+
+.hands-on {
+  background-color: #FFA726;
+}
+
+.lecture {
+  background-color: #9CCC65;
+}
+
+.discussion {
+  background-color: #FF8A65;
+}
+
+.demo {
+  background-color: #B3E5FC;
+}
+
+.other {
+  background-color: #26C6DA;
+}
