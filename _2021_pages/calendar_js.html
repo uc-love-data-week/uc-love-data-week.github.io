@@ -1,6 +1,6 @@
 ---
-layout: 2022_test
-permalink: /calendar_js
+layout: 2021_default
+permalink: /calendar
 title: Calendar
 published: true
 ---
@@ -14,13 +14,33 @@ published: true
         {%- endfor -%}
     {%- endcapture -%}
 
+    {%- capture days_info -%}
+        {%- for day in site.data.yml_2021.dates -%}
+             {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}%%
+        {%- endfor -%}
+    {%- endcapture -%}
+
+
     <script type="text/javascript">
         var day_start = 9;
         var day_end = 5;
-        var conference_days_text = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
-        var conference_days_abbv = ["m","t","w","h","f"]
         var block_duration = 30;
+        
+        let days_info = '{{days_info}}';
+            days_info = days_info.split('%%')
+            days_info = days_info.slice(0, days_info.length-1)
+        
+        var conference_days_text = new Array(days_info.length);
+        var conference_days_abbv = new Array(days_info.length);
+        var conference_days_date = new Array(days_info.length);
 
+        for (let i = 0; i < days_info.length; i++){
+            let day_info = days_info[i].split('&&');
+            conference_days_date[i] = day_info[0];
+            conference_days_text[i] = day_info[1];
+            conference_days_abbv[i] = day_info[2];
+        }
+        
         var times_array = new Array((5+12-9)*2);
             times_array[0] = day_start;
             for (let i = 1; i < times_array.length; i++){
@@ -85,7 +105,7 @@ published: true
                     let temp_dc = day_check*1-1
                     if (week_test[j][temp_dc] < maxCol[temp_dc]){
                         let temp = (maxCol[temp_dc]*1 -week_test[j][temp_dc]*1)
-                        times_tr[j] = times_tr[j] + ' <td colspan="'+temp +'" style="border-top: thin dotted #9a9a9c;"" > </td>';
+                        times_tr[j] = times_tr[j] + ' <td colspan="'+temp +'" style="border: thin dotted #9a9a9c;"" > </td>';
                     }
                 }
                 day_check++;
@@ -94,6 +114,14 @@ published: true
             
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                     week_test[k][dayIndex] = (week_test[k][dayIndex])+1;
+            }
+        }
+
+        for (let j = 0; j < week_test.length; j++){
+            let temp_dc = day_check-1
+            if (week_test[j][temp_dc] < maxCol[temp_dc]){
+                let temp = (maxCol[temp_dc]*1 -week_test[j][temp_dc]*1)
+                times_tr[j] = times_tr[j] + ' <td colspan="'+temp +'" style="border: thin dotted #9a9a9c;"" > </td>';
             }
         }
 
@@ -106,10 +134,10 @@ published: true
   <body class="calendar" >
   </colgroup>
     <thead><tr> 
-            <th scope="col">time</th>
+            <th scope="col">Time</th>
             <script>
                 for (let i = 0; i < conference_days_text.length; i++){
-                    document.write ('<th scope="col" colspan="'+ maxCol[i]+ '"">'+ conference_days_text[i]+'</th>')
+                    document.write ('<th style="text-align: center;  border-left: thin dotted #000;" scope="col" colspan="'+ maxCol[i]+ '"">'+ conference_days_text[i]+ '<br>' +conference_days_date[i]+ '</th>')
                 }
             </script>
 
