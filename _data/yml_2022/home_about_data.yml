@@ -1,0 +1,24 @@
+- inverted: 
+  img: icon-agenda.jpeg
+  name: Agenda
+  info: Check out the agenda
+  button: Learn more
+  link: /agenda
+  link-tar:
+
+- inverted: timeline-inverted
+  img: icon-team.jpeg
+  name: Speakers
+  info: Meet the workshop speakers
+  button: Learn more
+  link: /speakers
+  link-tar:
+
+- inverted: 
+  img: slack_hash_256.png
+  name: Slack
+  info: Have a Question? Join us on Slack
+  button: Join Us
+  link: https://uclovedataweek.slack.com/
+  link-tar: _blank
+

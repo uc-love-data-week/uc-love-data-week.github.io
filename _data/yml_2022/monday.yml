@@ -1,0 +1,14 @@
+- time: 11:00 AM - 12:00 PM
+  info: "<u>A Gentle and Friendly Introduction to APIs</u><br><b>Speakers: Tim Dennis (UCLA), Kat Koziar (UCR), Stephanie Labou (UCSD), Leigh Phan (UCLA)</b><br>Have you wanted to use APIs to gather data, but aren’t quite sure where to start? This is the workshop for you. During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples. We will also describe and share resources available to help you use them. We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem."
+
+- time: 12:00 PM - 12:30 PM
+  info: "<u>Hathi Trust Research Center demo</u><br><b>Colin Jemmott (UCSD)</b><br>SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
+
+- time: 1:00 PM - 2:00 PM
+  info: "<u>SQL in 60 minutes</u><br><b>UC San Diego (speakers from HTRC)</b><br>This session will introduce the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!"
+
+- time: 2:00 PM - 3:00 PM
+  info: "<u>Working with GIS Data</u><br><b>UC Riverside</b><br>A map in a GIS (geographic information system) may dazzle us with its visual appeal and complexity, but if the data it contains is out-of-date, offset, incomplete, or too generalized, how useful is it? In this workshop you’ll learn what to look out for while discovering and managing GIS data. Topics include key parameters of geospatial data, acquiring data, file formats, and including tabular data in a GIS."
+
+- time: 3:00 pm - 5:00 PM
+  info: "<u>Excelling with Excel: Best Practices for Keeping Your Data Tidy</u><br><b>UC Davis</b><br>Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project."

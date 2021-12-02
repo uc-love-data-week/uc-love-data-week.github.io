@@ -1,0 +1,649 @@
+# MONDAY
+
+- title: Publishing Data at Dryad
+  name: dryad
+  speaker-type: "Speakers"
+  speakers: [ 
+    {name: Wasila Dahdul, org: uci-lib}, 
+    {name: Daniella Lowenberg, org: cdl}
+  ]
+  img: Dryad_finals-01.png
+  thumbnail: Dryad_finals-01.png
+  alt: Picture of tree of items controlled on the internet
+  day: m
+  time:  9:00 - 10:00 am
+  start: 9.5
+  duration: 60
+  type:  demo
+  description: Dryad is an open data multidisciplinary publishing platform that allows UC researchers to archive and publish their data for free. Join the workshop to learn how to use Dryad to share research data for re-use and to meet publisher and funder data availability requirements. The workshop will also cover how to prepare data and documentation for archiving and to enable research reproducibility.
+  zoom: tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
+  registration-page:
+  url:  https://uci.zoom.us/meeting/register/tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
+  recording:  https://drive.google.com/file/d/1jLw1Wo8E73df3KiYvpePa9kC71xXxrJB/preview
+  slides: https://docs.google.com/presentation/d/11kRmEMvwqvMK0CqJuXUzMpsjHDX54gWb9ejxEx7d7x0/edit#slide=id.gb5cab6d681_0_5
+
+
+- title: A Gentle and Friendly Introduction to APIs
+  name: apis
+  speaker-type: "Speakers"
+  speakers: [ 
+    {name: Tim Dennis, org: ucla-dsc}, 
+    {name: Kat Koziar, org: ucr-lib}, 
+    {name: Stephanie Labou, org: ucsd-lib}, 
+    {name: Leigh Phan, org: ucla-lib} 
+  ]
+  img: apis.png
+  thumbnail: apis_thumb.png
+  alt: Picture of tree of items controlled on the internet
+  day: m
+  time:  11:00 am - Noon
+  start: 11
+  duration: 60
+  type:  lecture
+  description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
+  eventbrite: 132489617011
+  registration-page:
+  url: https://www.eventbrite.com/e/a-gentle-and-friendly-introduction-to-apis-tickets-132489617011
+  recording: https://www.youtube.com/embed/xwqyya85b_E
+  slides: https://docs.google.com/presentation/d/11MQF4XUQ7s_Km_CxCWVvfG9md0Ya8F8lW4vRkhB4oxM/
+
+- title:  Hathi Trust Research Center demo
+  name:   hathi
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Eleanor Dickson Koehl, org: hathi}
+  ]
+  img:  HTRC_logo.PNG
+  thumbnail:  HTRC_logo.PNG
+  alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
+  day:  m
+  time:   12:00 - 12:30 pm
+  start: 12
+  duration: 30
+  type:  demo
+  description:  This session will introduce the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!
+  eventbrite: 136320659763
+  url:  https://www.eventbrite.com/e/hathi-trust-research-center-demonstration-tickets-136320659763
+  temp:   multiple UCs have this
+  recording: https://www.youtube.com/embed/6zHq5H9suF4
+  slides:
+
+- title: SQL in 60 minutes
+  name: SQL
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Colin Jemmott, org: ucsd}
+  ]
+  img: sql-icon.png
+  thumbnail: sql-icon.png
+  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day: m
+  time: 1:00 - 2:00 pm
+  start: 1
+  duration: 60
+  type:  hands-on
+  description: "SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
+  eventbrite: 136314643769
+  zoom:
+  ical:
+  registration-page:
+  url: https://www.eventbrite.com/e/sql-in-60-minutes-tickets-136314643769
+  temp: 
+  recording:
+  slides:
+
+
+- title: Working with GIS Data
+  name: gis
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Janet Reyes, org: ucr-lib}
+  ]
+  img: gis.png
+  thumbnail: gis.png
+  alt: "stylized globe of the earth "
+  day: m
+  time: 2:00 - 3:00 pm
+  start: 2
+  duration: 60
+  type:  lecture
+  description: "A map in a GIS (geographic information system) may dazzle us with its visual appeal and complexity, but if the data it contains is out-of-date, offset, incomplete, or too generalized, how useful is it? <br><br>In this workshop you will learn what to look out for while discovering and managing GIS data. Topics include key parameters of geospatial data, acquiring data, file formats, and including tabular data in a GIS."
+  eventbrite: 132489937971
+  zoom: 
+  ical:
+  registration-page: 
+  url: https://www.eventbrite.com/e/working-with-gis-data-tickets-132489937971
+  temp:
+  recording: https://www.youtube.com/embed/RZE9Li1bQ7g
+  slides: https://osf.io/k654g/
+
+- title:  "Excelling with Excel: Best Practices for Keeping Your Data Tidy"
+  name:   excel
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Pamela Reynolds, org: ucd-dl},
+     {name: Victoria Farrar, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  m
+  time:   3:00 - 5:00 pm
+  start: 3
+  duration: 120
+  type:  hands-on
+  description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
+  temp:   DataLab; capped at 60 learners.
+  recording: https://www.youtube.com/embed/1E3FT94pTLA
+  slides: https://github.com/ucdavisdatalab/workshop_keeping_data_tidy/blob/main/docs/2021_workshop_tidy-data_slides.pdf
+  reader: https://ucdavisdatalab.github.io/workshop_keeping_data_tidy/#data-validation-in-excel
+
+  # TUESDAY
+
+- title:  "Introduction to Locating Secondary Data & Searching Data Repositories: Social Sciences Edition"
+  name:   datarepos
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Elizabeth Salmon, org: ucm-lib}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   9:00 - 10:00 am
+  start: 9
+  duration: 60
+  type:  lecture
+  description:  Access to research data is essential for reproducing pre-existing findings, facilitating collaboration, and developing new insights through secondary analysis. As a researcher, how do you locate data sets that are relevant to your research? This workshop will provide an introduction to the data repository landscape and strategies for navigating data sources to discover relevant and usable data with a focus on supporting research in the social sciences.
+  registration-page:  https://libcal.ucmerced.edu/calendar/library_events/secondary-data-feb-9
+  url:  
+  temp:
+  recording:
+  slides:
+
+- title:  "Geocoding Address Data: Approaches to Personally Identifiable Data"
+  name:   geocoding
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Michele Tobias, org: ucd-dl}
+  ]
+  img: gis.png
+  thumbnail: gis.png
+  alt: "stylized globe of the earth "
+  day:  t
+  time:   10:00 am - Noon
+  start: 10
+  duration: 120
+  type:  lecture
+  description:  Geocoding is the process of estimating a real-world location (typically we think of latitude & longitude) from a postal address. In this workshop, we’ll discuss the concepts needed to geocode data, understand options for working with personally identifiable data and non-identifiable data, and gain some hands-on experience with geocoding address data using QGIS, a GIS with a graphical user interface.
+  ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
+  temp:   "DataLab Research and Learning Cluster: Spatial Sciences and #maptimeDavis"
+  recording: https://www.youtube.com/embed/J3J1zADCBH0
+  slides:
+
+- title:  ProQuest TDM Studio demo
+  name:   proquest
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: John Dillon, org: proquest},
+     {name: Sara Randall, org: proquest}
+  ]
+  img:  PQTDM_logo.PNG
+  thumbnail:  PQTDM_logo.PNG
+  alt:  "ProQuest TDM Studio"
+  day:  t
+  time:   12:00 -12:30 pm
+  start: 12
+  duration: 30
+  type:  demo
+  description:  ProQuest’s TDM Studio is a text and data mining solution which opens up millions of newspaper articles, dissertations, and primary sources to text and data mining. It provides both Python and R interfaces alongside push-button data visualizations for research as well as teaching and learning. This presentation walk through a few TDM examples and possibilities.
+  eventbrite: 136320210419
+  url:  https://www.eventbrite.com/e/proquest-tdm-studio-demonstration-tickets-136320210419
+  temp:   think UCSD and UCB currently only UCs with access to this, but there's a big push at UCSD so we have to run with it
+  recording: https://www.youtube.com/embed/WZXx1jrOGRY
+  slides:
+
+- title:  Introduction to Digital Humanities and Humanities Data
+  name:   dh-intro
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Rachel Starry, org: ucr-lib}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   1:00 - 2:00 pm
+  start: 1
+  duration: 60
+  type:  lecture
+  description:  Interested in learning where to look for historical, cultural, or other kinds of humanities datasets? This workshop will share resources for discovering textual, visual, spatial, and social network data of use to students and scholars across humanities disciplines. We will also look at a variety of digital tools and methodologies that humanities researchers are using to computationally answer research questions and generate new ones. Whether you are new to Digital Humanities or have been engaged in digital research or teaching for years, join us to share your questions and connect with other UCR community members interested in DH.
+  eventbrite: 132490280997
+  url:  https://www.eventbrite.com/e/introduction-to-digital-humanities-and-humanities-data-tickets-132490280997?aff=
+  recording:
+  slides: https://docs.google.com/presentation/d/1vYqIOm0YLVvosmKTDMmTeEDijmbkRE6OIqD0bishPo0/
+
+- title: "Tidy Tuesday: clean up a data set"
+  name: tidy
+  speaker-type: "Host"
+  speakers: [ 
+     {name: Tim Dennis, org: ucla-dsc}
+  ]
+  img: tt_logo.png
+  thumbnail: tt_logo_thumb.png
+  alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
+  day: t
+  time: 2:00 - 3:00 pm
+  start: 2
+  duration: 60
+  type:  discussion
+  description: "A weekly data project aimed at the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
+  eventbrite:
+  zoom: 
+  ical: https://calendar.library.ucla.edu/event/ical?id=7328608
+  registration-page: https://calendar.library.ucla.edu/event/7328608
+  temp:
+  recording:
+  slides:
+
+- title:  Ethical considerations in data
+  name:   ethics
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Leigh Phan, org: ucla-lib},
+     {name: Ibraheem Ali, org: ucla-lib},
+     {name: Erin Foster, org: ucb-rdm},
+     {name: Stephanie Labou, org: ucsd-lib}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   3:00 - 4:00 pm
+  start: 3
+  duration: 60
+  type:  discussion
+  description:  In this one hour interactive workshop, data librarians from UCLA, UCB, and UCSD will host an open discussion around data ethics focusing on case studies of participant data privacy, algorithmic bias, and the social justice components of research. The discussion will also include an overview of related resources available at various UC campuses, including further reading available through the libraries and groups on campus conducting research in these areas.
+  registration-page:  https://calendar.library.ucla.edu/event/7413125
+  temp:
+  recording:  https://www.youtube.com/embed/FFemv_1ci7g
+  slides:
+
+# WEDNESDAY
+
+- title:  "Data &quot;Ownership&quot;: Rights and Responsibilities"
+  name:   dataownership
+  speaker-type: "Speaker"
+  speakers: [ 
+       {name: Michael Ladisch, org: ucd-lib}
+    ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   9:00 - 10:00 am
+  start: 9
+  duration: 60
+  type:  lecture
+  description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data, and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/data-ownership-rights-and-responsibilities/
+  temp:   DataLab/Library (Scholarly Communication). Cap of 45 registrants.
+  recording:
+  slides:
+
+- title: Data sharing 101
+  name: data-sharing
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Wasila Dahdul, org: uci-lib},
+     {name: Ho Jung Yoo, org: ucsd-lib},
+     {name: Derek Devnich, org: ucm-lib}
+  ]
+  img: ldw-circuit-color-506.png
+  thumbnail: ldw-circuit-color-506.png
+  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day: w
+  time: 10:00 - 11:00 am
+  start: 10
+  duration: 60
+  type:  lecture
+  description: "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data and documentation for sharing, and selecting an appropriate data repository. This workshop is part of UC Love Data Week, a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation. All members of the University of California community are welcome to attend."
+  eventbrite:
+  zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
+  registration-page:
+  url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
+  recording: https://drive.google.com/file/d/1GjXh1APnZQWThZ2NW5Xi5BoQfpV2mD2Z/preview
+  slides: https://docs.google.com/presentation/d/1-AWB8XLuJNuFzX78BFk9FjyVZBnsU1DfVL6AHV6OKQc/edit?usp=sharing 
+
+- title:  ICPSR presentation
+  name:   icpsr
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Anna Shelton, org: icpsr}
+  ]
+  img:  ICPSR_logo.PNG
+  thumbnail:  ICPSR_logo.PNG
+  alt:  "ICPSR Sharing data to advance science"
+  day:  w
+  time:   11:00 am - Noon
+  start: 11
+  duration: 60
+  type:  demo
+  description:  Do you need data for the gagillion papers you have to write this quarter? Or maybe you're going up for tenure and need to publish? How about teaching students to use data (but you don't have time to create that lesson plan, we're in a pandemic after all!) Don't worry, ICPSR has you covered. Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, there is something data here for you. 
+  url: https://www.eventbrite.com/e/icpsr-presentation-tickets-136319809219
+  eventbrite: 136319809219
+  recording:
+  slides:
+
+- title:  Gale Digital Scholar demo
+  name:   gale
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: Sarah Ketchley, org: gale}
+  ]
+  img:  Gale_DSL_logo.PNG
+  thumbnail:  Gale_DSL_logo.PNG
+  alt:  "Gale Digital Scholar Lab"
+  day:  w
+  time:   12:00 - 12:30 pm
+  start: 12
+  duration: 30
+  type:  demo
+  description:  This session will provide an overview of the main text mining features of the Gale Digital Scholar Lab, and provide examples of research output using platform tools for topic modeling, sentiment analysis and named entity recognition.  The import and export options provided flexibility and extensibility, and the demo will showcase use cases using integrated Gale Primary Source archives, and the researcher’s own uploaded datasets.
+  eventbrite: 136320567487
+  url:  https://www.eventbrite.com/e/gale-digital-scholar-demonstration-tickets-136320567487
+  temp:   think 7 UCs have access to this?
+  recording: https://www.youtube.com/embed/d1UaTTYhzVw
+  slides:
+
+- title:  Data science student lightning talks
+  name:   lightning
+  speaker-type: "Moderator"
+  speakers: [ 
+     {name: Stephanie Labou, org: ucsd-lib}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   1:00 - 2:00 PM
+  start: 1
+  duration: 60
+  type:  other
+  description:  Personal projects are a common way for data science students to gain experience and build up a project portfolio. Unlike projects for a course or capstone sequence, personal projects are entirely self-directed by students and can be on any topic - and topics can get quite creative! Join us for an hour of lightning talks from UC students as they share their data science focused personal projects, focusing on data access, data cleaning, and any data privacy concerns. 
+  eventbrite: 136319217449
+  url:  https://www.eventbrite.com/e/data-science-students-lightning-talks-tickets-136319217449
+  temp:   An hour of 5 minute lightning talks from UC students working on personal data science projects
+  recording: https://www.youtube.com/embed/lQwy-pVuMlE
+  slides:
+
+- title:  Discovery and Evaluation of Social Science Data Sources
+  name:   datasources
+  speaker-type: "Speaker"
+  speakers: [ 
+     {name: David Michalski, org: ucd-lib}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   2:00 - 3:00 pm
+  start: 2
+  duration: 60
+  type:  lecture
+  description:    Governments, non-governmental organizations, and social scientists have amassed vast collections of data about the social world. Learn how to discover, evaluate, and access sources available for new analyses and visualizations.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/discovery-and-evaluation-of-social-science-data-sources/
+  temp:   Co-hosted by DataLab and UC Davis Library
+  recording:
+  slides: https://docs.google.com/presentation/d/17uks6NcY-5kJWYKl0sd5pITd4caZp4vSes7HjwFiCWk/edit
+
+- title:  Cybersecurity for Graduate Students in Research
+  name:   cybersecurity
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Allison Henry, org: ucb-iso},
+     {name: James Duncan, org: ucb-rit},
+     {name: Erin Hancock, org: ucb-iso}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:    2:00 - 3:00 pm
+  start: 2
+  duration: 60
+  type:  lecture
+  description:  In this session for Love Data Week 2021, UC Berkeley’s Chief Information Security Officer and Research IT staff will talk about current trends in cybersecurity and campus resources to support graduate students and researchers at large. Members of the Berkeley Information Security Office will also discuss best practices for securing devices to keep your information safe.
+  zoom: tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
+  url:  https://berkeley.zoom.us/meeting/register/tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
+  temp:
+  recording:  https://www.youtube.com/embed/1R5CpRBnJVg
+  slides:
+
+- title:  Introduction to Command Line
+  name:   cli
+  speaker-type: "Speakers"
+  speakers: [  
+     {name: Tyler Shoemaker, org: ucd-dl},
+     {name: Carl Stahmer, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   3:00 - 5:00 pm
+  start: 3
+  duration: 120
+  type:  hands-on
+  description:  Learn and practice how to talk directly to your computer via command line. The shell is a very powerful tool for using scientific software and working with large data sets. It is primarily used to manage files and run programs, and it allows for automation of repetitive tasks. No prior coding experience is necessary. This workshop is a prerequisite for DataLab’s workshops on Introduction to Version Control with Git and Reproducible Research for Teams with GitHub. 
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-command-line/
+  temp:   DataLab; capped at 60 learners.
+  recording: https://www.youtube.com/embed/olkb9kihgO0
+  slides:
+  reader: https://ucdavisdatalab.github.io/workshop_introduction_to_the_command_line/
+
+# THURSDAY
+
+- title:  Basic Statistics in R (part 1)
+  name:   r
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Wesley Brooks, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  h
+  time:   10:00 am - Noon
+  start: 10
+  duration: 120
+  type:  hands-on
+  description:  This 2-part workshop explores basic, practical applied statistics using the R statistical programming language. On the first day we’ll focus on common procedures like assessing the distribution of your data and calculating differences between groups. In the second day we’ll focus on common linear models (linear regression, ANOVA, etc.) in R. We will also calculate the power of a simple study. This workshop is appropriate for learners with various data types, but will most emphasize continuous numerical data. Prior experience with R and RStudio required.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-statistics-in-r-part-1/
+  temp:   DataLab; capped at 60 learners.
+  recording: https://www.youtube.com/embed/fit-KI4DdkQ
+  slides:
+  reader: https://ucdavisdatalab.github.io/basic_stats_r_1/#probability-distributions-quantiles-and-densities
+
+- title:  "Hacky Hours: Drop in and talk about code"
+  name:   hackyHours
+  speaker-type: "Host"
+  speakers: [ 
+     {name: Kat Koziar, org: ucr-lib}
+  ]
+  img:  hackyhours.jfif
+  thumbnail:  hackyhours-thumb.jpg
+  alt:  "Text, The Carpentries Hacky Hours Drop-in Sessions; overlaying random code."
+  day:  h
+  time:   11:00 am - 1:00 pm
+  start: 11
+  duration: 120
+  type:  discussion
+  description:  Take your computer coding to the next level. Whether you are a novice interested in learning to code or an experienced programmer comfortable with many languages and platforms, this is the place for you to learn from and share with others. Come talk with us about a variety of coding languages and topics, data management, data cleaning, data visualization, and data science methodologies. 
+  eventbrite: 132492232835
+  url:  https://www.eventbrite.com/e/hacky-hours-drop-in-and-talk-about-code-tickets-132492232835
+  recording:
+  slides:
+  
+- title:  Getting started with LastPass/Veracrypt
+  name:   LastPass
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Amy Neeser, org: ucb-rit},
+     {name: Rick Jaffe, org: ucb-rit},
+     {name: Carlos Ortega, org: ucb-datapeer},
+     {name: Allison Henry, org: ucb-iso},
+     {name: Summer Scanlan, org: ucb-iso}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  h
+  time:   1:00 - 2:00 PM
+  start: 1
+  duration: 60
+  type:  lecture
+  description:  Join members of UC Berkeley Information Security Office and Research IT in this one-hour session to learn more about password managers, specifically LastPass Premium, and free tools to use in encrypting your devices.
+  zoom: tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
+  url:  https://berkeley.zoom.us/meeting/register/tJMvdOquqjktHtXwBK5XwTOhnJaccbIiuE1n 
+  recording:  https://www.youtube.com/embed/sf42kxX8ikU
+  slides:
+  reader:
+
+- title:  New NIH Policy for Data Management and Sharing - Get the Scoop!
+  name:   nih
+  speaker-type: "Speakers"
+  speakers: [  
+     {name: Maria Praetzellis, org: cdl},
+     {name: Ariel Deardorff, org: ucsf-lib}
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  h
+  time:   2:00 - 3:00 pm
+  start: 2
+  duration: 60
+  type:  lecture
+  description:  In late 2020 the NIH announced their new Policy for Data Management and Sharing. Starting in 2023, this policy will require all NIH researchers to prospectively plan for how their scientific data will be preserved and shared through submission of a Data Management and Sharing Plan. While they might not be required by the NIH for two years, we encourage researchers to start writing data management plans now as they are a useful tool for planning and tracking research data.This session will give an overview of data management plans (DMPs), dive deep into the new NIH requirements, and share local resources and tools like DMPTool.
+  eventbrite:
+  zoom:
+  registration-page: https://calendars.library.ucsf.edu/event/7469386
+  url:
+  recording: https://courses.ucsf.edu/course/view.php?id=8435 
+  slides:
+
+- title:  Harvesting Twitter data with twarc and best practices for social media research
+  name:   twitter
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Torin White, org: ucsb-lib},
+     {name: Jon Jablonski, org: ucsb-lib}
+       ]
+  img:  ucsb_twarc.png
+  thumbnail:  ucsb_twarc-thumb.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  h
+  time:   3:00 - 4:30 pm
+  start: 3
+  duration: 90
+  type:  hands-on
+  description:  twarc is a command line tool and Python library for gathering and working with Twitter JSON data via the public Twitter API. Emerging from the Black Lives Matter and Document the Now movements, twarc comes along with a loose set of community standards that respect the autonomy of the user and aligns with the EU's GDPR and Twitter's terms of service.  As part of supporting social media research, the UCSB Library Collaboratory will get you started with what you need to use twarc and present current ethical best practices that we use to orient researchers to social media research. 
+  eventbrite: 136354021549
+  url:    https://www.eventbrite.com/e/harvest-twitter-data-with-twarc-best-practices-for-social-media-research-tickets-136354021549
+  recording:
+  slides:
+  reader:  
+
+#FRIDAY
+
+- title:  Intro to Text Mining and NLP for Health Data
+  name:   nlp-health
+  speaker-type: "Speakers"
+  speakers: [  
+     {name: Wesley Brooks, org: ucd-dl},
+     {name: Arthur Koehl, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  f
+  time:   10:00 am - Noon
+  start: 10
+  duration: 120
+  type:  hands-on
+  description:  This workshop covers an introduction to natural language processing (NLP) and caveats for its application to health data. Using the R programming language we will introduce the basics of text processing and demo how to calculate common metrics including word frequencies, term frequency-inverse document frequency (TFIDF), and principal component analysis (PCA) to explore important words and group similar documents. We will also introduce more advanced NLP topics (sentiment analysis, topic modeling, etc.) and discuss classical versus deep learning approaches, as time permits. Learners with proficient R skills are encouraged to code along.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-text-mining-and-nlp-for-health-data/
+  temp:   DataLab Research and Learning Cluster for Health Data Science and Systems. RLC members have priority registration. Capped at 60 learners.
+  recording: https://www.youtube.com/embed/wFj44ehGpk0
+  slides:
+  reader: https://ucdavisdatalab.github.io/workshop-nlp-healthcare/
+
+- title:  Web Scraping in R
+  name:   webscraping-ucm
+  speaker-type: "Speakers"
+  speakers: [  
+     {name: Derek Sollberger, org: ucm-lib}
+  ]
+  img:  using-data-workshop.png
+  thumbnail:  using-data-workshop.png
+  alt:  "Using Data Workshop image: Using Data Workshop in front of a purple and orange background"
+  day:  f
+  time:   10:00 am - Noon
+  start: 10
+  duration: 120
+  type:  hands-on
+  description:  This workshop will teach you how to gather information from websites using tools available in the R programmming language. You'll learn how scrape data from web tables using the rvest package, and how to track the social media trends captured in Twitter hashtags using the rtweet package. The workshop is geared towards intermediate R users, but we welcome a wide audience to join us and observe the demonstrations.
+  registration-page:  https://libcal.ucmerced.edu/event/7509065
+  temp:   Capped at 50 seats.
+  recording:
+  slides:
+  reader:  
+
+- title:  Web scraping Using XPath and Chrome Extension
+  name:   webscraping-ucsb
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Greg Janée, org: ucsb-lib},
+     {name: Renata Curty, org: ucsb-lib}
+       ]
+  img:  ucsb_webscrape.png
+  thumbnail:  ucsb_webscrape.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  f
+  time:   12:00 - 1:00pm
+  start: 12
+  duration: 60
+  type:  hands-on
+  description:  Have you ever wanted to harvest data off a website that was not already in an analysis-friendly format? If so, this web scraping workshop is for you! Web scraping can be done entirely manually but it is usually faster, more efficient and less error-prone if automated. UCSB Research Data Services will navigate you through some basic web scraping techniques including how to use XPath and the Chrome web browser with the Scraper extension to extract data from the web with little technical knowlege.  We will also discuss the ethical issues of web scraping.
+  eventbrite: 136362665403
+  url:  https://www.eventbrite.com/e/web-scraping-using-xpath-and-chrome-extension-tickets-136362665403
+  recording:
+  slides:
+  reader:  
+
+- title:  Critical Approach to Data Visualization
+  name:   dataviz
+  speaker-type: "Speakers"
+  speakers: [  
+     {name: Lindsay Poirier, org: ucd-dl},
+     {name: Emily Merchant, org: ucd-dl},
+     {name: Pamela Reynolds, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  f
+  time:   1:00 - 3:00 pm
+  start: 1
+  duration: 120
+  type:  lecture
+  description:  This workshop will unpack the subjective process of data visualization and its relationship to concepts of diversity, equity and inclusion. We'll critically explore how data can be used to uphold and perpetuate, or quantify and demonstrate structural oppression. Through this workshop learners will practice the technique of "data visceralization," the process of experiencing differences in data and understanding them viscerally. This workshop is led by UC Davis DataLab's Data Feminism research and learning cluster, which focuses on thinking about data science and data ethics as informed by the ideas of intersectional feminism. Explore our Data Feminism reading list and activities, here.
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/critical-approach-to-data-visualization/
+  url:  
+  temp:   "DataLab Research and Learning Cluster: Data Feminism; capped at 45 learners."
+  recording:
+  slides:
+  reader: https://ucdavisdatalab.github.io/workshop_critical_data_viz/
