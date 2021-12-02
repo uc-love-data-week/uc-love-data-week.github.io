@@ -110,7 +110,8 @@ published: true
                 }
                 day_check++;
             } 
-            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+ workshop_day[i] +', ' + workshop_time[i] + '</span></td>';
+            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span> recording ,  slides </span></td>';
+//            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+ workshop_day[i] +', ' + workshop_time[i] + '</span></td>';
             
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                     week_test[k][dayIndex] = (week_test[k][dayIndex])+1;
