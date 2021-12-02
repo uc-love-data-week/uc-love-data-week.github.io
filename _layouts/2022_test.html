@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 
+  <style type="text/css">
+    /*INCLUDE MAIN CSS FILE*/
+    {% capture criticalcss %}
+      {% include /2016_css/critical.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
+  
+  {% include /2016_data/js.html %}
+  {% include /2021_data/head.html %}
 
   <body>
     {% include /2021_data/header.html %}

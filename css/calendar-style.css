@@ -6,12 +6,17 @@
   min-height: 100vh;
   padding: 4rem 0;
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 .calendar table{
-  width: 100%;
-  max-width: 100rem;
+  width: 150%;
+  max-width: 150rem;
   font-size: 16px;
+}
+
+.outlined {
+  border: 1px solid blue;
 }
 
 .calendar table thead  th {
@@ -23,6 +28,9 @@
   padding: 1rem 1rem;
   font-weight: bold;
   line-height: 1.4;
+  border-spacing: 2em 0;
+
+
 }
 
 
@@ -37,7 +45,8 @@ table td {
 }
 .calendar table th, table td{
   font-weight: normal;
-  border-top: thin dotted #ccc;
+  border-top: thin dotted #9a9a9c;
+
 
 }
 .calendar table td {
@@ -47,6 +56,8 @@ table td {
   line-height: 1.4;
   border-radius: 0.2rem;
   transition: opacity 0.3s ease;
+  margin: 5px;
+
 }
 
 
@@ -55,7 +66,8 @@ table td {
   /*font-size: 1rem;*/
   font-weight: normal;
   display: block;
-  width: 100%;
+  width: 90%;
+  margin: 5px;
 }
 
 .hands-on {

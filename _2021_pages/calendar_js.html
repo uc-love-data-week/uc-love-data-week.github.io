@@ -4,8 +4,6 @@ permalink: /calendar_js
 title: Calendar
 published: true
 ---
-<head><link rel="stylesheet" href="{{ "../css/calendar-style.css" | prepend: site.baseurl }}">
-    </head>
     <!--background color-->
     <script type="text/javascript">
         document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
@@ -87,12 +85,12 @@ published: true
                     let temp_dc = day_check*1-1
                     if (week_test[j][temp_dc] < maxCol[temp_dc]){
                         let temp = (maxCol[temp_dc]*1 -week_test[j][temp_dc]*1)
-                        times_tr[j] = times_tr[j] + ' <td colspan="'+temp +'" > </td>';
+                        times_tr[j] = times_tr[j] + ' <td colspan="'+temp +'" style="border-top: thin dotted #9a9a9c;"" > </td>';
                     }
                 }
                 day_check++;
             } 
-            times_tr[timeIndex] = times_tr[timeIndex] + ' <td colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+ workshop_day[i] +', ' + workshop_time[i] + '</span></td>';
+            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+ workshop_day[i] +', ' + workshop_time[i] + '</span></td>';
             
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                     week_test[k][dayIndex] = (week_test[k][dayIndex])+1;
@@ -102,10 +100,11 @@ published: true
     </script>
 
 
-    <div  class="event black-frame" <!-- -->
+    <div  class="event calendar-frame" <!-- -->
       <h1>{{ page.title }}</h1>
 <table class="calendar">
   <body class="calendar" >
+  </colgroup>
     <thead><tr> 
             <th scope="col">time</th>
             <script>
