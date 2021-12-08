@@ -1,6 +1,6 @@
 ---
 layout: 2021_default
-permalink: /calendar
+permalink: /2021/calendar
 title: Calendar
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
     </script>
     {%- capture workshop_info -%}
         {%- for workshop in site.data.yml_2021.workshops -%}
-             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}%%
+             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
@@ -59,7 +59,10 @@ published: true
         let workshop_duration = new Array(workshop_info.length);
         let workshop_start = new Array(workshop_info.length);
         let workshop_type = new Array(workshop_info.length);
-        
+        let workshop_recording = new Array(workshop_info.length);
+        let workshop_slides = new Array(workshop_info.length);
+        let workshop_reader = new Array(workshop_info.length);
+                
         for (let i = 0; i < workshop_info.length; i++){
             let wk_info = workshop_info[i].split('&&');
             workshop_title[i] = wk_info[0];
@@ -68,6 +71,9 @@ published: true
             workshop_start[i] = wk_info[3];
             workshop_duration[i] = wk_info[4];
             workshop_type[i] = wk_info[5];
+            workshop_recording[i] = wk_info[6];
+            workshop_slides[i] = wk_info[7];
+            workshop_reader[i] = wk_info[8];
         }
         
         var week = new Array((5+12-9)*2);
@@ -110,7 +116,20 @@ published: true
                 }
                 day_check++;
             } 
-            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span> recording ,  slides </span></td>';
+            let recording = ''
+            if(workshop_recording[i]!=""){
+                recording = '<a href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
+            }
+            let slides = ''
+            if(workshop_slides[i]!=""){
+                slides = '<a href="' + workshop_slides[i] + '" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( '+workshop_slides[i]+' ); return false;">Slides</a>'
+            }
+            let reader = ''
+            if(workshop_reader[i]!=""){
+                reader = '<a href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
+            }
+            
+            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';
 //            times_tr[timeIndex] = times_tr[timeIndex] + ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+ workshop_day[i] +', ' + workshop_time[i] + '</span></td>';
             
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
