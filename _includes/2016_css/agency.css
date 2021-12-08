@@ -305,7 +305,7 @@ fieldset[disabled] .btn-xl.active {
     color: #000;
     background-color: #{{ site.data.template.color.primary }};
 }
-
+/**/
 @media(min-width:768px) {
     .navbar-default-color {
         padding: 25px 0;
@@ -336,7 +336,34 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}
+}/**/
+/*
+@media (min-width: 992px){
+  .dropdown-menu .dropdown-toggle:after {
+    border-top: .3em solid transparent;
+    border-right: 0;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid;
+  }
+  .dropdown-menu .dropdown-menu{
+    margin-left:0; margin-right: 0;
+  }
+  .dropdown-menu li{
+    position: relative;
+  }
+  .nav-item .submenu{ 
+    display: none;
+    position: absolute;
+    left:100%; top:-7px;
+  }
+  .nav-item .submenu-left{ 
+    right:100%; left:auto;
+  }
+  .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+  .dropdown-menu > li:hover > .submenu{
+    display: block;
+  }
+}*/
 
 header {
     height: 100vh;
@@ -948,44 +975,14 @@ body {
 }
 
 
-/* Dropdown Button */
-.dropbtn {
-  background-color: #373737;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #515151;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+    border-color: #000000 /* {{ site.data.template.color.primary }};*/
+    color: #fff;
+    background-color: #000000 /*//{{ site.data.template.color.primary }};*/
+ }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #373737;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #515151;}
