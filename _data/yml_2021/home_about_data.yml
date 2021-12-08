@@ -3,7 +3,7 @@
   name: Agenda
   info: Check out the agenda
   button: Learn more
-  link: /agenda
+  link: /2021/agenda
   link-tar:
 
 - inverted: timeline-inverted
@@ -11,7 +11,7 @@
   name: Speakers
   info: Meet the workshop speakers
   button: Learn more
-  link: /speakers
+  link: /2021/speakers
   link-tar:
 
 - inverted: 
