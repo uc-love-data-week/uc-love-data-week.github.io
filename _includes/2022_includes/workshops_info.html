@@ -1,5 +1,5 @@
  <!-- Portfolio Modals -->
- {% for post in site.data.yml_2021.workshops %}
+ {% for post in site.data.yml_2022.workshops %}
     <div class="portfolio-modal modal fade" id="{{ post.name }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -13,7 +13,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            {% for day in site.data.yml_2021.dates %}
+                            {% for day in site.data.yml_2022.dates %}
                                 {% if post.day == day.day-abbv %}
                                 <p>{{day.day-full }}, {{ day.date }}. {{ post.time }}</p>
                                 {% endif %}
@@ -23,7 +23,7 @@
                             {% if post.speakers[0].name != "none" %}
                                 <p>{{ post.speaker-type }}: {% for speaker in post.speakers %}
                                 {{- speaker.name -}}
-                                {% for campus in site.data.yml_2021.campuses %}
+                                {% for campus in site.data.yml_2022.campuses %}
                                     {% if speaker.org == campus.abbv %}
                                         ({{campus.name}})
                                     {% endif %}
