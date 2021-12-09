@@ -30,10 +30,6 @@
   name: Renata Curty
   email: rcurty&lt;at&gt;ucsb.edu
 
-- campus: UC Santa Barbara
-  name: Torin White
-  email: whitet&lt;at&gt;ucsb.edu
-
 - campus: UC San Diego
   name: Stephanie Labou
   email: slabou&lt;at&gt;ucsd.edu
@@ -41,6 +37,10 @@
 - campus: UC San Francisco
   name: Ariel Deardorff
   email: ariel.deardorff&lt;at&gt;ucsf.edu
+
+- campus: UC Ag & Natural Resources
+  name: Andy Lyons
+  email: andlyons&lt;at&gt;ucanr.edu
 
 - campus: California Digital Library
   name: Daniella Lowenberg

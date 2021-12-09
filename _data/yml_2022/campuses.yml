@@ -141,3 +141,11 @@
   alt: UC Davis Library
   url: https://www.library.ucdavis.edu/
   p-campus: n
+
+- name: UC ANR
+  abbv: uc-anr
+  image: ../assets/img/campuses/uc-anr.png
+  alt: UC Agriculture and Natural Resources
+  url: https://ucanr.edu/
+  p-campus: y  # p-campus: will it show on front page logo for particpating campus
+
