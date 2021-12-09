@@ -981,9 +981,9 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
-    border-color: #000000 /* #424242; /* {{ site.data.template.color.primary }};*/
-    border-width: 1px;
+    border-color: #000000 /* #424242;  {{ site.data.template.color.primary }};*/
+/*    border-width: 1px;*/
     color: #fff;
-    background-color: #000000 /* actual header color #222222 /*//{{ site.data.template.color.primary }};*/
+    background-color: #000000 /* actual header color #222222 //{{ site.data.template.color.primary }};*/
  }
 
