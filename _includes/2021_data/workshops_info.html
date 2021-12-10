@@ -15,7 +15,7 @@
                             <h2>{{ post.title }}</h2>
                             {% for day in site.data.yml_2021.dates %}
                                 {% if post.day == day.day-abbv %}
-                                <p>{{day.day-full }}, {{ day.date }}. {{ post.time }}</p>
+                                <p>{{day.day-full }}, {{ day.date }}. {{ post.time }} | <a href="{{ site.base.url }}/2021/calendar">Calendar</a></p>
                                 {% endif %}
                             {% endfor %}
                             <hr class="star-primary">
