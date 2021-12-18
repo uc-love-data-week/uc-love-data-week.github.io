@@ -175,4 +175,16 @@ published: true
 
 </body>
 </table>
+<br>
+      <div style="display:inline-block; background-color: #d3d3d3; padding:5px; margin:5px; overflow-x: hidden; width:auto; border-radius: 10px 10px 10px 10px;">
+        <table class="calendar" style="width: auto; border: 1px dashed lightgrey; border-radius: 10px 10px 10px 10px;">
+            <tr><td>Workshop legend:</td>
+                {%- for legend in site.data.yml_2021.workshop_type -%}
+                     <td style="border: 1px solid #d3d3d3; border-radius: 10px 10px 10px 10px; border-spacing: 1;  text-align: center;" class='{{legend.type}}'>{{legend.type_description_short}}</td>
+                {%- endfor -%}      
+            </tr>
+
+        </table>
+    </div>
+
     </div>
