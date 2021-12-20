@@ -20,7 +20,8 @@
 }
 
 .calendar table thead  th {
-  background-color: #3f87a6;
+  background-color: #005581;/*1295d8;*/
+  color: white;
   align-items: center;
   justify-content: center;
 /*  flex-direction: column;/**/
@@ -29,7 +30,8 @@
   font-weight: bold;
   line-height: 1.4;
   border-spacing: 2em 0;
-
+-webkit-text-stroke-width: 0.2px;
+-webkit-text-stroke-color: black;
 
 }
 
@@ -71,21 +73,21 @@ table td {
 }
 
 .hands-on {
-  background-color: #FFA726;
+  background-color: #ff8f28;
 }
 
 .lecture {
-  background-color: #9CCC65;
+  background-color: #ffe552;
 }
 
 .discussion {
-  background-color: #FF8A65;
+  background-color: #1295d8;
 }
 
 .demo {
-  background-color: #B3E5FC;
+  background-color: #00a3ad;
 }
 
 .other {
-  background-color: #26C6DA;
+  background-color: #72cdf4;
 }
