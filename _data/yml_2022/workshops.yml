@@ -1,165 +1,164 @@
-# MONDAY
+MONDAY
 
 - title: "Beyond Basics in R"
-  name: dryad
+  name: beyondbasics
   speaker-type: "Speakers"
-  speakers: [ 
-    {name: Wasila Dahdul, org: uci-lib}, 
-    {name: Daniella Lowenberg, org: cdl}
+  speakers: [
+    {name: Nick Ulle, org: ucd-dl},
+    {name: Duncan Temple Lang, org: ucd-dl}
   ]
-  img: Dryad_finals-01.png
-  thumbnail: Dryad_finals-01.png
-  alt: Picture of tree of items controlled on the internet
-  day: m
-  time:  9:00 - 10:00 am
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day: m, w, f
+  time:  9:30 - 11:30 am
   start: 9.5
-  duration: 60
-  type:  demo
-  description: Dryad is an open data multidisciplinary publishing platform that allows UC researchers to archive and publish their data for free. Join the workshop to learn how to use Dryad to share research data for re-use and to meet publisher and funder data availability requirements. The workshop will also cover how to prepare data and documentation for archiving and to enable research reproducibility.
-  zoom: tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
-  registration-page:
-  url:  https://uci.zoom.us/meeting/register/tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
-  recording:  https://drive.google.com/file/d/1jLw1Wo8E73df3KiYvpePa9kC71xXxrJB/preview
-  slides: https://docs.google.com/presentation/d/11kRmEMvwqvMK0CqJuXUzMpsjHDX54gWb9ejxEx7d7x0/edit#slide=id.gb5cab6d681_0_5
+  duration: 90
+  type:  hands-on
+  description: "This 5-part workshop series aims to help learners understand the relatively small but fundamental computational model underlying the R language. This will help you reason about code before you write and run it, and to debug it if it doesn’t do what you want. A sound understanding of this computational model makes programming in R much easier and more productive! This workshop series is intended for active engagement – be prepared to come to each session with questions about why some things worked, and others didn’t. All researchers (students, postdocs, faculty and staff) who meet the ‘prerequisites’ are welcome to register for this workshop series, which is being offered in person at the UC Davis DataLab, and will be broadcast as part of UC Love Data Week. An optional final 5th session will be offered entirely remotely for additional Q&A by all audiences. Learners who can attend all sessions will receive priority registration for the limited in person seats. Broadcast participants still need to register to receive the Zoom link."
+  zoom:
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/beyond-basics-r-fundamentals-series-5-sessions/
+  url:
+  recording:
+  slides:
 
-
-- title: "ICPSR Demo"
-  name: apis
+- title: "ICPSR - Your Source for Data"
+  name: ICPSR
   speaker-type: "Speakers"
-  speakers: [ 
-    {name: Tim Dennis, org: ucla-dsc}, 
-    {name: Kat Koziar, org: ucr-lib}, 
-    {name: Stephanie Labou, org: ucsd-lib}, 
-    {name: Leigh Phan, org: ucla-lib} 
+  speakers: [
+    {name: Stephanie Labou, org: ucsd-lib},
+    {name: Annalee Shelton, org: icpsr},
   ]
-  img: apis.png
-  thumbnail: apis_thumb.png
-  alt: Picture of tree of items controlled on the internet
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day: m
   time:  11:00 am - Noon
   start: 11
   duration: 60
-  type:  lecture
-  description: Have you wanted to use APIs to gather data, but aren’t quite sure where to start?  This is the workshop for you.  During this 60 minute workshop, we will cover the basic functionality and terminology of APIs while walking through three examples.  We will also describe and share resources available to help you use them.  We will demonstrate that APIs are not as big, scary, and inaccessible as they might originally seem.
-  eventbrite: 132489617011
-  registration-page:
-  url: https://www.eventbrite.com/e/a-gentle-and-friendly-introduction-to-apis-tickets-132489617011
-  recording: https://www.youtube.com/embed/xwqyya85b_E
-  slides: https://docs.google.com/presentation/d/11MQF4XUQ7s_Km_CxCWVvfG9md0Ya8F8lW4vRkhB4oxM/
-
-- title:  "Getting Started with Text Data in Python"
-  name:   hathi
-  speaker-type: "Speaker"
-  speakers: [ 
-     {name: Eleanor Dickson Koehl, org: hathi}
-  ]
-  img:  HTRC_logo.PNG
-  thumbnail:  HTRC_logo.PNG
-  alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
-  day:  m
-  time:   12:00 - 12:30 pm
-  start: 12
-  duration: 30
   type:  demo
-  description:  This session will introduce the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!
-  eventbrite: 136320659763
-  url:  https://www.eventbrite.com/e/hathi-trust-research-center-demonstration-tickets-136320659763
-  temp:   multiple UCs have this
-  recording: https://www.youtube.com/embed/6zHq5H9suF4
-  slides:
-
-- title: "Getting Started with Network Data using Gephi"
-  name: SQL
-  speaker-type: "Speaker"
-  speakers: [ 
-     {name: Colin Jemmott, org: ucsd}
-  ]
-  img: sql-icon.png
-  thumbnail: sql-icon.png
-  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day: m
-  time: 1:00 - 2:00 pm
-  start: 1
-  duration: 60
-  type:  hands-on
-  description: "SQL is the most common way to select data or answer questions with databases. It is also straightforward enough that you can learn enough to start doing basic analysis in only an hour! No programming experience is necessary, but you will need access to a keyboard and microphone for this interactive session."
-  eventbrite: 136314643769
-  zoom:
-  ical:
-  registration-page:
-  url: https://www.eventbrite.com/e/sql-in-60-minutes-tickets-136314643769
-  temp: 
+  description: "Students, do you need data for papers you have to write this quarter? Faculty, are you teaching students to use data but don't have time to create that lesson plan? ICPSR has you covered! Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, ICPSR has the data you need."
+  registration-page: https://ucldw22_sd_icpsr.eventbrite.com
+  url:
   recording:
   slides:
 
+- title:  "Getting Started with Text Data in Python"
+  name:   python
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Tyler Shoemaker, org: ucd-dl},
+     {name: Carl Stahmer, org: ucd-dl},
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  m,w,f
+  time:   12:00 - 2:00 pm
+  start: 12
+  duration: 120
+  type:  hands-on
+  description:  "This three-part workshop series covers the basics of text mining with Python. We will focus primarily on unstructured text data, discussing how to format and clean text to enable the discovery of significant patterns in collections of documents. Sessions will introduce participants to core terminology in text mining/natural language processing and will walk through different methods of ranking terms and documents. We will conclude by using these methods to classify texts and to build models of "topics." Basic familiarity with Python is required. We welcome students, postdocs, faculty, and staff from a variety of research domains, ranging from health informatics to the humanities. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
+  eventbrite: 
+  url:  https://datalab.ucdavis.edu/eventscalendar/getting-started-with-textual-data-in-python-3-part-series/
+  temp:   
+  recording: 
+  slides:
+
+- title: "Getting Started with Network Data using Gephi"
+  name: Gephi
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Rachel Starry, org: ucr-lib}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day: m
+  time: 2:00 - 4:00 pm
+  start: 2
+  duration: 120
+  type:  hands-on
+  description: ""Network analysis is a common research method in many disciplines, used to study social or historical networks as well as the spread of disease, complex species interaction, logistics networks, and more. This workshop introduces the basics of working with network graphs and visualizing network data. After covering some essential vocabulary and concepts, we will use Gephi, a free and open-source network visualization tool, to analyze and visualize some example networks."
+  eventbrite:
+  zoom:
+  ical:
+  registration-page: https://www.eventbrite.com/myevent?eid=215461851197
+  url: 
+  temp:
+  recording:
+  slides:
 
 - title: "3D Data and Visualization"
-  name: gis
+  name: 3d
   speaker-type: "Speaker"
-  speakers: [ 
-     {name: Janet Reyes, org: ucr-lib}
+  speakers: [
+     {name: Scott McAvoy, org: ucsd-lib},
+     {name: Doug Daniels, org: ucla-dsc},     
   ]
-  img: gis.png
-  thumbnail: gis.png
-  alt: "stylized globe of the earth "
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day: m
   time: 2:00 - 3:00 pm
   start: 2
   duration: 60
-  type:  lecture
-  description: "A map in a GIS (geographic information system) may dazzle us with its visual appeal and complexity, but if the data it contains is out-of-date, offset, incomplete, or too generalized, how useful is it? <br><br>In this workshop you will learn what to look out for while discovering and managing GIS data. Topics include key parameters of geospatial data, acquiring data, file formats, and including tabular data in a GIS."
-  eventbrite: 132489937971
-  zoom: 
+  type:  demo
+  description: "High resolution 3D sensor data (including lidar sonar and photogrammetric models) are becoming commonplace. We can walk out into the world with an iphone and capture multi billion point sub milimeter detail models of huge structures. Almost every academic discipline now incorporates some form of 3D data. In this presentation we will demonstrate new methods which allow us to access and utilize these unwieldy datasets, leveraging network storage for visualization, metrology, and annotation."
+  eventbrite: 
+  zoom:
   ical:
-  registration-page: 
-  url: https://www.eventbrite.com/e/working-with-gis-data-tickets-132489937971
+  registration-page: https://ucla.zoom.us/meeting/register/tJAlcOqsqj0jHtJ052cM-mENrGdfKQDb0Wc_
+  url:
   temp:
-  recording: https://www.youtube.com/embed/RZE9Li1bQ7g
-  slides: https://osf.io/k654g/
+  recording: 
+  slides: 
 
-- title:  "Trustworthy Data Storytelling"
-  name:   excel
+- title:  "How Not to Lie with Data: Trustworthy Data Storytelling"
+  name:   lie
   speaker-type: "Speakers"
-  speakers: [ 
-     {name: Pamela Reynolds, org: ucd-dl},
-     {name: Victoria Farrar, org: ucd-dl}
+  speakers: [
+     {name: Ryan Horne, org: ucsb-lib},
+     {name: Greg Janee, org: ucsb-lib},
+     {name: Renata Curty, org: ucsb-lib}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  m
-  time:   3:00 - 5:00 pm
-  start: 3
-  duration: 120
-  type:  hands-on
-  description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
-  registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
-  temp:   DataLab; capped at 60 learners.
-  recording: https://www.youtube.com/embed/1E3FT94pTLA
-  slides: https://github.com/ucdavisdatalab/workshop_keeping_data_tidy/blob/main/docs/2021_workshop_tidy-data_slides.pdf
-  reader: https://ucdavisdatalab.github.io/workshop_keeping_data_tidy/#data-validation-in-excel
+  time:   4:00 - 5:00 pm
+  start: 4
+  duration: 60
+  type:  lecture
+  description: "This seminar will begin with a discussion of data visualization, showcase how different methods of creating and styling maps, graphs, and other charts can be used to support wildly different perceptions and interpretations of the same data source. Focusing on the humanities and social sciences, we will present activities and scenarios for discussion that highlight the need for data transparency, ethical data use, and accurate visualizations. "
+  registration-page:  https://www.eventbrite.com/e/how-not-to-lie-with-data-trustworthy-data-storytelling-tickets-229568725237
+  temp:   
+  recording: 
+  slides: 
+  reader: 
 
-- title:  "Intro to Tableau"
-  name:   excel
+- title:  "Introduction to Tableau"
+  name:   tableau
   speaker-type: "Speakers"
-  speakers: [ 
-     {name: Pamela Reynolds, org: ucd-dl},
-     {name: Victoria Farrar, org: ucd-dl}
+  speakers: [
+     {name: Julie Wood, org: ucla-dsc},
+     {name: Tim Dennis, org: ucla-dsc}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  m
-  time:   3:00 - 5:00 pm
-  start: 3
-  duration: 120
+  time:   4:00 - 5:00 pm
+  start: 4
+  duration: 60
   type:  hands-on
-  description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
-  registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
-  temp:   DataLab; capped at 60 learners.
-  recording: https://www.youtube.com/embed/1E3FT94pTLA
-  slides: https://github.com/ucdavisdatalab/workshop_keeping_data_tidy/blob/main/docs/2021_workshop_tidy-data_slides.pdf
-  reader: https://ucdavisdatalab.github.io/workshop_keeping_data_tidy/#data-validation-in-excel
+  description:  "This will be an interactive, follow-along style workshop where I will take you through how to make different types of visualizations (aka vizzes) in Tableau! If you are looking to produce powerful visualizations for your work or research, this workshop is for you. You do not need any prior experience, as this workshop will be a general introduction to Tableau. Students have free access to Tableau Desktop, go to this link to install it on your computer: https://www.tableau.com/academic/students ."
+  registration-page:  https://ucla.zoom.us/meeting/register/tJMrd-mqrTIuE9HxAv5lqTw_-hLflgWYPOZc
+  temp:  
+  recording: 
+  slides: 
+  reader: 
+
 
   # TUESDAY
 
