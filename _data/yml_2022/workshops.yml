@@ -29,9 +29,9 @@ MONDAY
     {name: Stephanie Labou, org: ucsd-lib},
     {name: Annalee Shelton, org: icpsr},
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  ICPSR_logo.png
+  thumbnail:  ICPSR_logo.png
+  alt:  "ICPSR logo image: ICPSR above the words sharing data to advance science"
   day: m
   time:  11:00 am - Noon
   start: 11
