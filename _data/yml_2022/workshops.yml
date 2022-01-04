@@ -1,6 +1,6 @@
 # MONDAY
 
-- title: Publishing Data at Dryad
+- title: "Beyond Basics in R"
   name: dryad
   speaker-type: "Speakers"
   speakers: [ 
@@ -23,7 +23,7 @@
   slides: https://docs.google.com/presentation/d/11kRmEMvwqvMK0CqJuXUzMpsjHDX54gWb9ejxEx7d7x0/edit#slide=id.gb5cab6d681_0_5
 
 
-- title: A Gentle and Friendly Introduction to APIs
+- title: "ICPSR Demo"
   name: apis
   speaker-type: "Speakers"
   speakers: [ 
@@ -47,7 +47,7 @@
   recording: https://www.youtube.com/embed/xwqyya85b_E
   slides: https://docs.google.com/presentation/d/11MQF4XUQ7s_Km_CxCWVvfG9md0Ya8F8lW4vRkhB4oxM/
 
-- title:  Hathi Trust Research Center demo
+- title:  "Getting Started with Text Data in Python"
   name:   hathi
   speaker-type: "Speaker"
   speakers: [ 
@@ -68,7 +68,7 @@
   recording: https://www.youtube.com/embed/6zHq5H9suF4
   slides:
 
-- title: SQL in 60 minutes
+- title: "Getting Started with Network Data using Gephi"
   name: SQL
   speaker-type: "Speaker"
   speakers: [ 
@@ -93,7 +93,7 @@
   slides:
 
 
-- title: Working with GIS Data
+- title: "3D Data and Visualization"
   name: gis
   speaker-type: "Speaker"
   speakers: [ 
@@ -117,7 +117,29 @@
   recording: https://www.youtube.com/embed/RZE9Li1bQ7g
   slides: https://osf.io/k654g/
 
-- title:  "Excelling with Excel: Best Practices for Keeping Your Data Tidy"
+- title:  "Trustworthy Data Storytelling"
+  name:   excel
+  speaker-type: "Speakers"
+  speakers: [ 
+     {name: Pamela Reynolds, org: ucd-dl},
+     {name: Victoria Farrar, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  m
+  time:   3:00 - 5:00 pm
+  start: 3
+  duration: 120
+  type:  hands-on
+  description:  Have you been frustrated by inconsistent data codes or struggled to import your data from a spreadsheet to a downstream analysis? Ever wonder if there’s a better way to enter and organize your data? This workshop covers best practices for managing and entering your data in Microsoft Excel (and similar software including Google Sheets and LibreOffice). We will talk about how to structure your data project, review case studies of common pitfalls, and practice using built-in tools for data validation to help you get organized and make the most out of your data-driven project.
+  registration-page:  https://datalab.ucdavis.edu/eventscalendar/excelling-with-excel-best-practices-for-keeping-your-data-tidy/
+  temp:   DataLab; capped at 60 learners.
+  recording: https://www.youtube.com/embed/1E3FT94pTLA
+  slides: https://github.com/ucdavisdatalab/workshop_keeping_data_tidy/blob/main/docs/2021_workshop_tidy-data_slides.pdf
+  reader: https://ucdavisdatalab.github.io/workshop_keeping_data_tidy/#data-validation-in-excel
+
+- title:  "Intro to Tableau"
   name:   excel
   speaker-type: "Speakers"
   speakers: [ 
