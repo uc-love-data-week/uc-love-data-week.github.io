@@ -159,137 +159,184 @@ MONDAY
   slides: 
   reader: 
 
+# TUESDAY
 
-  # TUESDAY
-
-- title:  "Introduction to Locating Secondary Data & Searching Data Repositories: Social Sciences Edition"
-  name:   datarepos
-  speaker-type: "Speaker"
-  speakers: [ 
-     {name: Elizabeth Salmon, org: ucm-lib}
-  ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day:  t
-  time:   9:00 - 10:00 am
-  start: 9
-  duration: 60
-  type:  lecture
-  description:  Access to research data is essential for reproducing pre-existing findings, facilitating collaboration, and developing new insights through secondary analysis. As a researcher, how do you locate data sets that are relevant to your research? This workshop will provide an introduction to the data repository landscape and strategies for navigating data sources to discover relevant and usable data with a focus on supporting research in the social sciences.
-  registration-page:  https://libcal.ucmerced.edu/calendar/library_events/secondary-data-feb-9
-  url:  
-  temp:
-  recording:
-  slides:
-
-- title:  "Geocoding Address Data: Approaches to Personally Identifiable Data"
-  name:   geocoding
-  speaker-type: "Speaker"
-  speakers: [ 
-     {name: Michele Tobias, org: ucd-dl}
-  ]
-  img: gis.png
-  thumbnail: gis.png
-  alt: "stylized globe of the earth "
-  day:  t
-  time:   10:00 am - Noon
-  start: 10
-  duration: 120
-  type:  lecture
-  description:  Geocoding is the process of estimating a real-world location (typically we think of latitude & longitude) from a postal address. In this workshop, we’ll discuss the concepts needed to geocode data, understand options for working with personally identifiable data and non-identifiable data, and gain some hands-on experience with geocoding address data using QGIS, a GIS with a graphical user interface.
-  ical: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/?ical=1&tribe_display=
-  registration-page: https://datalab.ucdavis.edu/eventscalendar/maptimedavis-geocoding-personally-identifiable-data/
-  temp:   "DataLab Research and Learning Cluster: Spatial Sciences and #maptimeDavis"
-  recording: https://www.youtube.com/embed/J3J1zADCBH0
-  slides:
-
-- title:  ProQuest TDM Studio demo
+- title:  "ProQuest TDM Studio demo"
   name:   proquest
   speaker-type: "Speakers"
-  speakers: [ 
-     {name: John Dillon, org: proquest},
-     {name: Sara Randall, org: proquest}
+  speakers: [
+     {name: Stephanie Labou, org: ucsd-lib}
   ]
   img:  PQTDM_logo.PNG
   thumbnail:  PQTDM_logo.PNG
   alt:  "ProQuest TDM Studio"
   day:  t
-  time:   12:00 -12:30 pm
-  start: 12
-  duration: 30
+  time:   9:00 - 10:00: am
+  start: 9
+  duration: 60
   type:  demo
-  description:  ProQuest’s TDM Studio is a text and data mining solution which opens up millions of newspaper articles, dissertations, and primary sources to text and data mining. It provides both Python and R interfaces alongside push-button data visualizations for research as well as teaching and learning. This presentation walk through a few TDM examples and possibilities.
-  eventbrite: 136320210419
-  url:  https://www.eventbrite.com/e/proquest-tdm-studio-demonstration-tickets-136320210419
-  temp:   think UCSD and UCB currently only UCs with access to this, but there's a big push at UCSD so we have to run with it
-  recording: https://www.youtube.com/embed/WZXx1jrOGRY
+  description: ""With TDM Studio, the text and data mining (TDM) solution from ProQuest, researchers across disciplines have a new solution that helps discover new insights in large content sets. TDM Studio offers researchers two pathways to perform text and data mining and achieve new discoveries regardless of their ability to code – join us to see how this new solution might help your current research project. Want to visualize your data quickly without coding? Researchers of all levels are now able to perform data analysis, quickly spot trends, and generate insights through the use of interactive Data Visualizations. Accustomed to using coding for text analysis? The Development Environment is designed for researchers with coding experience using R or Python. This interface provides programmatic access to ProQuest content including current and historical newspapers, dissertations, primary sources and more. Additionally, the users can quickly create datasets of millions of documents– saving time and resources."
+  url:
+  registration-page: https://ucldw22_sd_proquest_tdm_studio.eventbrite.com
+  temp:
+  recording:
   slides:
 
-- title:  Introduction to Digital Humanities and Humanities Data
-  name:   dh-intro
+- title:  "What do I do with all this text? Cleaning and coding data for qualitative analysis"
+  name:   testdata
   speaker-type: "Speaker"
-  speakers: [ 
-     {name: Rachel Starry, org: ucr-lib}
+  speakers: [
+     {name: Celia Emmelhainz, org: ucb-rdm},
+     {name: Anna Sackman, org: ucb-rdm},
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  t
-  time:   1:00 - 2:00 pm
-  start: 1
-  duration: 60
-  type:  lecture
-  description:  Interested in learning where to look for historical, cultural, or other kinds of humanities datasets? This workshop will share resources for discovering textual, visual, spatial, and social network data of use to students and scholars across humanities disciplines. We will also look at a variety of digital tools and methodologies that humanities researchers are using to computationally answer research questions and generate new ones. Whether you are new to Digital Humanities or have been engaged in digital research or teaching for years, join us to share your questions and connect with other UCR community members interested in DH.
-  eventbrite: 132490280997
-  url:  https://www.eventbrite.com/e/introduction-to-digital-humanities-and-humanities-data-tickets-132490280997?aff=
-  recording:
-  slides: https://docs.google.com/presentation/d/1vYqIOm0YLVvosmKTDMmTeEDijmbkRE6OIqD0bishPo0/
-
-- title: "Tidy Tuesday: clean up a data set"
-  name: tidy
-  speaker-type: "Host"
-  speakers: [ 
-     {name: Tim Dennis, org: ucla-dsc}
-  ]
-  img: tt_logo.png
-  thumbnail: tt_logo_thumb.png
-  alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints. 
-  day: t
-  time: 2:00 - 3:00 pm
-  start: 2
-  duration: 60
-  type:  discussion
-  description: "A weekly data project aimed at the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
-  eventbrite:
-  zoom: 
-  ical: https://calendar.library.ucla.edu/event/ical?id=7328608
-  registration-page: https://calendar.library.ucla.edu/event/7328608
+  time:   10:00 am - Noon
+  start: 10
+  duration: 120
+  type:  hands-on
+  description:  "In this workshop, attendees will learn to clean spreadsheet data and anonymize interview data in preparation for analysis in Taguette, a free qualitative analysis software. Through hands-on work with sample texts, participants will learn to import, code, and export qualitative data, and gain an understanding of how coding fits into the broader qualitative research lifecycle. Attendees will also learn to move from the mechanics of coding to thinking more conceptually about their data. Finally, we will talk about how to share qualitative data for future use or reuse. This workshop is designed for those with beginner-intermediate experience with qualitative research, but all are welcome."
+  registration-page:  https://berkeley.libcal.com/calendar/workshops/qual_taguette
+  url:
   temp:
   recording:
   slides:
 
-- title:  Ethical considerations in data
-  name:   ethics
+- title:  "Building Web Maps with Leaflet (#maptimeDavis)"
+  name:   leaflet
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Michele Tobias, org: ucd-dl}
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   10:00 am - Noon
+  start: 10
+  duration: 120
+  type:  hands-on
+  description: "In this workshop, attendees will be introduced to building an interactive web map to display spatial data using the Leaflet javascript library. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
+  ical:
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/building-web-maps-with-leaflet-maptimedavis/
+  temp:
+  recording:
+  slides:
+
+- title:  "UCLA Publishing & Reproducibility Brown Bag - Dataverse Demo for UCLA Medical School"
+  name:   publishing
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Ibraheem Ali, org: ucla-dsc},
+     {name: Jamie Jamison, org: ucla-dsc},
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   12:00 pm - 1:00 pm
+  start: 12
+  duration: 60
+  type:  demo
+  description: "An increasing number of funders and publishers have implemented data sharing policies to amplify transparency and reproducibility in published research. In addition the National Institutes of Health has recently issued a new final policy for data management and sharing, expanding the requirements for data management and sharing. In anticipation of these changes the UCLA Library developed UCLA Dataverse, a locally administered data repository that fulfills requirements for publishing deidentified data associated with research publications. This session will cover the stages at which data should be published, some background information on UCLA Dataverse, and use cases to demonstrate its functionality."
+  registration-page: coming soon!
+  eventbrite:
+  url:
+  recording:
+  slides:
+
+- title: "Creating an Effective Data Management Plan for your Grant Proposal"
+  name: datamanagement
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Wasila Dahdul, org: uci-lib},
+     {name: Ariel Deardorff, org: ucsf-lib},
+     {name: Maria Praetzellis, org: uc3},
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day: t
+  time: 1:00 - 2:00 pm
+  start: 1
+  duration: 60
+  type:  lecture
+  description: "Need to create a data management plan to meet funder requirements, and wondering where to start? This workshop will provide an overview of data sharing and management requirements from public and private funders, including the new NIH requirements. Attendees will learn about the main components of data management plans, look at examples, and learn about resources, such as the DMPTool, that can help craft an effective data management plan. This virtual workshop is open to UC faculty, researchers, staff, and students. "
+  eventbrite:
+  zoom:
+  ical:
+  registration-page: https://uci.zoom.us/meeting/register/tJMsd-6grTgtHtzl5Rsoua9AOPC8MVvCLqcp
+  temp:
+  recording:
+  slides:
+
+- title:  "Intro to High Performance and Remote Computing"
+  name:   high
   speaker-type: "Speakers"
-  speakers: [ 
-     {name: Leigh Phan, org: ucla-lib},
-     {name: Ibraheem Ali, org: ucla-lib},
-     {name: Erin Foster, org: ucb-rdm},
-     {name: Stephanie Labou, org: ucsd-lib}
+  speakers: [
+     {name: Alexander Goldberg, org: ucb-rit},
+     {name: Leon Goldner, org: ucb-rit},
+     {name: Cohen Tzedek, org: ucb-rit},
+     {name: Clint Hamilton, org: ucb-rit},
+     {name: Joseph Feinstein, org: ucb-rit}
        ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  t
-  time:   3:00 - 4:00 pm
-  start: 3
+  time:   2:00 - 3:00 pm
+  start: 2
   duration: 60
-  type:  discussion
-  description:  In this one hour interactive workshop, data librarians from UCLA, UCB, and UCSD will host an open discussion around data ethics focusing on case studies of participant data privacy, algorithmic bias, and the social justice components of research. The discussion will also include an overview of related resources available at various UC campuses, including further reading available through the libraries and groups on campus conducting research in these areas.
-  registration-page:  https://calendar.library.ucla.edu/event/7413125
+  type:  lecture
+  description: "Not sure what HPC stands for and why you might use large scale computing? Running jobs on your laptop overnight? Unclear what “remote” means when it comes to working with data? This session will provide an overview of remote and high performance computing terminology, architecture, and general workflows. We will also provide some case studies and information about UC-specific computing resources and contacts."
+  registration-page: coming soon!
   temp:
-  recording:  https://www.youtube.com/embed/FFemv_1ci7g
+  recording:
+  slides:
+
+- title:  "Intro to Git for Version Control"
+  name:   git
+  speaker-type: "Speakers"
+  speakers: [
+     {name: Wesley Brooks, org: ucd-dl},
+     {name: Pamela Reynolds, org: ucd-dl},
+       ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  t
+  time:   3:00 - 5:00 pm
+  start: 3
+  duration: 120
+  type:  hands-on
+  description: "This workshop covers the fundamentals of using version control for reproducible research. Topics covered will include installing the Git versioning control software locally, initiating a local Git repository, managing file versions, basic branching and merging, and time permitting intermediate topics including working with remote repositories and resolving conflicts. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/introduction-to-version-control-with-git-3/
+  temp:
+  recording:
+  slides:
+
+- title:  "Tidy Tuesday"
+  name:   tidy
+  speaker-type: "Speakers"
+  speakers: [
+     {name: Leigh Phan, org: ucla-dsc},
+     {name: Reid Otsuji, org: ucsd-lib},
+     {name: Tim Dennis, org: ucla-dsc},
+       ]
+  img: tt_logo.png
+  thumbnail: tt_logo_thumb.png
+  alt: Tidy Tuesday Logo. The text "Tidy Tuesday, A weekly data project in R from the R4DS online learning community" over a stylized image of dirty data.  Image also includes including words, arrows, and circles. "variables" is associated with column arrows; "observations" is associated with row arrows; and "values" is associated with circles around individual datapoints.
+  day:  t
+  time:   4:00 - 5:00 pm
+  start: 4
+  duration: 60
+  type:  hands-on
+  description: "This event is organized as a semi-structured open lab.  We'll use the weekly social data project #TidyTuesday as a jumping-off point for working and communicating with data. Tidy Tuesday is a weekly data project for the R ecosystem. As this project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with the tidyverse ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results."
+  registration-page: https://ucla.zoom.us/meeting/register/tJArdeivqT4vHNy3rp4nwfogW5EDpOkyGL9o
+  temp:
+  recording:
   slides:
 
 # WEDNESDAY
