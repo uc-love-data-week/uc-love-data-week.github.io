@@ -341,176 +341,117 @@ MONDAY
 
 # WEDNESDAY
 
-- title:  "Data &quot;Ownership&quot;: Rights and Responsibilities"
-  name:   dataownership
+- title:  "Demystifying Data: How to find it"
+  name:   demystifying
   speaker-type: "Speaker"
-  speakers: [ 
-       {name: Michael Ladisch, org: ucd-lib}
+  speakers: [
+       {name: Ibraheem Ali, org: ucla-dsc},
+       {name: Ashley Peterson, org: ucla-dsc},
     ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
-  time:   9:00 - 10:00 am
-  start: 9
-  duration: 60
-  type:  lecture
-  description:  This talk will discuss the nuances of &quot;ownership&quot; and copyright implications for scholarly research data. We'll discuss various types of responsibilities when working with data, and identify relevant tools and services. After this talk researchers should be able to make more informed decisions about sharing and accessing data.
-  registration-page:  https://datalab.ucdavis.edu/eventscalendar/data-ownership-rights-and-responsibilities/
-  temp:   DataLab/Library (Scholarly Communication). Cap of 45 registrants.
+  time:   10:00 - 11:15 am
+  start: 10
+  duration: 75
+  type:  hands-on
+  description:  "Demystifying Data is a two-part workshop series for anyone, from any discipline, who wants to learn more about working with data in a research context. In part 1: How to Find It, we will feature short presentations from professional staff at UCLA who provide expert help with navigating resources to help you find good datasets, as well as researchers who will share insights about how they located data for their research projects. Attendees will learn about a range of resources for finding data, as well real-life applications of data to the research process."
+  registration-page: https://calendar.library.ucla.edu/event/8631379
+  temp:
   recording:
   slides:
 
-- title: Data sharing 101
-  name: data-sharing
-  speaker-type: "Speakers"
-  speakers: [ 
-     {name: Wasila Dahdul, org: uci-lib},
-     {name: Ho Jung Yoo, org: ucsd-lib},
-     {name: Derek Devnich, org: ucm-lib}
+- title: "JSTOR Constellate Demo"
+  name: jstor
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Stephanie Labou, org: ucsd-lib},
   ]
   img: ldw-circuit-color-506.png
   thumbnail: ldw-circuit-color-506.png
   alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day: w
-  time: 10:00 - 11:00 am
-  start: 10
-  duration: 60
-  type:  lecture
-  description: "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data and documentation for sharing, and selecting an appropriate data repository. This workshop is part of UC Love Data Week, a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation. All members of the University of California community are welcome to attend."
-  eventbrite:
-  zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  registration-page:
-  url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  recording: https://drive.google.com/file/d/1GjXh1APnZQWThZ2NW5Xi5BoQfpV2mD2Z/preview
-  slides: https://docs.google.com/presentation/d/1-AWB8XLuJNuFzX78BFk9FjyVZBnsU1DfVL6AHV6OKQc/edit?usp=sharing 
-
-- title:  ICPSR presentation
-  name:   icpsr
-  speaker-type: "Speaker"
-  speakers: [ 
-     {name: Anna Shelton, org: icpsr}
-  ]
-  img:  ICPSR_logo.PNG
-  thumbnail:  ICPSR_logo.PNG
-  alt:  "ICPSR Sharing data to advance science"
-  day:  w
-  time:   11:00 am - Noon
+  time: 11:00 - Noon
   start: 11
   duration: 60
   type:  demo
-  description:  Do you need data for the gagillion papers you have to write this quarter? Or maybe you're going up for tenure and need to publish? How about teaching students to use data (but you don't have time to create that lesson plan, we're in a pandemic after all!) Don't worry, ICPSR has you covered. Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, there is something data here for you. 
-  url: https://www.eventbrite.com/e/icpsr-presentation-tickets-136319809219
-  eventbrite: 136319809219
+  description: "Do you want to learn to do text analysis?  Or learn to teach it?  The new text analysis platform from ITHAKA, the same folks who brought you JSTOR and Portico, is a platform for teaching, learning, and performing text analysis.  In this session, we’ll demonstrate how you can build datasets that interest you from JSTOR or Portico content, receive some instant visualizations of data in your dataset, and run through some of the Constellate tutorials to learn to do some analysis."
+  eventbrite:
+  zoom:
+  registration-page: https://ucldw22_sd_jstor_constellate.eventbrite.com
+  url:
   recording:
   slides:
 
-- title:  Gale Digital Scholar demo
-  name:   gale
+- title:  "Data Ethics and Justice"
+  name:   ethics
   speaker-type: "Speaker"
-  speakers: [ 
-     {name: Sarah Ketchley, org: gale}
-  ]
-  img:  Gale_DSL_logo.PNG
-  thumbnail:  Gale_DSL_logo.PNG
-  alt:  "Gale Digital Scholar Lab"
-  day:  w
-  time:   12:00 - 12:30 pm
-  start: 12
-  duration: 30
-  type:  demo
-  description:  This session will provide an overview of the main text mining features of the Gale Digital Scholar Lab, and provide examples of research output using platform tools for topic modeling, sentiment analysis and named entity recognition.  The import and export options provided flexibility and extensibility, and the demo will showcase use cases using integrated Gale Primary Source archives, and the researcher’s own uploaded datasets.
-  eventbrite: 136320567487
-  url:  https://www.eventbrite.com/e/gale-digital-scholar-demonstration-tickets-136320567487
-  temp:   think 7 UCs have access to this?
-  recording: https://www.youtube.com/embed/d1UaTTYhzVw
-  slides:
-
-- title:  Data science student lightning talks
-  name:   lightning
-  speaker-type: "Moderator"
-  speakers: [ 
-     {name: Stephanie Labou, org: ucsd-lib}
+  speakers: [
+     {name: Leigh Phan, org: ucla-dsc},
+     {name: Erin Foster, org: ucb-rdm},
+     {name: Ibraheem Ali, org: ucla-dsc},
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
-  time:   1:00 - 2:00 PM
+  time:   1:00 pm - 2:30 pm
   start: 1
-  duration: 60
-  type:  other
-  description:  Personal projects are a common way for data science students to gain experience and build up a project portfolio. Unlike projects for a course or capstone sequence, personal projects are entirely self-directed by students and can be on any topic - and topics can get quite creative! Join us for an hour of lightning talks from UC students as they share their data science focused personal projects, focusing on data access, data cleaning, and any data privacy concerns. 
-  eventbrite: 136319217449
-  url:  https://www.eventbrite.com/e/data-science-students-lightning-talks-tickets-136319217449
-  temp:   An hour of 5 minute lightning talks from UC students working on personal data science projects
-  recording: https://www.youtube.com/embed/lQwy-pVuMlE
-  slides:
-
-- title:  Discovery and Evaluation of Social Science Data Sources
-  name:   datasources
-  speaker-type: "Speaker"
-  speakers: [ 
-     {name: David Michalski, org: ucd-lib}
-  ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day:  w
-  time:   2:00 - 3:00 pm
-  start: 2
-  duration: 60
-  type:  lecture
-  description:    Governments, non-governmental organizations, and social scientists have amassed vast collections of data about the social world. Learn how to discover, evaluate, and access sources available for new analyses and visualizations.
-  registration-page:  https://datalab.ucdavis.edu/eventscalendar/discovery-and-evaluation-of-social-science-data-sources/
-  temp:   Co-hosted by DataLab and UC Davis Library
+  duration: 90
+  type:  discussion
+  description: "Researchers across the UC system are engaged in a vast array of areas that intersect with issues of ethics and justice. However, due to unique circumstances for each respective discipline, these topics are often glanced over in traditional course curricula, and often absent from research discussion forums in academic settings. In this session, data librarians from UCLA and UC Berkeley will host an interdisciplinary discussion on data ethics and justice in research. Graduate researchers in STEM and humanities disciplines will present how their research intersects with ethical issues in data privacy and security. Following these presentations will be breakout discussions focused on the areas presented by the speakers. This session will foster conversation around addressing and taking action on issues of data ethics and justice in the UC-wide research community. This event is open to all UC researchers, staff and students and does not require background knowledge."
+  registration-page: https://ucla.zoom.us/meeting/register/tJ0sdu2vqj0sHtMvJenwgMex8K7TRAR4j4k1
+  url:
+  eventbrite:
   recording:
-  slides: https://docs.google.com/presentation/d/17uks6NcY-5kJWYKl0sd5pITd4caZp4vSes7HjwFiCWk/edit
-
-- title:  Cybersecurity for Graduate Students in Research
-  name:   cybersecurity
-  speaker-type: "Speakers"
-  speakers: [ 
-     {name: Allison Henry, org: ucb-iso},
-     {name: James Duncan, org: ucb-rit},
-     {name: Erin Hancock, org: ucb-iso}
-       ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day:  w
-  time:    2:00 - 3:00 pm
-  start: 2
-  duration: 60
-  type:  lecture
-  description:  In this session for Love Data Week 2021, UC Berkeley’s Chief Information Security Officer and Research IT staff will talk about current trends in cybersecurity and campus resources to support graduate students and researchers at large. Members of the Berkeley Information Security Office will also discuss best practices for securing devices to keep your information safe.
-  zoom: tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
-  url:  https://berkeley.zoom.us/meeting/register/tJ0ocOyqqzoqHtyg83GME1gz1j3hJsQ55P-w
-  temp:
-  recording:  https://www.youtube.com/embed/1R5CpRBnJVg
   slides:
 
-- title:  Introduction to Command Line
-  name:   cli
-  speaker-type: "Speakers"
-  speakers: [  
-     {name: Tyler Shoemaker, org: ucd-dl},
-     {name: Carl Stahmer, org: ucd-dl}
+- title:  "Edit 4 Change Wikipedia Edit-a-thon"
+  name:   wikipedia
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Kristina Bush, org: ucb-rdm},
+     {name: Ann Glusker, org: ucb-rdm}
   ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  w
-  time:   3:00 - 5:00 pm
-  start: 3
-  duration: 120
+  time:   1:00 - 2:30 pm
+  start: 1
+  duration: 90
   type:  hands-on
-  description:  Learn and practice how to talk directly to your computer via command line. The shell is a very powerful tool for using scientific software and working with large data sets. It is primarily used to manage files and run programs, and it allows for automation of repetitive tasks. No prior coding experience is necessary. This workshop is a prerequisite for DataLab’s workshops on Introduction to Version Control with Git and Reproducible Research for Teams with GitHub. 
-  registration-page:  https://datalab.ucdavis.edu/eventscalendar/introduction-to-command-line/
-  temp:   DataLab; capped at 60 learners.
-  recording: https://www.youtube.com/embed/olkb9kihgO0
+  description:  "Wikipedia’s inclusion trouble is well-documented. While the reasons are up for debate, the practical effect of this disparity is not: content is skewed by the lack of participation by underrepresented groups. This adds up to an alarming absence in an important repository of shared knowledge. Let’s change that! Join us on Zoom for a tutorial for the beginner Wikipedian followed by communal updating of Wikipedia entries."
+  registration-page: https://berkeley.libcal.com/calendar/workshops/edit4change
+  eventbrite:
+  url:
+  temp:
+  recording:
   slides:
-  reader: https://ucdavisdatalab.github.io/workshop_introduction_to_the_command_line/
+
+- title:  "Data Feminism Book Club"
+  name:   feminism
+  speaker-type: "Speaker"
+  speakers: [
+     {name: Ariel Deardorff, org: ucsf-lib},
+     {name: Pamela Reynolds, org: ucd-dl},
+  ]
+  img:  ldw-circuit-color-506.png
+  thumbnail:  ldw-circuit-color-506.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  day:  w
+  time:   3:00 - 4:30 PM
+  start: 3
+  duration: 90
+  type:  discussion
+  description: "This interactive, dialogue-driven meetup will explore applying feminist theory and critique to how we work with data and perform research. How do structures of power and oppression shape the data we collect, analyses we perform, and research insights we develop? Together we will reflect on selected chapters from the (freely available) book Data Feminism by Catherine D'Ignazio and Lauren Klein. Come prepared to apply takeaways from the readings to unpacking provided case studies from the health sciences, and your own research processes. Researchers from all domains are welcome to participate. Together we’ll brainstorm how as individuals and a community we can contribute to more equitable data-driven research."
+  registration-page: https://datalab.ucdavis.edu/eventscalendar/book-club-meetup-data-feminism/
+  eventbrite:
+  url:  
+  temp:
+  recording:
+  slides:
 
 # THURSDAY
 
