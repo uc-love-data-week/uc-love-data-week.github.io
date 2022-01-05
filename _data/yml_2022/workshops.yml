@@ -10,7 +10,7 @@
   img:  R_logo.png
   thumbnail:  R_logo.png
   alt:  "Large letter R"
-  day: m, w, f
+  day: m,w,f
   time:  9:30 - 11:30 am
   start: 9.5
   duration: 90
@@ -58,7 +58,7 @@
   start: 12
   duration: 120
   type:  hands-on
-  description:  "This three-part workshop series covers the basics of text mining with Python. We will focus primarily on unstructured text data, discussing how to format and clean text to enable the discovery of significant patterns in collections of documents. Sessions will introduce participants to core terminology in text mining/natural language processing and will walk through different methods of ranking terms and documents. We will conclude by using these methods to classify texts and to build models of "topics." Basic familiarity with Python is required. We welcome students, postdocs, faculty, and staff from a variety of research domains, ranging from health informatics to the humanities. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
+  description:  "This three-part workshop series covers the basics of text mining with Python. We will focus primarily on unstructured text data, discussing how to format and clean text to enable the discovery of significant patterns in collections of documents. Sessions will introduce participants to core terminology in text mining/natural language processing and will walk through different methods of ranking terms and documents. We will conclude by using these methods to classify texts and to build models of 'topics.' Basic familiarity with Python is required. We welcome students, postdocs, faculty, and staff from a variety of research domains, ranging from health informatics to the humanities. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
   eventbrite: 
   url:  https://datalab.ucdavis.edu/eventscalendar/getting-started-with-textual-data-in-python-3-part-series/
   temp:   
@@ -79,7 +79,7 @@
   start: 2
   duration: 120
   type:  hands-on
-  description: ""Network analysis is a common research method in many disciplines, used to study social or historical networks as well as the spread of disease, complex species interaction, logistics networks, and more. This workshop introduces the basics of working with network graphs and visualizing network data. After covering some essential vocabulary and concepts, we will use Gephi, a free and open-source network visualization tool, to analyze and visualize some example networks."
+  description: "Network analysis is a common research method in many disciplines, used to study social or historical networks as well as the spread of disease, complex species interaction, logistics networks, and more. This workshop introduces the basics of working with network graphs and visualizing network data. After covering some essential vocabulary and concepts, we will use Gephi, a free and open-source network visualization tool, to analyze and visualize some example networks."
   eventbrite:
   zoom:
   ical:
@@ -171,11 +171,11 @@
   thumbnail:  PQTDM_logo.PNG
   alt:  "ProQuest TDM Studio"
   day:  t
-  time:   9:00 - 10:00: am
+  time:   9:00 - 10:00 am
   start: 9
   duration: 60
   type:  demo
-  description: ""With TDM Studio, the text and data mining (TDM) solution from ProQuest, researchers across disciplines have a new solution that helps discover new insights in large content sets. TDM Studio offers researchers two pathways to perform text and data mining and achieve new discoveries regardless of their ability to code – join us to see how this new solution might help your current research project. Want to visualize your data quickly without coding? Researchers of all levels are now able to perform data analysis, quickly spot trends, and generate insights through the use of interactive Data Visualizations. Accustomed to using coding for text analysis? The Development Environment is designed for researchers with coding experience using R or Python. This interface provides programmatic access to ProQuest content including current and historical newspapers, dissertations, primary sources and more. Additionally, the users can quickly create datasets of millions of documents– saving time and resources."
+  description: "With TDM Studio, the text and data mining (TDM) solution from ProQuest, researchers across disciplines have a new solution that helps discover new insights in large content sets. TDM Studio offers researchers two pathways to perform text and data mining and achieve new discoveries regardless of their ability to code – join us to see how this new solution might help your current research project. Want to visualize your data quickly without coding? Researchers of all levels are now able to perform data analysis, quickly spot trends, and generate insights through the use of interactive Data Visualizations. Accustomed to using coding for text analysis? The Development Environment is designed for researchers with coding experience using R or Python. This interface provides programmatic access to ProQuest content including current and historical newspapers, dissertations, primary sources and more. Additionally, the users can quickly create datasets of millions of documents– saving time and resources."
   url:
   registration-page: https://ucldw22_sd_proquest_tdm_studio.eventbrite.com
   temp:
