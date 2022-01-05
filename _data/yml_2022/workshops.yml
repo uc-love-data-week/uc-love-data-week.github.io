@@ -1,4 +1,4 @@
-MONDAY
+# MONDAY
 
 - title: "Beyond Basics in R"
   name: beyondbasics
@@ -7,9 +7,9 @@ MONDAY
     {name: Nick Ulle, org: ucd-dl},
     {name: Duncan Temple Lang, org: ucd-dl}
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  R_logo.png
+  thumbnail:  R_logo.png
+  alt:  "Large letter R"
   day: m, w, f
   time:  9:30 - 11:30 am
   start: 9.5
@@ -50,9 +50,9 @@ MONDAY
      {name: Tyler Shoemaker, org: ucd-dl},
      {name: Carl Stahmer, org: ucd-dl},
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  Python_logo.png
+  thumbnail:  Python_logo.png
+  alt:  "Python logo: the words Python under a blue and yellow symbol"
   day:  m,w,f
   time:   12:00 - 2:00 pm
   start: 12
@@ -144,9 +144,9 @@ MONDAY
      {name: Julie Wood, org: ucla-dsc},
      {name: Tim Dennis, org: ucla-dsc}
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  Tableau_logo.png
+  thumbnail:  Tableau_logo.png
+  alt:  "Tableau logo: the word Tableau under multicolored plus signs"
   day:  m
   time:   4:00 - 5:00 pm
   start: 4
@@ -303,9 +303,9 @@ MONDAY
      {name: Wesley Brooks, org: ucd-dl},
      {name: Pamela Reynolds, org: ucd-dl},
        ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  Git_logo.png
+  thumbnail:  Git_logo.png
+  alt:  "Git logo: mini branch icon next to word git"
   day:  t
   time:   3:00 - 5:00 pm
   start: 3
@@ -368,9 +368,9 @@ MONDAY
   speakers: [
      {name: Stephanie Labou, org: ucsd-lib},
   ]
-  img: ldw-circuit-color-506.png
-  thumbnail: ldw-circuit-color-506.png
-  alt: "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img: jstor_logo.png
+  thumbnail: jstor_logo.png
+  alt: "jstor logo: letter j surrounded by scrolling vines"
   day: w
   time: 11:00 - Noon
   start: 11
@@ -414,9 +414,9 @@ MONDAY
      {name: Kristina Bush, org: ucb-rdm},
      {name: Ann Glusker, org: ucb-rdm}
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  wikipedia_logo.png
+  thumbnail:  wikipedia_logo.png
+  alt:  "wikipedia logo: globe with icons over the words wikipedia"
   day:  w
   time:   1:00 - 2:30 pm
   start: 1
@@ -437,9 +437,9 @@ MONDAY
      {name: Ariel Deardorff, org: ucsf-lib},
      {name: Pamela Reynolds, org: ucd-dl},
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  datafeminism_cover.jpg
+  thumbnail:  datafeminism_cover.jpg
+  alt:  "Data Feminism book cover: lots of little color squares with words data feminism over the top in white on black"
   day:  w
   time:   3:00 - 4:30 PM
   start: 3
