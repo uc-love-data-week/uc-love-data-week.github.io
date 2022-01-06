@@ -29,9 +29,9 @@
     {name: Stephanie Labou, org: ucsd-lib},
     {name: Annalee Shelton, org: icpsr},
   ]
-  img:  ICPSR_logo.png
-  thumbnail:  ICPSR_logo.png
-  alt:  "ICPSR logo image: ICPSR above the words sharing data to advance science"
+  img:  icpsr_logo_new.png
+  thumbnail:  icpsr_logo_new.png
+  alt:  "ICPSR logo image: the letters ICPSR"
   day: m
   time:  11:00 am - Noon
   start: 11
