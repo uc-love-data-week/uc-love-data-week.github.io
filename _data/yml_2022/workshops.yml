@@ -491,7 +491,7 @@
   time:   11:00 am - 1:00 pm
   start: 11
   duration: 120
-  type:  Seminar
+  type:  lecture
   description:  "Creating a repeatable process for developing your software is an important component of reproducible research. This workshop discusses how and why we build code, possible development workflows, project management strategies, and tool selection. This workshop is designed for learners who are writing and applying code for their research projects, but have no or limited formal computer science training." 
   eventbrite: 
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/code-management-workshop/
@@ -559,7 +559,7 @@
   time:   10:00 am - 11:00 am
   start: 10
   duration: 60
-  type:  Seminar
+  type:  lecture
   description:  "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data, code, and documentation for sharing, and selecting an appropriate data repository. We will cover general strategies that are relevant across disciplines, and highlight resources for data sharing available at the University of California." 
   eventbrite:
   zoom:  https://uci.zoom.us/meeting/register/tJUvdumvpz0sHNBtBjdjOjvOBL1mEJPVWaHN
@@ -576,9 +576,9 @@
      {name: Stephanie Labou, org: ucsd-lib},
      {name: Sarah Ketchley, org: gale}
        ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  Gale_DSL_logo.PNG
+  thumbnail:  Gale_DSL_logo.PNG
+  alt:  "Gale Digital Scholar Lab"
   day:  h
   time:   10:00 am - 11:00 am
   start: 10
@@ -608,7 +608,7 @@
   time:   1:00 pm - noon
   start: 1
   duration: 60
-  type:  Seminar
+  type:  lecture
   description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind. " 
   eventbrite: 229587401097
   zoom:  
@@ -653,9 +653,9 @@
   speakers: [  
      {name: Shane Feirer , org: uc-anr}
   ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  gis.png
+  thumbnail:  gis.png
+  alt:  "stylized globe of the earth"
   day:  f
   time:   2:00 pm - 5:00 pm
   start: 2
@@ -684,7 +684,7 @@
   time:   1:00 pm - 3:00 pm
   start: 1
   duration: 120
-  type:  seminar
+  type:  lecture
   description:  "This fast paced event will feature 3 minute/3 slide lightning talks from undergraduate and graduate students across the UC system about the data-related projects they are working on. Attendees will have the chance to give immediate feedback to students about their presentations, so bring your enthusiasm and curiosity to this student showcase!"
   registration-page: https://ucldw22_sd_student_lightning_talks.eventbrite.com/
   url: 
@@ -700,9 +700,9 @@
      {name: Jennifer Christie, org: uci-lib},
      {name: Shu Liu, org: uci-lib}
        ]
-  img:  ldw-circuit-color-506.png
-  thumbnail:  ldw-circuit-color-506.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
+  img:  HTRC_logo.PNG
+  thumbnail:  HTRC_logo.PNG
+  alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
   day:  f
   time:   11:00 am - noon
   start: 11
