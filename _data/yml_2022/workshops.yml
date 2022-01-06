@@ -13,7 +13,7 @@
   day: m,w,f
   time:  9:30 - 11:30 am
   start: 9.5
-  duration: 90
+  duration: 120
   type:  hands-on
   description: "This 5-part workshop series aims to help learners understand the relatively small but fundamental computational model underlying the R language. This will help you reason about code before you write and run it, and to debug it if it doesn’t do what you want. A sound understanding of this computational model makes programming in R much easier and more productive! This workshop series is intended for active engagement – be prepared to come to each session with questions about why some things worked, and others didn’t. All researchers (students, postdocs, faculty and staff) who meet the ‘prerequisites’ are welcome to register for this workshop series, which is being offered in person at the UC Davis DataLab, and will be broadcast as part of UC Love Data Week. An optional final 5th session will be offered entirely remotely for additional Q&A by all audiences. Learners who can attend all sessions will receive priority registration for the limited in person seats. Broadcast participants still need to register to receive the Zoom link."
   zoom:
@@ -354,7 +354,7 @@
   day:  w
   time:   10:00 - 11:15 am
   start: 10
-  duration: 75
+  duration: 90
   type:  hands-on
   description:  "Demystifying Data is a two-part workshop series for anyone, from any discipline, who wants to learn more about working with data in a research context. In part 1: How to Find It, we will feature short presentations from professional staff at UCLA who provide expert help with navigating resources to help you find good datasets, as well as researchers who will share insights about how they located data for their research projects. Attendees will learn about a range of resources for finding data, as well real-life applications of data to the research process."
   registration-page: https://calendar.library.ucla.edu/event/8631379
@@ -659,7 +659,7 @@
   day:  f
   time:   2:00 pm - 5:00 pm
   start: 2
-  duration: 120
+  duration: 180
   type:  hands-on
   description:  "Jupyter Notebooks are a user-friendly and interactive way to write Python code. ArcGIS Pro supports Juptyer notebooks natively, opening the door to a wide range of options for automation and extensibility. This workshop will get you started using Jupyter Notebooks in ArcGIS Pro to automate workflows, perform geoprocessing tasks, create data summaries, and import downscaled climate data from Cal-Adapt using a new Python module, caladapt-py."
   registration-page:  
