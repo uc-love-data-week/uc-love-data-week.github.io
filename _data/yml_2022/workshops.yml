@@ -464,8 +464,8 @@
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day:  h
-  time:   11:00 am - 1 pm
+  day: h
+  time:  11:00 am - 1 pm
   start: 11
   duration: 120
   type:  hands-on
@@ -569,7 +569,7 @@
   slides:
   reader:  
   
-  - title:  "Gale Digital Scholar Lab"
+- title:  "Gale Digital Scholar Lab"
   name:   gale
   speaker-type: "Speakers"
   speakers: [ 
@@ -593,7 +593,7 @@
   slides:
   reader:  
   
-  - title:  "Handling sensitive data in a sensible way"
+ - title:  "Handling sensitive data in a sensible way"
   name:   sensitive
   speaker-type: "Speakers"
   speakers: [ 
@@ -605,7 +605,7 @@
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  h
-  time:   1:00 pm - noon
+  time:   1:00 pm - 12:00 pm
   start: 1
   duration: 60
   type:  lecture
@@ -619,7 +619,7 @@
   reader:  
   
   
-  - title:  "An Intermediate Foray into APIs with Python"
+ - title:  "An Intermediate Foray into APIs with Python"
   name:   api
   speaker-type: "Speakers"
   speakers: [ 
@@ -704,7 +704,7 @@
   thumbnail:  HTRC_logo.PNG
   alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
   day:  f
-  time:   11:00 am - noon
+  time:   11:00 am - 12:00 pm
   start: 11
   duration: 60
   type:  demo
