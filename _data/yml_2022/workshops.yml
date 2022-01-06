@@ -456,7 +456,7 @@
 # THURSDAY
 
 - title:  "Working with Cal-Adapt Climate Data in R"
-  name:  r
+  name:  cal-adapt
   speaker-type: "Speaker"
   speakers: [ 
      {name: Andy Lyons, org: uc-anr}
@@ -464,7 +464,7 @@
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day:  h
+  day: h
   time:  11:00 am - 1:00 pm
   start: 11
   duration: 120
@@ -478,7 +478,7 @@
 
 - title:  "Manging code and software for applied data science projects"
   name:   code
-  speaker-type: "speaker"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Derek Devnich, org: ucm-lib},
      {name: Kat Koziar, org: ucr-lib},
@@ -501,7 +501,7 @@
   
 - title:  "Reproducible Research for Teams with GitHub"
   name:   Github
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Wesley Brooks, org: ucd-dl},
      {name: Pamela Reynolds, org: ucd-dl},
@@ -524,7 +524,7 @@
 
 - title:  "Intro to IPUMS: Creating Social Science Datasets with Public Use Microdata"
   name:   IPUMS
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [  
      {name: Elizabeth Salmon, org: ucm-lib}
   ]
@@ -546,7 +546,7 @@
 
 - title:  "Data Sharing 101"
   name:  sharing
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Wasila Dahdul, org: uci-lib},
      {name: Derek Devnich, org: ucm-lib},
@@ -571,7 +571,7 @@
   
 - title:  "Gale Digital Scholar Lab"
   name:   gale
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Stephanie Labou, org: ucsd-lib},
      {name: Sarah Ketchley, org: gale}
@@ -595,7 +595,7 @@
   
 - title:  "Handling sensitive data in a sensible way"
   name:   sensitive
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Renata Curty, org: ucsb-lib},
      {name: Ryan Horne, org: ucsb-lib},
@@ -610,9 +610,9 @@
   duration: 60
   type:  lecture
   description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind. " 
-  eventbrite: 229587401097
+  eventbrite: 
   zoom:  
-  registration-page: 
+  registration-page: https://www.eventbrite.com/e/handling-sensitive-data-in-a-sensible-way-tickets-229587401097
   url: 
   recording:
   slides:
@@ -621,7 +621,7 @@
   
 - title:  "An Intermediate Foray into APIs with Python"
   name:   api
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Kat Koziar, org: ucr-lib},
      {name: Tim Dennis, org: ucla-dsc},
@@ -637,9 +637,9 @@
   duration: 120
   type:  hands-on
   description:  "In this intermediate workshop, we will provide a hands-on example of working with an API using Python in Jupyter Notebooks.  We will query an API based on search terms, examine and interpret JSON results, display results as a dataframe, and build functions to facilitate API call replicability.  If you are a beginner to APIs, and want to powerlevel your knowledge, the recording and slides to last year's UC Love Data Week's introductory API workshop are available, which covers how APIs work and API documentation.  Prerequisites for the workshop are - Basic understanding of how APIs work - Installation of Jupyter Notebooks with Python - Installation of the following packages - Beginner knowledge of Python (e.g. assign, for loops, functions, importing libraries)" 
-  eventbrite: 230440753497
+  eventbrite: 
   zoom:  
-  registration-page: 
+  registration-page: https://www.eventbrite.com/preview?eid=230440753497/
   url: 
   recording:
   slides:
@@ -649,7 +649,7 @@
 
 - title:  "Introduction to Jupyter Notebooks in ArcGIS Pro"
   name:   arcgis
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [  
      {name: Shane Feirer , org: uc-anr}
   ]
@@ -671,7 +671,7 @@
 
 - title:  "Student lightning talks"
   name:   student
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [  
      {name: Stephanie Labou, org: ucsd-lib},
      {name: Kat Koziar, org: ucr-lib},
@@ -695,7 +695,7 @@
 
 - title:  "HathiTrust Research Center demo"
   name:   hathitrust
-  speaker-type: "Speakers"
+  speaker-type: "Speaker"
   speakers: [ 
      {name: Jennifer Christie, org: uci-lib},
      {name: Shu Liu, org: uci-lib}
