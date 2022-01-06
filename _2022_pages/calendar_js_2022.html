@@ -14,7 +14,7 @@ published: true
 
     {%- capture workshop_info -%}
         {%- for workshop in site.data.yml_2022.workshops -%}
-             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}%%
+             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
@@ -93,7 +93,9 @@ published: true
         let workshop_recording = new Array(1);
         let workshop_slides = new Array(1);
         let workshop_reader = new Array(1);
-                
+        let workshop_registration = new Array(1);
+        let workshop_url = new Array(1);
+
         let index = 0;  // need to keep track of index separately, 
                         // since some workshops are held across multiple days
         for (let i = 0; i < workshop_info.length; i++){
@@ -113,6 +115,8 @@ published: true
                     workshop_recording[index] = wk_info[6];
                     workshop_slides[index] = wk_info[7];
                     workshop_reader[index] = wk_info[8];
+                    workshop_registration[index] = wk_info[9];
+                    workshop_url[index] = wk_info[10];
                     index = index+1
 /*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/                    
 
@@ -128,6 +132,8 @@ published: true
             workshop_recording[index] = wk_info[6];
             workshop_slides[index] = wk_info[7];
             workshop_reader[index] = wk_info[8];
+            workshop_registration[index] = wk_info[9];
+            workshop_url[index] = wk_info[10];
             index = index+1
 /*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/
 
@@ -188,7 +194,17 @@ published: true
             let blocks = workshop_duration[i]/block_duration;
             let timeIndex = times_array.indexOf(workshop_start[i]*1);
             let dayIndex = conference_days_abbv.indexOf(workshop_day[i]);
-            let recording = ''
+            let registration = ''
+            if(workshop_registration[i]!=""){
+                registration = '<a href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
+            }
+            let url = ''
+            if(workshop_url[i]!=""){
+                url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
+            }
+            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
+            // after event, to include recordings, slides, and readers
+/*            let recording = ''
             if(workshop_recording[i]!=""){
                 recording = '<a href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
             }
@@ -200,7 +216,7 @@ published: true
             if(workshop_reader[i]!=""){
                 reader = '<a href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
             }
-            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';
+            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                     week_workshops_written[k][dayIndex] = (week_workshops_written[k][dayIndex])+1;
             }            
