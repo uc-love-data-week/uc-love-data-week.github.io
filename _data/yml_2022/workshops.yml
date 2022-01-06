@@ -456,7 +456,7 @@
 # THURSDAY
 
 - title:  "Working with Cal-Adapt Climate Data in R"
-  name:   r
+  name:  r
   speaker-type: "Speaker"
   speakers: [ 
      {name: Andy Lyons, org: uc-anr}
@@ -464,8 +464,8 @@
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
-  day: h
-  time:  11:00 am - 1 pm
+  day:  h
+  time:  11:00 am - 1:00 pm
   start: 11
   duration: 120
   type:  hands-on
@@ -480,7 +480,7 @@
   name:   code
   speaker-type: "speaker"
   speakers: [ 
-     {name: Derek Devnich, org: ucm-cds},
+     {name: Derek Devnich, org: ucm-lib},
      {name: Kat Koziar, org: ucr-lib},
      {name: Pamela Reynolds, org: ucd-dl}
   ]
@@ -505,7 +505,7 @@
   speakers: [ 
      {name: Wesley Brooks, org: ucd-dl},
      {name: Pamela Reynolds, org: ucd-dl},
-       ]
+  ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
@@ -527,7 +527,7 @@
   speaker-type: "Speakers"
   speakers: [  
      {name: Elizabeth Salmon, org: ucm-lib}
-       ]
+  ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
@@ -545,18 +545,18 @@
   slides:
 
 - title:  "Data Sharing 101"
-  name:   sharing
+  name:  sharing
   speaker-type: "Speakers"
   speakers: [ 
      {name: Wasila Dahdul, org: uci-lib},
-     {name: Derek Devnich, org: ucm-dsc},
+     {name: Derek Devnich, org: ucm-lib},
      {name: Reid Otsuji, org: ucsd-lib}
-       ]
+  ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
   day:  h
-  time:   10:00 am - 11:00 am
+  time:  10:00 am - 11:00 am
   start: 10
   duration: 60
   type:  lecture
@@ -575,7 +575,7 @@
   speakers: [ 
      {name: Stephanie Labou, org: ucsd-lib},
      {name: Sarah Ketchley, org: gale}
-       ]
+  ]
   img:  Gale_DSL_logo.PNG
   thumbnail:  Gale_DSL_logo.PNG
   alt:  "Gale Digital Scholar Lab"
@@ -584,7 +584,7 @@
   start: 10
   duration: 60
   type:  demo
-  description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind. " 
+  description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind." 
   eventbrite:
   zoom:
   registration-page: https://ucldw22_sd_gale_digital_scholar_lab.eventbrite.com/
@@ -593,7 +593,7 @@
   slides:
   reader:  
   
- - title:  "Handling sensitive data in a sensible way"
+- title:  "Handling sensitive data in a sensible way"
   name:   sensitive
   speaker-type: "Speakers"
   speakers: [ 
@@ -627,7 +627,7 @@
      {name: Tim Dennis, org: ucla-dsc},
      {name: Jamie Jamison, org: ucla-dsc},
      {name: Michael Baluja, org: ucsd}
-     ]
+  ]
   img:  ldw-circuit-color-506.png
   thumbnail:  ldw-circuit-color-506.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses and CDL interspersed"
@@ -699,7 +699,7 @@
   speakers: [ 
      {name: Jennifer Christie, org: uci-lib},
      {name: Shu Liu, org: uci-lib}
-       ]
+  ]
   img:  HTRC_logo.PNG
   thumbnail:  HTRC_logo.PNG
   alt:  "on the left, the HathiTrust logo: an outline of white african elephant head over an orange background; on the right, the text 'Hathi Trust Research Center'."
@@ -708,10 +708,10 @@
   start: 11
   duration: 60
   type:  demo
-  description:  "coming soon"
+  description:  "Coming soon"
   eventbrite:
-  registration-page: "Coming soon"
-  url:  
+  registration-page: 
+  url:  "Coming soon"
   recording:
   slides:
   reader:  
