@@ -72,7 +72,7 @@
   abbv: ucsd-lib
   image: /assets/img/campuses/ucsd-lib.png
   alt: The Library, UC San Diego
-  url: https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/index.html
+  url: https://library.ucsd.edu/research-and-collections/data-curation/
   p-campus: y
   
 - name: UC San Francisco
