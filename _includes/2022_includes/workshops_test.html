@@ -40,11 +40,22 @@
                                 {% endif %}
                              Available</i></p>
                             {% endif %}
-                            {% for day in site.data.yml_2022.dates %}
-                                {% if post.day == day.day-abbv %}
-                                <p class="text-muted-dark"> {{day.day-full }}, {{ post.time }} </p><br><br>
-                                {% endif %}
-                            {% endfor %}
+                            {% if post.day | size > 1 %}
+                                {% assign workshop_days = post.day | split: "," %}
+                            {% else %}
+                                {% assign workshop_days = post.day %}
+                            {% endif %}
+                            <p class="text-muted-dark">
+                            {%- for workshop_day in workshop_days -%}
+                                {%- for day in site.data.yml_2022.dates -%}
+                                    {%- if workshop_day == day.day-abbv -%}
+                                    {{day.day-full }}
+                                    {%- endif -%}
+                                {%- endfor -%}
+                                {%- if forloop.index != workshop_days.size -%}
+                                &nbsp;-&nbsp;
+                                {%- endif -%}
+                            {%- endfor -%}, {{ post.time }}</p>
                         </div>
                     </div>
                 </div>

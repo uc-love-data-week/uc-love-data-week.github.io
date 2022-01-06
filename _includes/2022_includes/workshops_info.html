@@ -13,12 +13,23 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            {% for day in site.data.yml_2022.dates %}
-                                {% if post.day == day.day-abbv %}
-                                <p>{{day.day-full }}, {{ day.date }}. {{ post.time }}</p>
-                                {% endif %}
-                            {% endfor %}
-                            <hr class="star-primary">
+                            {% if post.day | size > 1 %}
+                                {% assign workshop_days = post.day | split: "," %}
+                            {% else %}
+                                {% assign workshop_days = post.day %}
+                            {% endif %}
+                            <p>
+                            {%- for workshop_day in workshop_days -%}
+                                {%- for day in site.data.yml_2022.dates -%}
+                                    {%- if workshop_day == day.day-abbv -%}
+                                    {{day.day-full }}
+                                    {%- endif -%}
+                                {%- endfor -%}
+                                {%- if forloop.index != workshop_days.size -%}
+                                &nbsp;-&nbsp;
+                                {%- endif -%}
+                            {%- endfor -%}, {{ post.time }} | <a href="{{ site.base.url }}/calendar">Calendar</a></p>
+                           <hr class="star-primary">
                             <img src="../assets/img/workshops/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.speakers[0].name != "none" %}
                                 <p>{{ post.speaker-type }}: {% for speaker in post.speakers %}
@@ -38,7 +49,7 @@
                             {% comment %}
                             The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
-                            <!-- h3>Event Registration Information</h3>
+                            <h3>Event Registration Information</h3>
                                 {% assign reg = true %}
 
                                 {% comment %}
@@ -84,7 +95,7 @@
 
                                 {% if reg %}
                                 <p>Registration information coming soon!</p>
-                                {% endif %} -->
+                                {% endif %} <!-- -->
 <!--                            {% comment %}
                             The below blocks are for slides and recordings.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
