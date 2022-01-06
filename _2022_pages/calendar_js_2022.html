@@ -202,6 +202,10 @@ published: true
             if(workshop_url[i]!=""){
                 url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
             }
+            if(url == "" && registration ==""){
+                url = '<i>Registration coming soon</i>'
+            }
+            
             week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
             // after event, to include recordings, slides, and readers
 /*            let recording = ''

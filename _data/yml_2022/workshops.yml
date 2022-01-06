@@ -241,7 +241,7 @@
   duration: 60
   type:  demo
   description: "An increasing number of funders and publishers have implemented data sharing policies to amplify transparency and reproducibility in published research. In addition the National Institutes of Health has recently issued a new final policy for data management and sharing, expanding the requirements for data management and sharing. In anticipation of these changes the UCLA Library developed UCLA Dataverse, a locally administered data repository that fulfills requirements for publishing deidentified data associated with research publications. This session will cover the stages at which data should be published, some background information on UCLA Dataverse, and use cases to demonstrate its functionality."
-  registration-page: coming soon!
+  registration-page:
   eventbrite:
   url:
   recording:
@@ -291,7 +291,7 @@
   duration: 60
   type:  lecture
   description: "Not sure what HPC stands for and why you might use large scale computing? Running jobs on your laptop overnight? Unclear what “remote” means when it comes to working with data? This session will provide an overview of remote and high performance computing terminology, architecture, and general workflows. We will also provide some case studies and information about UC-specific computing resources and contacts."
-  registration-page: coming soon!
+  registration-page:
   temp:
   recording:
   slides:
@@ -711,7 +711,7 @@
   description:  "Coming soon"
   eventbrite:
   registration-page: 
-  url:  "Coming soon"
+  url:  
   recording:
   slides:
   reader:  
