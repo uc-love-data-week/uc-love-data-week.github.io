@@ -535,7 +535,7 @@
   time:   9:00 am - 10:00 am
   start: 9
   duration: 60
-  type:  Resource Demonstration
+  type:  demo
   description:  "IPUMS is the world’s largest and freely accessible database of census microdata, providing international and US census and survey data from 1790- present, as available. IPUMS’ signature feature is that data is harmonized to be fully consistent across datasets, so that researchers can analyze and compare social and economic data over time and place.  Join us to learn more about IPUMS data collections and how to create custom datasets containing just the variables you need to answer your research questions." 
   eventbrite:
   zoom:
@@ -583,7 +583,7 @@
   time:   10:00 am - 11:00 am
   start: 10
   duration: 60
-  type:  Resource Demonstration
+  type:  demo
   description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind. " 
   eventbrite:
   zoom:
@@ -684,7 +684,7 @@
   time:   1:00 pm - 3:00 pm
   start: 1
   duration: 120
-  type:  Seminar
+  type:  seminar
   description:  "This fast paced event will feature 3 minute/3 slide lightning talks from undergraduate and graduate students across the UC system about the data-related projects they are working on. Attendees will have the chance to give immediate feedback to students about their presentations, so bring your enthusiasm and curiosity to this student showcase!"
   registration-page: https://ucldw22_sd_student_lightning_talks.eventbrite.com/
   url: 
@@ -693,7 +693,7 @@
   slides:
   reader:  
 
-- title:  HathiTrust Research Center demo
+- title:  "HathiTrust Research Center demo"
   name:   hathitrust
   speaker-type: "Speakers"
   speakers: [ 
@@ -707,7 +707,7 @@
   time:   11:00 am - noon
   start: 11
   duration: 60
-  type:  resource demonstration
+  type:  demo
   description:  
   eventbrite:
   url:  
