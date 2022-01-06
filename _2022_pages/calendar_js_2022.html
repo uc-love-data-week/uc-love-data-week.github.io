@@ -74,16 +74,6 @@ published: true
             workshop_info = workshop_info.split('%%')
             workshop_info = workshop_info.slice(0, workshop_info.length-1)
 
-/*        let workshop_title = new Array(workshop_slot_count);
-        let workshop_day = new Array(workshop_slot_count);
-        let workshop_time = new Array(workshop_slot_count);
-        let workshop_duration = new Array(workshop_slot_count);
-        let workshop_start = new Array(workshop_slot_count);
-        let workshop_type = new Array(workshop_slot_count);
-        let workshop_recording = new Array(workshop_slot_count);
-        let workshop_slides = new Array(workshop_slot_count);
-        let workshop_reader = new Array(workshop_slot_count);*/
-
         let workshop_title = new Array(1);
         let workshop_day = new Array(1);
         let workshop_time = new Array(1);
@@ -171,18 +161,11 @@ published: true
                 week_rows[i] = new Array(conference_days_abbv.length).fill("");
             }
 
-        // this populates how many workshops are written to each time slot, so we can determine
+        // this array will contain how many workshops are written to each time slot, so we can determine
         // the span required for each day of the week, and make the calendar look nice
-        // maxCol - week_test == span
         var week_workshops_written = new Array((day_end+12-day_start)*2);
             for (let i = 0; i < week_workshops_written.length; i++){
                 week_workshops_written[i] = new Array(conference_days_abbv.length).fill(0);
-            }
-
-// i think this section can be deleted
-        var week_test = new Array((day_end+12-day_start)*2);
-            for (let i = 0; i < week_test.length; i++){
-                week_test[i] = new Array(conference_days_abbv.length).fill(0);
             }
 
 
@@ -194,6 +177,8 @@ published: true
             let blocks = workshop_duration[i]/block_duration;
             let timeIndex = times_array.indexOf(workshop_start[i]*1);
             let dayIndex = conference_days_abbv.indexOf(workshop_day[i]);
+            
+            /* before event text, url and registration links */
             let registration = ''
             if(workshop_registration[i]!=""){
                 registration = '<a href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
@@ -207,6 +192,7 @@ published: true
             }
             
             week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
+            /**/
             // after event, to include recordings, slides, and readers
 /*            let recording = ''
             if(workshop_recording[i]!=""){
