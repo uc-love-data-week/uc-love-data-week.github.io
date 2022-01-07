@@ -1,6 +1,6 @@
 ---
 layout: 2022_default
-permalink: /calendar_2022
+permalink: /2022/calendar
 title: Calendar
 published: true
 ---
@@ -156,6 +156,9 @@ published: true
             maxCol[i] = Math.max.apply(Math, week_total_workshops.map(v => v[i]));
         }
 
+        // this array contains the html for each time/day
+        // all columns in each row will eventually be joined so each element represents
+        // a single time, or row in the html table that displays the calendar view
         var week_rows = new Array((day_end+12-day_start)*2);
             for (let i = 0; i < week_total_workshops.length; i++){
                 week_rows[i] = new Array(conference_days_abbv.length).fill("");
