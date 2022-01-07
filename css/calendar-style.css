@@ -91,3 +91,12 @@ table td {
 .other {
   background-color: #72cdf4;
 }
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 700px;
+}
+.tableFixHead thead th {
+  position: sticky;
+    top: 0;
+}
