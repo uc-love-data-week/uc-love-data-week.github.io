@@ -639,7 +639,7 @@
   description:  "In this intermediate workshop, we will provide a hands-on example of working with an API using Python in Jupyter Notebooks.  We will query an API based on search terms, examine and interpret JSON results, display results as a dataframe, and build functions to facilitate API call replicability.  If you are a beginner to APIs, and want to powerlevel your knowledge, the recording and slides to last year's UC Love Data Week's introductory API workshop are available, which covers how APIs work and API documentation.  Prerequisites for the workshop are - Basic understanding of how APIs work - Installation of Jupyter Notebooks with Python - Installation of the following packages - Beginner knowledge of Python (e.g. assign, for loops, functions, importing libraries)" 
   eventbrite: 
   zoom:  
-  registration-page: https://www.eventbrite.com/preview?eid=230440753497/
+  registration-page: https://www.eventbrite.com/e/an-intermediate-foray-into-apis-with-python-tickets-230440753497
   url: 
   recording:
   slides:
