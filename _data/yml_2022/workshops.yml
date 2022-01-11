@@ -291,7 +291,7 @@
   duration: 60
   type:  lecture
   description: "Not sure what HPC stands for and why you might use large scale computing? Running jobs on your laptop overnight? Unclear what “remote” means when it comes to working with data? This session will provide an overview of remote and high performance computing terminology, architecture, and general workflows. We will also provide some case studies and information about UC-specific computing resources and contacts."
-  registration-page:
+  registration-page: https://berkeley.zoom.us/meeting/register/tJAtdOGtrTsoHdRi4cT9yBa0QKWIQoLp7dX7
   temp:
   recording:
   slides:
