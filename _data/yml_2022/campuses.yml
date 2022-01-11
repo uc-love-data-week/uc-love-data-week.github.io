@@ -13,6 +13,13 @@
   p-campus: n  # p-campus: will it show on front page logo for particpating campus
 
 - name: UC Berkeley
+  abbv: ucb-lib
+  image: ../assets/img/campuses/ucb-lib.png
+  alt: Library Data Services Program
+  url: https://www.lib.berkeley.edu/research-support/data-gis
+  p-campus: y  # p-campus: will it show on front page logo for particpating campus
+  
+- name: UC Berkeley
   abbv: ucb-rit
   image: ../assets/img/campuses/ucb-rit.png
   alt: Berkeley Research IT
