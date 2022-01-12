@@ -54,6 +54,13 @@
   url: https://www.library.ucla.edu/location/data-science-center
   p-campus: y
   
+- name: UCLA
+  abbv: ucla-lib
+  image: /assets/img/campuses/ucla-lib-2022.png
+  alt: UCLA Library
+  url: https://www.library.ucla.edu/location/data-science-center
+  p-campus: y
+  
 - name: UC Merced
   abbv: ucm-lib
   image: /assets/img/campuses/ucm-lib.png
