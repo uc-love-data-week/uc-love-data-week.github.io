@@ -708,9 +708,9 @@
   start: 11
   duration: 60
   type:  demo
-  description:  "Description of this workshop is soming soon"
+  description:  "This session will introduce and demonstrate the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the over 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!"
   eventbrite:
-  registration-page: 
+  registration-page: https://uci.zoom.us/meeting/register/tJEuceiqqDkjE9KnKXow0gJNmPFakjT1gHgQ
   url:  
   recording:
   slides:
