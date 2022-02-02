@@ -584,7 +584,7 @@
   start: 10
   duration: 60
   type:  demo
-  description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind." 
+  description:  "This session will provide an overview of the text mining workflow in Gale Digital Scholar Lab, including collecting and curating a dataset, developing a clean configuration, and applying analysis methods to answer a research question. It will provide examples of research output and classroom usage, situating the Lab within the broader context of the field of Digital Humanities." 
   eventbrite:
   zoom:
   registration-page: https://ucldw22_sd_gale_digital_scholar_lab.eventbrite.com/
