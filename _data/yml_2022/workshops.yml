@@ -686,9 +686,9 @@
   duration: 120
   type:  lecture
   description:  "This fast paced event will feature 3 minute/3 slide lightning talks from undergraduate and graduate students across the UC system about the data-related projects they are working on. Attendees will have the chance to give immediate feedback to students about their presentations, so bring your enthusiasm and curiosity to this student showcase!"
-  registration-page: https://ucldw22_sd_student_lightning_talks.eventbrite.com/
-  url: 
-  temp:  
+  registration-page: 
+  url:
+  temp: Session Cancelled
   recording:
   slides:
   reader:  
