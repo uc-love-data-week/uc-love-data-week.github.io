@@ -14,7 +14,7 @@ published: true
 
     {%- capture workshop_info -%}
         {%- for workshop in site.data.yml_2022.workshops -%}
-             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}%%
+             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
@@ -81,6 +81,7 @@ published: true
         let workshop_reader = new Array(1);
         let workshop_registration = new Array(1);
         let workshop_url = new Array(1);
+        let workshop_temp = new Array(1);
 
         let index = 0;  // need to keep track of index separately, 
                         // since some workshops are held across multiple days
@@ -103,6 +104,7 @@ published: true
                     workshop_reader[index] = wk_info[8];
                     workshop_registration[index] = wk_info[9];
                     workshop_url[index] = wk_info[10];
+                    workshop_temp[index] = wk_info[11];
                     index = index+1
 /*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/                    
 
@@ -120,6 +122,7 @@ published: true
             workshop_reader[index] = wk_info[8];
             workshop_registration[index] = wk_info[9];
             workshop_url[index] = wk_info[10];
+            workshop_temp[index] = wk_info[11];
             index = index+1
 /*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/
 
@@ -185,6 +188,10 @@ published: true
             let url = ''
             if(workshop_url[i]!=""){
                 url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
+            }
+             
+            if(workshop_temp[i] && url==""){
+                url = '<i>'+workshop_temp[i]+'</i>'
             }
             if(url == "" && registration ==""){
                 url = '<i>Registration coming soon</i>'

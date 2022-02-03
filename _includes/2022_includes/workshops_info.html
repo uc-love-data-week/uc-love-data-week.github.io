@@ -92,10 +92,14 @@
                                 {% if post.ical %}
                                 <p>Add to Calendar using iCal.  <a class="btn btn-default" href="{{post.ical}}" title="Add to Calendar using iCal" id="s-lc-event-b-c"><i class="fa fa-calendar fa-lg"></i></a><br></p>
                                 {% endif %}
-
-                                {% if reg %}
+                                
+                                {% if post.temp %}
+                                <p><i>{{post.temp}}</i> </p>
+                                {% elsif reg  %}
                                 <p>Registration information coming soon!</p>
-                                {% endif %} <!-- -->
+                                {% endif %} 
+
+
 <!--                            {% comment %}
                             The below blocks are for slides and recordings.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
