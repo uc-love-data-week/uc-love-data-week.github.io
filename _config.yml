@@ -1,6 +1,6 @@
 title: UC Love Data Week
 description: > # this means to ignore newlines until "baseurl:"
-  Your description
+  UC Love Data Week is a week-long offering of presentations and workshops focused on data access, management, security, sharing, and preservation
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "uc-love-data-week.github.io" # the base hostname & protocol for your site
 # Build settings
