@@ -75,9 +75,9 @@
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
-  time: 2:00 - 4:00 pm
+  time: 2:00 - 3:30 pm
   start: 2
-  duration: 120
+  duration: 90
   type:  hands-on
   description: "Network analysis is a common research method in many disciplines, used to study social or historical networks as well as the spread of disease, complex species interaction, logistics networks, and more. This workshop introduces the basics of working with network graphs and visualizing network data. After covering some essential vocabulary and concepts, we will use Gephi, a free and open-source network visualization tool, to analyze and visualize some example networks."
   eventbrite:
@@ -673,7 +673,7 @@
   name:   hathitrust
   speaker-type: "Speaker"
   speakers: [ 
-     {name: Jennifer Christie, org: uci-lib},
+     {name: Jennifer Christie, org: hathi},
      {name: Shu Liu, org: uci-lib}
   ]
   img:  HTRC_logo.PNG
