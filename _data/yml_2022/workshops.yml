@@ -669,30 +669,6 @@
   slides:
   reader: 
 
-- title:  "Student lightning talks"
-  name:   student
-  speaker-type: "Speaker"
-  speakers: [  
-     {name: Stephanie Labou, org: ucsd-lib},
-     {name: Kat Koziar, org: ucr-lib},
-     {name: Ibraheem Ali, org: ucla-lib}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day:  f
-  time:   1:00 pm - 3:00 pm
-  start: 1
-  duration: 120
-  type:  lecture
-  description:  "This fast paced event will feature 3 minute/3 slide lightning talks from undergraduate and graduate students across the UC system about the data-related projects they are working on. Attendees will have the chance to give immediate feedback to students about their presentations, so bring your enthusiasm and curiosity to this student showcase!"
-  registration-page: 
-  url:
-  temp: Session Cancelled
-  recording:
-  slides:
-  reader:  
-
 - title:  "HathiTrust Research Center demo"
   name:   hathitrust
   speaker-type: "Speaker"
