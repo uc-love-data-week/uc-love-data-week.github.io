@@ -1,19 +1,24 @@
 - date: Feb 14, 2022
   day-full: Monday
   day-abbv: m 
+  iso8601: 20220214
 
 - date: Feb 15, 2022
   day-full: Tuesday
   day-abbv: t
+  iso8601: 20220215
 
 - date: Feb 16, 2022
   day-full: Wednesday
   day-abbv: w
+  iso8601: 20220216
 
 - date: Feb 17, 2022
   day-full: Thursday
   day-abbv: h
+  iso8601: 20220217
 
 - date: Feb 18, 2022
   day-full: Friday
   day-abbv: f
+  iso8601: 20220218
