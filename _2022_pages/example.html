@@ -1,0 +1,46 @@
+---
+layout: 2022_default
+permalink: /example
+title: "Example page to learn liquid "
+published: true
+---
+
+<br><br><br><br>
+<p>since this page uses a layout with a header, the brs will push text down, otherwise it's hidden by the header </p><hr>
+<p>you can assign local variables</p>
+{% assign id = "example" %} 
+{% assign flag = true %} 
+
+<hr>
+
+<p>liquid has some built-in variables, such as "now" and "today".  Use them with filters to both display the value</p>
+This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.<br>
+
+This page was last updated at {{ "today" | date: "%Y-%m-%d %H:%M" }}.<hr>
+
+<p> or assign the value to a local variable<br>
+{% assign last_date = 20220218 %} 
+{% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
+</p>
+{% if last_date == currentDate %}
+ <br>something goes here
+{% endif %}
+
+last date: {{last_date}}<br>
+today: {{ "today" | date: "%Y%m%d" }} <br>
+current date: {{ currentDate }} <br>
+<hr>
+
+{% assign dates = site.data.yml_2022.dates %}
+{% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
+{{ dates }}
+<hr>
+{{ dates.last }}
+<hr>
+{{ dates.first.iso8601 }}
+<hr>
+{% if currentDate >= dates.first.iso8601 and currentDate <= dates.last.iso8601 %}
+ <br>registration is active 
+{% else %}
+<br>registration is closed
+{% endif %}
