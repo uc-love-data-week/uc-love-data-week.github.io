@@ -134,7 +134,7 @@
   registration-page:  https://www.eventbrite.com/e/how-not-to-lie-with-data-trustworthy-data-storytelling-tickets-229568725237
   temp:   
   recording: 
-  slides: 
+  slides: https://www.dropbox.com/scl/fi/0lhkuqgpux4sqeuyp7rw7/how_not_to_lie_with_data.odp?dl=0&rlkey=i1upte3gz7u02cxx3cpl92dyu
   reader: 
 
 - title:  "Introduction to Tableau"
@@ -202,7 +202,8 @@
   url:
   temp:
   recording:
-  slides:
+  slides:  http://ucblib.link/qualdata
+  reader:
 
 - title:  "Building Web Maps with Leaflet (#maptimeDavis)"
   name:   leaflet
@@ -269,8 +270,8 @@
   ical:
   registration-page: https://uci.zoom.us/meeting/register/tJMsd-6grTgtHtzl5Rsoua9AOPC8MVvCLqcp
   temp:
-  recording:
-  slides:
+  recording:  https://uci.zoom.us/rec/share/_1__CAvtwLLZOzPdkIr96Ibexzz7Lbc4EzMFgQ-QKbBtRNCmlQoW3aPOiI4xj7mp.jfYxrpC_5QuVBTur ;                                           
+  slides:  https://docs.google.com/presentation/d/1SAgVipg9ZvmF-CYNpgiQRKtoS2Ma5oscX_vuW8nataA/edit?usp=sharing 
 
 - title:  "Intro to High Performance and Remote Computing"
   name:   high
@@ -294,7 +295,7 @@
   registration-page: https://berkeley.zoom.us/meeting/register/tJAtdOGtrTsoHdRi4cT9yBa0QKWIQoLp7dX7
   temp:
   recording:
-  slides:
+  slides:  https://docs.google.com/presentation/d/1WuZaTg8dWFOgEgr5eghkmT0cq60M6Z80VtwF-ABYpIY/edit?usp=sharing
 
 - title:  "Intro to Git for Version Control"
   name:   git
@@ -429,6 +430,7 @@
   temp:
   recording:
   slides:
+  reader: https://guides.lib.berkeley.edu/wikipedia-edit-a-thon
 
 - title:  "Data Feminism Book Club"
   name:   feminism
@@ -474,7 +476,7 @@
   temp:   
   recording: 
   slides:
-  reader: 
+  reader: https://ucanr-igis.github.io/caladaptr-res/workshops/ca_intro_feb22/
 
 - title:  "Mangaging code and software for applied data science projects"
   name:   code
@@ -565,8 +567,8 @@
   zoom:  
   registration-page: https://uci.zoom.us/meeting/register/tJUvdumvpz0sHNBtBjdjOjvOBL1mEJPVWaHN  
   url: 
-  recording:
-  slides:
+  recording:  https://uci.zoom.us/rec/share/AbaHhYqyF2FOM2MmdoR0E5BtNIAcLiRzikSrbGiXmbGaiZMJk_svukmaRNBDFaC3.p05Dhen4jnOtddqK?startTime=1645121215000 
+  slides:  https://docs.google.com/presentation/d/10s3ShZlZ7Gddk9SIp2Hu5cgntTkIXbuTxavCjb7khvw/edit?usp=sharing 
   reader:  
   
 - title:  "Gale Digital Scholar Lab"
@@ -615,7 +617,7 @@
   registration-page: https://www.eventbrite.com/e/handling-sensitive-data-in-a-sensible-way-tickets-229587401097
   url: 
   recording:
-  slides:
+  slides:  https://drive.google.com/file/d/1fi4YMda4t6cjoobX-1M8dB4up5FZdwST/view?usp=sharing
   reader:  
   
   
@@ -688,6 +690,6 @@
   eventbrite:
   registration-page: https://uci.zoom.us/meeting/register/tJEuceiqqDkjE9KnKXow0gJNmPFakjT1gHgQ
   url:  
-  recording:
-  slides:
-  reader:  
+  recording:  https://uci.zoom.us/rec/share/TQOXLk0cJMCoeMlzF1lCvDdkCPFyXRYkKeTCKhgA00ZaNg21byAvZkc-W8twz1PS.RKXRCW6D5xsMjxUD?startTime=1645211226000 
+  slides:  https://docs.google.com/presentation/d/1N2cNbenfyiSFQuAxOMDjM-G0do3EFRRg/edit?usp=sharing&ouid=100403637436846390425&rtpof=true&sd=true
+  reader:  https://jamboard.google.com/d/1TJhOKZqXoj7DrlsEU8HBDgrFPVXGcOO7_xVzgXx37dY/edit?usp=sharing
