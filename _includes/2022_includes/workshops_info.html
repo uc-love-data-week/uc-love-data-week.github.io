@@ -50,7 +50,7 @@
                             The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
                             <h3>Event Registration Information</h3>
-<!-- 
+<!--  -->
                             {% assign dates = site.data.yml_2022.dates %}
                             {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
                                 {% if currentDate >= dates.first.iso8601 and currentDate <= dates.last.iso8601 %}
@@ -102,9 +102,9 @@
                                     {% elsif reg  %}
                                     <p>Registration information coming soon!</p>
                                     {% endif %} 
-                                {% else %} -->
+                                {% else %} <!--  -->
                                     <p>This is a past event.  Registration is closed</p>
-<!--                                 {% endif %} -->
+<!--  -->                                {% endif %} <!--  -->
 
 
 <!--                            {% comment %}
