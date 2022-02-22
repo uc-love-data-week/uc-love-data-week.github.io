@@ -198,10 +198,10 @@ published: true
             }*/
 
             
-            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
+/*            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
             /**/
             // after event, to include recordings, slides, and readers
-/*            let recording = ''
+/**/            let recording = ''
             if(workshop_recording[i]!=""){
                 recording = '<a href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
             }
@@ -211,7 +211,7 @@ published: true
             }
             let reader = ''
             if(workshop_reader[i]!=""){
-                reader = '<a href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
+                reader = '<br><a href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Other</a>'
             }
             week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
             for (let k = timeIndex; k < (blocks+timeIndex); k++){

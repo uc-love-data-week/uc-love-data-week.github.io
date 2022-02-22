@@ -107,7 +107,7 @@
 <!--  -->                                {% endif %} <!--  -->
 
 
-<!--                            {% comment %}
+<!--     -->                       {% comment %}
                             The below blocks are for slides and recordings.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
                             {% if post.slides or post.reader %}
@@ -119,19 +119,22 @@
                                 - 
                                 {% endif %}
                                 {% if post.reader %}
-                                    <a href="{{post.reader}}" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( {{post.reader}} ); return false;">Reader</a>
+                                    <a href="{{post.reader}}" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( {{post.reader}} ); return false;">Reader or other Materials</a>
+                                {% endif %}
+                                {% if post.slides or post.reader and post.recording %}
+                                - 
+                                {% endif %}
+                                {% if post.recording %}
+                                    <a href="{{post.recording}}" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( {{post.reader}} ); return false;">Recording</a>
+                            
                                 {% endif %}
                                 </p>
                             {% endif %}
-                            {% if post.recording %}
-                            <p>Session Recording<br>
-                            <iframe id="playerid_{{ post.name }}" src="{{post.recording}}?enablejsapi=1" width="100%" height="400"></iframe>
-                            </p>
-                            {% endif %}
+
 
                             <p onclick="stopVideo('#playerid_{{ post.name }}');">
                                 <button type="button" class="btn btn-default" data-dismiss="modal" ><i class="fa fa-times"></i> Close</button>
-                            </p> -->
+                            </p> <!-- -->
                         </div>
                     </div>
                 </div>
