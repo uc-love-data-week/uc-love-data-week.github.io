@@ -46,12 +46,12 @@ current date: {{ currentDate }} <br>
 {% endif %}
 
 <hr>
+<p>currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601</p>
+ current date is {{ currentDate }}<br>
+ dates.last.iso8601 {{ dates.last.iso8601 }}<br> 
+ dates.first.iso8601 {{ dates.first.iso8601 }}<br> 
 {% if currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601 %}
- <br> current date is {{ currentDate }}<br>
- currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601
- dates.last.iso8601 {{ dates.last.iso8601 }}
- dates.first.iso8601 {{ dates.first.iso8601 }}
+    returns true
 {% else %}
-<br>currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601<br>
-returns false
+    returns false
 {% endif %}
