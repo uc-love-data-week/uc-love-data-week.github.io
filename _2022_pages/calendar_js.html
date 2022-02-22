@@ -182,20 +182,21 @@ published: true
             
             /* before event text, url and registration links */
             let registration = ''
-            if(workshop_registration[i]!=""){
+/*            if(workshop_registration[i]!=""){
                 registration = '<a href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
-            }
+            }*/
             let url = ''
-            if(workshop_url[i]!=""){
+/*            if(workshop_url[i]!=""){
                 url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
-            }
+            }*/
              
             if(workshop_temp[i] && url==""){
                 url = '<i>'+workshop_temp[i]+'</i>'
             }
-            if(url == "" && registration ==""){
+/*            if(url == "" && registration ==""){
                 url = '<i>Registration coming soon</i>'
-            }
+            }*/
+
             
             week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
             /**/
