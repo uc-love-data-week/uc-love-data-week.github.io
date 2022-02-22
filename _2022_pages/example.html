@@ -44,3 +44,14 @@ current date: {{ currentDate }} <br>
 {% else %}
 <br>registration is closed
 {% endif %}
+
+<hr>
+{% if currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601 %}
+ <br> current date is {{ currentDate }}<br>
+ currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601
+ dates.last.iso8601 {{ dates.last.iso8601 }}
+ dates.first.iso8601 {{ dates.first.iso8601 }}
+{% else %}
+<br>currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601<br>
+returns false
+{% endif %}
