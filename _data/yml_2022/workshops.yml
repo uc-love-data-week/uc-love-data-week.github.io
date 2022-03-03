@@ -64,6 +64,7 @@
   temp:   
   recording: 
   slides:
+  reader: https://ucdavisdatalab.github.io/workshop_getting_started_with_textual_data/
 
 - title: "Getting Started with Network Data using Gephi"
   name: Gephi
@@ -362,6 +363,7 @@
   temp:
   recording:
   slides:
+  reader: https://guides.library.ucla.edu/c.php?g=1188219&p=8893783
 
 - title: "JSTOR Constellate Demo"
   name: jstor
