@@ -113,7 +113,7 @@
   url:
   temp:
   recording: 
-  slides: 
+  slides: https://docs.google.com/presentation/d/1ux67vS47iRMlaCargFSFBxxPwPrTTEhs58GG155nqHw/edit#slide=id.g1121740bffe_1_0
 
 - title:  "How Not to Lie with Data: Trustworthy Data Storytelling"
   name:   lie
@@ -156,7 +156,7 @@
   description:  "This will be an interactive, follow-along style workshop where I will take you through how to make different types of visualizations (aka vizzes) in Tableau! If you are looking to produce powerful visualizations for your work or research, this workshop is for you. You do not need any prior experience, as this workshop will be a general introduction to Tableau. Students have free access to Tableau Desktop, go to this link to install it on your computer: https://www.tableau.com/academic/students ."
   registration-page:  https://ucla.zoom.us/meeting/register/tJMrd-mqrTIuE9HxAv5lqTw_-hLflgWYPOZc
   temp:  
-  recording: 
+  recording: https://www.youtube.com/watch?v=JEzkC8_oSdQ
   slides: 
   reader: 
 
@@ -295,7 +295,7 @@
   description: "Not sure what HPC stands for and why you might use large scale computing? Running jobs on your laptop overnight? Unclear what “remote” means when it comes to working with data? This session will provide an overview of remote and high performance computing terminology, architecture, and general workflows. We will also provide some case studies and information about UC-specific computing resources and contacts."
   registration-page: https://berkeley.zoom.us/meeting/register/tJAtdOGtrTsoHdRi4cT9yBa0QKWIQoLp7dX7
   temp:
-  recording:
+  recording: https://www.youtube.com/watch?v=cSPtrdFu304&t=9s
   slides:  https://docs.google.com/presentation/d/1WuZaTg8dWFOgEgr5eghkmT0cq60M6Z80VtwF-ABYpIY/edit?usp=sharing
 
 - title:  "Intro to Git for Version Control"
@@ -340,6 +340,7 @@
   temp:
   recording:
   slides:
+  reader: https://docs.google.com/document/d/1cm0bRhzoI05GHSnbx0gt9U-4bUTAa7qizKkx9W_1OZo/edit#heading=h.uhh86yj548jg
 
 # WEDNESDAY
 
