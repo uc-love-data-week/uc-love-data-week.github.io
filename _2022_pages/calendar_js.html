@@ -183,11 +183,11 @@ published: true
             /* before event text, url and registration links */
             let registration = ''
 /*            if(workshop_registration[i]!=""){
-                registration = '<a href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
+                registration = '<a class="calendar" href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
             }*/
             let url = ''
 /*            if(workshop_url[i]!=""){
-                url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
+                url = '<a class="calendar"  href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
             }*/
              
             if(workshop_temp[i] && url==""){
@@ -203,15 +203,15 @@ published: true
             // after event, to include recordings, slides, and readers
 /**/            let recording = ''
             if(workshop_recording[i]!=""){
-                recording = '<a href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
+                recording = '<a class="calendar" href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
             }
             let slides = ''
             if(workshop_slides[i]!=""){
-                slides = '<a href="' + workshop_slides[i] + '" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( '+workshop_slides[i]+' ); return false;">Slides</a>'
+                slides = '<a class="calendar" href="' + workshop_slides[i] + '" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( '+workshop_slides[i]+' ); return false;">Slides</a>'
             }
             let reader = ''
             if(workshop_reader[i]!=""){
-                reader = '<br><a href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
+                reader = '<br><a class="calendar" href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
             }
             week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
