@@ -503,6 +503,7 @@
   url: 
   recording:
   slides:
+  reader: https://ucdavisdatalab.github.io/workshop_data-science-software-management/
   
 - title:  "Reproducible Research for Teams with GitHub"
   name:   Github
