@@ -647,8 +647,8 @@
   registration-page: https://www.eventbrite.com/e/an-intermediate-foray-into-apis-with-python-tickets-230440753497
   url: 
   recording:
-  slides:
-  reader:  
+  slides: https://github.com/uc-love-data-week/intermediate-apis/blob/main/zenodo_lesson.ipynb
+  reader: https://github.com/uc-love-data-week/intermediate-apis/blob/main/resources.md
 
 #FRIDAY
 
