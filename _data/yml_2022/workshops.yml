@@ -180,7 +180,7 @@
   url:
   registration-page: https://ucldw22_sd_proquest_tdm_studio.eventbrite.com
   temp:
-  recording:
+  recording:  https://youtu.be/fQVkUa9JmM0
   slides:
 
 - title:  "What do I do with all this text? Cleaning and coding data for qualitative analysis"
@@ -385,7 +385,7 @@
   zoom:
   registration-page: https://ucldw22_sd_jstor_constellate.eventbrite.com
   url:
-  recording:
+  recording:  https://youtu.be/2keXjIiHy-Y
   slides:
 
 - title:  "Data Ethics and Justice"
@@ -408,7 +408,7 @@
   registration-page: https://ucla.zoom.us/meeting/register/tJ0sdu2vqj0sHtMvJenwgMex8K7TRAR4j4k1
   url:
   eventbrite:
-  recording:
+  recording: https://www.youtube.com/watch?v=rlmPwZkBHfg
   slides:
 
 - title:  "Edit 4 Change Wikipedia Edit-a-thon"
@@ -503,6 +503,7 @@
   url: 
   recording:
   slides:
+  reader: https://ucdavisdatalab.github.io/workshop_data-science-software-management/
   
 - title:  "Reproducible Research for Teams with GitHub"
   name:   Github
@@ -594,7 +595,7 @@
   zoom:
   registration-page: https://ucldw22_sd_gale_digital_scholar_lab.eventbrite.com/
   url: 
-  recording:
+  recording: https://youtu.be/nbdHsIsbdRs
   slides:
   reader:  
   
