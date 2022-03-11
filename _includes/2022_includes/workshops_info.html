@@ -121,7 +121,11 @@
                                 {% if post.reader %}
                                     <a href="{{post.reader}}" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( {{post.reader}} ); return false;">Reader or other Materials</a>
                                 {% endif %}
-                                {% if post.slides or post.reader and post.recording %}
+                                {% if post.slides and post.recording and post.reader %}
+                                - 
+                                {% elsif post.reader and post.recording %}
+                                - 
+                                {% elsif post.slides and post.recording %}
                                 - 
                                 {% endif %}
                                 {% if post.recording %}
