@@ -225,7 +225,7 @@
   registration-page: https://datalab.ucdavis.edu/eventscalendar/building-web-maps-with-leaflet-maptimedavis/
   temp:
   recording:
-  slides:
+  slides: https://ucdavisdatalab.github.io/workshop_web_maps/ 
 
 - title:  "UCLA Publishing & Reproducibility Brown Bag - Dataverse Demo for UCLA Medical School"
   name:   publishing
