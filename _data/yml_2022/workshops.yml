@@ -271,7 +271,7 @@
   ical:
   registration-page: https://uci.zoom.us/meeting/register/tJMsd-6grTgtHtzl5Rsoua9AOPC8MVvCLqcp
   temp:
-  recording:  https://uci.zoom.us/rec/share/_1__CAvtwLLZOzPdkIr96Ibexzz7Lbc4EzMFgQ-QKbBtRNCmlQoW3aPOiI4xj7mp.jfYxrpC_5QuVBTur ;                                           
+  recording:  https://uci.zoom.us/rec/play/ONRpqt4HN3XXKtqDByLancnonNU5OBI5MT83Hrkv_TfxKuiEDgMu4fQjc5YwrtHZE7XCGalZEHB33M9k.w2cb0hA8WB0hLO0J?continueMode=true ;                                           
   slides:  https://docs.google.com/presentation/d/1SAgVipg9ZvmF-CYNpgiQRKtoS2Ma5oscX_vuW8nataA/edit?usp=sharing 
 
 - title:  "Intro to High Performance and Remote Computing"
