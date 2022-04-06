@@ -19,7 +19,7 @@
   zoom:
   registration-page: https://datalab.ucdavis.edu/eventscalendar/beyond-basics-r-fundamentals-series-5-sessions/
   url:
-  recording:
+  recording: https://video.ucdavis.edu/media/Beyond%20Basics%3A%20R%20Fundamentals%205-Part%20Series%20%E2%80%93%20Part%201%20of%205%20%E2%80%93%202022-02-14/1_8ov2dllu
   slides:
 
 - title: "ICPSR - Your Source for Data"
@@ -62,7 +62,7 @@
   eventbrite: 
   url:  https://datalab.ucdavis.edu/eventscalendar/getting-started-with-textual-data-in-python-3-part-series/
   temp:   
-  recording: 
+  recording: https://video.ucdavis.edu/media/Getting%20Started%20with%20Textual%20Data%20in%20Python%203-Part%20Series%20%E2%80%93%20Part%201%20of%203%20-%202022-02-14/1_hj51w6hn
   slides:
   reader: https://ucdavisdatalab.github.io/workshop_getting_started_with_textual_data/
 
@@ -316,7 +316,7 @@
   description: "This workshop covers the fundamentals of using version control for reproducible research. Topics covered will include installing the Git versioning control software locally, initiating a local Git repository, managing file versions, basic branching and merging, and time permitting intermediate topics including working with remote repositories and resolving conflicts. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
   registration-page: https://datalab.ucdavis.edu/eventscalendar/introduction-to-version-control-with-git-3/
   temp:
-  recording:
+  recording: https://video.ucdavis.edu/media/Introduction%20to%20Version%20Control%20with%20Git%20-%202022-02-15/1_hjhr1ap8
   slides:
 
 - title:  "Tidy Tuesday"
@@ -524,7 +524,7 @@
   zoom: 
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/reproducible-research-for-teams-with-github-2/
   url:  
-  recording:  
+  recording:  https://video.ucdavis.edu/media/Reproducible%20Research%20for%20Teams%20with%20GitHub%20%E2%80%93%202022-02-17/1_vups6tuf
   slides:
   reader:
 
