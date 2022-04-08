@@ -532,8 +532,8 @@
   zoom:
   registration-page: https://calendars.library.ucsf.edu/event/7469386
   url:
-  recording: https://courses.ucsf.edu/course/view.php?id=8435 
-  slides:
+  recording: 
+  slides: https://courses.ucsf.edu/course/view.php?id=8435 
 
 - title:  Harvesting Twitter data with twarc and best practices for social media research
   name:   twitter
