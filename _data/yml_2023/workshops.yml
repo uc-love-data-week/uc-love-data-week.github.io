@@ -1,6 +1,6 @@
 # MONDAY
 
-- title: "Beyond Basics in R"
+- title: "TESTING 2023"
   name: beyondbasics
   speaker-type: "Speakers"
   speakers: [
@@ -22,7 +22,7 @@
   recording: https://video.ucdavis.edu/media/Beyond%20Basics%3A%20R%20Fundamentals%205-Part%20Series%20%E2%80%93%20Part%201%20of%205%20%E2%80%93%202022-02-14/1_8ov2dllu
   slides:
 
-- title: "ICPSR - Your Source for Data"
+- title: "I AM ALSO A TEST"
   name: ICPSR
   speaker-type: "Speakers"
   speakers: [
@@ -59,9 +59,9 @@
   duration: 120
   type:  hands-on
   description:  "This three-part workshop series covers the basics of text mining with Python. We will focus primarily on unstructured text data, discussing how to format and clean text to enable the discovery of significant patterns in collections of documents. Sessions will introduce participants to core terminology in text mining/natural language processing and will walk through different methods of ranking terms and documents. We will conclude by using these methods to classify texts and to build models of 'topics.' Basic familiarity with Python is required. We welcome students, postdocs, faculty, and staff from a variety of research domains, ranging from health informatics to the humanities. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
-  eventbrite: 
+  eventbrite:
   url:  https://datalab.ucdavis.edu/eventscalendar/getting-started-with-textual-data-in-python-3-part-series/
-  temp:   
+  temp:
   recording: https://video.ucdavis.edu/media/Getting%20Started%20with%20Textual%20Data%20in%20Python%203-Part%20Series%20%E2%80%93%20Part%201%20of%203%20-%202022-02-14/1_hj51w6hn
   slides:
   reader: https://ucdavisdatalab.github.io/workshop_getting_started_with_textual_data/
@@ -85,7 +85,7 @@
   zoom:
   ical:
   registration-page: https://www.eventbrite.com/e/getting-started-with-network-data-using-gephi-tickets-215461851197
-  url: 
+  url:
   temp:
   recording:
   slides:
@@ -95,7 +95,7 @@
   speaker-type: "Speaker"
   speakers: [
      {name: Scott McAvoy, org: ucsd-lib},
-     {name: Doug Daniels, org: ucla-dsc},     
+     {name: Doug Daniels, org: ucla-dsc},
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -106,13 +106,13 @@
   duration: 60
   type:  demo
   description: "High resolution 3D sensor data (including lidar sonar and photogrammetric models) are becoming commonplace. We can walk out into the world with an iphone and capture multi billion point sub milimeter detail models of huge structures. Almost every academic discipline now incorporates some form of 3D data. In this presentation we will demonstrate new methods which allow us to access and utilize these unwieldy datasets, leveraging network storage for visualization, metrology, and annotation."
-  eventbrite: 
+  eventbrite:
   zoom:
   ical:
   registration-page: https://ucla.zoom.us/meeting/register/tJAlcOqsqj0jHtJ052cM-mENrGdfKQDb0Wc_
   url:
   temp:
-  recording: 
+  recording:
   slides: https://docs.google.com/presentation/d/1ux67vS47iRMlaCargFSFBxxPwPrTTEhs58GG155nqHw/edit#slide=id.g1121740bffe_1_0
 
 - title:  "How Not to Lie with Data: Trustworthy Data Storytelling"
@@ -133,10 +133,10 @@
   type:  lecture
   description: "This seminar will begin with a discussion of data visualization, showcase how different methods of creating and styling maps, graphs, and other charts can be used to support wildly different perceptions and interpretations of the same data source. Focusing on the humanities and social sciences, we will present activities and scenarios for discussion that highlight the need for data transparency, ethical data use, and accurate visualizations. "
   registration-page:  https://www.eventbrite.com/e/how-not-to-lie-with-data-trustworthy-data-storytelling-tickets-229568725237
-  temp:   
-  recording: 
+  temp:
+  recording:
   slides: https://www.dropbox.com/scl/fi/0lhkuqgpux4sqeuyp7rw7/how_not_to_lie_with_data.odp?dl=0&rlkey=i1upte3gz7u02cxx3cpl92dyu
-  reader: 
+  reader:
 
 - title:  "Introduction to Tableau"
   name:   tableau
@@ -155,10 +155,10 @@
   type:  hands-on
   description:  "This will be an interactive, follow-along style workshop where I will take you through how to make different types of visualizations (aka vizzes) in Tableau! If you are looking to produce powerful visualizations for your work or research, this workshop is for you. You do not need any prior experience, as this workshop will be a general introduction to Tableau. Students have free access to Tableau Desktop, go to this link to install it on your computer: https://www.tableau.com/academic/students ."
   registration-page:  https://ucla.zoom.us/meeting/register/tJMrd-mqrTIuE9HxAv5lqTw_-hLflgWYPOZc
-  temp:  
+  temp:
   recording: https://www.youtube.com/watch?v=JEzkC8_oSdQ
-  slides: 
-  reader: 
+  slides:
+  reader:
 
 # TUESDAY
 
@@ -225,7 +225,7 @@
   registration-page: https://datalab.ucdavis.edu/eventscalendar/building-web-maps-with-leaflet-maptimedavis/
   temp:
   recording:
-  slides: https://ucdavisdatalab.github.io/workshop_web_maps/ 
+  slides: https://ucdavisdatalab.github.io/workshop_web_maps/
 
 - title:  "UCLA Publishing & Reproducibility Brown Bag - Dataverse Demo for UCLA Medical School"
   name:   publishing
@@ -243,7 +243,7 @@
   duration: 60
   type:  demo
   description: "An increasing number of funders and publishers have implemented data sharing policies to amplify transparency and reproducibility in published research. In addition the National Institutes of Health has recently issued a new final policy for data management and sharing, expanding the requirements for data management and sharing. In anticipation of these changes the UCLA Library developed UCLA Dataverse, a locally administered data repository that fulfills requirements for publishing deidentified data associated with research publications. This session will cover the stages at which data should be published, some background information on UCLA Dataverse, and use cases to demonstrate its functionality."
-  registration-page: https://uclahs.zoom.us/meeting/register/tJMqfuCgrjsiHNeBCMtZzsy7mFEUytslYvK9 
+  registration-page: https://uclahs.zoom.us/meeting/register/tJMqfuCgrjsiHNeBCMtZzsy7mFEUytslYvK9
   eventbrite:
   url:
   recording:
@@ -271,8 +271,8 @@
   ical:
   registration-page: https://uci.zoom.us/meeting/register/tJMsd-6grTgtHtzl5Rsoua9AOPC8MVvCLqcp
   temp:
-  recording:  https://uci.zoom.us/rec/play/ONRpqt4HN3XXKtqDByLancnonNU5OBI5MT83Hrkv_TfxKuiEDgMu4fQjc5YwrtHZE7XCGalZEHB33M9k.w2cb0hA8WB0hLO0J?continueMode=true ;                                           
-  slides:  https://docs.google.com/presentation/d/1SAgVipg9ZvmF-CYNpgiQRKtoS2Ma5oscX_vuW8nataA/edit?usp=sharing 
+  recording:  https://uci.zoom.us/rec/play/ONRpqt4HN3XXKtqDByLancnonNU5OBI5MT83Hrkv_TfxKuiEDgMu4fQjc5YwrtHZE7XCGalZEHB33M9k.w2cb0hA8WB0hLO0J?continueMode=true ;
+  slides:  https://docs.google.com/presentation/d/1SAgVipg9ZvmF-CYNpgiQRKtoS2Ma5oscX_vuW8nataA/edit?usp=sharing
 
 - title:  "Intro to High Performance and Remote Computing"
   name:   high
@@ -453,7 +453,7 @@
   description: "This interactive, dialogue-driven meetup will explore applying feminist theory and critique to how we work with data and perform research. How do structures of power and oppression shape the data we collect, analyses we perform, and research insights we develop? Together we will reflect on selected chapters from the (freely available) book Data Feminism by Catherine D'Ignazio and Lauren Klein. Come prepared to apply takeaways from the readings to unpacking provided case studies from the health sciences, and your own research processes. Researchers from all domains are welcome to participate. Together we’ll brainstorm how as individuals and a community we can contribute to more equitable data-driven research."
   registration-page: https://datalab.ucdavis.edu/eventscalendar/book-club-meetup-data-feminism/
   eventbrite:
-  url:  
+  url:
   temp:
   recording:
   slides:
@@ -463,28 +463,28 @@
 - title:  "Working with Cal-Adapt Climate Data in R"
   name:  cal-adapt
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Andy Lyons, org: uc-anr}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day:  h  
+  day:  h
   time:  11:00 am - 1:00 pm
   start: 11
   duration: 120
   type:  hands-on
   description:  "Cal-Adapt is California's official go-to source for downscaled climate data. Most people interact with Cal-Adapt through the website, but Cal-Adapt also features an API which can be used to query and download data through programming languages. This hands-on workshop will teach you how to work with climate data using caladaptR, a recent R package which streamlines the process of importing data via the Cal-Adapt API. Exercises will include sample notebooks and a simple web app built using the Shiny package."
   registration-page:  https://igis.ucanr.edu/Training/caladaptR-feb2022/
-  temp:   
-  recording: 
+  temp:
+  recording:
   slides:
   reader: https://ucanr-igis.github.io/caladaptr-res/workshops/ca_intro_feb22/
 
 - title:  "Mangaging code and software for applied data science projects"
   name:   code
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Derek Devnich, org: ucm-lib},
      {name: Kat Koziar, org: ucr-lib},
      {name: Pamela Reynolds, org: ucd-dl}
@@ -497,18 +497,18 @@
   start: 11
   duration: 120
   type:  lecture
-  description:  "Creating a repeatable process for developing your software is an important component of reproducible research. This workshop discusses how and why we build code, possible development workflows, project management strategies, and tool selection. This workshop is designed for learners who are writing and applying code for their research projects, but have no or limited formal computer science training." 
-  eventbrite: 
+  description:  "Creating a repeatable process for developing your software is an important component of reproducible research. This workshop discusses how and why we build code, possible development workflows, project management strategies, and tool selection. This workshop is designed for learners who are writing and applying code for their research projects, but have no or limited formal computer science training."
+  eventbrite:
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/code-management-workshop/
-  url: 
+  url:
   recording:
   slides:
   reader: https://ucdavisdatalab.github.io/workshop_data-science-software-management/
-  
+
 - title:  "Reproducible Research for Teams with GitHub"
   name:   Github
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Wesley Brooks, org: ucd-dl},
      {name: Pamela Reynolds, org: ucd-dl},
   ]
@@ -521,9 +521,9 @@
   duration: 120
   type:  hands-on
   description:  "GitHub is an online platform for software development using Git for version control. During this hands-on workshop we'll practice setting up, sharing, and collaboratively working on a repository for a research project. We'll explore different features for improving your workflows, whether you're working by yourself or with others on a data-driven project using GitHub. Prior to attending the live session learners will complete modules that cover setting up their GitHub account, obtaining their ssh keys, and onboarding to the workshop virtual classroom. Note: this is a small-format workshop and space is limited; applicants will be notified of their enrollment status and provided with the pre-workshop materials one week prior to the workshop. This workshop occurs during UC Love Data Week, and all members of the University of California system are welcome to register."
-  zoom: 
+  zoom:
   registration-page:  https://datalab.ucdavis.edu/eventscalendar/reproducible-research-for-teams-with-github-2/
-  url:  
+  url:
   recording:  https://video.ucdavis.edu/media/Reproducible%20Research%20for%20Teams%20with%20GitHub%20%E2%80%93%202022-02-17/1_vups6tuf
   slides:
   reader:
@@ -531,7 +531,7 @@
 - title:  "Intro to IPUMS: Creating Social Science Datasets with Public Use Microdata"
   name:   IPUMS
   speaker-type: "Speaker"
-  speakers: [  
+  speakers: [
      {name: Elizabeth Salmon, org: ucm-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
@@ -542,18 +542,18 @@
   start: 9
   duration: 60
   type:  demo
-  description:  "IPUMS is the world’s largest and freely accessible database of census microdata, providing international and US census and survey data from 1790- present, as available. IPUMS’ signature feature is that data is harmonized to be fully consistent across datasets, so that researchers can analyze and compare social and economic data over time and place.  Join us to learn more about IPUMS data collections and how to create custom datasets containing just the variables you need to answer your research questions." 
+  description:  "IPUMS is the world’s largest and freely accessible database of census microdata, providing international and US census and survey data from 1790- present, as available. IPUMS’ signature feature is that data is harmonized to be fully consistent across datasets, so that researchers can analyze and compare social and economic data over time and place.  Join us to learn more about IPUMS data collections and how to create custom datasets containing just the variables you need to answer your research questions."
   eventbrite:
   zoom:
   registration-page: https://libcal.ucmerced.edu/calendar/library_events/ipums-feb-17
   url:
-  recording: 
+  recording:
   slides:
 
 - title:  "Data Sharing 101"
   name:  sharing
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Wasila Dahdul, org: uci-lib},
      {name: Derek Devnich, org: ucm-lib},
      {name: Reid Otsuji, org: ucsd-lib}
@@ -566,19 +566,19 @@
   start: 10
   duration: 60
   type:  lecture
-  description:  "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data, code, and documentation for sharing, and selecting an appropriate data repository. We will cover general strategies that are relevant across disciplines, and highlight resources for data sharing available at the University of California." 
+  description:  "Do you need to make your data publicly available to meet funder or publisher requirements? How can you share your data in ways that increase the impact and reproducibility of your research results? Join this workshop to learn best practices for effective data sharing, including how to prepare data, code, and documentation for sharing, and selecting an appropriate data repository. We will cover general strategies that are relevant across disciplines, and highlight resources for data sharing available at the University of California."
   eventbrite:
-  zoom:  
-  registration-page: https://uci.zoom.us/meeting/register/tJUvdumvpz0sHNBtBjdjOjvOBL1mEJPVWaHN  
-  url: 
-  recording:  https://uci.zoom.us/rec/share/AbaHhYqyF2FOM2MmdoR0E5BtNIAcLiRzikSrbGiXmbGaiZMJk_svukmaRNBDFaC3.p05Dhen4jnOtddqK?startTime=1645121215000 
-  slides:  https://docs.google.com/presentation/d/10s3ShZlZ7Gddk9SIp2Hu5cgntTkIXbuTxavCjb7khvw/edit?usp=sharing 
-  reader:  
-  
+  zoom:
+  registration-page: https://uci.zoom.us/meeting/register/tJUvdumvpz0sHNBtBjdjOjvOBL1mEJPVWaHN
+  url:
+  recording:  https://uci.zoom.us/rec/share/AbaHhYqyF2FOM2MmdoR0E5BtNIAcLiRzikSrbGiXmbGaiZMJk_svukmaRNBDFaC3.p05Dhen4jnOtddqK?startTime=1645121215000
+  slides:  https://docs.google.com/presentation/d/10s3ShZlZ7Gddk9SIp2Hu5cgntTkIXbuTxavCjb7khvw/edit?usp=sharing
+  reader:
+
 - title:  "Gale Digital Scholar Lab"
   name:   gale
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Stephanie Labou, org: ucsd-lib},
      {name: Sarah Ketchley, org: gale}
   ]
@@ -590,19 +590,19 @@
   start: 10
   duration: 60
   type:  demo
-  description:  "This session will provide an overview of the text mining workflow in Gale Digital Scholar Lab, including collecting and curating a dataset, developing a clean configuration, and applying analysis methods to answer a research question. It will provide examples of research output and classroom usage, situating the Lab within the broader context of the field of Digital Humanities." 
+  description:  "This session will provide an overview of the text mining workflow in Gale Digital Scholar Lab, including collecting and curating a dataset, developing a clean configuration, and applying analysis methods to answer a research question. It will provide examples of research output and classroom usage, situating the Lab within the broader context of the field of Digital Humanities."
   eventbrite:
   zoom:
   registration-page: https://ucldw22_sd_gale_digital_scholar_lab.eventbrite.com/
-  url: 
+  url:
   recording: https://youtu.be/nbdHsIsbdRs
   slides:
-  reader:  
-  
+  reader:
+
 - title:  "Handling sensitive data in a sensible way"
   name:   sensitive
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Renata Curty, org: ucsb-lib},
      {name: Ryan Horne, org: ucsb-lib},
      {name: Greg Janee, org: ucsb-lib}
@@ -615,20 +615,20 @@
   start: 1
   duration: 60
   type:  lecture
-  description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind. " 
-  eventbrite: 
-  zoom:  
+  description:  "Followed by an introductory presentation, participants will be invited to engage in the discussion of data sensitivity and the spectrum of human subjects' privacy, in the context of the Social Sciences. Through interactive activities, we will explore different scenarios and approaches to secure subjects’ rights to anonymization and protection while having research data ethics, shareability and reusability principles in mind. "
+  eventbrite:
+  zoom:
   registration-page: https://www.eventbrite.com/e/handling-sensitive-data-in-a-sensible-way-tickets-229587401097
-  url: 
+  url:
   recording:
   slides:  https://drive.google.com/file/d/1fi4YMda4t6cjoobX-1M8dB4up5FZdwST/view?usp=sharing
-  reader:  
-  
-  
+  reader:
+
+
 - title:  "An Intermediate Foray into APIs with Python"
   name:   api
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Kat Koziar, org: ucr-lib},
      {name: Tim Dennis, org: ucla-dsc},
      {name: Jamie Jamison, org: ucla-dsc},
@@ -642,11 +642,11 @@
   start: 3
   duration: 120
   type:  hands-on
-  description:  "In this intermediate workshop, we will provide a hands-on example of working with an API using Python in Jupyter Notebooks.  We will query an API based on search terms, examine and interpret JSON results, display results as a dataframe, and build functions to facilitate API call replicability.  If you are a beginner to APIs, and want to powerlevel your knowledge, the recording and slides to last year's UC Love Data Week's introductory API workshop are available, which covers how APIs work and API documentation.  Prerequisites for the workshop are - Basic understanding of how APIs work - Installation of Jupyter Notebooks with Python - Installation of the following packages - Beginner knowledge of Python (e.g. assign, for loops, functions, importing libraries)" 
-  eventbrite: 
-  zoom:  
+  description:  "In this intermediate workshop, we will provide a hands-on example of working with an API using Python in Jupyter Notebooks.  We will query an API based on search terms, examine and interpret JSON results, display results as a dataframe, and build functions to facilitate API call replicability.  If you are a beginner to APIs, and want to powerlevel your knowledge, the recording and slides to last year's UC Love Data Week's introductory API workshop are available, which covers how APIs work and API documentation.  Prerequisites for the workshop are - Basic understanding of how APIs work - Installation of Jupyter Notebooks with Python - Installation of the following packages - Beginner knowledge of Python (e.g. assign, for loops, functions, importing libraries)"
+  eventbrite:
+  zoom:
   registration-page: https://www.eventbrite.com/e/an-intermediate-foray-into-apis-with-python-tickets-230440753497
-  url: 
+  url:
   recording:
   slides: https://github.com/uc-love-data-week/intermediate-apis/blob/main/zenodo_lesson.ipynb
   reader: https://github.com/uc-love-data-week/intermediate-apis/blob/main/resources.md
@@ -656,7 +656,7 @@
 - title:  "Introduction to Jupyter Notebooks in ArcGIS Pro"
   name:   arcgis
   speaker-type: "Speaker"
-  speakers: [  
+  speakers: [
      {name: Shane Feirer , org: uc-anr}
   ]
   img:  gis.png
@@ -668,17 +668,17 @@
   duration: 180
   type:  hands-on
   description:  "Jupyter Notebooks are a user-friendly and interactive way to write Python code. ArcGIS Pro supports Juptyer notebooks natively, opening the door to a wide range of options for automation and extensibility. This workshop will get you started using Jupyter Notebooks in ArcGIS Pro to automate workflows, perform geoprocessing tasks, create data summaries, and import downscaled climate data from Cal-Adapt using a new Python module, caladapt-py."
-  registration-page:  
+  registration-page:
   url:  https://igis.ucanr.edu/Training/JupyterNotebooksCaladaptFeb22/
-  temp:   
-  recording: 
+  temp:
+  recording:
   slides:
-  reader: 
+  reader:
 
 - title:  "HathiTrust Research Center demo"
   name:   hathitrust
   speaker-type: "Speaker"
-  speakers: [ 
+  speakers: [
      {name: Jennifer Christie, org: hathi},
      {name: Shu Liu, org: uci-lib}
   ]
@@ -693,7 +693,7 @@
   description:  "This session will introduce and demonstrate the HathiTrust Research Center and its tools and services for text and data mining the HathiTrust Digital Library. Come learn how you can get started with computational analysis of the over 17 million-volume HathiTrust corpus and hear how other researchers have made use of the HTRC toolkit!"
   eventbrite:
   registration-page: https://uci.zoom.us/meeting/register/tJEuceiqqDkjE9KnKXow0gJNmPFakjT1gHgQ
-  url:  
-  recording:  https://uci.zoom.us/rec/share/TQOXLk0cJMCoeMlzF1lCvDdkCPFyXRYkKeTCKhgA00ZaNg21byAvZkc-W8twz1PS.RKXRCW6D5xsMjxUD?startTime=1645211226000 
+  url:
+  recording:  https://uci.zoom.us/rec/share/TQOXLk0cJMCoeMlzF1lCvDdkCPFyXRYkKeTCKhgA00ZaNg21byAvZkc-W8twz1PS.RKXRCW6D5xsMjxUD?startTime=1645211226000
   slides:  https://docs.google.com/presentation/d/1N2cNbenfyiSFQuAxOMDjM-G0do3EFRRg/edit?usp=sharing&ouid=100403637436846390425&rtpof=true&sd=true
   reader:  https://jamboard.google.com/d/1TJhOKZqXoj7DrlsEU8HBDgrFPVXGcOO7_xVzgXx37dY/edit?usp=sharing
