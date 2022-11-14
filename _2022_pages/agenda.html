@@ -1,6 +1,6 @@
 ---
 layout: 2022_default
-permalink: /2022/agenda
+permalink: /agenda
 title: Agenda
 published: true
 ---
@@ -14,14 +14,14 @@ published: true
       <h1>{{ page.title }}</h1>
 
 
-
+        
         {% for day in site.data.yml_2021.dates %}
             <h2>{{ day.day-full }}, {{ day.date }} </h2>
             <table class="agenda">
                 <thead>
                     <tr>
                         <th class="row-1 agenda-time"><center>Time</center></th>
-                        <th class="row-2 agenda-activity"><center>Activity</center></th>
+                        <th class="row-2 agenda-activity"><center>Activity</center></th>  
                     </tr>
                 </thead>
 
@@ -31,7 +31,7 @@ published: true
                         <td>{{ agenda.time }}</td>
                         <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = agenda.speaker-type | append: ": " %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2021.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}<br>  </td>
                         {% endif %}
-                    </tr>
+                    </tr> 
                 {% endfor %}
             </table>
         {% endfor %}
@@ -41,7 +41,7 @@ published: true
             <thead>
                 <tr>
                     <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
                 </tr>
 
             </thead>
@@ -50,16 +50,16 @@ published: true
                 <tr>
                     <td>{{ agenda.time }}</td>
                     <td>{{ agenda.info }}</td>
-                </tr>
+                </tr> 
             {% endfor %}
         </table>
-
+        
         <h2>Wednesday</h2>
         <table class="agenda">
             <thead>
                 <tr>
                     <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
                 </tr>
 
             </thead>
@@ -68,16 +68,16 @@ published: true
                 <tr>
                     <td>{{ agenda.time }}</td>
                     <td>{{ agenda.info }}</td>
-                </tr>
+                </tr> 
             {% endfor %}
         </table>
-
+        
         <h2>Thursday</h2>
         <table class="agenda">
             <thead>
                 <tr>
                     <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
                 </tr>
 
             </thead>
@@ -86,16 +86,16 @@ published: true
                 <tr>
                     <td>{{ agenda.time }}</td>
                     <td>{{ agenda.info }}</td>
-                </tr>
+                </tr> 
             {% endfor %}
         </table>
-
+        
             <h2>Friday</h2>
         <table class="agenda">
             <thead>
                 <tr>
                     <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
                 </tr>
 
             </thead>
@@ -104,8 +104,8 @@ published: true
                 <tr>
                     <td>{{ agenda.time }}</td>
                     <td>{{ agenda.info }}</td>
-                </tr>
-            {% endfor %}
+                </tr> 
+            {% endfor %} 
         </table -->
     </div>
     </div>

@@ -1,6 +1,6 @@
 ---
 layout: 2022_default
-permalink: /2022/example
+permalink: /example
 title: "Example page to learn liquid "
 published: true
 ---
@@ -8,8 +8,8 @@ published: true
 <br><br><br><br>
 <p>since this page uses a layout with a header, the brs will push text down, otherwise it's hidden by the header </p><hr>
 <p>you can assign local variables</p>
-{% assign id = "example" %}
-{% assign flag = true %}
+{% assign id = "example" %} 
+{% assign flag = true %} 
 
 <hr>
 
@@ -19,7 +19,7 @@ This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.<br>
 This page was last updated at {{ "today" | date: "%Y-%m-%d %H:%M" }}.<hr>
 
 <p> or assign the value to a local variable<br>
-{% assign last_date = 20220218 %}
+{% assign last_date = 20220218 %} 
 {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
 </p>
 {% if last_date == currentDate %}
@@ -40,7 +40,7 @@ current date: {{ currentDate }} <br>
 {{ dates.first.iso8601 }}
 <hr>
 {% if currentDate >= dates.first.iso8601 and currentDate <= dates.last.iso8601 %}
- <br>registration is active
+ <br>registration is active 
 {% else %}
 <br>registration is closed
 {% endif %}
@@ -48,8 +48,8 @@ current date: {{ currentDate }} <br>
 <hr>
 <p>currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601</p>
  current date is {{ currentDate }}<br>
- dates.last.iso8601 {{ dates.last.iso8601 }}<br>
- dates.first.iso8601 {{ dates.first.iso8601 }}<br>
+ dates.last.iso8601 {{ dates.last.iso8601 }}<br> 
+ dates.first.iso8601 {{ dates.first.iso8601 }}<br> 
 {% if currentDate < dates.first.iso8601 or currentDate > dates.last.iso8601 %}
     returns true
 {% else %}

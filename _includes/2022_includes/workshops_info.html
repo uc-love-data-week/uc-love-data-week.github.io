@@ -28,7 +28,7 @@
                                 {%- if forloop.index != workshop_days.size -%}
                                 &nbsp;-&nbsp;
                                 {%- endif -%}
-                            {%- endfor -%}, {{ post.time }} | <a href="{{ site.base.url }}/2022/calendar">Calendar</a></p>
+                            {%- endfor -%}, {{ post.time }} | <a href="{{ site.base.url }}/calendar">Calendar</a></p>
                            <hr class="star-primary">
                             <img src="../assets/img/workshops/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.speakers[0].name != "none" %}
@@ -47,7 +47,7 @@
                             {% endif %}
                             <p>{{ post.description }}</p>
                             {% comment %}
-                            The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml.
+                            The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
                             <h3>Event Registration Information</h3>
 <!--  -->
@@ -69,7 +69,7 @@
                                         </iframe>
                                         {% assign reg = false %}
                                     {% endif %}
-
+                                    
                                     {% comment %}
                                     ZOOM
                                     {% endcomment %}
@@ -82,11 +82,11 @@
                                         Register on website
                                     {% endcomment %}
                                     {% if post.registration-page %}
-                                        <p>Click <a href="{{post.registration-page}}" target="_blank"  title="Link to Registration page"
+                                        <p>Click <a href="{{post.registration-page}}" target="_blank"  title="Link to Registration page" 
                                             onclick="getOutboundLink( {{post.registration-page}} ); return false;">here</a> to register. <br></p>
                                         {% assign reg = false %}
                                         {% elsif post.url  %}
-                                        <p>Campus Event <a href="{{post.url}}" target="_blank" title="Link to campus event page"
+                                        <p>Campus Event <a href="{{post.url}}" target="_blank" title="Link to campus event page" 
                                             onclick="getOutboundLink( {{post.url}} ); return false;">page</a>. <br></p>
                                         {% assign reg = false %}
                                     {% endif %}
@@ -96,41 +96,41 @@
                                     {% if post.ical %}
                                     <p>Add to Calendar using iCal.  <a class="btn btn-default" href="{{post.ical}}" title="Add to Calendar using iCal" id="s-lc-event-b-c"><i class="fa fa-calendar fa-lg"></i></a><br></p>
                                     {% endif %}
-
+                                    
                                     {% if post.temp %}
                                     <p><i>{{post.temp}}</i> </p>
                                     {% elsif reg  %}
                                     <p>Registration information coming soon!</p>
-                                    {% endif %}
+                                    {% endif %} 
                                 {% else %} <!--  -->
                                     <p>This is a past event.  Registration is closed.</p>
 <!--  -->                                {% endif %} <!--  -->
 
 
 <!--     -->                       {% comment %}
-                            The below blocks are for slides and recordings.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml.
+                            The below blocks are for slides and recordings.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in workshops.yml. 
                             {% endcomment %}
                             {% if post.slides or post.reader or post.recording %}
-                                <p><strong>Workshop Materials</strong>:
+                                <p><strong>Workshop Materials</strong>: 
                                 {% if post.slides %}
                                     <a href="{{post.slides}}" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( {{post.slides}} ); return false;">Slides</a>
                                 {% endif %}
                                 {% if post.slides and post.reader %}
-                                -
+                                - 
                                 {% endif %}
                                 {% if post.reader %}
                                     <a href="{{post.reader}}" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( {{post.reader}} ); return false;">Reader or other Materials</a>
                                 {% endif %}
                                 {% if post.slides and post.recording and post.reader %}
-                                -
+                                - 
                                 {% elsif post.reader and post.recording %}
-                                -
+                                - 
                                 {% elsif post.slides and post.recording %}
-                                -
+                                - 
                                 {% endif %}
                                 {% if post.recording %}
                                     <a href="{{post.recording}}" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( {{post.recording}} ); return false;">Recording</a>
-
+                            
                                 {% endif %}
                                 </p>
                             {% endif %}

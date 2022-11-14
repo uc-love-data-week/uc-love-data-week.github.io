@@ -1,12 +1,12 @@
 ---
 layout: 2022_default
-permalink: /2022/lightning
+permalink: /lightning
 title: "Lightning Talks"
 published: true
 ---
 
-{% assign id = "lightning" %}
-{% assign table = true %}
+{% assign id = "lightning" %} 
+{% assign table = true %} 
 
  {% for post in site.data.yml_2021.workshops %}
  {% if post.name == id %}
@@ -38,7 +38,7 @@ published: true
                             {% endif %}
                             <p>{{ post.description }}</p>
 
-                            {% if table %}
+                            {% if table %} 
                             <table width="100%" align="center">
                             	<tr style="padding: 25px; border-bottom: 1px solid lightgray; border-collapse: collapse;" ><th width="25%">Presenter Name</th><th>Talk Title</th></tr>
                                 {% for presenter in site.data.yml_2021.lightning_table %}
@@ -50,7 +50,7 @@ published: true
 
 
                             {% comment %}
-                            The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in speakers.yml.
+                            The below blocks are for registration.  You can delete them, or leave it in.  The code will not display unless the appropriate fields are set in speakers.yml. 
                             {% endcomment %}
                             <h3>Event Registration Information</h3>
                                 {% assign reg = true %}
@@ -68,7 +68,7 @@ published: true
                                     </iframe>
                                     {% assign reg = false %}
                                 {% endif %}
-
+                                
                                 {% comment %}
                                 ZOOM
                                 {% endcomment %}
@@ -81,11 +81,11 @@ published: true
                                     Register on website
                                 {% endcomment %}
                                 {% if post.registration-page %}
-                                    <p>Click <a href="{{post.registration-page}}" target="_blank"  title="Link to Registration page"
+                                    <p>Click <a href="{{post.registration-page}}" target="_blank"  title="Link to Registration page" 
                                         onclick="getOutboundLink( {{post.registration-page}} ); return false;">here</a> to register. <br></p>
                                     {% assign reg = false %}
                                     {% elsif post.url  %}
-                                    <p>Campus Event <a href="{{post.url}}" target="_blank" title="Link to campus event page"
+                                    <p>Campus Event <a href="{{post.url}}" target="_blank" title="Link to campus event page" 
                                         onclick="getOutboundLink( {{post.url}} ); return false;">page</a>. <br></p>
                                     {% assign reg = false %}
                                 {% endif %}

@@ -1,6 +1,6 @@
 ---
-layout: 2023_default
-permalink: /2023/calendar
+layout: 2022_default
+permalink: /calendar
 title: Calendar
 published: true
 ---
@@ -13,13 +13,13 @@ published: true
     {% endcomment %}
 
     {%- capture workshop_info -%}
-        {%- for workshop in site.data.yml_2023.workshops -%}
-             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}%%
+        {%- for workshop in site.data.yml_2022.workshops -%}
+             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
     {%- capture days_info -%}
-        {%- for day in site.data.yml_2023.dates -%}
+        {%- for day in site.data.yml_2022.dates -%}
              {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}%%
         {%- endfor -%}
     {%- endcapture -%}
@@ -29,22 +29,22 @@ published: true
         functionality needed to create the calendar view
     {% endcomment %}
     <script type="text/javascript">
-        // for displaying variables outside of the context of the calendar,
+        // for displaying variables outside of the context of the calendar, 
         // the html needs to be pushed down a little so it is visible beneath the page menu
 //        document.write ('<hr><hr><hr><hr>')
 
-        // basic global variables; it's easier to have it here vs a single yml file
-        // although, we might revisit having global variables in a yml file,
-        // as long as the data doesn't get too cluttered.
+        // basic global variables; it's easier to have it here RN vs a single yml file
+        // although, we might revisit having global variables in a yml file, 
+        // as long as the data doesn't get too cluttered. 
         var day_start = 9;  // assumes am
         var day_end = 5;  // assumes pm
         var block_duration = 30;  // in minutes
-
+        
         // convert liquid variable for conference days info to javascript objects
         let days_info = '{{days_info}}';
             days_info = days_info.split('%%')
             days_info = days_info.slice(0, days_info.length-1)
-
+        
         var conference_days_text = new Array(days_info.length);
         var conference_days_abbv = new Array(days_info.length);
         var conference_days_date = new Array(days_info.length);
@@ -55,7 +55,7 @@ published: true
             conference_days_text[i] = day_info[1];
             conference_days_abbv[i] = day_info[2];
         }
-
+        
         // this array contains each time slot for the day.  semi-hard coded for 30 minute intervals
         var times_array = new Array((day_end+12-day_start)*(60/block_duration));
             times_array[0] = day_start;
@@ -64,11 +64,7 @@ published: true
                 times_array[i] = times_array[i-1]*1 + (block_duration/60);
                 if (times_array[i] == 13) times_array[i] = 1;
             }
-
-        // times_tr containes the row information (<tr>) for each time slot
-        var times_tr = new Array((day_end+12-day_start)*(60/block_duration)).fill('')
-
-
+        
         // convert liquid variable for workshop info to javascript objects
         let workshop_info = '{{workshop_info}}';
             workshop_info = workshop_info.split('%%')
@@ -85,8 +81,9 @@ published: true
         let workshop_reader = new Array(1);
         let workshop_registration = new Array(1);
         let workshop_url = new Array(1);
+        let workshop_temp = new Array(1);
 
-        let index = 0;  // need to keep track of index separately,
+        let index = 0;  // need to keep track of index separately, 
                         // since some workshops are held across multiple days
         for (let i = 0; i < workshop_info.length; i++){
             let wk_info = workshop_info[i].split('&&');
@@ -107,8 +104,9 @@ published: true
                     workshop_reader[index] = wk_info[8];
                     workshop_registration[index] = wk_info[9];
                     workshop_url[index] = wk_info[10];
+                    workshop_temp[index] = wk_info[11];
                     index = index+1
-/*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/
+/*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/                    
 
                 }
 /*                document.write ('<p>length after'+workshop_slot_count+'</p>')/**/
@@ -124,6 +122,7 @@ published: true
             workshop_reader[index] = wk_info[8];
             workshop_registration[index] = wk_info[9];
             workshop_url[index] = wk_info[10];
+            workshop_temp[index] = wk_info[11];
             index = index+1
 /*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/
 
@@ -131,7 +130,7 @@ published: true
         }
 
 
-        // a nested array where each cell represents a single day/time
+        // a nested array where each cell represents a single day/time 
         var week_total_workshops = new Array((day_end+12-day_start)*2);
             for (let i = 0; i < week_total_workshops.length; i++){
                 week_total_workshops[i] = new Array(conference_days_abbv.length).fill(0);
@@ -156,7 +155,7 @@ published: true
             maxCol[i] = Math.max.apply(Math, week_total_workshops.map(v => v[i]));
         }
 
-        // this array contains the html for each time/day
+        // this array will contain the html for each time/day
         // all columns in each row will eventually be joined so each element represents
         // a single time, or row in the html table that displays the calendar view
         var week_rows = new Array((day_end+12-day_start)*2);
@@ -180,39 +179,44 @@ published: true
             let blocks = workshop_duration[i]/block_duration;
             let timeIndex = times_array.indexOf(workshop_start[i]*1);
             let dayIndex = conference_days_abbv.indexOf(workshop_day[i]);
-
+            
             /* before event text, url and registration links */
             let registration = ''
-            if(workshop_registration[i]!=""){
-                registration = '<a href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
-            }
+/*            if(workshop_registration[i]!=""){
+                registration = '<a class="calendar" href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
+            }*/
             let url = ''
-            if(workshop_url[i]!=""){
-                url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
+/*            if(workshop_url[i]!=""){
+                url = '<a class="calendar"  href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
+            }*/
+             
+            if(workshop_temp[i] && url==""){
+                url = '<i>'+workshop_temp[i]+'</i>'
             }
-            if(url == "" && registration ==""){
+/*            if(url == "" && registration ==""){
                 url = '<i>Registration coming soon</i>'
-            }
+            }*/
 
-            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
+            
+/*            week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
             /**/
             // after event, to include recordings, slides, and readers
-/*            let recording = ''
+/**/            let recording = ''
             if(workshop_recording[i]!=""){
-                recording = '<a href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
+                recording = '<a class="calendar" href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
             }
             let slides = ''
             if(workshop_slides[i]!=""){
-                slides = '<a href="' + workshop_slides[i] + '" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( '+workshop_slides[i]+' ); return false;">Slides</a>'
+                slides = '<a class="calendar" href="' + workshop_slides[i] + '" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( '+workshop_slides[i]+' ); return false;">Slides</a>'
             }
             let reader = ''
             if(workshop_reader[i]!=""){
-                reader = '<a href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
+                reader = '<br><a class="calendar" href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
             }
             week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                     week_workshops_written[k][dayIndex] = (week_workshops_written[k][dayIndex])+1;
-            }
+            }            
         }
 
 
@@ -235,12 +239,13 @@ published: true
 
 
     <div  class="event calendar-frame" <!-- -->
-        <!-- p><center>2023 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
-      <h1>2023 {{ page.title }}</h1>
+        <!-- p><center>2022 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
+      <h1>2022 {{ page.title }}</h1>
+<div class="tableFixHead">
 <table class="calendar">
   <body class="calendar" >
   </colgroup>
-    <thead><tr>
+    <thead><tr> 
             <th style="text-align: center;  border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" scope="col">Time</th>
             <script>
                 for (let i = 0; i < conference_days_text.length; i++){
@@ -261,13 +266,14 @@ published: true
 
 </body>
 </table>
+</div>
 <br>
       <div style="display:inline-block; background-color: #d3d3d3; padding:5px; margin:5px; overflow-x: hidden; width:auto; border-radius: 10px 10px 10px 10px;">
         <table class="calendar" style="width: auto; border: 1px dashed lightgrey; border-radius: 10px 10px 10px 10px;">
             <tr><td>Workshop legend:</td>
-                {%- for legend in site.data.yml_2023.workshop_type -%}
+                {%- for legend in site.data.yml_2022.workshop_type -%}
                      <td style="border: 1px solid #d3d3d3; border-radius: 10px 10px 10px 10px; border-spacing: 1;  text-align: center;" class='{{legend.type}}'>{{legend.type_description_short}}</td>
-                {%- endfor -%}
+                {%- endfor -%}      
             </tr>
 
         </table>
