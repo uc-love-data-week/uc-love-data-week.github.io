@@ -8,13 +8,13 @@ markdown: kramdown
 
 logo: "../assets/img/ldw-circuit-light-transparent.png"
 
-social: 
+social:
   name: Slack
   link: "https://uclovedataweek.slack.com/"
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2016_pages', '_2021_pages', '_2022_pages']
+include: ['_2016_pages', '_2021_pages', '_2022_pages', '_2023_pages']
 
 plugins:
   - jekyll-sitemap

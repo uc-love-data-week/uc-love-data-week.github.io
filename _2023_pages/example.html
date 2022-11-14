@@ -1,6 +1,6 @@
 ---
-layout: 2022_default
-permalink: /2022/example
+layout: 2023_default
+permalink: /example
 title: "Example page to learn liquid "
 published: true
 ---
@@ -19,7 +19,7 @@ This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.<br>
 This page was last updated at {{ "today" | date: "%Y-%m-%d %H:%M" }}.<hr>
 
 <p> or assign the value to a local variable<br>
-{% assign last_date = 20220218 %}
+{% assign last_date = 20230218 %}
 {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
 </p>
 {% if last_date == currentDate %}
@@ -31,7 +31,7 @@ today: {{ "today" | date: "%Y%m%d" }} <br>
 current date: {{ currentDate }} <br>
 <hr>
 
-{% assign dates = site.data.yml_2022.dates %}
+{% assign dates = site.data.yml_2023.dates %}
 {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
 {{ dates }}
 <hr>
@@ -59,4 +59,4 @@ current date: {{ currentDate }} <br>
 
 <hr>
 <hr>
-    {% include 2022_includes/workshops_info_test.html %}
+    {% include 2023_includes/workshops_info_test.html %}
