@@ -17,7 +17,7 @@
   type:  hands-on
   description: "This 5-part workshop series aims to help learners understand the relatively small but fundamental computational model underlying the R language. This will help you reason about code before you write and run it, and to debug it if it doesn’t do what you want. A sound understanding of this computational model makes programming in R much easier and more productive! This workshop series is intended for active engagement – be prepared to come to each session with questions about why some things worked, and others didn’t. All researchers (students, postdocs, faculty and staff) who meet the ‘prerequisites’ are welcome to register for this workshop series, which is being offered in person at the UC Davis DataLab, and will be broadcast as part of UC Love Data Week. An optional final 5th session will be offered entirely remotely for additional Q&A by all audiences. Learners who can attend all sessions will receive priority registration for the limited in person seats. Broadcast participants still need to register to receive the Zoom link."
   zoom:
-  registration-page: https://datalab.ucdavis.edu/eventscalendar/beyond-basics-r-fundamentals-series-5-sessions/
+  registration-page: 
   url:
   recording: https://video.ucdavis.edu/media/Beyond%20Basics%3A%20R%20Fundamentals%205-Part%20Series%20%E2%80%93%20Part%201%20of%205%20%E2%80%93%202022-02-14/1_8ov2dllu
   slides:
@@ -38,8 +38,8 @@
   duration: 60
   type:  demo
   description: "Students, do you need data for papers you have to write this quarter? Faculty, are you teaching students to use data but don't have time to create that lesson plan? ICPSR has you covered! Join us for this presentation to learn about the classroom resources, data training, and over 15,000 datasets that are available to you for free. With data on economics, political science, public health and so much more, ICPSR has the data you need."
-  registration-page: https://ucldw22_sd_icpsr.eventbrite.com
-  url:
+  registration-page: 
+  url: https://ucldw22_sd_icpsr.eventbrite.com
   recording:
   slides:
 
