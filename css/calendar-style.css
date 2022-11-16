@@ -72,6 +72,11 @@ table td {
   margin: 5px;
 }
 
+.calendar table td a {
+    color: #800080 ;
+  }
+
+
 .calendar table td a:hover {
     color: #665b20;
 	}
