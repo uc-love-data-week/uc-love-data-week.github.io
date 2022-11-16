@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  <style type="text/css">
+    /*INCLUDE MAIN CSS FILE*/
+    {% capture criticalcss %}
+      {% include /2016_css/critical.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
+
+  {% include /2016_data/js.html %}
+  {% include /2023_includes/head.html %}
+
+  <body>
+    {% include /2023_includes/header.html %}
+        {{ content }}
+  </body>
+  {% include /2023_includes/footer.html %}
+</html>

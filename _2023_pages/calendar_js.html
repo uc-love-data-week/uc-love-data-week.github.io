@@ -1,6 +1,6 @@
 ---
-layout: 2022_default
-permalink: /2022/calendar
+layout: 2023_default
+permalink: /calendar
 title: Calendar
 published: true
 ---
@@ -13,13 +13,13 @@ published: true
     {% endcomment %}
 
     {%- capture workshop_info -%}
-        {%- for workshop in site.data.yml_2022.workshops -%}
+        {%- for workshop in site.data.yml_2023.workshops -%}
              {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
     {%- capture days_info -%}
-        {%- for day in site.data.yml_2022.dates -%}
+        {%- for day in site.data.yml_2023.dates -%}
              {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}%%
         {%- endfor -%}
     {%- endcapture -%}
@@ -239,8 +239,8 @@ published: true
 
 
     <div  class="event calendar-frame" <!-- -->
-        <!-- p><center>2022 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
-      <h1>2022 {{ page.title }}</h1>
+        <!-- p><center>2023 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
+      <h1>2023 {{ page.title }}</h1>
 <div class="tableFixHead">
 <table class="calendar">
   <body class="calendar" >
@@ -271,7 +271,7 @@ published: true
       <div style="display:inline-block; background-color: #d3d3d3; padding:5px; margin:5px; overflow-x: hidden; width:auto; border-radius: 10px 10px 10px 10px;">
         <table class="calendar" style="width: auto; border: 1px dashed lightgrey; border-radius: 10px 10px 10px 10px;">
             <tr><td>Workshop legend:</td>
-                {%- for legend in site.data.yml_2022.workshop_type -%}
+                {%- for legend in site.data.yml_2023.workshop_type -%}
                      <td style="border: 1px solid #d3d3d3; border-radius: 10px 10px 10px 10px; border-spacing: 1;  text-align: center;" class='{{legend.type}}'>{{legend.type_description_short}}</td>
                 {%- endfor -%}
             </tr>

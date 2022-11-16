@@ -1,5 +1,5 @@
  <!-- Portfolio Modals -->
- {% for post in site.data.yml_2022.workshops %}
+ {% for post in site.data.yml_2023.workshops %}
     <div class="portfolio-modal modal fade" id="{{ post.name }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -20,7 +20,7 @@
                             {% endif %}
                             <p>
                             {%- for workshop_day in workshop_days -%}
-                                {%- for day in site.data.yml_2022.dates -%}
+                                {%- for day in site.data.yml_2023.dates -%}
                                     {%- if workshop_day == day.day-abbv -%}
                                     {{day.day-full }}
                                     {%- endif -%}
@@ -28,13 +28,13 @@
                                 {%- if forloop.index != workshop_days.size -%}
                                 &nbsp;-&nbsp;
                                 {%- endif -%}
-                            {%- endfor -%}, {{ post.time }} | <a href="{{ site.base.url }}/2022/calendar">Calendar</a></p>
+                            {%- endfor -%}, {{ post.time }} | <a href="{{ site.base.url }}/calendar">Calendar</a></p>
                            <hr class="star-primary">
                             <img src="../assets/img/workshops/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.speakers[0].name != "none" %}
                                 <p>{{ post.speaker-type }}: {% for speaker in post.speakers %}
                                 {{- speaker.name -}}
-                                {% for campus in site.data.yml_2022.campuses %}
+                                {% for campus in site.data.yml_2023.campuses %}
                                     {% if speaker.org == campus.abbv %}
                                         ({{campus.name}})
                                     {% endif %}
@@ -51,7 +51,7 @@
                             {% endcomment %}
                             <h3>Event Registration Information</h3>
 <!--  -->
-                            {% assign dates = site.data.yml_2022.dates %}
+                            {% assign dates = site.data.yml_2023.dates %}
                             {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
                                 {% if currentDate >= dates.first.iso8601 and currentDate <= dates.last.iso8601 %}
                                     {% assign reg = true %}
