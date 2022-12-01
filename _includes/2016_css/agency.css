@@ -54,7 +54,7 @@ body {
 
 p {
     line-height: 1.75;
-	font-size: 110%;
+    font-size: 110%;
 }
 
 p.large {
@@ -92,7 +92,7 @@ h6 {
 }
 
 h4 {
-	font-size: 120%;
+    font-size: 120%;
 }
 
 .img-centered {
@@ -399,6 +399,15 @@ header .intro-text .intro-lead-in {
         backdrop-filter: blur(5px);
 
 
+}
+
+#intro .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
 }
 
 header .intro-text .intro-heading {
