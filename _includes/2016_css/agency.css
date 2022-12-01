@@ -352,12 +352,12 @@ fieldset[disabled] .btn-xl.active {
   .dropdown-menu li{
     position: relative;
   }
-  .nav-item .submenu{ 
+  .nav-item .submenu{
     display: none;
     position: absolute;
     left:100%; top:-7px;
   }
-  .nav-item .submenu-left{ 
+  .nav-item .submenu-left{
     right:100%; left:auto;
   }
   .dropdown-menu > li:hover{ background-color: #f1f1f1 }
@@ -367,7 +367,7 @@ fieldset[disabled] .btn-xl.active {
 }*/
 
 header {
-    height: 100vh;
+    height: 70vh;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -427,7 +427,7 @@ header .intro-text .intro-heading {
 }
 
 
-@media(min-width:768px) {    
+@media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -996,4 +996,3 @@ body {
     color: #fff;
     background-color: #000000 /* actual header color #222222 //{{ site.data.template.color.primary }};*/
  }
-
