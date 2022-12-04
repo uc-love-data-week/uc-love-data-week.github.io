@@ -4,13 +4,16 @@
 
     {%- capture workshop_info -%}
         {%- for workshop in site.data.yml_2023.workshops -%}
-             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}%%
+             {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}&&{{workshop.name}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
+            {% assign dates = site.data.yml_2023.dates %}
+        {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
+
     {%- capture days_info -%}
         {%- for day in site.data.yml_2023.dates -%}
-             {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}%%
+             {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}&&{{day.iso8601}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
@@ -30,7 +33,7 @@
         var day_end = 5;  // assumes pm
         var block_duration = 30;  // in minutes
 
-        var reg_open = 1; // is registration open? if so, will show reg/url links; if not, will show recording links. is binary 1/0
+
         
         // convert liquid variable for conference days info to javascript objects
         let days_info = '{{days_info}}';
@@ -40,13 +43,28 @@
         var conference_days_text = new Array(days_info.length);
         var conference_days_abbv = new Array(days_info.length);
         var conference_days_date = new Array(days_info.length);
+        var conference_days_iso8601 = new Array(days_info.length);
 
         for (let i = 0; i < days_info.length; i++){
             let day_info = days_info[i].split('&&');
             conference_days_date[i] = day_info[0];
             conference_days_text[i] = day_info[1];
             conference_days_abbv[i] = day_info[2];
+            conference_days_iso8601[i] = day_info[3];
         }
+
+        var modal = 1; // do we want the modal popup? will remove links except for modal. is binary 1/0
+
+/**/    let currentDate = new Date();
+        let isoDate = (currentDate.getFullYear()*10000)+((currentDate.getMonth()+1)*100)+(currentDate.getDate())
+        // registration open based on current date. if open, will show reg/url links; if not, will show materials links. if modal is active, will not show registration or mats links. is binary 1/0
+        if(isoDate<=conference_days_iso8601[conference_days_iso8601.length-1]){
+            var reg_open = 1;               
+        }else
+        {
+            var reg_open = 0;
+        }
+
         
         // this array contains each time slot for the day.  semi-hard coded for 30 minute intervals
         var times_array = new Array((day_end+12-day_start)*(60/block_duration));
@@ -74,6 +92,7 @@
         let workshop_registration = new Array(1);
         let workshop_url = new Array(1);
         let workshop_temp = new Array(1);
+        let workshop_name = new Array(1);
 
         let index = 0;  // need to keep track of index separately, 
                         // since some workshops are held across multiple days
@@ -97,8 +116,9 @@
                     workshop_registration[index] = wk_info[9];
                     workshop_url[index] = wk_info[10];
                     workshop_temp[index] = wk_info[11];
+                    workshop_name[index] = wk_info[12];
                     index = index+1
-/*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/                    
+/*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_name[index-1]+'</p>')/**/                    
 
                 }
 /*                document.write ('<p>length after'+workshop_slot_count+'</p>')/**/
@@ -115,6 +135,7 @@
             workshop_registration[index] = wk_info[9];
             workshop_url[index] = wk_info[10];
             workshop_temp[index] = wk_info[11];
+            workshop_name[index] = wk_info[12];
             index = index+1
 /*                document.write ('<p>workshop info: '+workshop_title[index-1]+' '+workshop_day[index-1]+'</p>')/**/
 
@@ -175,38 +196,77 @@
             /* before event text, url and registration links */
             let registration = ''
             let url = ''
+            let recording = ''
+            let slides = ''
+            let reader = ''
+            let mats = ''
+
+            if(modal){
+                modal_html=' ><a href="#'+workshop_name[i]+'" data-toggle="modal">'+ workshop_title[i] +'</a>'
+            }else{
+                modal_html=' >'+ workshop_title[i]
+            }
+
+
             if(reg_open){
                 if(workshop_registration[i]!=""){
+                    if(modal){
+                        registration = '<i>Registration open</i>'
+                    }else{
                     registration = '<a href="' + workshop_registration[i] + '" target="_blank" title="Link to workshop registration" onclick="getOutboundLink( '+workshop_registration[i]+' ); return false;">Registration</a>'
                 }
+                }
                 if(workshop_url[i]!=""){
+                    if(modal){
+                        registration = '<i>Registration open</i>'
+                    }else{
+
                     url = '<a href="' + workshop_url[i] + '" target="_blank" title="Link to workshop page with registration" onclick="getOutboundLink( '+workshop_url[i]+' ); return false;">Workshop page (with registration)</a>'
+                }
                 }
                 if(url == "" && registration ==""){
                     url = '<i>Registration coming soon</i>'
                 }
                 
-                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+registration+' '+url+' </span></td>';
+/*                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+ modal_html +'<span>'+registration+' '+url+' </span></td>';/**/
 
             }else {  // after event, to include recordings, slides, and readers
                 if(workshop_temp[i] && url==""){
                     url = '<i>'+workshop_temp[i]+'</i>'
                 }
 
-                let recording = ''
-                if(workshop_recording[i]!=""){
-                    recording = '<a class="calendar" href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
+                if((workshop_recording[i]!="")||(workshop_slides[i]!="")||(workshop_reader[i]!="")){
+                    if(modal){mats="<i>Available Materials:</i><br>"}
                 }
-                let slides = ''
+
+                if(workshop_recording[i]!=""){
+                    if(modal){
+                        recording = '- Recording<br>'
+                    }else{
+
+                        recording = '<a class="calendar" href="' + workshop_recording[i] + '" target="_blank" title="Link to workshop recording" onclick="getOutboundLink( '+workshop_recording[i]+' ); return false;">Recording</a>'
+                    }
+                }
                 if(workshop_slides[i]!=""){
+                    if(modal){
+                        slides = '- Slides<br>'
+                    }else{
+
                     slides = '<a class="calendar" href="' + workshop_slides[i] + '" target="_blank" title="Link to workshop slides" onclick="getOutboundLink( '+workshop_slides[i]+' ); return false;">Slides</a>'
                 }
-                let reader = ''
+                }
                 if(workshop_reader[i]!=""){
+                    if(modal){
+                        reader = '- Reader<br>'
+                    }else{
+
                     reader = '<br><a class="calendar" href="' + workshop_reader[i] + '" target="_blank" title="Link to workshop reader" onclick="getOutboundLink( '+workshop_reader[i]+' ); return false;">Reader</a>'
                 }
-                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+' >'+ workshop_title[i] +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
+                }
+/*                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+ modal_html +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
             }
+                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+ modal_html +'<span>'+registration+' '+url+mats+recording+' '+slides+' '+reader+' </span></td>';/**/
+
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                 week_workshops_written[k][dayIndex] = (week_workshops_written[k][dayIndex])+1;
             }
