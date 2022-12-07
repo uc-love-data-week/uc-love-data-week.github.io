@@ -366,28 +366,6 @@
   slides:
   reader: https://guides.library.ucla.edu/c.php?g=1188219&p=8893783
 
-- title: "JSTOR Constellate Demo"
-  name: jstor
-  speaker-type: "Speaker"
-  speakers: [
-     {name: Stephanie Labou, org: ucsd-lib},
-  ]
-  img: jstor_logo.png
-  thumbnail: jstor_logo.png
-  alt: "jstor logo: letter j surrounded by scrolling vines"
-  day: w
-  time: 11:00 - Noon
-  start: 11
-  duration: 60
-  type:  demo
-  description: "Do you want to learn to do text analysis?  Or learn to teach it?  The new text analysis platform from ITHAKA, the same folks who brought you JSTOR and Portico, is a platform for teaching, learning, and performing text analysis.  In this session, we’ll demonstrate how you can build datasets that interest you from JSTOR or Portico content, receive some instant visualizations of data in your dataset, and run through some of the Constellate tutorials to learn to do some analysis."
-  eventbrite:
-  zoom:
-  registration-page: https://ucldw22_sd_jstor_constellate.eventbrite.com
-  url:
-  recording:  https://youtu.be/2keXjIiHy-Y
-  slides:
-
 - title:  "Data Ethics and Justice"
   name:   ethics
   speaker-type: "Speaker"
@@ -410,30 +388,6 @@
   eventbrite:
   recording: https://www.youtube.com/watch?v=rlmPwZkBHfg
   slides:
-
-- title:  "Edit 4 Change Wikipedia Edit-a-thon"
-  name:   wikipedia
-  speaker-type: "Speaker"
-  speakers: [
-     {name: Kristina Bush, org: ucb-rdm},
-     {name: Ann Glusker, org: ucb-rdm}
-  ]
-  img:  wikipedia_logo.png
-  thumbnail:  wikipedia_logo.png
-  alt:  "wikipedia logo: globe with icons over the words wikipedia"
-  day:  w
-  time:   1:00 - 2:30 pm
-  start: 1
-  duration: 90
-  type:  hands-on
-  description:  "Wikipedia’s inclusion trouble is well-documented. While the reasons are up for debate, the practical effect of this disparity is not: content is skewed by the lack of participation by underrepresented groups. This adds up to an alarming absence in an important repository of shared knowledge. Let’s change that! Join us on Zoom for a tutorial for the beginner Wikipedian followed by communal updating of Wikipedia entries."
-  registration-page: https://berkeley.libcal.com/calendar/workshops/edit4change
-  eventbrite:
-  url:
-  temp:
-  recording:
-  slides:
-  reader: https://guides.lib.berkeley.edu/wikipedia-edit-a-thon
 
 - title:  "Data Feminism Book Club"
   name:   feminism
