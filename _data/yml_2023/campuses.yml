@@ -40,6 +40,13 @@
   url: https://datalab.ucdavis.edu/
   p-campus: y
 
+- name: UC Davis Health Clinical and Translational Science Center
+  abbv: ucd-ctsc
+  image: /assets/img/campuses/ucd-ctsc.png
+  alt: UC Davis, Health
+  url: https://health.ucdavis.edu/ctsc/
+  p-campus: y
+
 - name: UC Irvine
   abbv: uci-lib
   image: /assets/img/campuses/uci-lib.png
