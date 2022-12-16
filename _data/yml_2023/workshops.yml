@@ -131,7 +131,7 @@
   recording:
   slides:
 
-- title: AI reproducibility/FAIR data
+- title: "FAIR and ML, AI Readiness, and AI Reproducibility (FARR)"
   name: fairdata
   speaker-type: "Speaker"
   speakers: [
@@ -144,8 +144,8 @@
   time: 3-4pm
   start: 3
   duration: 60
-  type: lecture
-  description: Description coming soon
+  type: hands-on
+  description: With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it relates to any of the topics.
   #registration-page: https://ucsd.zoom.us/webinar/register/WN_G7LRcHvuSGWSlYVCr2HbgA
   recording:
   slides:
@@ -253,7 +253,9 @@
   start: 1
   duration: 60
   type: lecture
-  description: Description coming soon
+  description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
+
+No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
   registration-page:
   recording:
   slides:
