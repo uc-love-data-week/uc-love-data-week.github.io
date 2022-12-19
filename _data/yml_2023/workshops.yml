@@ -146,7 +146,7 @@
   duration: 60
   type: hands-on
   description: With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it relates to any of the topics.
-  #registration-page: https://ucsd.zoom.us/webinar/register/WN_G7LRcHvuSGWSlYVCr2HbgA
+  #registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
   recording:
   slides:
 
