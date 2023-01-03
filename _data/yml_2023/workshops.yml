@@ -5,7 +5,6 @@
   speaker-type: "Speaker"
   speakers: [
     {name: Kat Koziar, org: ucr},
-    {name: Noah Geraci, org: ucr},
     {name: Leigh Phan, org: ucla}
   ]
   img:  ldw-circuit-color-506_2022.png
@@ -25,7 +24,7 @@
     to Wikimedia projects (such as Wikipedia); how it's leveraged by many other sites
     and services as a point of open data; and more importantly, an overview of how
     you can edit and use it.
-  registration-page:
+  #registration-page: https://www.eventbrite.com/e/wikidata-basics-tickets-488808147327
   recording:
   slides:
 
@@ -311,7 +310,7 @@ No experience or special software is required to participate in this workshop. T
   description: Wikidata is a free structured knowledge base, currently with over 100 million items. Its records include people, objects, works of art, places, events, geographies, concepts, and even journal articles. Wikidata also includes the relationships between items. This hands-on introductory workshop will provide an overview of item records in Wikidata, including how they are structured and described, and a demonstration on how to retrieve these items using the query language SPARQL.
 
     No previous knowledge of Wikidata or SPARQL is necessary, but we highly recommend attending the Wikidata Basics workshop held on Monday, February 13, 2023.
-  registration-page:
+  #registration-page: https://www.eventbrite.com/e/how-to-get-wikidata-using-sparql-tickets-488815569527
   recording:
   slides:
 
@@ -481,7 +480,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: lecture
   description: Whether you are a student, researcher, or library worker, library collections are a rich potential source of data for research or community projects. The concept of "collections as data" relates to the responsible use and reuse of cultural heritage materials, university archives, and other digitized records for data-driven research in both the sciences and humanities. This workshop will introduce participants to both technical resources and ethical considerations for the reuse of library collections as research data. We will discuss the importance of metadata and documentation when using collections as data, and will look at one tool for computationally analyzing collections (HathiTrust Research Center Analytics). We will also explore some specific collections held by UCR Library that are available to use as data for historical research.
-  registration-page:
+  #registration-page: https://www.eventbrite.com/e/using-library-collections-for-computational-research-tickets-487940512207
   recording:
   slides:
 
@@ -537,7 +536,7 @@ No experience or special software is required to participate in this workshop. T
     a Wikidata item will be provided during the session.  \n\nNo previous knowledge
     of Wikidata is necessary, but we highly recommend attending the Wikidata Basics
     workshop held on Monday, February 13, 2023.
-  registration-page:
+  #registration-page: https://www.eventbrite.com/e/wikidata-edit-a-thon-tickets-488819912517
   recording:
   slides:
 
