@@ -24,7 +24,7 @@
     to Wikimedia projects (such as Wikipedia); how it's leveraged by many other sites
     and services as a point of open data; and more importantly, an overview of how
     you can edit and use it.
-  #registration-page: https://www.eventbrite.com/e/wikidata-basics-tickets-488808147327
+  registration-page: https://www.eventbrite.com/e/wikidata-basics-tickets-488808147327
   recording:
   slides:
 
@@ -53,7 +53,7 @@
     an appropriate data repository for your discipline or data type. Participants
     will come away with a better understanding of the process of data management and
     how to locate resources that align with the new NIH policy.
-  #registration-page: https://spaces.lib.uci.edu/event/9988808
+  registration-page: https://spaces.lib.uci.edu/event/9988808
   recording:
   slides:
 
@@ -79,7 +79,7 @@
     plan so you understand what to write and can start drafting your own plan. We
     will also cover how to locate DMS plan templates and sample plans, and highlight
     resources for learning more.
-  #registration-page: https://calendars.library.ucsf.edu/event/9986694
+  registration-page: https://calendars.library.ucsf.edu/event/9986694
   recording:
   slides:
 
@@ -103,7 +103,7 @@
     program. This interactive demonstration will provide and overview of the tool
     including the scope, how it works and use cases. Attendees will be provided with
     instruction on how to use the code in your research."
-  #registration-page: https://www.eventbrite.com/e/data-loofah-helps-you-identify-errors-in-your-data-tickets-482769114417
+  registration-page: https://www.eventbrite.com/e/data-loofah-helps-you-identify-errors-in-your-data-tickets-482769114417
   recording:
   slides:
 
@@ -126,7 +126,7 @@
     In this 'birds of a feather' session we invite you to talk about how you use Python
     in your research workflows, general questions you have about the language, and/or
     how to start a community of practice for Python users at your institution."
-  #registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://datalab.ucdavis.edu/workshops/
   recording:
   slides:
 
@@ -145,7 +145,7 @@
   duration: 60
   type: hands-on
   description: With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it relates to any of the topics.
-  #registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
+  registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
   recording:
   slides:
 
@@ -171,7 +171,7 @@
     all costs. This session will cover some bad and good real-world examples, and
     attendees will walk away with essential tips to better represent their data in
     a graphical form.
-  #registration-page: https://www.library.ucsb.edu/events-exhibitions/data-visualization-dos-and-donts
+  registration-page: https://www.library.ucsb.edu/events-exhibitions/data-visualization-dos-and-donts
   recording:
   slides:
 
@@ -214,7 +214,7 @@
     analysis; discuss why VR is useful for analysis of data, specifically complex
     and large three-dimensional data; and identify where to go to learn more about
     setting up their own VR systems using the latest VR technologies for research."
-  #registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://datalab.ucdavis.edu/workshops/
   recording:
   slides:
 
@@ -234,7 +234,7 @@
   duration: 60
   type: demo
   description: "Put on your digital historian hat and join us for an exploration of web archiving as data! In this session we will answer questions such as: What even is web archiving? Why should I care about it? How do I access web archived stuff? What kind of analysis can I do with it? We will use as a case study UC San Diego's guidance for covid prevention, as posted on websites, from Spring 2020 - present. We'll demonstrate how to retrieve the history of a website, work with the html text data in Python, and track changes regarding campus guidance on topics like masking and remote instruction."
-  #registration-page: https://ucsd.zoom.us/meeting/register/tJMtdOyuqT4oE9ZLbhii8F9S80JeEKZH92j-
+  registration-page: https://ucsd.zoom.us/meeting/register/tJMtdOyuqT4oE9ZLbhii8F9S80JeEKZH92j-
   recording:
   slides:
 
@@ -255,7 +255,7 @@
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
 
 No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
-  registration-page:
+  registration-page: https://berkeley.libcal.com/event/10172779
   recording:
   slides:
 
@@ -286,7 +286,7 @@ No experience or special software is required to participate in this workshop. T
     tools for creating and curating their digtial portofolio; and find examples of
     digital portfolios related to their career goals (programmers, data scientists,
     geospatial scientists, etc.)."
-  #registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://datalab.ucdavis.edu/workshops/
   recording:
   slides:
 
@@ -310,7 +310,7 @@ No experience or special software is required to participate in this workshop. T
   description: Wikidata is a free structured knowledge base, currently with over 100 million items. Its records include people, objects, works of art, places, events, geographies, concepts, and even journal articles. Wikidata also includes the relationships between items. This hands-on introductory workshop will provide an overview of item records in Wikidata, including how they are structured and described, and a demonstration on how to retrieve these items using the query language SPARQL.
 
     No previous knowledge of Wikidata or SPARQL is necessary, but we highly recommend attending the Wikidata Basics workshop held on Monday, February 13, 2023.
-  #registration-page: https://www.eventbrite.com/e/how-to-get-wikidata-using-sparql-tickets-488815569527
+  registration-page: https://www.eventbrite.com/e/how-to-get-wikidata-using-sparql-tickets-488815569527
   recording:
   slides:
 
@@ -333,7 +333,7 @@ No experience or special software is required to participate in this workshop. T
     'birds of a feather' session we invite you to talk about how you use R for your
     research data analyses and visualizations, general questions you have about the
     language, and/or how to start a community of practice for R users at your institution."
-  #registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://datalab.ucdavis.edu/workshops/
   recording:
   slides:
 
@@ -360,7 +360,7 @@ No experience or special software is required to participate in this workshop. T
     absence in an important repository of shared knowledge. Let’s change that! Join
     us on Zoom for a tutorial for the beginner Wikipedian followed by communal updating
     of Wikipedia entries."
-  #registration-page: https://guides.lib.berkeley.edu/wikipedia-edit-a-thon
+  registration-page: https://guides.lib.berkeley.edu/wikipedia-edit-a-thon
   recording:
   slides:
 
@@ -384,7 +384,7 @@ No experience or special software is required to participate in this workshop. T
     follow along and complete exercises with a provided dataset using the online graphical
     user interface of the R sdcMicro package for disclosure control. No R programming
     experience is required.
-  #registration-page: https://www.library.ucsb.edu/events-exhibitions/data-de-identification-practice
+  registration-page: https://www.library.ucsb.edu/events-exhibitions/data-de-identification-practice
   recording:
   slides:
 
@@ -410,7 +410,7 @@ No experience or special software is required to participate in this workshop. T
     Assess whether a research project’s data meets FAIR criteria.
     Use a responsible data science framework to evaluate the potential impact(s) of a research project case study.
     Revise their research design using FACT principles."
-  #registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://datalab.ucdavis.edu/workshops/
   recording:
   slides:
 
@@ -460,7 +460,7 @@ No experience or special software is required to participate in this workshop. T
     In this 'birds of a feather' session we invite you to talk about how you learned
     to use Julia, what problems you are tackling with it, and how you've integrated
     the language into your research workflows."
-  #registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://datalab.ucdavis.edu/workshops/
   recording:
   slides:
 
@@ -480,7 +480,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: lecture
   description: Whether you are a student, researcher, or library worker, library collections are a rich potential source of data for research or community projects. The concept of "collections as data" relates to the responsible use and reuse of cultural heritage materials, university archives, and other digitized records for data-driven research in both the sciences and humanities. This workshop will introduce participants to both technical resources and ethical considerations for the reuse of library collections as research data. We will discuss the importance of metadata and documentation when using collections as data, and will look at one tool for computationally analyzing collections (HathiTrust Research Center Analytics). We will also explore some specific collections held by UCR Library that are available to use as data for historical research.
-  #registration-page: https://www.eventbrite.com/e/using-library-collections-for-computational-research-tickets-487940512207
+  registration-page: https://www.eventbrite.com/e/using-library-collections-for-computational-research-tickets-487940512207
   recording:
   slides:
 
@@ -508,7 +508,7 @@ No experience or special software is required to participate in this workshop. T
     share tutorials and demos, show examples of the visualizations that are possible
     within these programs, and have some time at the end to do some collective dataviz
     brainstorming regarding specific datasets from workshop attendees.
-  #registration-page: https://ucsd.zoom.us/meeting/register/tJ0sduGqqD8rHNWJNjSNlaB9N9hKJY11SJYZ
+  registration-page: https://ucsd.zoom.us/meeting/register/tJ0sduGqqD8rHNWJNjSNlaB9N9hKJY11SJYZ
   recording:
   slides:
 
@@ -536,7 +536,7 @@ No experience or special software is required to participate in this workshop. T
     a Wikidata item will be provided during the session.  \n\nNo previous knowledge
     of Wikidata is necessary, but we highly recommend attending the Wikidata Basics
     workshop held on Monday, February 13, 2023.
-  #registration-page: https://www.eventbrite.com/e/wikidata-edit-a-thon-tickets-488819912517
+  registration-page: https://www.eventbrite.com/e/wikidata-edit-a-thon-tickets-488819912517
   recording:
   slides:
 
@@ -555,7 +555,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: demo
   description:
-  registration-page:
+  registration-page: https://berkeley.libcal.com/event/10172847
   recording:
   slides:
 
@@ -581,6 +581,6 @@ No experience or special software is required to participate in this workshop. T
     UC students and staff should have access to ArcGIS software (to find out who to
     contact at your campus, see https://uc-gis-ucop.hub.arcgis.com). Temporary workshop
     licenses are also available.
-  #registration-page: https://igis.ucanr.edu/Training/IntroArcGISPro_Feb2023/
+  registration-page: https://igis.ucanr.edu/Training/IntroArcGISPro_Feb2023/
   recording:
   slides:
