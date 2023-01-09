@@ -8,44 +8,22 @@
 
     {% include 2023_includes/header-home.html %}
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">UC Love Data Week<br></div>
-                <div class="intro-lead-in">February 13 - 17, 2023</div>
-                <!-- div class="intro-lead-in">Location</div -->
-                <a href="#intro" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
+    <!-- Header section removed 2022-11-30 -->
+
   <!-- Do not include workshop info in dev page -->
    {% include 2023_includes/intro.html %}
 
-  <!-- div class="container">
-      <div class="calendar">
-        {% comment %}
-          {% raw %}
-            {% include 2023_includes/calendar.html %}
-          {% endraw %}
-        {% endcomment %}
+  <div class="container">
+      <div class="calendar visible-md visible-lg">
+        {% include 2023_includes/calendar.html %}
       </div>
-  </div -->
+  </div>
 
-   {% include 2023_includes/interim.html %}
-   {% comment %}
-    {% raw %}
    {% include 2023_includes/workshops.html %}
-    {% endraw %}
-   {% endcomment %}
    {% include 2023_includes/sponsors.html %}
    {% include 2023_includes/contact.html %}
    {% include 2023_includes/footer.html %}
-   {% comment %}
-    {% raw %}
    {% include 2023_includes/workshops_info.html %}
-    {% endraw %}
-   {% endcomment %}
    {% include 2023_includes/js.html %}
 
     </body>
