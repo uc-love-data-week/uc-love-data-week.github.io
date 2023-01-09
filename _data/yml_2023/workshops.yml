@@ -103,7 +103,7 @@
     program. This interactive demonstration will provide and overview of the tool
     including the scope, how it works and use cases. Attendees will be provided with
     instruction on how to use the code in your research."
-  registration-page: https://www.eventbrite.com/e/data-loofah-helps-you-identify-errors-in-your-data-tickets-482769114417
+  registration-page: https://tinyurl.com/DataLoofah
   recording:
   slides:
 
@@ -554,7 +554,7 @@ No experience or special software is required to participate in this workshop. T
   start: 1
   duration: 60
   type: demo
-  description:
+  description: "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed.  Additional resources will be mentioned and the slides/links made available."
   registration-page: https://berkeley.libcal.com/event/10172847
   recording:
   slides:
