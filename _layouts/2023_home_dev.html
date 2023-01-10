@@ -19,12 +19,17 @@
       </div>
   </div>
 
-   {% include 2023_includes/workshops.html %}
-   {% include 2023_includes/sponsors.html %}
-   {% include 2023_includes/contact.html %}
-   {% include 2023_includes/footer.html %}
-   {% include 2023_includes/workshops_info.html %}
-   {% include 2023_includes/js.html %}
+  <div class="container">
+      <div class="calendar visible-sm visible-xs">
+        {% include 2023_includes/workshops-list.html %}
+      </div>
+  </div>
+  {% include 2023_includes/workshops.html %}
+  {% include 2023_includes/sponsors.html %}
+  {% include 2023_includes/contact.html %}
+  {% include 2023_includes/footer.html %}
+  {% include 2023_includes/workshops_info.html %}
+  {% include 2023_includes/js.html %}
 
     </body>
 </html>
