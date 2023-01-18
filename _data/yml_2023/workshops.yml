@@ -107,7 +107,7 @@
   recording:
   slides:
 
-- title: Davis Python Users Group
+- title: Python Users Group
   name: pythonusers
   speaker-type: "Speaker"
   speakers: [
@@ -214,7 +214,7 @@
     analysis; discuss why VR is useful for analysis of data, specifically complex
     and large three-dimensional data; and identify where to go to learn more about
     setting up their own VR systems using the latest VR technologies for research."
-  registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://registration.genomecenter.ucdavis.edu/events/SteppingOutsidetheCAVEVirtualReality/
   recording:
   slides:
 
@@ -286,7 +286,7 @@ No experience or special software is required to participate in this workshop. T
     tools for creating and curating their digtial portofolio; and find examples of
     digital portfolios related to their career goals (programmers, data scientists,
     geospatial scientists, etc.)."
-  registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://registration.genomecenter.ucdavis.edu/events/DevelopingYourDataSciencePortfolio/
   recording:
   slides:
 
@@ -314,7 +314,7 @@ No experience or special software is required to participate in this workshop. T
   recording:
   slides:
 
-- title: Davis R-Users Group
+- title: R-Users Group
   name: rusers
   speaker-type: "Speaker"
   speakers: [
@@ -410,7 +410,7 @@ No experience or special software is required to participate in this workshop. T
     Assess whether a research project’s data meets FAIR criteria.
     Use a responsible data science framework to evaluate the potential impact(s) of a research project case study.
     Revise their research design using FACT principles."
-  registration-page: https://datalab.ucdavis.edu/workshops/
+  registration-page: https://registration.genomecenter.ucdavis.edu/events/ResponsibleDataScience/
   recording:
   slides:
 
@@ -441,7 +441,7 @@ No experience or special software is required to participate in this workshop. T
   recording:
   slides:
 
-- title: Davis Julia User Group
+- title: Julia User Group
   name: julia
   speaker-type: "Speaker"
   speakers: [
