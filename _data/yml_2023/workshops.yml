@@ -388,6 +388,33 @@ No experience or special software is required to participate in this workshop. T
   recording:
   slides:
 
+- title: Exploring Digital Archives
+  name: digiarchives
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Wendy Kurtz, org: ucla},
+    {name: Anthony Caldwell , org: ucla}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 3-5pm
+  start: 3
+  duration: 120
+  type: demo
+  description: Do you need to search digital archives for hidden treasures and unknown tidbits 
+    for your research projects? This workshop will explore the tools and techniques that allow 
+    you to capture, search, and synthesize information stored in digital archives. Using the 
+    internet archive as an example, we will combine the power of  DEVONthink, a document and 
+    information management tool that allows you to collect, organize, edit, and annotate 
+    documents of any kind,  Tinderbox, and Obsidian sophisticated note-taking applications 
+    designed to capture and analyze complex relationships and ideas and Zotero a reference 
+    manager used to capture and manage bibliographic data and related research materials.
+  registration-page: https://ucla.zoom.us/meeting/register/tJwofuqgqjwsHtb6qudplOdauzem397b-V2j
+  recording:
+  slides:
+
 #Thursday
 
 - title: Responsible Data Science
