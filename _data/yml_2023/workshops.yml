@@ -337,6 +337,35 @@ No experience or special software is required to participate in this workshop. T
   recording:
   slides:
 
+- title: WiDS Datathon Onboarding
+  name: wids
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Pamela Reynolds, org: ucd}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 12pm-1pm
+  start: 12
+  duration: 60
+  type: lecture
+  description: "The 6th Annual Women in Data Science (WiDS) Datathon is open until March 1, 2023. This year’s Datathon focuses on utilizing data science to better prepare and adapt to the challenges caused by climate change and extreme weather events. Participants are challenged to blend machine-learning and physics-based forecasts to improve long-term weather forecasting, thereby helping communities and industries adapt to the challenges of climate change.<br><br>
+At this event we will cover:<br>
+<ul><li>What the Datathon is all about</li>
+<li>Signing up for the Datathon</li>
+<li>Getting registered on Kaggle</li>
+<li>Joining the WiDS Datathon Slack organization</li>
+<li>Forming and finding a team by connecting with other participants</li>
+<li>Exploring existing notebooks, tutorials, and other Datathon resources.</li>
+</ul>
+
+Whether a beginner or experienced data scientist, everyone is welcome to participate. The Datathon is open to individuals or teams of up to 4, and at least half of each team must be individuals who identify as women."
+  registration-page: https://ucdavis.zoom.us/meeting/register/tJIqf--rpjsoHNCQQFbq81YJwkyY0XLjiBFP
+  recording:
+  slides:
+
 - title: Wikipedia edit-a-thon
   name: wikipediaedit
   speaker-type: "Speaker"
