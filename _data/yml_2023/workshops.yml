@@ -7,9 +7,9 @@
     {name: Kat Koziar, org: ucr},
     {name: Leigh Phan, org: ucla}
   ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  Wikidata-logo-v3.png
+  thumbnail:  Wikidata-logo-v3.png
+  alt:  "wikidata logo on clear background: stylized bar codes with bars in three colors (red, green, and blue) with the word wikidata beneath"
   day: m
   time: 10-11am
   start: 10
@@ -299,9 +299,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Kat Koziar, org: ucr},
     {name: Leigh Phan, org: ucla}
   ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  Wikidata-logo-v3_sparql.png
+  thumbnail:  Wikidata-logo-v3_sparql.png
+  alt:  "wikidata logo on clear background: stylized bar codes with bars in three colors (red, green, and blue) with the words wikidata and SPARQL beneath"
   day: w
   time: 10am-12pm
   start: 10
@@ -575,9 +575,9 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     {name: Kat Koziar, org: ucr},
     {name: Leigh Phan, org: ucla}
   ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  Wikidata-logo-v3.png
+  thumbnail:  Wikidata-logo-v3.png
+  alt:  "wikidata logo on clear background: stylized bar codes with bars in three colors (red, green, and blue) with the word wikidata beneath"
   day: f
   time: 10am-1pm
   start: 10
