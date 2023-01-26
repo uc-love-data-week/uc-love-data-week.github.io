@@ -6,6 +6,13 @@
   p-campus: n  # p-campus: will it show on front page logo for particpating campus
 
 - name: UC Berkeley
+  abbv: ucb
+  image: 
+  alt: 
+  url: https://www.berkeley.edu
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
   abbv: ucb-iso
   image: ../assets/img/campuses/ucb-iso.png
   alt: Berkeley Information Security Office
@@ -48,7 +55,7 @@
   p-campus: y
 
 - name: UC Irvine
-  abbv: uci-lib
+  abbv: uci
   image: /assets/img/campuses/uci-lib.png
   alt: UC Irvine Libraries
   url: https://www.lib.uci.edu/dss/data-curation
@@ -69,7 +76,7 @@
   p-campus: y
 
 - name: UC Merced
-  abbv: ucm-lib
+  abbv: ucm
   image: /assets/img/campuses/ucm-lib.png
   alt: UC Merced Library
   url: http://library.ucmerced.edu/research-data-curation
@@ -83,7 +90,7 @@
   p-campus: y
 
 - name: UC Santa Barbara
-  abbv: ucsb-lib
+  abbv: ucsb
   image: /assets/img/campuses/ucsb-library.png
   alt: UC Santa Barbara Library
   url: https://www.library.ucsb.edu/research-data-services
@@ -97,7 +104,7 @@
   p-campus: y
 
 - name: UC San Francisco
-  abbv: ucsf-lib
+  abbv: ucsf
   image: /assets/img/campuses/ucsf-lib.svg
   alt: UCSF Library
   url: https://www.library.ucsf.edu/ask-an-expert/data-science/data-management/
@@ -117,11 +124,18 @@
   url: https://www.ucsd.edu
   p-campus: n
 
+- name: San Diego Supercomputer Center
+  abbv: sdsc
+  image: 
+  alt: 
+  url: https://www.sdsc.edu/
+  p-campus: n
+
 - name: UCLA
-  abbv: ucla-lib
-  image: /assets/img/campuses/ucla-lib.png
-  alt: UCLA Library
-  url: https://www.library.ucla.edu/location/data-science-center
+  abbv: ucla
+  image: 
+  alt: 
+  url: https://www.ucla.edu
   p-campus: n
 
 - name: California Digital Library
@@ -144,3 +158,13 @@
   alt: UC Agriculture and Natural Resources
   url: https://ucanr.edu/
   p-campus: y  # p-campus: will it show on front page logo for particpating campus
+
+# other participating organizations
+
+- name: Reproducibility for Everyone
+  abbv: r4e
+  image: 
+  alt: 
+  url: https://www.repro4everyone.org/ 
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+# only because it took a while for me to find this info: r4e is a Code for Science & Society project (https://www.codeforsociety.org/projects)

@@ -4,8 +4,8 @@
   name: wikidatabasics
   speaker-type: "Speaker"
   speakers: [
-    {name: Kat Koziar, org: ucr},
-    {name: Leigh Phan, org: ucla}
+    {name: Kat Koziar, org: ucr-lib},
+    {name: Leigh Phan, org: ucla-dsc}
   ]
   img:  Wikidata-logo-v3.png
   thumbnail:  Wikidata-logo-v3.png
@@ -87,7 +87,7 @@
   name: dataloofah
   speaker-type: "Speaker"
   speakers: [
-    {name: Matthew Ponzini, org: ucdh}
+    {name: Matthew Ponzini, org: ucd-ctsc}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -111,8 +111,8 @@
   name: pythonusers
   speaker-type: "Speaker"
   speakers: [
-    {name: Maggie Beherens, org: ucd},
-    {name: Nick Ulle, org: ucd}
+    {name: Maggie Beherens, org: ucd-dl},
+    {name: Nick Ulle, org: ucd-dl}
   ]
   img:  Python_logo.png
   thumbnail:  Python_logo.png
@@ -144,7 +144,11 @@
   start: 3
   duration: 60
   type: hands-on
-  description: With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it relates to any of the topics.
+  description: "With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, 
+    research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the 
+    role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through 
+    interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it 
+    relates to any of the topics."
   registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
   recording:
   slides:
@@ -182,8 +186,8 @@
   name: vr
   speaker-type: "Speaker"
   speakers: [
-    {name: Oliver Kryelos, org: ucd},
-    {name: Pamela Reynolds, org: ucd}
+    {name: Oliver Kryelos, org: ucd-dl},
+    {name: Pamela Reynolds, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -238,11 +242,63 @@
   recording:
   slides:
 
+
+- title: Reproducibility for Everyone
+  name: everyone
+  speaker-type: "Speaker"
+  speakers: [
+    {name: April Clyburne-Sherin, org: r4e},
+    {name: Kanika Khanna, org: ucb},
+    {name: Teena Bajaj, org: ucb},
+    {name: Victoria Farrar, org: r4e},
+    {name: Nafisa Jadavji, org: r4e}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 11am-12:30pm
+  start: 11
+  duration: 90
+  type: hands-on
+  description: "Rigor and reproducibility are at the core of modern science. Many new initiatives and 
+  tools have been established to address barriers to reproducibility. While very welcome, these projects 
+  have led to a proliferation of online tools and resources which can be hard to sift through. <br>
+  <br>
+  Reproducibility for Everyone (R4E) is a global, community-led reproducibility education initiative. R4E 
+  runs practical and accessible workshops to introduce the concept of reproducibility to researchers. We 
+  demonstrate reproducible tools and methods that can improve research by making it more efficient, 
+  transparent, and rigorous. Every R4E workshop is customized for the audience. Since 2018, R4E volunteer 
+  instructors have reached over 2500 researchers around the world through over 40 workshops.<br>
+  <br>
+  This workshop will introduce reproducible workflows and a range of tools along the themes of organization, 
+  documentation, analysis, and dissemination. After a brief introduction to the topic of reproducibility, 
+  the workshop will provide specific tips and tools useful in improving daily research workflows. The content 
+  will include modules such as data management, electronic lab notebooks, reproducible bioinformatics tools 
+  and methods, protocol and reagent sharing, data visualization, and version control. All modules include 
+  interactive learning, real-time participation, and active knowledge sharing. The methods and tools introduced 
+  help researchers share work with their future self, their immediate colleagues, and the wider scientific community. <br>
+  <br>
+  Following this workshop, participants will be able to:
+  <ul>
+  <li>
+  Apply a conceptual framework for reproducibility, replicability, and robustness of research.</li>
+  <li>
+  Explore practical, accessible tools and methods for advancing the reproducibility of research.</li>
+  <li>
+  Reuse and adapt the Reproducibility for Everyone modular curriculum to their own training and research needs.</li>
+  <li>
+  Evaluate their reproducibility barriers and solutions through interactive knowledge sharing.</li>
+  </ul>"
+  registration-page: https://www.eventbrite.com/e/reproducibility-for-everyone-tickets-523807130227
+  recording:
+  slides:
+
 - title: "GIS & Mapping: Where to Start"
   name: gismap
   speaker-type: "Speaker"
   speakers: [
-    {name: Susan Powell, org: ucb}
+    {name: Susan Powell, org: ucb-lib}
   ]
   img:  gis.png
   thumbnail:  gis.png
@@ -263,8 +319,8 @@ No experience or special software is required to participate in this workshop. T
   name: dscportfolio
   speaker-type: "Speaker"
   speakers: [
-    {name: Michele Tobias, org: ucd},
-    {name: Pamela Reynolds, org: ucd}
+    {name: Michele Tobias, org: ucd-dl},
+    {name: Pamela Reynolds, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -296,8 +352,8 @@ No experience or special software is required to participate in this workshop. T
   name: sparql
   speaker-type: "Speaker"
   speakers: [
-    {name: Kat Koziar, org: ucr},
-    {name: Leigh Phan, org: ucla}
+    {name: Kat Koziar, org: ucr-lib},
+    {name: Leigh Phan, org: ucla-dsc}
   ]
   img:  Wikidata-logo-v3_sparql.png
   thumbnail:  Wikidata-logo-v3_sparql.png
@@ -318,8 +374,8 @@ No experience or special software is required to participate in this workshop. T
   name: rusers
   speaker-type: "Speaker"
   speakers: [
-    {name: Wesley Brooks, org: ucd},
-    {name: Liza Wood, org: ucd}
+    {name: Wesley Brooks, org: ucd-dl},
+    {name: Liza Wood, org: ucd-dl}
   ]
   img: R_logo.png
   thumbnail: R_logo.png
@@ -341,7 +397,7 @@ No experience or special software is required to participate in this workshop. T
   name: wids
   speaker-type: "Speaker"
   speakers: [
-    {name: Pamela Reynolds, org: ucd}
+    {name: Pamela Reynolds, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -370,10 +426,10 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   name: wikipediaedit
   speaker-type: "Speaker"
   speakers: [
-    {name: Ann Glusker, org: ucb},
-    {name: Stacy Reardon, org: ucb},
-    {name: Corliss Lee, org: ucb},
-    {name: Margaret Philips, org: ucb}
+    {name: Ann Glusker, org: ucb-lib},
+    {name: Stacy Reardon, org: ucb-lib},
+    {name: Corliss Lee, org: ucb-lib},
+    {name: Margaret Philips, org: ucb-lib}
   ]
   img:  wikipedia_logo.png
   thumbnail:  wikipedia_logo.png
@@ -450,7 +506,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   name: responsibledsc
   speaker-type: "Speaker"
   speakers: [
-    {name: Pamela Reynolds & team, org: ucd}
+    {name: Pamela Reynolds & team, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -470,14 +526,14 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   recording:
   slides:
 
-- title: "Introduction to containers: creating reproducible, scalable , and portable
+- title: "Introduction to containers: creating reproducible, scalable, and portable
     workflows"
   name: containers
   speaker-type: "Speaker"
   speakers: [
-    {name: Orion Cohen, org: ucb},
-    {name: Alex Goldberg, org: ucb},
-    {name: Wei Feinstein, org: ucb}
+    {name: Orion Cohen, org: ucb-rit},
+    {name: Alex Goldberg, org: ucb-rit},
+    {name: Wei Feinstein, org: ucb-rit}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -493,7 +549,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     environments, and make your workflow reproducible. In this training, we will discuss
     the advantages of containers, how to create containers, and how to use containers
     in several common scientific computing scenarios.
-  registration-page:
+  registration-page: https://berkeley.zoom.us/meeting/register/tJAuc-GsqzkiGtBQorHz4QWD0GMMdwuMcz7y
   recording:
   slides:
 
@@ -501,8 +557,8 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   name: julia
   speaker-type: "Speaker"
   speakers: [
-    {name: Nick Ulle, org: ucd},
-    {name: Carl Stahmer, org: ucd}
+    {name: Nick Ulle, org: ucd-dl},
+    {name: Carl Stahmer, org: ucd-dl}
   ]
   img: julia_logo.png
   thumbnail: julia_logo.png
@@ -524,8 +580,8 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   name: libcollections
   speaker-type: "Speaker"
   speakers: [
-  {name: Rachel Starry, org: ucr},
-  {name: Sandy Enriquez, org: ucr}
+  {name: Rachel Starry, org: ucr-lib},
+  {name: Sandy Enriquez, org: ucr-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -572,8 +628,8 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   name: wikidataedit
   speaker-type: "Speaker"
   speakers: [
-    {name: Kat Koziar, org: ucr},
-    {name: Leigh Phan, org: ucla}
+    {name: Kat Koziar, org: ucr-lib},
+    {name: Leigh Phan, org: ucla-dsc}
   ]
   img:  Wikidata-logo-v3.png
   thumbnail:  Wikidata-logo-v3.png
@@ -600,7 +656,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   name: qualdata
   speaker-type: "Speaker"
   speakers: [
-    {name: Ann Glusker, org: ucb}
+    {name: Ann Glusker, org: ucb-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
