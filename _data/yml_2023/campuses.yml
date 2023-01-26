@@ -103,11 +103,11 @@
   url: https://www.library.ucsf.edu/ask-an-expert/data-science/data-management/
   p-campus: y
 
-- name: CDL UC3
-  abbv: uc3
-  image: /assets/img/campuses/uc3.png
-  alt: UC3
-  url: https://uc3.cdlib.org/
+- name: California Digital Library
+  abbv: cdl
+  image: /assets/img/campuses/cdl.png
+  alt: California Digital Library
+  url: https://cdlib.org/
   p-campus: y
 
 - name: UC San Diego
