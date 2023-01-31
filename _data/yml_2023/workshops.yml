@@ -17,9 +17,9 @@
   type: lecture
   description: Have you heard of linked data or Wikidata and want to know what they
     are, and how you can use them?  Have you ever wondered why there are so many wiki*thing*.org
-    websites, and how they're interconnected? This is the workshop for you! \n\nWikidata
+    websites, and how they're interconnected? This is the workshop for you! <br><br>Wikidata
     is a free and open knowledge base that provides structured, linked data not just
-    for Wikipedia, but to anyone. It is used globally by many sites and services.\n\nIn
+    for Wikipedia, but to anyone. It is used globally by many sites and services.<br><br>In
     this workshop we will describe what Wikidata is and used for; how it's connected
     to Wikimedia projects (such as Wikipedia); how it's leveraged by many other sites
     and services as a point of open data; and more importantly, an overview of how
@@ -581,7 +581,9 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   speaker-type: "Speaker"
   speakers: [
   {name: Rachel Starry, org: ucr-lib},
-  {name: Sandy Enriquez, org: ucr-lib}
+  {name: Sandy Enriquez, org: ucr-lib}, 
+  {name: Kathryn Stine, org: ucsf},
+  {name: Charlie Macquarie, org: ucsf}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -591,7 +593,19 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   start: 2
   duration: 60
   type: lecture
-  description: Whether you are a student, researcher, or library worker, library collections are a rich potential source of data for research or community projects. The concept of "collections as data" relates to the responsible use and reuse of cultural heritage materials, university archives, and other digitized records for data-driven research in both the sciences and humanities. This workshop will introduce participants to both technical resources and ethical considerations for the reuse of library collections as research data. We will discuss the importance of metadata and documentation when using collections as data, and will look at one tool for computationally analyzing collections (HathiTrust Research Center Analytics). We will also explore some specific collections held by UCR Library that are available to use as data for historical research.
+  description: Whether you are a student, researcher, or library worker, library collections are a 
+    rich potential source of data for research or community projects. The concept of "collections as 
+    data" relates to the responsible use and reuse of cultural heritage materials, university archives, 
+    and other digitized records for data-driven research in both the sciences and humanities. UC 
+    libraries are increasingly joining other cultural heritage stewards in providing researchers 
+    with datasets drawn from their collections.<br><br>
+    This workshop will introduce participants to both technical resources and ethical considerations 
+    for the reuse of library collections as research data. We will discuss the importance of metadata 
+    and documentation when using collections as data, and will look at one tool for computationally 
+    analyzing collections (HathiTrust Research Center Analytics). We will also explore some specific 
+    collections held by UCR Library and UCSF Library Archives & Special Collections that are available 
+    to use as data for historical research.
+
   registration-page: https://www.eventbrite.com/e/using-library-collections-for-computational-research-tickets-487940512207
   recording:
   slides:
@@ -645,7 +659,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     11am until 1pm, you can choose your level of participation.  Dive into some hands-on
     solo editing or ask questions.  While you can bring your own data projects, we
     will have a project list, so everything you need to successfully edit or upload
-    a Wikidata item will be provided during the session.  \n\nNo previous knowledge
+    a Wikidata item will be provided during the session.  <br><br>No previous knowledge
     of Wikidata is necessary, but we highly recommend attending the Wikidata Basics
     workshop held on Monday, February 13, 2023.
   registration-page: https://www.eventbrite.com/e/wikidata-edit-a-thon-tickets-488819912517
