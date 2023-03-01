@@ -54,8 +54,8 @@
     will come away with a better understanding of the process of data management and
     how to locate resources that align with the new NIH policy.
   registration-page: https://spaces.lib.uci.edu/event/9988808
-  recording:
-  slides:
+  recording: https://vimeo.com/799560197
+  slides: https://drive.google.com/file/d/1Jqp_mLUj34Dh042vWKRE9__OmCP9BRXv/view?usp=sharing
 
 - title: Writing a Data Management and Sharing Plan for NIH
   name: nihdmp
@@ -80,8 +80,8 @@
     will also cover how to locate DMS plan templates and sample plans, and highlight
     resources for learning more.
   registration-page: https://calendars.library.ucsf.edu/event/9986694
-  recording:
-  slides:
+  recording: https://ucsf.box.com/s/depf1joy1f113nkunt92c9y1gea1cank 
+  slides: https://ucsf.box.com/s/depf1joy1f113nkunt92c9y1gea1cank
 
 - title: "Data Loofah - help you identify errors in your data"
   name: dataloofah
@@ -151,7 +151,7 @@
     relates to any of the topics."
   registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
   recording:
-  slides:
+  slides: https://static.mentimeter.com/screenshot/pdfs/I%20Love%20Data%20FARR.pdf?seriesId=alk55qh6hfjcf9ti11rgcsck9vp6dcn3&screenshotTargetUrl=https%3A%2F%2Fwww.mentimeter.com%2Fpreview&_ga=2.208398994.1621205896.1676319283-1974507888.1675723459&_gl=1*s5wv8y*_ga*MTk3NDUwNzg4OC4xNjc1NzIzNDU5*_ga_TCT6BBBKGN*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA..*_ga_5V8GZ3NSZE*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA
 
 - title: "Data Visualization: Dos and Donts"
   name: dataviz
@@ -177,7 +177,7 @@
     a graphical form.
   registration-page: https://www.library.ucsb.edu/events-exhibitions/data-visualization-dos-and-donts
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/1IPxv7Fl6NYaG2e3GbpJoQSIeX0hZvvG1CckUDUDjLjA/edit?usp=sharing
 
 #Tuesday
 
@@ -240,7 +240,7 @@
   description: "Put on your digital historian hat and join us for an exploration of web archiving as data! In this session we will answer questions such as: What even is web archiving? Why should I care about it? How do I access web archived stuff? What kind of analysis can I do with it? We will use as a case study UC San Diego's guidance for covid prevention, as posted on websites, from Spring 2020 - present. We'll demonstrate how to retrieve the history of a website, work with the html text data in Python, and track changes regarding campus guidance on topics like masking and remote instruction."
   registration-page: https://ucsd.zoom.us/meeting/register/tJMtdOyuqT4oE9ZLbhii8F9S80JeEKZH92j-
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/1VW6vpZWEiKu7O55pWAAbafXYvrJ82_0EDsg-pnsWrE8/edit?usp=sharing
 
 
 - title: Reproducibility for Everyone
@@ -292,7 +292,7 @@
   </ul>"
   registration-page: https://www.eventbrite.com/e/reproducibility-for-everyone-tickets-523807130227
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/1v_5CRrCpkPSYYXK29URfNRWKPd3w5tH9svvB_sHbjhw/edit#slide=id.g2084be53121_0_94
 
 - title: "GIS & Mapping: Where to Start"
   name: gismap
@@ -313,7 +313,7 @@
 No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
   registration-page: https://berkeley.libcal.com/event/10172779
   recording:
-  slides:
+  slides: http://ucblib.link/GIS-LDW23
 
 - title: Developing your data science portfolio
   name: dscportfolio
@@ -447,7 +447,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     of Wikipedia entries."
   registration-page: https://guides.lib.berkeley.edu/wikipedia-edit-a-thon
   recording:
-  slides:
+  slides: https://drive.google.com/file/d/1PY5QpW9_UjyWTTjJQILTQ8fQvJglP9qD/view
 
 - title: Data De-identification in Practice
   name: deidentification
@@ -471,7 +471,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     experience is required.
   registration-page: https://www.library.ucsb.edu/events-exhibitions/data-de-identification-practice
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/1F3GigLLjrrpF3MEr3gxct9dM62W6kICbuO-gongmKUg/edit?usp=share_link
 
 - title: Exploring Digital Archives
   name: digiarchives
@@ -551,7 +551,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     in several common scientific computing scenarios.
   registration-page: https://berkeley.zoom.us/meeting/register/tJAuc-GsqzkiGtBQorHz4QWD0GMMdwuMcz7y
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/1ok4WtUYFF0GDRqYcFroCfsnhDx6aZTS6NKhWc7n_9p4/edit
 
 - title: Julia User Group
   name: julia
@@ -683,7 +683,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   description: "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed.  Additional resources will be mentioned and the slides/links made available."
   registration-page: https://berkeley.libcal.com/event/10172847
   recording:
-  slides:
+  slides: https://tinyurl.com/LDW23-QualData
 
 - title: Intro to ArcGIS Pro
   name: gisintro
