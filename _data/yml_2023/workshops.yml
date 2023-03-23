@@ -104,8 +104,8 @@
     including the scope, how it works and use cases. Attendees will be provided with
     instruction on how to use the code in your research."
   registration-page: https://tinyurl.com/DataLoofah
-  recording:
-  slides:
+  recording: https://tinyurl.com/DataLoofahDemo
+  slides: 
 
 - title: Python Users Group
   name: pythonusers
@@ -150,7 +150,7 @@
     interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it 
     relates to any of the topics."
   registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
-  recording:
+  recording: https://drive.google.com/file/d/1UhViT37xdq4RZbPFsngNNLj0cTTdA6X-/view?usp=share_link 
   slides: https://static.mentimeter.com/screenshot/pdfs/I%20Love%20Data%20FARR.pdf?seriesId=alk55qh6hfjcf9ti11rgcsck9vp6dcn3&screenshotTargetUrl=https%3A%2F%2Fwww.mentimeter.com%2Fpreview&_ga=2.208398994.1621205896.1676319283-1974507888.1675723459&_gl=1*s5wv8y*_ga*MTk3NDUwNzg4OC4xNjc1NzIzNDU5*_ga_TCT6BBBKGN*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA..*_ga_5V8GZ3NSZE*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA
 
 - title: "Data Visualization: Dos and Donts"
@@ -239,7 +239,7 @@
   type: demo
   description: "Put on your digital historian hat and join us for an exploration of web archiving as data! In this session we will answer questions such as: What even is web archiving? Why should I care about it? How do I access web archived stuff? What kind of analysis can I do with it? We will use as a case study UC San Diego's guidance for covid prevention, as posted on websites, from Spring 2020 - present. We'll demonstrate how to retrieve the history of a website, work with the html text data in Python, and track changes regarding campus guidance on topics like masking and remote instruction."
   registration-page: https://ucsd.zoom.us/meeting/register/tJMtdOyuqT4oE9ZLbhii8F9S80JeEKZH92j-
-  recording:
+  recording:  https://drive.google.com/file/d/1MOCOac8uZRcO3y519yT2dwYNFv0VkIAp/view?usp=share_link
   slides: https://docs.google.com/presentation/d/1VW6vpZWEiKu7O55pWAAbafXYvrJ82_0EDsg-pnsWrE8/edit?usp=sharing
 
 
@@ -550,7 +550,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     the advantages of containers, how to create containers, and how to use containers
     in several common scientific computing scenarios.
   registration-page: https://berkeley.zoom.us/meeting/register/tJAuc-GsqzkiGtBQorHz4QWD0GMMdwuMcz7y
-  recording:
+  recording: https://www.youtube.com/watch?v=n8KvqG-bkj4 
   slides: https://docs.google.com/presentation/d/1ok4WtUYFF0GDRqYcFroCfsnhDx6aZTS6NKhWc7n_9p4/edit
 
 - title: Julia User Group
@@ -708,5 +708,5 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
     contact at your campus, see https://uc-gis-ucop.hub.arcgis.com). Temporary workshop
     licenses are also available.
   registration-page: https://igis.ucanr.edu/Training/IntroArcGISPro_Feb2023/
-  recording:
+  recording: https://youtu.be/Jrf1zzWniWU 
   slides:
