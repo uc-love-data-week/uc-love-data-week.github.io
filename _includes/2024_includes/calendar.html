@@ -3,16 +3,16 @@
     {% endcomment %}
 
     {%- capture workshop_info -%}
-        {%- for workshop in site.data.yml_2023.workshops -%}
+        {%- for workshop in site.data.yml_2024.workshops -%}
              {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}&&{{workshop.name}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
-            {% assign dates = site.data.yml_2023.dates %}
+            {% assign dates = site.data.yml_2024.dates %}
         {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
 
     {%- capture days_info -%}
-        {%- for day in site.data.yml_2023.dates -%}
+        {%- for day in site.data.yml_2024.dates -%}
              {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}&&{{day.iso8601}}%%
         {%- endfor -%}
     {%- endcapture -%}
@@ -293,8 +293,8 @@
 
 
     <div  class="event calendar-frame" <!-- -->
-        <!-- p><center>2023 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
-      <h1>2023 Calendar</h1>
+        <!-- p><center>2024 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
+      <h1>2024 Calendar</h1>
 <div class="tableFixHead">
 <table class="calendar">
   <body class="calendar" >
