@@ -1,0 +1,111 @@
+---
+layout: 2024_home_TBA
+permalink: /agenda
+title: Agenda
+published: true
+---
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div class="event event-frame">
+    <div class="event black-frame">
+      <h1>{{ page.title }}</h1>
+
+
+
+        {% for day in site.data.yml_2024.dates %}
+            <h2>{{ day.day-full }}, {{ day.date }} </h2>
+            <table class="agenda">
+                <thead>
+                    <tr>
+                        <th class="row-1 agenda-time"><center>Time</center></th>
+                        <th class="row-2 agenda-activity"><center>Activity</center></th>
+                    </tr>
+                </thead>
+
+                {% for agenda in site.data.yml_2024.workshops %}
+                    <tr>
+                        {% if agenda.day == day.day-abbv %}
+                        <td>{{ agenda.time }}</td>
+                        <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = agenda.speaker-type | append: ": " %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2024.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}<br>  </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+        {% endfor %}
+
+        <!-- h2>Tuesday</h2>
+        <table class="agenda">
+            <thead>
+                <tr>
+                    <th class="row-1 agenda-time"><center>Time</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                </tr>
+
+            </thead>
+
+            {% for agenda in site.data.yml_2024.tuesday %}
+                <tr>
+                    <td>{{ agenda.time }}</td>
+                    <td>{{ agenda.info }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h2>Wednesday</h2>
+        <table class="agenda">
+            <thead>
+                <tr>
+                    <th class="row-1 agenda-time"><center>Time</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                </tr>
+
+            </thead>
+
+            {% for agenda in site.data.yml_2024.wednesday %}
+                <tr>
+                    <td>{{ agenda.time }}</td>
+                    <td>{{ agenda.info }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h2>Thursday</h2>
+        <table class="agenda">
+            <thead>
+                <tr>
+                    <th class="row-1 agenda-time"><center>Time</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                </tr>
+
+            </thead>
+
+            {% for agenda in site.data.yml_2024.thursday %}
+                <tr>
+                    <td>{{ agenda.time }}</td>
+                    <td>{{ agenda.info }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+            <h2>Friday</h2>
+        <table class="agenda">
+            <thead>
+                <tr>
+                    <th class="row-1 agenda-time"><center>Time</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                </tr>
+
+            </thead>
+
+            {% for agenda in site.data.yml_2024.friday %}
+                <tr>
+                    <td>{{ agenda.time }}</td>
+                    <td>{{ agenda.info }}</td>
+                </tr>
+            {% endfor %}
+        </table -->
+    </div>
+    </div>
