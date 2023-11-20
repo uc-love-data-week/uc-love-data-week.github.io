@@ -1,0 +1,24 @@
+- date: Feb 12, 2024
+  day-full: Monday
+  day-abbv: m
+  iso8601: 220240212
+
+- date: Feb 13, 2024
+  day-full: Tuesday
+  day-abbv: t
+  iso8601: 20240213
+
+- date: Feb 14, 2024
+  day-full: Wednesday
+  day-abbv: w
+  iso8601: 20240214
+
+- date: Feb 15, 2024
+  day-full: Thursday
+  day-abbv: h
+  iso8601: 20240215
+
+- date: Feb 16, 2024
+  day-full: Friday
+  day-abbv: f
+  iso8601: 20240216
