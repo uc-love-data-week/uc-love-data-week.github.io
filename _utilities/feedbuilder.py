@@ -17,11 +17,15 @@
 
 # Load base Python modules
 import json
+import pprint
 from pathlib import Path
 
 # Load third-party modules
 import xmltodict
 import yaml
+
+# Create a pretty printer for debugging
+pp = pprint.PrettyPrinter(compact=True)
 
 # Create Path objects for input and output directories
 input_path = Path.cwd().parent.joinpath("_data")
@@ -30,7 +34,11 @@ output_path = Path.cwd().parent.joinpath("feeds")
 workshops = {}
 
 # Load all `workshops.yml` files from the `_data` directory
-for filename in sorted(input_path.glob("yml_20*/workshops.yml")):
+input_files = sorted(p.joinpath("workshops.yml") for p in input_path.glob("yml_20*"))
+print("Loading the following files:")
+pp.pprint(input_files)
+
+for filename in input_files:
     if filename.is_file():
         with open(filename, "r") as f:
             # Load `workshops.yml` file as a list of dictionaries
