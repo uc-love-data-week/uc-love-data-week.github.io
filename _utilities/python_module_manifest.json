@@ -1,0 +1,42 @@
+[
+  {
+    "base_url": "https://repo.anaconda.com/pkgs/main",
+    "build_number": 0,
+    "build_string": "py39hecd8cb5_0",
+    "channel": "pkgs/main",
+    "dist_name": "xmltodict-0.13.0-py39hecd8cb5_0",
+    "name": "xmltodict",
+    "platform": "osx-64",
+    "version": "0.13.0"
+  },
+  {
+    "base_url": "https://repo.anaconda.com/pkgs/main",
+    "build_number": 1,
+    "build_string": "py39h6c40b1e_1",
+    "channel": "pkgs/main",
+    "dist_name": "pyyaml-6.0-py39h6c40b1e_1",
+    "name": "pyyaml",
+    "platform": "osx-64",
+    "version": "6.0"
+  },
+  {
+    "base_url": "https://repo.anaconda.com/pkgs/main",
+    "build_number": 0,
+    "build_string": "py39h9ed2024_0",
+    "channel": "pkgs/main",
+    "dist_name": "ruamel_yaml-0.15.100-py39h9ed2024_0",
+    "name": "ruamel_yaml",
+    "platform": "osx-64",
+    "version": "0.15.100"
+  },
+  {
+    "base_url": "https://repo.anaconda.com/pkgs/main",
+    "build_number": 0,
+    "build_string": "haf1e3a3_0",
+    "channel": "pkgs/main",
+    "dist_name": "yaml-0.2.5-haf1e3a3_0",
+    "name": "yaml",
+    "platform": "osx-64",
+    "version": "0.2.5"
+  }
+]

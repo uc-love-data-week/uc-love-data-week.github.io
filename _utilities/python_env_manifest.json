@@ -1,0 +1,14 @@
+{
+  "channels": [
+    "https://repo.anaconda.com/pkgs/main/osx-64",
+    "https://repo.anaconda.com/pkgs/main/noarch",
+    "https://repo.anaconda.com/pkgs/r/osx-64",
+    "https://repo.anaconda.com/pkgs/r/noarch",
+    "https://conda.anaconda.org/conda-forge/osx-64",
+    "https://conda.anaconda.org/conda-forge/noarch"
+  ],
+  "conda_build_version": "3.26.0",
+  "conda_env_version": "22.9.0",
+  "platform": "osx-64",
+  "python_version": "3.9.17.final.0",
+}
