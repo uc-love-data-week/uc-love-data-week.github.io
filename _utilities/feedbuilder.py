@@ -69,7 +69,10 @@ document = {"workshops": workshops}
 
 # Write the document to XML and JSON format
 xml_doc = xmltodict.unparse(document, pretty = True, indent = "  ")
-json_doc = json.dumps(document, ensure_ascii = False, indent = 2).replace('\\"', "'")
+json_doc = json.dumps(document, ensure_ascii = False, indent = 2)
+
+# Clean up JSON document
+json_doc = json_doc.replace('\\"', "'").replace("’", "'")
 
 # Save each document to file
 xml_file = output_path.joinpath("workshops.xml")
