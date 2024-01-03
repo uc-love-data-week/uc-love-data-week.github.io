@@ -1,20 +1,3 @@
-# ------------------------------------------------------------------------------
-# Aggregrate a collection of `workshops.yml` files into a single feed document.
-#
-# Valid XML documents should have (1) a single root element, and (2) unique
-# elements within each level of a given branch. Python loads the contents of
-# each `workshops.yml` file into a collection of lists and dictionaries that may
-# not satisfy these criteria. We will restructure the contents into into a
-# single nested dictionary that we can convert into valid XML.
-#
-# You can browse the feeds at:
-#   <site>/feeds/workshops.xml
-#   <site>/feeds/workshops.json
-#
-# This may not work in all browsers; for example, Safari will open a newsreader
-# any time you try to read XML.
-# ------------------------------------------------------------------------------
-
 # Load base Python modules
 import json
 import pprint
@@ -69,7 +52,10 @@ document = {"workshops": workshops}
 
 # Write the document to XML and JSON format
 xml_doc = xmltodict.unparse(document, pretty = True, indent = "  ")
-json_doc = json.dumps(document, indent = 2).replace('\\"', "'")
+json_doc = json.dumps(document, ensure_ascii = False, indent = 2)
+
+# Clean up JSON document
+json_doc = json_doc.replace('\\"', "'").replace("’", "'")
 
 # Save each document to file
 xml_file = output_path.joinpath("workshops.xml")
