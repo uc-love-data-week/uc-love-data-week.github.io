@@ -1,93 +1,72 @@
 #Monday
 
-- title: Wikidata Basics
-  name: wikidatabasics
+- title: Julia Basics
+  name: julia
   speaker-type: "Speaker"
   speakers: [
-    {name: Kat Koziar, org: ucr-lib},
-    {name: Leigh Phan, org: ucla-dsc}
-  ]
-  img:  Wikidata-logo-v3.png
-  thumbnail:  Wikidata-logo-v3.png
-  alt:  "wikidata logo on clear background: stylized bar codes with bars in three colors (red, green, and blue) with the word wikidata beneath"
+    {name: Nick Ulle, org: ucd-dl}
+    {name: Derek Devnich, org: ucm},
+    {name: Carl Stahmer, org: ucd-dl},
+    {name: Ezra Morrison, org: ucd}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
-  time: 10-11am
+  time: 10am-12pm
   start: 10
+  duration: 120
+  type: hands-on
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: Thinking about and finding health statistics & data
+  name: healthdata
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Michael Sholinbeck, org: ucb}
+  ]
+  img:  
+  thumbnail:  
+  alt:  
+  day: m
+  time: 12-1pm
+  start: 12
   duration: 60
-  type: lecture
-  description: Have you heard of linked data or Wikidata and want to know what they
-    are, and how you can use them?  Have you ever wondered why there are so many wiki*thing*.org
-    websites, and how they're interconnected? This is the workshop for you! <br><br>Wikidata
-    is a free and open knowledge base that provides structured, linked data not just
-    for Wikipedia, but to anyone. It is used globally by many sites and services.<br><br>In
-    this workshop we will describe what Wikidata is and used for; how it's connected
-    to Wikimedia projects (such as Wikipedia); how it's leveraged by many other sites
-    and services as a point of open data; and more importantly, an overview of how
-    you can edit and use it.
-  registration-page: https://www.eventbrite.com/e/wikidata-basics-tickets-488808147327
+  type: hands-on
+  description: 
+  registration-page: 
   recording:
   slides:
 
-- title: Managing and Sharing Data for NIH Projects
-  name: nihshare
+- title: "GIS and Mapping: where to start"
+  name: gismapping
   speaker-type: "Speaker"
   speakers: [
-    {name: Wasila Dahdul, org: uci},
-    {name: Derek Devnich, org: ucm},
-    {name: Reid Otsuji, org: ucsd},
-    {name: Ho Jung Yoo, org: ucsd}
+    {name: Susan Powell, org: ucb}
   ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: m
-  time: 11am-12pm
-  start: 11
-  duration: 60
-  type: lecture
-  description: NIH has issued a new Data Management and Sharing Policy (effective
-    January 25, 2023) to promote the sharing of scientific data and its reuse in future
-    research. Join this workshop to learn about data sharing strategies and resources
-    that will help you comply with the new NIH policy. We will cover good practices
-    for data management, how to find standards for data and metadata, and selecting
-    an appropriate data repository for your discipline or data type. Participants
-    will come away with a better understanding of the process of data management and
-    how to locate resources that align with the new NIH policy.
-  registration-page: https://spaces.lib.uci.edu/event/9988808
-  recording: https://vimeo.com/799560197
-  slides: https://drive.google.com/file/d/1Jqp_mLUj34Dh042vWKRE9__OmCP9BRXv/view?usp=sharing
-
-- title: Writing a Data Management and Sharing Plan for NIH
-  name: nihdmp
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Ariel Deardorff, org: ucsf},
-    {name: Wasila Dahdul, org: uci}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  
+  thumbnail:
+  alt:
   day: m
   time: 1-2pm
   start: 1
   duration: 60
-  type: hands-on
-  description: Have you heard of the new NIH Data Management and Sharing Policy but
-    want to learn more about how to comply? Want some more guidance on writing your
-    Data Management and Sharing Plan (DMS plan)? In this hands-on workshop we will
-    quickly introduce the new policy and then work through each section of the DMS
-    plan so you understand what to write and can start drafting your own plan. We
-    will also cover how to locate DMS plan templates and sample plans, and highlight
-    resources for learning more.
-  registration-page: https://calendars.library.ucsf.edu/event/9986694
-  recording: https://ucsf.box.com/s/depf1joy1f113nkunt92c9y1gea1cank 
-  slides: https://ucsf.box.com/s/depf1joy1f113nkunt92c9y1gea1cank
+  type: lecture
+  description:
+  registration-page:
+  recording:
+  slides:
 
-- title: "Data Loofah - help you identify errors in your data"
-  name: dataloofah
+- title: "To Scan or Not to Scan: Construct 3D objects with Photogrammetry"
+  name: photogram
   speaker-type: "Speaker"
   speakers: [
-    {name: Matthew Ponzini, org: ucd-ctsc}
+    {name: Alvaro Alvarez, org: ucr},
+    {name: Brendon Wheeler, org: ucr},
+    {name: Kat Koziar, org: ucr}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -96,45 +75,19 @@
   time: 2-3pm
   start: 2
   duration: 60
-  type: demo
-  description: "Data cleaning can be a time consuming aspect of research. Join us
-    for look at Loofah, a tool to help researchers clean their data. Data Loofah was
-    developed within the UCD Clinical & Translational Science Center (CTSC) – Biostatistics
-    program. This interactive demonstration will provide and overview of the tool
-    including the scope, how it works and use cases. Attendees will be provided with
-    instruction on how to use the code in your research."
-  registration-page: https://tinyurl.com/DataLoofah
-  recording: https://tinyurl.com/DataLoofahDemo
+  type: hands-on
+  description: 
+  registration-page: 
+  recording: 
   slides: 
 
-- title: Python Users Group
-  name: pythonusers
+- title: GitHub for Everyone
+  name: github
   speaker-type: "Speaker"
   speakers: [
-    {name: Maggie Beherens, org: ucd-dl},
-    {name: Nick Ulle, org: ucd-dl}
-  ]
-  img:  Python_logo.png
-  thumbnail:  Python_logo.png
-  alt:  "Python logo: the words Python under a blue and yellow symbol"
-  day: m
-  time: 2-3pm
-  start: 2
-  duration: 60
-  type: discussion
-  description: "Come join the Davis Python Users Group to talk about all things Python!
-    In this 'birds of a feather' session we invite you to talk about how you use Python
-    in your research workflows, general questions you have about the language, and/or
-    how to start a community of practice for Python users at your institution."
-  registration-page: https://registration.genomecenter.ucdavis.edu/events/PythonUsersGroupCross-UCMeetup/
-  recording:
-  slides:
-
-- title: "FAIR and ML, AI Readiness, and AI Reproducibility (FARR)"
-  name: fairdata
-  speaker-type: "Speaker"
-  speakers: [
-  {name: Christine Kirkpatrick, org: sdsc}
+    {name: Julien Brun, org: ucsb},
+    {name: Renata Curty, org: ucsb},
+    {name: Greg Janee, org: ucsb}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -144,178 +97,14 @@
   start: 3
   duration: 60
   type: hands-on
-  description: "With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, 
-    research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the 
-    role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through 
-    interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it 
-    relates to any of the topics."
-  registration-page: https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92
-  recording: https://drive.google.com/file/d/1UhViT37xdq4RZbPFsngNNLj0cTTdA6X-/view?usp=share_link 
-  slides: https://static.mentimeter.com/screenshot/pdfs/I%20Love%20Data%20FARR.pdf?seriesId=alk55qh6hfjcf9ti11rgcsck9vp6dcn3&screenshotTargetUrl=https%3A%2F%2Fwww.mentimeter.com%2Fpreview&_ga=2.208398994.1621205896.1676319283-1974507888.1675723459&_gl=1*s5wv8y*_ga*MTk3NDUwNzg4OC4xNjc1NzIzNDU5*_ga_TCT6BBBKGN*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA..*_ga_5V8GZ3NSZE*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA
-
-- title: "Data Visualization: Dos and Donts"
-  name: dataviz
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Greg Janee, org: ucsb},
-    {name: Renata Curty, org: ucsb}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: m
-  time: 4-5pm
-  start: 4
-  duration: 60
-  type: lecture
-  description: Data visualizations can be powerful tools to present patterns and insights
-    from research findings. However, the effectiveness of communicating data visually
-    is highly dependent on key design and accuracy principles. Join us in a discussion
-    about what makes good data visualizations and things that should be avoided at
-    all costs. This session will cover some bad and good real-world examples, and
-    attendees will walk away with essential tips to better represent their data in
-    a graphical form.
-  registration-page: https://www.library.ucsb.edu/events-exhibitions/data-visualization-dos-and-donts
-  recording:
-  slides: https://docs.google.com/presentation/d/1IPxv7Fl6NYaG2e3GbpJoQSIeX0hZvvG1CckUDUDjLjA/edit?usp=sharing
+  description: 
+  registration-page: 
+  recording:  
+  slides:
 
 #Tuesday
 
-- title: 'Stepping outside the CAVE: Developments in Virtual Reality technology for
-    3D data exploration'
-  name: vr
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Oliver Kryelos, org: ucd-dl},
-    {name: Pamela Reynolds, org: ucd-dl}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 10-11am
-  start: 10
-  duration: 60
-  type: lecture
-  description: "Virtual Reality (VR) has evolved from an expensive and finicky niche
-    technology only available at well-funded large institutions, into a practical
-    consumer product with tremendous research potential. While current-generation
-    VR devices are primarily intended for the video gaming market, their use is not
-    limited to gaming and has tremendous potential for researchers. The VR Research
-    Initiative at UC Davis DataLab is translating visualization technology initially
-    created for the UC Davis W.M. Keck Center for Active Visualization in the Earth
-    Sciences (KeckCAVES), to function with modern commodity VR devices. By developing
-    and supporting open-source software for gaming VR headsets, DataLab seeks to promote
-    equitable access to emerging technologies and enable diverse communities of researchers
-    and the public to explore 3D data. In this session, we will discuss the fundamental
-    principles and reasons why VR is highly effective for the analysis of large and
-    complex three-dimensional data. We will introduce several concrete VR applications
-    based on those principles that are being developed at UC Davis DataLab, and will
-    describe how participants can build their own VR systems, able to run DataLabs
-    VR applications, at their own institutions. By the end of this session participants
-    will be able to: describe how current-generation virtual reality (VR) technology
-    such as VR headsets meant for gaming can effectively be used for scientific data
-    analysis; discuss why VR is useful for analysis of data, specifically complex
-    and large three-dimensional data; and identify where to go to learn more about
-    setting up their own VR systems using the latest VR technologies for research."
-  registration-page: https://registration.genomecenter.ucdavis.edu/events/SteppingOutsidetheCAVEVirtualReality/
-  recording:
-  slides:
-
-- title: "Web Archiving as Data"
-  name: webarchive
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Tori Maches, org: ucsd},
-    {name: Stephanie Labou, org: ucsd}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 11am-12pm
-  start: 11
-  duration: 60
-  type: demo
-  description: "Put on your digital historian hat and join us for an exploration of web archiving as data! In this session we will answer questions such as: What even is web archiving? Why should I care about it? How do I access web archived stuff? What kind of analysis can I do with it? We will use as a case study UC San Diego's guidance for covid prevention, as posted on websites, from Spring 2020 - present. We'll demonstrate how to retrieve the history of a website, work with the html text data in Python, and track changes regarding campus guidance on topics like masking and remote instruction."
-  registration-page: https://ucsd.zoom.us/meeting/register/tJMtdOyuqT4oE9ZLbhii8F9S80JeEKZH92j-
-  recording:  https://drive.google.com/file/d/1MOCOac8uZRcO3y519yT2dwYNFv0VkIAp/view?usp=share_link
-  slides: https://docs.google.com/presentation/d/1VW6vpZWEiKu7O55pWAAbafXYvrJ82_0EDsg-pnsWrE8/edit?usp=sharing
-
-
-- title: Reproducibility for Everyone
-  name: everyone
-  speaker-type: "Speaker"
-  speakers: [
-    {name: April Clyburne-Sherin, org: r4e},
-    {name: Kanika Khanna, org: ucb},
-    {name: Teena Bajaj, org: ucb},
-    {name: Victoria Farrar, org: r4e},
-    {name: Nafisa Jadavji, org: r4e}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 11am-12:30pm
-  start: 11
-  duration: 90
-  type: hands-on
-  description: "Rigor and reproducibility are at the core of modern science. Many new initiatives and 
-  tools have been established to address barriers to reproducibility. While very welcome, these projects 
-  have led to a proliferation of online tools and resources which can be hard to sift through. <br>
-  <br>
-  Reproducibility for Everyone (R4E) is a global, community-led reproducibility education initiative. R4E 
-  runs practical and accessible workshops to introduce the concept of reproducibility to researchers. We 
-  demonstrate reproducible tools and methods that can improve research by making it more efficient, 
-  transparent, and rigorous. Every R4E workshop is customized for the audience. Since 2018, R4E volunteer 
-  instructors have reached over 2500 researchers around the world through over 40 workshops.<br>
-  <br>
-  This workshop will introduce reproducible workflows and a range of tools along the themes of organization, 
-  documentation, analysis, and dissemination. After a brief introduction to the topic of reproducibility, 
-  the workshop will provide specific tips and tools useful in improving daily research workflows. The content 
-  will include modules such as data management, electronic lab notebooks, reproducible bioinformatics tools 
-  and methods, protocol and reagent sharing, data visualization, and version control. All modules include 
-  interactive learning, real-time participation, and active knowledge sharing. The methods and tools introduced 
-  help researchers share work with their future self, their immediate colleagues, and the wider scientific community. <br>
-  <br>
-  Following this workshop, participants will be able to:
-  <ul>
-  <li>
-  Apply a conceptual framework for reproducibility, replicability, and robustness of research.</li>
-  <li>
-  Explore practical, accessible tools and methods for advancing the reproducibility of research.</li>
-  <li>
-  Reuse and adapt the Reproducibility for Everyone modular curriculum to their own training and research needs.</li>
-  <li>
-  Evaluate their reproducibility barriers and solutions through interactive knowledge sharing.</li>
-  </ul>"
-  registration-page: https://www.eventbrite.com/e/reproducibility-for-everyone-tickets-523807130227
-  recording:
-  slides: https://docs.google.com/presentation/d/1v_5CRrCpkPSYYXK29URfNRWKPd3w5tH9svvB_sHbjhw/edit#slide=id.g2084be53121_0_94
-
-- title: "GIS & Mapping: Where to Start"
-  name: gismap
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Susan Powell, org: ucb-lib}
-  ]
-  img:  gis.png
-  thumbnail:  gis.png
-  alt:  "stylized globe of the earth"
-  day: t
-  time: 1-2pm
-  start: 1
-  duration: 60
-  type: lecture
-  description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
-
-No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
-  registration-page: https://berkeley.libcal.com/event/10172779
-  recording:
-  slides: http://ucblib.link/GIS-LDW23
-
-- title: Developing your data science portfolio
+- title: Developing Your Data Science Portfolio
   name: dscportfolio
   speaker-type: "Speaker"
   speakers: [
@@ -326,187 +115,237 @@ No experience or special software is required to participate in this workshop. T
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
-  time: 2-4pm
-  start: 2
+  time: 10am-12pm
+  start: 10
   duration: 120
+  type: lecture
+  description: 
+  registration-page: 
+  recording:  
+  slides: 
+
+- title: Tips and Tools for Dealing with Large Datasets
+  name: largedata
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Leigh Phan, , org: ucla},
+    {name: Kristian Allen, org: ucla}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 12pm-1pm
+  start: 12
+  duration: 60
   type: hands-on
-  description: "How can you demonstrate your technical skills to a potential employer,
-    supervisor, funder, or collaborator? During this workshop we will discuss digital
-    (online) portfolios, which complement your CV/resume by showcasing your coding,
-    data visualization, data analysis, mapmaking, and other skilled technical abilities.
-    We will discuss various purposes for digital portfolios, the components of a digital
-    portfolio, methods and tools for creating one, and considerations for carefully
-    curating and presenting your work in an engaging manner. By the end of this workshop,
-    participants will be able to: identify personally relevant reasons to create a
-    digital portfolio; describe basic components of a digital portfolio; identify
-    tools for creating and curating their digtial portofolio; and find examples of
-    digital portfolios related to their career goals (programmers, data scientists,
-    geospatial scientists, etc.)."
-  registration-page: https://registration.genomecenter.ucdavis.edu/events/DevelopingYourDataSciencePortfolio/
+  description: 
+  registration-page: 
+  recording:
+  slides: 
+
+- title: "Cultivating Collaboration: Getting Started with Open Research"
+  name: openresearch
+  speaker-type: "Speaker"
+  speakers: [
+  {name: Wasila Dahdul, org: uci},
+  {name: Ariel Deardorf, org: ucsf},
+  {name: Reid Otsuji, org: ucsd},
+  {name: Sam Teplitzky, org: ucb}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 1-2pm
+  start: 1
+  duration: 60
+  type: lecture
+  description: 
+  registration-page: 
+  recording:  
+  slides: 
+
+- title: "Feeding Curiosity: A smorgasbord of open data sources for research"
+  name: opendata
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Stephanie Labou, org: ucsd},
+    {name: Kat Koziar, org: ucr},
+    {name: Geoff Boushey, org: ucsf},
+    {name: Christy Navarro, org: ucd-ctsc},
+    {name: Andy Lyons, org: uc-anr},
+    {name: Ariel Deardorff (moderator), org: ucsf}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 2-3pm
+  start: 2
+  duration: 60
+  type: lecture
+  description: 
+  registration-page: 
+  recording:
+  slides: 
+  
+
+- title: "Code-free Data Analysis"
+  name: codefree
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Ann Glusker, org: ucb}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 3-4pm
+  start: 3
+  duration: 60
+  type: demo
+  description: 
+  registration-page: 
   recording:
   slides:
 
 #Wednesday
 
-- title: How to Get Wikidata Using SPARQL
-  name: sparql
+- title: "All of Us: A Comprehensive Precision Medicine Data Hub for UC Researchers"
+  name: allofus
   speaker-type: "Speaker"
   speakers: [
-    {name: Kat Koziar, org: ucr-lib},
-    {name: Leigh Phan, org: ucla-dsc}
+    {name: Yury E. Garcia, org: ucd},
+    {name:  Pamela Reynolds, org: ucd-dl}
   ]
-  img:  Wikidata-logo-v3_sparql.png
-  thumbnail:  Wikidata-logo-v3_sparql.png
-  alt:  "wikidata logo on clear background: stylized bar codes with bars in three colors (red, green, and blue) with the words wikidata and SPARQL beneath"
+  img: 
+  thumbnail: 
+  alt: 
   day: w
-  time: 10am-12pm
-  start: 10
+  time: 9-11am
+  start: 9
   duration: 120
-  type: hands-on
-  description: Wikidata is a free structured knowledge base, currently with over 100 million items. Its records include people, objects, works of art, places, events, geographies, concepts, and even journal articles. Wikidata also includes the relationships between items. This hands-on introductory workshop will provide an overview of item records in Wikidata, including how they are structured and described, and a demonstration on how to retrieve these items using the query language SPARQL.
-
-    No previous knowledge of Wikidata or SPARQL is necessary, but we highly recommend attending the Wikidata Basics workshop held on Monday, February 13, 2023.
-  registration-page: https://www.eventbrite.com/e/how-to-get-wikidata-using-sparql-tickets-488815569527
+  type: demo
+  description: 
+  registration-page: 
   recording:
   slides:
 
-- title: R-Users Group
-  name: rusers
+- title: "Trust Trek: Navigating the AI Trust Maturity Maze"
+  name: aitrust
   speaker-type: "Speaker"
   speakers: [
-    {name: Wesley Brooks, org: ucd-dl},
-    {name: Liza Wood, org: ucd-dl}
-  ]
-  img: R_logo.png
-  thumbnail: R_logo.png
-  alt: "Large letter R"
-  day: h
-  time: 10am-12pm
-  start: 10
-  duration: 120
-  type: discussion
-  description: "Come join the Davis R Users Group to talk about all things R! In this
-    'birds of a feather' session we invite you to talk about how you use R for your
-    research data analyses and visualizations, general questions you have about the
-    language, and/or how to start a community of practice for R users at your institution."
-  registration-page: https://registration.genomecenter.ucdavis.edu/events/RUsersGroupCross-UCMeetup/
-  recording:
-  slides:
-
-- title: WiDS Datathon Onboarding
-  name: wids
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Pamela Reynolds, org: ucd-dl}
+    {name: Christy Navarro, org: ucd-ctsc},
+    {name: Reema Hamasha, org: ucd-ctsc},
+    {name: Ariella Hoffman-Peterson, org: ucd-ctsc}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
-  time: 12pm-1pm
-  start: 12
-  duration: 60
+  time: 10am-12:30pm
+  start: 10
+  duration: 150
   type: lecture
-  description: "The 6th Annual Women in Data Science (WiDS) Datathon is open until March 1, 2023. This year’s Datathon focuses on utilizing data science to better prepare and adapt to the challenges caused by climate change and extreme weather events. Participants are challenged to blend machine-learning and physics-based forecasts to improve long-term weather forecasting, thereby helping communities and industries adapt to the challenges of climate change.<br><br>
-At this event we will cover:<br>
-<ul><li>What the Datathon is all about</li>
-<li>Signing up for the Datathon</li>
-<li>Getting registered on Kaggle</li>
-<li>Joining the WiDS Datathon Slack organization</li>
-<li>Forming and finding a team by connecting with other participants</li>
-<li>Exploring existing notebooks, tutorials, and other Datathon resources.</li>
-</ul>
-
-Whether a beginner or experienced data scientist, everyone is welcome to participate. The Datathon is open to individuals or teams of up to 4, and at least half of each team must be individuals who identify as women."
-  registration-page: https://ucdavis.zoom.us/meeting/register/tJIqf--rpjsoHNCQQFbq81YJwkyY0XLjiBFP
+  description: 
+  registration-page: 
   recording:
   slides:
 
-- title: Wikipedia edit-a-thon
-  name: wikipediaedit
+- title: Dependency Management 101
+  name: depend
   speaker-type: "Speaker"
   speakers: [
-    {name: Ann Glusker, org: ucb-lib},
-    {name: Stacy Reardon, org: ucb-lib},
-    {name: Corliss Lee, org: ucb-lib},
-    {name: Margaret Philips, org: ucb-lib}
+    {name: Renata Curty, org: ucsb},
+    {name: Julien Brun, org: ucsb},
+    {name: Greg Janee, org: ucsb}
   ]
-  img:  wikipedia_logo.png
-  thumbnail:  wikipedia_logo.png
-  alt:  "wikipedia logo: globe with icons over the words wikipedia"
+  img:  
+  thumbnail:  
+  alt:  
+  day: w
+  time: 12-1pm
+  start: 12
+  duration: 60
+  type: lecture
+  description: 
+  registration-page: 
+  recording:
+  slides: 
+  
+- title: "Drone Data 101: The Data Pipeline"
+  name: drone
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Sean Hogan, org: uc-anr},
+    {name: Andy Lyons, org: uc-anr}
+  ]
+  img:  
+  thumbnail: 
+  alt:  
+  day: w
+  time: 1-2pm
+  start: 1
+  duration: 60
+  type: lecture
+  description: 
+  registration-page: 
+  recording:
+  slides: 
+
+- title: "Wikipedia Edit-a-thon"
+  name: wikipedia
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Ann Glusker, org: ucb},
+    {name: Corliss Lee, org: ucb},
+    {name: Sarah Rosenkrantz, org: ucb},
+    {name: Misha Coleman, org: ucb},
+    {name: Marri Atienza, org: ucb}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 1-2:30pm
   start: 1
   duration: 90
-  type: hands-on
-  description: "Wikipedia’s inclusion trouble is well-documented. While the reasons
-    are up for debate, the practical effect of this disparity is not: content is skewed
-    by the lack of participation by underrepresented groups. This adds up to an alarming
-    absence in an important repository of shared knowledge. Let’s change that! Join
-    us on Zoom for a tutorial for the beginner Wikipedian followed by communal updating
-    of Wikipedia entries."
-  registration-page: https://guides.lib.berkeley.edu/wikipedia-edit-a-thon
+  type: 
+  description: 
+  registration-page:
   recording:
-  slides: https://drive.google.com/file/d/1PY5QpW9_UjyWTTjJQILTQ8fQvJglP9qD/view
+  slides:
 
-- title: Data De-identification in Practice
-  name: deidentification
+- title: 3D Data and Images
+  name: 3d
   speaker-type: "Speaker"
   speakers: [
-    {name: Renata Curty, org: ucsb},
-    {name: Greg Janee, org: ucsb}
+    {name: Alvaro Alvarez, org: ucr},
+    {name: Brendon Wheeler, org: ucr},
+    {name: Kat Koziar, org: ucr}
   ]
-  img: R_logo.png
-  thumbnail: R_logo.png
-  alt: "Large letter R"
+  img:  
+  thumbnail:  
+  alt: 
   day: w
-  time: 2-4pm
+  time: 2pm-3pm
   start: 2
-  duration: 120
-  type: hands-on
-  description: This workshop will cover key definitions, recommendations, and techniques
-    to implement data de-identification/anonymization. Attendees will be invited to
-    follow along and complete exercises with a provided dataset using the online graphical
-    user interface of the R sdcMicro package for disclosure control. No R programming
-    experience is required.
-  registration-page: https://www.library.ucsb.edu/events-exhibitions/data-de-identification-practice
-  recording:
-  slides: https://docs.google.com/presentation/d/1F3GigLLjrrpF3MEr3gxct9dM62W6kICbuO-gongmKUg/edit?usp=share_link
-
-- title: Exploring Digital Archives
-  name: digiarchives
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Wendy Kurtz, org: ucla},
-    {name: Anthony Caldwell , org: ucla}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: w
-  time: 3-5pm
-  start: 3
-  duration: 120
-  type: demo
-  description: Do you need to search digital archives for hidden treasures and unknown tidbits 
-    for your research projects? This workshop will explore the tools and techniques that allow 
-    you to capture, search, and synthesize information stored in digital archives. Using the 
-    internet archive as an example, we will combine the power of  DEVONthink, a document and 
-    information management tool that allows you to collect, organize, edit, and annotate 
-    documents of any kind,  Tinderbox, and Obsidian sophisticated note-taking applications 
-    designed to capture and analyze complex relationships and ideas and Zotero a reference 
-    manager used to capture and manage bibliographic data and related research materials.
-  registration-page: https://ucla.zoom.us/meeting/register/tJwofuqgqjwsHtb6qudplOdauzem397b-V2j
+  duration: 60
+  type: lecture
+  description: 
+  registration-page:
   recording:
   slides:
 
 #Thursday
 
-- title: Responsible Data Science
-  name: responsibledsc
+- title: "Overview of Remote and High Performance Computing (HPC)"
+  name: hpc
   speaker-type: "Speaker"
   speakers: [
-    {name: Pamela Reynolds & team, org: ucd-dl}
+    {name: Pamela Reynolds, org: ucd-dl},
+    {name: Nick Ulle, org: ucd-dl}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -515,25 +354,17 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   time: 10am-12pm
   start: 10
   duration: 120
-  type: hands-on
-  description: "Technical advancements through data science combined with the exponential increase in data has led to research breakthroughs across domains and generated entirely new industries. But, lagging behind this growth is our understanding of the evolving socio-technical landscape and ability to predict the indirect consequences of our work. While laws determine the legal parameters governing data use, data science approaches that are technically legal can still be used unethically and irresponsibly, with disastrous consequences from loss of revenue to human rights violations. Through case studies and interactive sessions, this workshop provides an overview of how to practice responsible data science by incorporating considerations of ethics, equity, and justice. We will discuss FACT (fairness, accuracy, confidentiality, and transparency) based approaches to increasing the integrity of our work in data science. By the end of this workshop, learner should be able to:
-    Describe examples of how the development of data science can both contribute to inequities and be leveraged to address them in their own domain.
-    Begin to identify the underlying goals and incentives influencing their data-driven research.
-    Assess whether a research project’s data meets FAIR criteria.
-    Use a responsible data science framework to evaluate the potential impact(s) of a research project case study.
-    Revise their research design using FACT principles."
-  registration-page: https://registration.genomecenter.ucdavis.edu/events/ResponsibleDataScience/
+  type: lecture
+  description: 
+  registration-page: 
   recording:
   slides:
 
-- title: "Introduction to containers: creating reproducible, scalable, and portable
-    workflows"
-  name: containers
+- title: Tableau Workshop
+  name: tableau
   speaker-type: "Speaker"
   speakers: [
-    {name: Orion Cohen, org: ucb-rit},
-    {name: Alex Goldberg, org: ucb-rit},
-    {name: Wei Feinstein, org: ucb-rit}
+    {name: Madison Bautista, org: ucla}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -542,171 +373,149 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
   time: 12-1pm
   start: 12
   duration: 60
-  type: lecture
-  description: This training will introduce you to the key concepts and tools for
-    using containers, in particular Docker and Singularity containers. Containers
-    make it easy to install software, move your computation between different computing
-    environments, and make your workflow reproducible. In this training, we will discuss
-    the advantages of containers, how to create containers, and how to use containers
-    in several common scientific computing scenarios.
-  registration-page: https://berkeley.zoom.us/meeting/register/tJAuc-GsqzkiGtBQorHz4QWD0GMMdwuMcz7y
-  recording: https://www.youtube.com/watch?v=n8KvqG-bkj4 
-  slides: https://docs.google.com/presentation/d/1ok4WtUYFF0GDRqYcFroCfsnhDx6aZTS6NKhWc7n_9p4/edit
+  type: hands-on
+  description: 
+  registration-page: 
+  recording:  
+  slides: 
 
-- title: Julia User Group
-  name: julia
+- title: Understanding Bias in AI Tools
+  name: aibias
   speaker-type: "Speaker"
   speakers: [
-    {name: Nick Ulle, org: ucd-dl},
-    {name: Carl Stahmer, org: ucd-dl}
+    {name: Shelby Hallman, org: ucla},
+    {name: Alex Solodkaya, org: ucla},
+    {name: Ashley Peterson, org: ucla}
   ]
-  img: julia_logo.png
-  thumbnail: julia_logo.png
-  alt: "the word julia with colored dots"
+  img: 
+  thumbnail: 
+  alt: 
   day: h
-  time: 1-2pm
+  time: 1-2:30pm
   start: 1
-  duration: 60
-  type: discussion
-  description: "Are you using Julia? If so, come join the Davis Julia Users Group!
-    In this 'birds of a feather' session we invite you to talk about how you learned
-    to use Julia, what problems you are tackling with it, and how you've integrated
-    the language into your research workflows."
-  registration-page: https://registration.genomecenter.ucdavis.edu/events/JuliaUsersGroupCross-UCMeetup/
+  duration: 90
+  type: hands-on
+  description: 
+  registration-page:
   recording:
-  slides:
+  slides: 
 
-- title: Using Library Collections for Computational Research
-  name: libcollections
+- title: Telling Your Data Story
+  name: story
   speaker-type: "Speaker"
   speakers: [
-  {name: Rachel Starry, org: ucr-lib},
-  {name: Sandy Enriquez, org: ucr-lib}, 
-  {name: Kathryn Stine, org: ucsf},
-  {name: Charlie Macquarie, org: ucsf}
+    {name: Beth Tweedy, org: ucd}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
-  time: 2-3pm
-  start: 2
+  time: 3-4pm
+  start: 3
   duration: 60
   type: lecture
-  description: Whether you are a student, researcher, or library worker, library collections are a 
-    rich potential source of data for research or community projects. The concept of "collections as 
-    data" relates to the responsible use and reuse of cultural heritage materials, university archives, 
-    and other digitized records for data-driven research in both the sciences and humanities. UC 
-    libraries are increasingly joining other cultural heritage stewards in providing researchers 
-    with datasets drawn from their collections.<br><br>
-    This workshop will introduce participants to both technical resources and ethical considerations 
-    for the reuse of library collections as research data. We will discuss the importance of metadata 
-    and documentation when using collections as data, and will look at one tool for computationally 
-    analyzing collections (HathiTrust Research Center Analytics). We will also explore some specific 
-    collections held by UCR Library and UCSF Library Archives & Special Collections that are available 
-    to use as data for historical research.
-
-  registration-page: https://www.eventbrite.com/e/using-library-collections-for-computational-research-tickets-487940512207
+  description:
+  registration-page: 
   recording:
   slides:
 
 #Friday
 
-- title: Data-Driven Animation for Research and Science Communication
-  name: animationcomm
+- title: Data resources for Social Sciences & social media data ethics
+  name: socsciethics
   speaker-type: "Speaker"
   speakers: [
-  {name: Dr. Jessie Kendall Bar, org: ucsd}
-   ]
-  img: data_driven_animation.png
-  thumbnail: data_driven_animation.png
-  alt: "computer derived image of marine animal with boxes indicating movement"
-  day: f
-  time: 10-11:30am
-  start: 10
-  duration: 90
-  type: hands-on
-  description: In this 90-minute workshop, Dr. Jessica Kendall-Bar will introduce
-    techniques that transform data into visualizations that accelerate research and
-    facilitate communication. Kendall-Bar will share tools and tips to bring your
-    data to life with data visualization tools and coding languages from PowerPoint
-    to R, Python, Javascript, ArcGIS, Adobe After Effects, and Autodesk Maya. We will
-    share tutorials and demos, show examples of the visualizations that are possible
-    within these programs, and have some time at the end to do some collective dataviz
-    brainstorming regarding specific datasets from workshop attendees.
-  registration-page: https://ucsd.zoom.us/meeting/register/tJ0sduGqqD8rHNWJNjSNlaB9N9hKJY11SJYZ
-  recording:
-  slides:
-
-- title: Wikidata edit-a-thon
-  name: wikidataedit
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Kat Koziar, org: ucr-lib},
-    {name: Leigh Phan, org: ucla-dsc}
-  ]
-  img:  Wikidata-logo-v3.png
-  thumbnail:  Wikidata-logo-v3.png
-  alt:  "wikidata logo on clear background: stylized bar codes with bars in three colors (red, green, and blue) with the word wikidata beneath"
-  day: f
-  time: 10am-1pm
-  start: 10
-  duration: 120
-  type: hands-on
-  description: Join us for a Wikidata edit-a-thon!  This is a great opportunity to
-    learn basic Wikidata editing skills, and how Wikidata can be relevant to your
-    research.  From 10 - 11am, we'll cover how to add and edit Wikidata items.  From
-    11am until 1pm, you can choose your level of participation.  Dive into some hands-on
-    solo editing or ask questions.  While you can bring your own data projects, we
-    will have a project list, so everything you need to successfully edit or upload
-    a Wikidata item will be provided during the session.  <br><br>No previous knowledge
-    of Wikidata is necessary, but we highly recommend attending the Wikidata Basics
-    workshop held on Monday, February 13, 2023.
-  registration-page: https://www.eventbrite.com/e/wikidata-edit-a-thon-tickets-488819912517
-  recording:
-  slides:
-
-- title: "Getting started with qualitative data analysis: open tools and methods"
-  name: qualdata
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Ann Glusker, org: ucb-lib}
+  {name: Nashra Mahmood, org: ucla},
+  {name: Tianji Jiang, org: ucla}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
+  time: 10-11:30am
+  start: 10
+  duration: 90
+  type: demo
+  description: 
+  registration-page: 
+  recording:
+  slides:
+
+- title: "Data Discovery and Evaluation in the Social Sciences: Present and Historical"
+  name: socscidata
+  speaker-type: "Speaker"
+  speakers: [
+    {name: David Michalski , org: ucd}
+  ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: f
+  time: 11am-12pm
+  start: 11
+  duration: 60
+  type: demo
+  description: 
+  registration-page: 
+  recording:
+  slides: 
+
+
+- title: A Beginner's Guide to the Data Management Plan Tool
+  name: dmptool
+  speaker-type: "Speaker"
+  speakers: [
+  {name: Christy Navarro, org: ucd-ctsc}
+  {name: Emily Atkinson, org: ucd},
+  {name: Beth Tweedy, org: ucd}
+   ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: f
+  time: 12-1pm
+  start: 12
+  duration: 60
+  type: hands-on
+  description: 
+  registration-page: 
+  recording:
+  slides:
+
+- title: "TruHealthAI: A Trust Maturity Model for diversifiying data sets"
+  name: truhealthai
+  speaker-type: "Speaker"
+  speakers: [
+    {name: CTSA Maturity Model Workgroup, org: ucd-ctsc},
+  ]
+  img:
+  thumbnail:
+  alt: 
+  day: f
+  time: 12-1pm
+  start: 12
+  duration: 60
+  type: demo
+  description: 
+  registration-page: 
+  recording:
+  slides:
+
+- title: "Getting started with qualitative data analysis: open tools and methods"
+  name: qualitative
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Ann Glusker, org: ucb}
+  ]
+  img: 
+  thumbnail: 
+  alt:
+  day: f
   time: 1-2pm
   start: 1
   duration: 60
   type: demo
-  description: "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed.  Additional resources will be mentioned and the slides/links made available."
-  registration-page: https://berkeley.libcal.com/event/10172847
+  description: 
+  registration-page: 
   recording:
-  slides: https://tinyurl.com/LDW23-QualData
-
-- title: Intro to ArcGIS Pro
-  name: gisintro
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Maggi Kelly, org: ucb},
-    {name: Sean Hogan, org: anr}
-  ]
-  img:  gis.png
-  thumbnail:  gis.png
-  alt:  "stylized globe of the earth"
-  day: f
-  time: 1-4pm
-  start: 1
-  duration: 180
-  type: hands-on
-  description: ArcGIS Pro is ESRI's powerhouse desktop application for all things
-    GIS. It can do anything from basic cartography to advanced geospatial modeling,
-    and is well intergrated with web mapping and accessing online data. This introductory
-    workshop will get you started creating maps using local and online GIS data. All
-    UC students and staff should have access to ArcGIS software (to find out who to
-    contact at your campus, see https://uc-gis-ucop.hub.arcgis.com). Temporary workshop
-    licenses are also available.
-  registration-page: https://igis.ucanr.edu/Training/IntroArcGISPro_Feb2023/
-  recording: https://youtu.be/Jrf1zzWniWU 
   slides:
