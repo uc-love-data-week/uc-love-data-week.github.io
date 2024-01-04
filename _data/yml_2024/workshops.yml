@@ -4,7 +4,7 @@
   name: julia
   speaker-type: "Speaker"
   speakers: [
-    {name: Nick Ulle, org: ucd-dl}
+    {name: Nick Ulle, org: ucd-dl},
     {name: Derek Devnich, org: ucm},
     {name: Carl Stahmer, org: ucd-dl},
     {name: Ezra Morrison, org: ucd}
@@ -128,7 +128,7 @@
   name: largedata
   speaker-type: "Speaker"
   speakers: [
-    {name: Leigh Phan, , org: ucla},
+    {name: Leigh Phan, org: ucla},
     {name: Kristian Allen, org: ucla}
   ]
   img:  ldw-circuit-color-506_2022.png
@@ -465,7 +465,7 @@
   name: dmptool
   speaker-type: "Speaker"
   speakers: [
-  {name: Christy Navarro, org: ucd-ctsc}
+  {name: Christy Navarro, org: ucd-ctsc},
   {name: Emily Atkinson, org: ucd},
   {name: Beth Tweedy, org: ucd}
    ]
@@ -482,7 +482,7 @@
   recording:
   slides:
 
-- title: "TruHealthAI: A Trust Maturity Model for diversifiying data sets"
+- title: "TruHealthAI: A Trust Maturity Model for diversifying data sets"
   name: truhealthai
   speaker-type: "Speaker"
   speakers: [
