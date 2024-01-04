@@ -1,7 +1,18 @@
 ---
-layout: 2024_home_TBA
+layout: 2024_default
 permalink: /calendar
 title: Calendar
-published: false
+published: true
 ---
 
+<!-- calendar on main page -->
+{% include 2024_includes/head.html %}
+
+<!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+	{% include /2024_includes/calendar.html %}
+ 	{% include 2024_includes/workshops_info.html %}
+ 	{% include 2024_includes/js.html %}
