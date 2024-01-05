@@ -5,7 +5,7 @@
   speaker-type: "Speaker"
   speakers: [
     {name: Nick Ulle, org: ucd-dl},
-    {name: Derek Devnich, org: ucm-lib},
+    {name: Derek Devnich, org: ucm},
     {name: Carl Stahmer, org: ucd-dl},
     {name: Ezra Morrison, org: ucd}
  ]
@@ -26,7 +26,7 @@
   name: healthdata
   speaker-type: "Speaker"
   speakers: [
-    {name: Michael Sholinbeck, org: ucb}
+    {name: Michael Sholinbeck, org: ucb-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -45,7 +45,7 @@
   name: gismapping
   speaker-type: "Speaker"
   speakers: [
-    {name: Susan Powell, org: ucb}
+    {name: Susan Powell, org: ucb-lib}
   ]
   img:  gis.png
   thumbnail:  gis.png
@@ -64,8 +64,8 @@
   name: photogram
   speaker-type: "Speaker"
   speakers: [
-    {name: Alvaro Alvarez, org: ucr},
-    {name: Brendon Wheeler, org: ucr},
+    {name: Alvaro Alvarez, org: ucr-lib},
+    {name: Brendon Wheeler, org: ucr-lib},
     {name: Kat Koziar, org: ucr-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
@@ -85,9 +85,9 @@
   name: github
   speaker-type: "Speaker"
   speakers: [
-    {name: Julien Brun, org: ucsb-lib},
-    {name: Renata Curty, org: ucsb-lib},
-    {name: Greg Janee, org: ucsb-lib}
+    {name: Julien Brun, org: ucsb},
+    {name: Renata Curty, org: ucsb},
+    {name: Greg Janee, org: ucsb}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -148,10 +148,10 @@
   name: openresearch
   speaker-type: "Speaker"
   speakers: [
-  {name: Wasila Dahdul, org: uci-lib},
-  {name: Ariel Deardorff, org: ucsf-lib},
+  {name: Wasila Dahdul, org: uci},
+  {name: Ariel Deardorff, org: ucsf},
   {name: Reid Otsuji, org: ucsd-lib},
-  {name: Sam Teplitzky, org: ucb}
+  {name: Sam Teplitzky, org: ucb-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -176,10 +176,10 @@
   speakers: [
     {name: Stephanie Labou, org: ucsd-lib},
     {name: Kat Koziar, org: ucr-lib},
-    {name: Geoff Boushey, org: ucsf-lib},
+    {name: Geoff Boushey, org: ucsf},
     {name: Christy Navarro, org: ucd-ctsc},
     {name: Andy Lyons, org: uc-anr},
-    {name: Ariel Deardorff, org: ucsf-lib}
+    {name: Ariel Deardorff, org: ucsf}
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -275,9 +275,9 @@ This workshop is particularly relevant for researchers and students engaged in v
   name: depend
   speaker-type: "Speaker"
   speakers: [
-    {name: Renata Curty, org: ucsb-lib},
-    {name: Julien Brun, org: ucsb-lib},
-    {name: Greg Janee, org: ucsb-lib}
+    {name: Renata Curty, org: ucsb},
+    {name: Julien Brun, org: ucsb},
+    {name: Greg Janee, org: ucsb}
   ]
   img:  R_and_Python.png
   thumbnail:  R_and_Python.png
@@ -317,10 +317,10 @@ This workshop is particularly relevant for researchers and students engaged in v
   speaker-type: "Speaker"
   speakers: [
     {name: Ann Glusker, org: ucb-lib},
-    {name: Corliss Lee, org: ucb},
-    {name: Sarah Rosenkrantz, org: ucb},
-    {name: Misha Coleman, org: ucb},
-    {name: Marri Atienza, org: ucb}
+    {name: Corliss Lee, org: ucb-lib},
+    {name: Sarah Rosenkrantz, org: ucb-lib},
+    {name: Misha Coleman, org: ucb-lib},
+    {name: Marri Atienza, org: ucb-lib}
   ]
   img:  wikipedia_logo.png
   thumbnail:  wikipedia_logo.png
@@ -339,8 +339,8 @@ This workshop is particularly relevant for researchers and students engaged in v
   name: 3d
   speaker-type: "Speaker"
   speakers: [
-    {name: Alvaro Alvarez, org: ucr},
-    {name: Brendon Wheeler, org: ucr},
+    {name: Alvaro Alvarez, org: ucr-lib},
+    {name: Brendon Wheeler, org: ucr-lib},
     {name: Kat Koziar, org: ucr-lib}
   ]
   img:  ldw-circuit-color-506_2022.png
@@ -408,8 +408,8 @@ By the end of this workshop attendees should be able to:
   name: aibias
   speaker-type: "Speaker"
   speakers: [
-    {name: Shelby Hallman, org: ucla},
-    {name: Alex Solodkaya, org: ucla},
+    {name: Shelby Hallman, org: ucla-lib},
+    {name: Alex Solodkaya, org: ucla-lib},
     {name: Ashley Peterson, org: ucla-lib}
   ]
   img: 

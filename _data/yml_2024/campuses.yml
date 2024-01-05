@@ -145,6 +145,13 @@
   url: https://www.library.ucdavis.edu/
   p-campus: n
 
+- name: UC Davis
+  abbv: ucd
+  image: /assets/img/campuses/ucd.png
+  alt: UC Davis
+  url: https://www.ucdavis.edu/
+  p-campus: n
+
 - name: UC ANR
   abbv: uc-anr
   image: ../assets/img/campuses/uc-anr.png
