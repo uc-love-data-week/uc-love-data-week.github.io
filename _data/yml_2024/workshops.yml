@@ -311,7 +311,7 @@
   time: 1-2:30pm
   start: 1
   duration: 90
-  type: 
+  type: hands-on
   description: 
   registration-page:
   recording:
@@ -461,7 +461,7 @@
   slides: 
 
 
-- title: A Beginner's Guide to the Data Management Plan Tool
+- title: "A Beginner\\'s Guide to the Data Management Plan Tool"
   name: dmptool
   speaker-type: "Speaker"
   speakers: [
