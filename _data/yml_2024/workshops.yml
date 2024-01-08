@@ -89,9 +89,9 @@
     {name: Renata Curty, org: ucsb},
     {name: Greg Janee, org: ucsb}
   ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  GitHub_logo.png
+  thumbnail:  GitHub_logo.png
+  alt:  "words: GitHub"
   day: m
   time: 3-4pm
   start: 3
@@ -228,9 +228,9 @@
     {name: Yury E. Garcia, org: ucd},
     {name:  Pamela Reynolds, org: ucd-dl}
   ]
-  img: 
-  thumbnail: 
-  alt: 
+  img: all_of_us.png
+  thumbnail: all_of_us.png
+  alt: "words: all of us research program"
   day: w
   time: 9-11am
   start: 9
@@ -412,9 +412,9 @@ By the end of this workshop attendees should be able to:
     {name: Alex Solodkaya, org: ucla-lib},
     {name: Ashley Peterson, org: ucla-lib}
   ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 1-2:30pm
   start: 1

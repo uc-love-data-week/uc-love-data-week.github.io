@@ -11,14 +11,29 @@
       <!-- End Google Tag Manager (noscript) -->
 
 
-  {% include 2024_includes/header-home.html %}
+    {% include 2024_includes/header-home.html %}
+
+    <!-- Header section removed 2022-11-30 -->
 
   <!-- Do not include workshop info in dev page -->
    {% include 2024_includes/intro.html %}
-   {% include 2024_includes/interim.html %}
+
+  <div class="container">
+      <div class="calendar visible-md visible-lg">
+        {% include 2024_includes/calendar.html %}
+      </div>
+  </div>
+      
+  <div class="container">
+      <div class="calendar visible-sm visible-xs">
+        {% include 2024_includes/workshops-list.html %}
+      </div>
+  </div>
+   {% include 2024_includes/workshops.html %}
    {% include 2024_includes/sponsors.html %}
    {% include 2024_includes/contact.html %}
    {% include 2024_includes/footer.html %}
+   {% include 2024_includes/workshops_info.html %}
    {% include 2024_includes/js.html %}
 
     </body>
