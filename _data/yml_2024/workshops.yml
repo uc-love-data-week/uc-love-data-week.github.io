@@ -77,7 +77,7 @@
   duration: 60
   type: hands-on
   description: In this hands-on hybrid workshop, learners will explore the relationships within data clouds and images to build and render 3D images. What does that really mean? That we’ll take lots of photos of an object to create 3d image data. We will step through capturing images using openly available software with a smart phone or tablet.  We will also discuss what contributes to successful 3D scanning, and touch on different techniques currently used.  Choose your favorite object (about 1 foot or 12 inches in height) to practice with during this hands-on workshop.
-  registration-page: 
+  registration-page: https://www.eventbrite.com/e/to-scan-or-not-to-scan-construct-3d-objects-with-photogrammetry-tickets-791560367367
   recording: 
   slides: 
 
@@ -352,7 +352,7 @@ This workshop is particularly relevant for researchers and students engaged in v
   duration: 60
   type: lecture
   description: "From virtual reality and animation to cultural research and preservation, thanks to advancing technologies, 3D data and imaging has expanded in accessibility and application integration. In this workshop, we will cover the basics of 3D data and imaging: different types, and where to find and share files. We will list openly available software used to modify 3D image data files, and describe situations to use which software and hardware." 
-  registration-page:
+  registration-page: https://www.eventbrite.com/e/3d-data-and-images-tickets-791572032257
   recording:
   slides:
 
