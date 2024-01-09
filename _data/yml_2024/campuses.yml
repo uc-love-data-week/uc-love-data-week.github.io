@@ -23,7 +23,7 @@
   abbv: ucb-lib
   image: ../assets/img/campuses/ucb-lib.png
   alt: Library Data Services Program
-  url: https://www.lib.berkeley.edu/research-support/data-gis
+  url: https://www.lib.berkeley.edu/research/data-services
   p-campus: y  # p-campus: will it show on front page logo for particpating campus
 
 - name: UC Berkeley
@@ -58,7 +58,7 @@
   abbv: uci
   image: /assets/img/campuses/uci-lib.png
   alt: UC Irvine Libraries
-  url: https://www.lib.uci.edu/dss/data-curation
+  url: https://www.lib.uci.edu/dss
   p-campus: y
 
 - name: UCLA
