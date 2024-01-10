@@ -77,7 +77,7 @@
   duration: 60
   type: hands-on
   description: In this hands-on hybrid workshop, learners will explore the relationships within data clouds and images to build and render 3D images. What does that really mean? That we’ll take lots of photos of an object to create 3d image data. We will step through capturing images using openly available software with a smart phone or tablet.  We will also discuss what contributes to successful 3D scanning, and touch on different techniques currently used.  Choose your favorite object (about 1 foot or 12 inches in height) to practice with during this hands-on workshop.
-  registration-page: 
+  registration-page: https://www.eventbrite.com/e/to-scan-or-not-to-scan-construct-3d-objects-with-photogrammetry-tickets-791560367367
   recording: 
   slides: 
 
@@ -252,7 +252,7 @@ This workshop is particularly relevant for researchers and students engaged in v
 
 - title: "Trust Trek: Navigating the AI Trust Maturity Maze"
   name: aitrust
-  speaker-type: "Speaker"
+  speaker-type: "Speakers"
   speakers: [
     {name: Christy Navarro, org: ucd-ctsc},
     {name: Reema Hamasha, org: ucd-ctsc},
@@ -262,12 +262,12 @@ This workshop is particularly relevant for researchers and students engaged in v
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
-  time: 10am-12:30pm
+  time: 10am-11:30am
   start: 10
-  duration: 150
+  duration: 90
   type: lecture
-  description: Coming soon
-  registration-page: 
+  description: "Embark on a transformative journey by participating in resource demonstration at UC Love Data Week 2024 tailored for individuals engaged in data governance or health research involving algorithmic applications. Delve into the intricate world of Artificial Intelligence (AI) within the healthcare domain, where subject matter experts from various Clinical and Translational Science Award programs will guide you through the nuances of managing AI complexity. Our workshop places a special emphasis on establishing trust in AI applications and offers a unique maturity model designed specifically for health AI projects. Join us to explore best practices in evaluating AI within the context of technology, processes, and people. Uncover our systematic approach to navigating through diverse frameworks, as we elucidate the key elements and sub elements. This model, carefully crafted with research teams and data governance structures in mind, provides a comprehensive framework for ensuring the ethical and effective implementation of AI in health-related endeavors. Embrace this opportunity to gain valuable insights and enhance your proficiency in the evolving intersection of healthcare and artificial intelligence."
+  registration-page: https://bit.ly/TruHealthAI-UCLDW2024
   recording:
   slides:
 
@@ -352,7 +352,7 @@ This workshop is particularly relevant for researchers and students engaged in v
   duration: 60
   type: lecture
   description: "From virtual reality and animation to cultural research and preservation, thanks to advancing technologies, 3D data and imaging has expanded in accessibility and application integration. In this workshop, we will cover the basics of 3D data and imaging: different types, and where to find and share files. We will list openly available software used to modify 3D image data files, and describe situations to use which software and hardware." 
-  registration-page:
+  registration-page: https://www.eventbrite.com/e/3d-data-and-images-tickets-791572032257
   recording:
   slides:
 
@@ -485,46 +485,6 @@ By the end of this workshop attendees should be able to:
   recording:
   slides: 
 
-
-- title: A Beginner’s Guide to the Data Management Plan Tool
-  name: dmptool
-  speaker-type: "Speaker"
-  speakers: [
-  {name: Christy Navarro, org: ucd-ctsc},
-  {name: Emily Atkinson, org: ucd-lib},
-  {name: Beth Tweedy, org: ucd-lib}
-   ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: f
-  time: 12-1pm
-  start: 12
-  duration: 60
-  type: hands-on
-  description: Coming soon
-  registration-page: 
-  recording:
-  slides:
-
-- title: "TruHealthAI: A Trust Maturity Model for diversifying data sets"
-  name: truhealthai
-  speaker-type: "Speaker"
-  speakers: [
-    {name: CTSA Maturity Model Workgroup, org: ucd-ctsc},
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: f
-  time: 12-1pm
-  start: 12
-  duration: 60
-  type: demo
-  description: Coming soon
-  registration-page: 
-  recording:
-  slides:
 
 - title: "Getting started with qualitative data analysis: open tools and methods"
   name: qualitative
