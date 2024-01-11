@@ -476,11 +476,11 @@ By the end of this workshop attendees should be able to:
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
-  time: 11am-12pm
-  start: 11
+  time: 11:30am-12:30pm
+  start: 11.5
   duration: 60
   type: demo
-  description: "This presentation on data discovery and evaluation examines today’s data landscape by providing an overview data aggregators, repositories, and government information, as well as tips and tools that can be used to find and evaluate historical data sources. Participants will be introduced to a discovery process that will allow them to think creatively about how data is socially structured and how it can be repurposed for contemporary research." 
+  description: "This presentation on data discovery and evaluation examines today’s data landscape by providing an overview of data aggregators, repositories, and government information, as well as tips and tools that can be used to find and evaluate historical data sources. Participants will be introduced to a discovery process that will allow them to think creatively about how data is socially structured and how it can be repurposed for contemporary research." 
   registration-page: 
   recording:
   slides: 
