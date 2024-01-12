@@ -56,7 +56,7 @@
   duration: 60
   type: lecture
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the UCs have to offer? This virtual workshop is for you! I'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project. No experience or special software is required to participate in this workshop."
-  registration-page:
+  registration-page: https://berkeley.libcal.com/event/11887043
   recording:
   slides:
 
