@@ -421,7 +421,7 @@ By the end of this workshop attendees should be able to:
   duration: 90
   type: hands-on
   description: Generative AI is having a moment. As tools like ChatGPT, Bing, and DALL-E grow in popularity, how can we cut through the hype and engage them critically? In this workshop, we will explore how consumer-facing AI tools perpetuate bias and discrimination, discuss strategies for ethical use, and challenge the inevitability of robot overlords. It is open to learners of all backgrounds and experience.
-  registration-page:
+  registration-page: https://calendar.library.ucla.edu/event/11743099
   recording:
   slides: 
 
