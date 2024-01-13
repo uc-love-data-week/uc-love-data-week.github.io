@@ -140,7 +140,7 @@
   duration: 60
   type: hands-on
   description: "Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We’ll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools, R libraries, and file formats to get the most out of your laptop."
-  registration-page: 
+  registration-page: https://uclahs.zoom.us/j/99517728610
   recording:
   slides: 
 
@@ -215,7 +215,7 @@
   duration: 60
   type: demo
   description: Python and Stata and R, oh my! Is the prospect of having to learn to code getting you down? Do you ever feel like you'd like to just get into the data directly but aren't sure how? In this workshop we'll explore the many ways you can perform data analysis without needing to know statistical packages or languages first. We'll look at tools which let you upload your own data, tools for data visualization, and administrative data sites and tools which allow for interactive data requests and table creation, among other possibilities. No prior data analysis experience necessary.
-  registration-page: 
+  registration-page: https://berkeley.libcal.com/event/11904743
   recording:
   slides:
 
@@ -400,7 +400,7 @@ By the end of this workshop attendees should be able to:
   duration: 60
   type: hands-on
   description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/tJUpceGgqjwrHNA4pb3vegevbU4mzt_OuDkg
   recording:  
   slides: 
 
@@ -461,8 +461,8 @@ By the end of this workshop attendees should be able to:
   start: 10
   duration: 90
   type: demo
-  description: "Sharing and reusing data can effectively reduce redundant efforts in data collection, ultimately saving valuable time and resources, especially for smaller laboratories. Additionally, it enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture relies on frameworks that comprise policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike. A critical step in the data sharing and (re)use cycle involves researchers identifying data that are (re)usable for their needs. It is a common challenge among researchers to locate data that appear (re)usable. In this session, I aim to introduce 2-3 data repositories ideal for researchers seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively. The session is structured to last approximately 45 minutes, encompassing a 25-minute presentation, a 5-minute question-and-answer segment, and a 10-minute practical workshop exercise."
-  registration-page: 
+  description: "First Session: Sharing and reusing data can effectively reduce redundant efforts in data collection, ultimately saving valuable time and resources, especially for smaller laboratories. Additionally, it enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture relies on frameworks that comprise policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike. A critical step in the data sharing and (re)use cycle involves researchers identifying data that are (re)usable for their needs. It is a common challenge among researchers to locate data that appear (re)usable. In this session, I aim to introduce 2-3 data repositories ideal for researchers seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively. The session is structured to last approximately 45 minutes, encompassing a 25-minute presentation, a 5-minute question-and-answer segment, and a 10-minute practical workshop exercise. Second Session: Social media is increasingly becoming an important site for data collection and research for students, researchers, and scholars across the Humanities and Social Sciences. This workshop introduces participants to the existing landscape of social media data and the fluctuating access academics have to ‘big datasets’. Using Facebook, Twitter (or X), and Reddit as examples of data archives, we discuss the latest guidelines and restrictions on scraping social media data from these three platforms and how they affect researchers conducting social media research. The workshop urges participants to rethink their notion of “Data” concerning social media to foreground the issue of research ethics that is often sidestepped or not taken seriously due to the presumed publicness of social media data." 
+  registration-page: https://ucla.zoom.us/meeting/register/tJEud-iopz0qGtWjfkEE6qpHILTKNErjqi7c#/registration
   recording:
   slides:
 
