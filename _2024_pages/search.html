@@ -17,7 +17,7 @@ published: true
 <div id="searcharea" style="padding-left:10px;">
     <div id="searchinput">
     <center>
-        <form id="search">
+        <form id="search" onsubmit="search_workshops(); return false;">
         <input type="text" id="searchIn" onkeyup="search_workshops()" name="search" style="border:1px solid #004993;" placeholder=" enter search term"/>
         <input type="submit" id="startsearch" value="search" />
         </form></center>
