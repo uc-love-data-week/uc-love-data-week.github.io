@@ -22,7 +22,7 @@ These should be available using your preferred installation method (e.g., conda,
 
 1. Open your preferred terminal application
 2. Change your location to the `_utilities/` directory
-3. Run the command `python feedbuilder.py`
+3. Run the command `python -X utf8 feedbuilder.py` (running Python with the `-X utf8` flag avoids character encoding problems that can occur when executing the script on Windows. For more information, see https://peps.python.org/pep-0540/ ).
 
 (You can also run the script in your code editor if it's able to directly execute Python code).
 
