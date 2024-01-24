@@ -37,7 +37,7 @@
   duration: 60
   type: hands-on
   description: Where can I find data on [fill in the blank]? Let your fingers take a dive into the world of health statistics and data! In this workshop, you will learn about some of the issues surrounding the collection of health statistics, and will also learn about authoritative sources of health statistics and data. We will explore tools that let you create custom tables of vital statistics (birth, death, etc.), disease statistics, health behavior statistics, and more. This workshop has good measures of both CONTEXT and CONTENT.
-  registration-page: 
+  registration-page: https://forms.gle/7MyNtC9GadNkWbpB9
   recording:
   slides:
 
