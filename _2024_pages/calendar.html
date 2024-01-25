@@ -13,6 +13,18 @@ published: true
         document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
     </script>
 
-	{% include /2024_includes/calendar.html %}
+    <div class="misc">
+        <div class="misc visible-md visible-lg">
+    	   {% include /2024_includes/calendar.html %}
+        </div>
+    </div>
+    <div class="misc">
+        <div class="misc visible-sm visible-xs">
+            <div style="padding: 0 1vw 0 1vw;">
+                {% include 2024_includes/workshops-list.html %}
+            </div>
+        </div>
+    </div>
+
  	{% include 2024_includes/workshops_info.html %}
  	{% include 2024_includes/js.html %}
