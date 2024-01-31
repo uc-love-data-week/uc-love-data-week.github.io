@@ -11,6 +11,11 @@
  *   - it checks the search box input against the fulltext 
  *   - and if there's a match will update html elements based on id
  * 
+ *   - on the search.html page, the form has (onsubmit="search_workshops(); return false;")
+ *      which allows the user to press enter and click the search button, but the 
+ *      search will remain based on the content in the text field.
+ *      the page is not reloaded. everything is interactive client-side.
+ * 
  * *******/
 document.addEventListener('DOMContentLoaded', () => {
 	fetch('../feeds/workshops.json')
