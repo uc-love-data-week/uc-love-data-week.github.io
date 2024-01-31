@@ -404,27 +404,6 @@ By the end of this workshop attendees should be able to:
   recording:  
   slides: 
 
-- title: Understanding Bias in AI Tools
-  name: aibias
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Shelby Hallman, org: ucla-lib},
-    {name: Alex Solodkaya, org: ucla-lib},
-    {name: Ashley Peterson, org: ucla-lib}
-  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: h
-  time: 1-2:30pm
-  start: 1
-  duration: 90
-  type: hands-on
-  description: Generative AI is having a moment. As tools like ChatGPT, Bing, and DALL-E grow in popularity, how can we cut through the hype and engage them critically? In this workshop, we will explore how consumer-facing AI tools perpetuate bias and discrimination, discuss strategies for ethical use, and challenge the inevitability of robot overlords. It is open to learners of all backgrounds and experience.
-  registration-page: https://calendar.library.ucla.edu/event/11743099
-  recording:
-  slides: 
-
 - title: Telling Your Data Story
   name: story
   speaker-type: "Speaker"
