@@ -158,3 +158,11 @@
   alt: UC Agriculture and Natural Resources
   url: https://ucanr.edu/
   p-campus: y  # p-campus: will it show on front page logo for particpating campus
+
+- name: University of Michigan
+  abbv: umich
+  image: 
+  alt: 
+  url: 
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
