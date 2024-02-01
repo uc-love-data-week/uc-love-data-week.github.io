@@ -254,9 +254,10 @@ This workshop is particularly relevant for researchers and students engaged in v
   name: aitrust
   speaker-type: "Speakers"
   speakers: [
-    {name: Christy Navarro, org: ucd-ctsc},
-    {name: Reema Hamasha, org: ucd-ctsc},
-    {name: Ariella Hoffman-Peterson, org: ucd-ctsc}
+    {name: Reema Hamasha, org: umich},
+    {name: Ariella Hoffman-Peterson, org: umich},
+    {name: Christy Navarro, org: ucd-ctsc}
+    
   ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
