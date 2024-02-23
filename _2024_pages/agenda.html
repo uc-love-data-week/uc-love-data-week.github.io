@@ -28,85 +28,12 @@ published: true
                 {% for agenda in site.data.yml_2024.workshops %}
                     <tr>
                         {% if agenda.day == day.day-abbv %}
-                        <td>{{ agenda.time }}</td>
-                        <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = agenda.speaker-type | append: ": " %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2024.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}
-                            {% if agenda.registration-page %} 
-                            <br> Click <a href="{{agenda.registration-page}}" target="_blank"  title="Link to Registration page" onclick="getOutboundLink( {{agenda.registration-page}} ); return false;"><b>here</b></a> to register. {% assign reg = false %} {% endif %}
-                            {% endif %}
+                            <td>{{ agenda.time }}</td>
+                            <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = agenda.speaker-type | append: ": " %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2024.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}{% assign dates = site.data.yml_2024.dates %}{% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}{% if currentDate <= dates.last.iso8601 %}{% if agenda.registration-page %} 
+                                        <br> Click <a href="{{agenda.registration-page}}" target="_blank"  title="Link to Registration page" onclick="getOutboundLink( {{agenda.registration-page}} ); return false;"><b>here</b></a> to register. {% assign reg = false %}{% endif %}{% endif %}{% endif %}
                 {% endfor %}
             </table>
         {% endfor %}
 
-        <!-- h2>Tuesday</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
-                </tr>
-
-            </thead>
-
-            {% for agenda in site.data.yml_2024.tuesday %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr>
-            {% endfor %}
-        </table>
-
-        <h2>Wednesday</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
-                </tr>
-
-            </thead>
-
-            {% for agenda in site.data.yml_2024.wednesday %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr>
-            {% endfor %}
-        </table>
-
-        <h2>Thursday</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
-                </tr>
-
-            </thead>
-
-            {% for agenda in site.data.yml_2024.thursday %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr>
-            {% endfor %}
-        </table>
-
-            <h2>Friday</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>
-                </tr>
-
-            </thead>
-
-            {% for agenda in site.data.yml_2024.friday %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr>
-            {% endfor %}
-        </table -->
     </div>
     </div>
