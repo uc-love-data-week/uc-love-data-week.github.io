@@ -39,7 +39,8 @@
   description: Where can I find data on [fill in the blank]? Let your fingers take a dive into the world of health statistics and data! In this workshop, you will learn about some of the issues surrounding the collection of health statistics, and will also learn about authoritative sources of health statistics and data. We will explore tools that let you create custom tables of vital statistics (birth, death, etc.), disease statistics, health behavior statistics, and more. This workshop has good measures of both CONTEXT and CONTENT.
   registration-page: https://forms.gle/7MyNtC9GadNkWbpB9
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/16dvxnWfMJgqzxgKZmKrRY2wAOn6ia5Hk/view 
+  reader: https://drive.google.com/file/d/1Ajci9ztSOhhN69CHQkRvXPlTKGtuU5rq/view 
 
 - title: "GIS and Mapping: where to start"
   name: gismapping
@@ -58,7 +59,7 @@
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the UCs have to offer? This virtual workshop is for you! I'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project. No experience or special software is required to participate in this workshop."
   registration-page: https://berkeley.libcal.com/event/11887043
   recording:
-  slides:
+  slides: http://ucblib.link/GIS-LDW24 
 
 - title: "To Scan or Not to Scan: Construct 3D objects with Photogrammetry"
   name: photogram
@@ -79,7 +80,7 @@
   description: In this hands-on hybrid workshop, learners will explore the relationships within data clouds and images to build and render 3D images. What does that really mean? That we’ll take lots of photos of an object to create 3d image data. We will step through capturing images using openly available software with a smart phone or tablet.  We will also discuss what contributes to successful 3D scanning, and touch on different techniques currently used.  Choose your favorite object (about 1 foot or 12 inches in height) to practice with during this hands-on workshop.
   registration-page: https://www.eventbrite.com/e/to-scan-or-not-to-scan-construct-3d-objects-with-photogrammetry-tickets-791560367367
   recording: 
-  slides: 
+  slides: https://docs.google.com/presentation/d/10afXVLUx8z0H8gkmU43A_XK30trKG94oB3klMuviksA/edit?usp=sharing
 
 - title: GitHub for Everyone
   name: github
@@ -100,7 +101,7 @@
   description: In this workshop, we will explore the features of the GitHub website to manage and version content as a team. We will go over how to create a repository, edit files, and leverage the markdown syntax for documenting and tracking your work. We will also demonstrate how to invite collaborators. Participating in this workshop requires no coding skills or pre-installs (including the hands-on session). Everything will be done from your web browser!  
   registration-page: https://cglink.me/2dD/r2258127
   recording:  
-  slides:
+  reader: https://ucsb-library-research-data-services.github.io/github-4everyone/
 
 #Tuesday
 
@@ -167,8 +168,8 @@
 - Explore approaches to collaborative team science that promote openness
 - Locate key resources for open science and collaboration available at the University of California"
   registration-page: https://uci.zoom.us/meeting/register/tJIuf-CsrzgiHtQuZ-Tfqtv9MJUNNzy1UuHt 
-  recording:  
-  slides: 
+  recording:  https://vimeo.com/913398996
+  slides: http://ucberk.li/LDW-openresearch
 
 - title: "Feeding Curiosity: A smorgasbord of open data sources for research"
   name: opendata
@@ -290,8 +291,8 @@ This workshop is particularly relevant for researchers and students engaged in v
   type: lecture
   description: "Have you ever felt trapped in the maze of packages and library dependencies for your R or Python projects? Join us for a webinar to unravel the 'Dependency Hell' problem and provide practical strategies to tackle this issue while making your research more reproducible. This webinar is part of the 2024 UC Love Data Week Program."
   registration-page: https://cglink.me/2dD/r2258166
-  recording:
-  slides: 
+  recording: https://drive.google.com/file/d/1TAN7tlPftRgqviVyGmlDCwSFzUz9Ds5H/view?usp=sharing
+  slides: https://docs.google.com/presentation/d/1aookDrahyh683uwC-F8uxmeH-JAG9HVFDUVjec6ilgs/
   
 - title: "Drone Data 101: The Data Pipeline"
   name: drone
@@ -310,8 +311,8 @@ This workshop is particularly relevant for researchers and students engaged in v
   type: lecture
   description: Drones are well-known for their breathtaking photos and video, but the real magic for researchers occurs when a series of images are stitched together with modern photogrammetry software, generating extremely high resolution, georectified orthomosaic images and 3D surface models. This workshop will cover the full data pipeline to utilize this remarkable technology, from flight planning, to data analysis, to visualization of the final results, with examples from plant science and ecology.
   registration-page: https://igis.ucanr.edu/DroneData101_Feb24/
-  recording:
-  slides: 
+  recording: https://youtu.be/SpF9z8FbCFA
+  slides: https://drive.google.com/file/d/1Eo6Y3X9EKsnfD52Ew8Kgg2kUWwF70yKb/
 
 - title: "Wikipedia Edit-a-thon"
   name: wikipedia
@@ -355,7 +356,7 @@ This workshop is particularly relevant for researchers and students engaged in v
   description: "From virtual reality and animation to cultural research and preservation, thanks to advancing technologies, 3D data and imaging has expanded in accessibility and application integration. In this workshop, we will cover the basics of 3D data and imaging: different types, and where to find and share files. We will list openly available software used to modify 3D image data files, and describe situations to use which software and hardware." 
   registration-page: https://www.eventbrite.com/e/3d-data-and-images-tickets-791572032257
   recording:
-  slides:
+  slides: https://docs.google.com/presentation/d/14e2Dwf8gLZnVCGyTdwPTjmvUanGmZgzizbXPsAXjPhI/
 
 #Thursday
 
@@ -402,8 +403,8 @@ By the end of this workshop attendees should be able to:
   type: hands-on
   description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis. In addition to Zoom, there is an on-site attendance option at UCLA in Public Affairs Building Room 2035B.
   registration-page: https://ucla.zoom.us/meeting/register/tJUpceGgqjwrHNA4pb3vegevbU4mzt_OuDkg
-  recording:  
-  slides: 
+  recording:  https://drive.google.com/file/d/1MZUMAAAPMFD_Eyg58Qs00hnkK-qyQ9E7/view?usp=drive_link
+  slides: https://docs.google.com/presentation/d/1c8zhPqCgSPTbY0CT0YEBzWiPygfJQlyR/edit?usp=drive_link
 
 - title: Telling Your Data Story
   name: story
@@ -443,7 +444,7 @@ By the end of this workshop attendees should be able to:
   type: demo
   description: "First Session: Sharing and reusing data can effectively reduce redundant efforts in data collection, ultimately saving valuable time and resources, especially for smaller laboratories. Additionally, it enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture relies on frameworks that comprise policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike. A critical step in the data sharing and (re)use cycle involves researchers identifying data that are (re)usable for their needs. It is a common challenge among researchers to locate data that appear (re)usable. In this session, I aim to introduce 2-3 data repositories ideal for researchers seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively. The session is structured to last approximately 45 minutes, encompassing a 25-minute presentation, a 5-minute question-and-answer segment, and a 10-minute practical workshop exercise. Second Session: Social media is increasingly becoming an important site for data collection and research for students, researchers, and scholars across the Humanities and Social Sciences. This workshop introduces participants to the existing landscape of social media data and the fluctuating access academics have to ‘big datasets’. Using Facebook, Twitter (or X), and Reddit as examples of data archives, we discuss the latest guidelines and restrictions on scraping social media data from these three platforms and how they affect researchers conducting social media research. The workshop urges participants to rethink their notion of “Data” concerning social media to foreground the issue of research ethics that is often sidestepped or not taken seriously due to the presumed publicness of social media data." 
   registration-page: https://ucla.zoom.us/meeting/register/tJEud-iopz0qGtWjfkEE6qpHILTKNErjqi7c#/registration
-  recording:
+  recording: https://drive.google.com/file/d/1fy1Rdrf3DqZTqxX0iDVVV4gxAQSNV1Yh/view
   slides:
 
 - title: "Data Discovery and Evaluation in the Social Sciences: Present and Historical"
