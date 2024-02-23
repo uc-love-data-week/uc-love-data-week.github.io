@@ -1707,8 +1707,8 @@
       <type>hands-on</type>
       <description>Have you heard of the new NIH Data Management and Sharing Policy but want to learn more about how to comply? Want some more guidance on writing your Data Management and Sharing Plan (DMS plan)? In this hands-on workshop we will quickly introduce the new policy and then work through each section of the DMS plan so you understand what to write and can start drafting your own plan. We will also cover how to locate DMS plan templates and sample plans, and highlight resources for learning more.</description>
       <registration-page>https://calendars.library.ucsf.edu/event/9986694</registration-page>
-      <recording>https://ucsf.box.com/s/depf1joy1f113nkunt92c9y1gea1cank</recording>
-      <slides>https://ucsf.box.com/s/depf1joy1f113nkunt92c9y1gea1cank</slides>
+      <recording>https://ucsf.box.com/s/96uscqs1sj8xc4gd7p1d657zjzc1lwx4</recording>
+      <slides>https://ucsf.box.com/s/96uscqs1sj8xc4gd7p1d657zjzc1lwx4</slides>
     </nihdmp>
     <dataloofah>
       <title>Data Loofah - help you identify errors in your data</title>
@@ -2322,7 +2322,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
       <start>10</start>
       <duration>120</duration>
       <type>hands-on</type>
-      <description>This workshop is an introduction to the Julia programming language for people familiar with R, Python, or MATLAB. Compared to those languages, Julia code typically runs orders of magnitude faster but has a similar level of abstraction, so you can focus on your research problem rather than hardware minutiae. Julia also provides out-of-the-box Unicode support, an easy-to-use package manager, multithreading facilities, a macro system, and a rich type system to optimize and prevent bugs in your code. Workshop topics include a concise overview of Julia's syntax and features, an end-to-end introduction to using built-in functions and contributed packages to read, summarize, and visualize tabular data, and real-world examples where we've found Julia beneficial.</description>
+      <description>This workshop is an introduction to the Julia programming language for people familiar with R, Python, or MATLAB. Compared to those languages, Julia code typically runs orders of magnitude faster but has a similar level of abstraction, so you can focus on your research problem rather than hardware minutiae. Julia also provides out-of-the-box Unicode support, an easy-to-use package manager, multithreading facilities, a macro system, and a rich type system to optimize and prevent bugs in your code. Workshop topics include a concise overview of Julia's syntax and features, an end-to-end introduction to using built-in functions and contributed packages to read, summarize, and visualize tabular data, and real-world examples where we've found Julia beneficial.  UCLA is hosting a watch-party at YRL: https://calendar.library.ucla.edu/event/11985555</description>
       <registration-page>https://reservations.library.ucdavis.edu/event/11931842</registration-page>
       <recording></recording>
       <slides></slides>
@@ -2346,7 +2346,8 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
       <description>Where can I find data on [fill in the blank]? Let your fingers take a dive into the world of health statistics and data! In this workshop, you will learn about some of the issues surrounding the collection of health statistics, and will also learn about authoritative sources of health statistics and data. We will explore tools that let you create custom tables of vital statistics (birth, death, etc.), disease statistics, health behavior statistics, and more. This workshop has good measures of both CONTEXT and CONTENT.</description>
       <registration-page>https://forms.gle/7MyNtC9GadNkWbpB9</registration-page>
       <recording></recording>
-      <slides></slides>
+      <slides>https://docs.google.com/presentation/d/16dvxnWfMJgqzxgKZmKrRY2wAOn6ia5Hk/view</slides>
+      <reader>https://drive.google.com/file/d/1Ajci9ztSOhhN69CHQkRvXPlTKGtuU5rq/view</reader>
     </healthdata>
     <gismapping>
       <title>GIS and Mapping: where to start</title>
@@ -2367,7 +2368,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
       <description>Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the UCs have to offer? This virtual workshop is for you! I'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project. No experience or special software is required to participate in this workshop.</description>
       <registration-page>https://berkeley.libcal.com/event/11887043</registration-page>
       <recording></recording>
-      <slides></slides>
+      <slides>http://ucblib.link/GIS-LDW24</slides>
     </gismapping>
     <photogram>
       <title>To Scan or Not to Scan: Construct 3D objects with Photogrammetry</title>
@@ -2396,7 +2397,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
       <description>In this hands-on hybrid workshop, learners will explore the relationships within data clouds and images to build and render 3D images. What does that really mean? That we’ll take lots of photos of an object to create 3d image data. We will step through capturing images using openly available software with a smart phone or tablet.  We will also discuss what contributes to successful 3D scanning, and touch on different techniques currently used.  Choose your favorite object (about 1 foot or 12 inches in height) to practice with during this hands-on workshop.</description>
       <registration-page>https://www.eventbrite.com/e/to-scan-or-not-to-scan-construct-3d-objects-with-photogrammetry-tickets-791560367367</registration-page>
       <recording></recording>
-      <slides></slides>
+      <slides>https://docs.google.com/presentation/d/10afXVLUx8z0H8gkmU43A_XK30trKG94oB3klMuviksA/edit?usp=sharing</slides>
     </photogram>
     <github>
       <title>GitHub for Everyone</title>
@@ -2425,7 +2426,7 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
       <description>In this workshop, we will explore the features of the GitHub website to manage and version content as a team. We will go over how to create a repository, edit files, and leverage the markdown syntax for documenting and tracking your work. We will also demonstrate how to invite collaborators. Participating in this workshop requires no coding skills or pre-installs (including the hands-on session). Everything will be done from your web browser!</description>
       <registration-page>https://cglink.me/2dD/r2258127</registration-page>
       <recording></recording>
-      <slides></slides>
+      <reader>https://ucsb-library-research-data-services.github.io/github-4everyone/</reader>
     </github>
     <dscportfolio>
       <title>Developing Your Data Science Portfolio</title>
@@ -2507,8 +2508,8 @@ Whether a beginner or experienced data scientist, everyone is welcome to partici
       <type>lecture</type>
       <description>Open research or open science is the practice of making the process and products of research transparent and accessible to others for collaboration, reproducibility, and broader reuse. This workshop will provide an overview of open principles and practices that foster collaboration and make research outputs, such as data, methods, and publications, openly available. By the end of this workshop you will be able to: - Define open research and describe the benefits of putting it into practice - Adopt transparent and collaborative practices in your own research - Explore approaches to collaborative team science that promote openness - Locate key resources for open science and collaboration available at the University of California</description>
       <registration-page>https://uci.zoom.us/meeting/register/tJIuf-CsrzgiHtQuZ-Tfqtv9MJUNNzy1UuHt</registration-page>
-      <recording></recording>
-      <slides></slides>
+      <recording>https://vimeo.com/913398996</recording>
+      <slides>http://ucberk.li/LDW-openresearch</slides>
     </openresearch>
     <opendata>
       <title>Feeding Curiosity: A smorgasbord of open data sources for research</title>
@@ -2606,15 +2607,15 @@ This workshop is particularly relevant for researchers and students engaged in v
       <name>aitrust</name>
       <speaker-type>Speakers</speaker-type>
       <speakers>
-        <name>Christy Navarro</name>
-        <org>ucd-ctsc</org>
-      </speakers>
-      <speakers>
         <name>Reema Hamasha</name>
-        <org>ucd-ctsc</org>
+        <org>umich</org>
       </speakers>
       <speakers>
         <name>Ariella Hoffman-Peterson</name>
+        <org>umich</org>
+      </speakers>
+      <speakers>
+        <name>Christy Navarro</name>
         <org>ucd-ctsc</org>
       </speakers>
       <img>ldw-circuit-color-506_2022.png</img>
@@ -2656,8 +2657,8 @@ This workshop is particularly relevant for researchers and students engaged in v
       <type>lecture</type>
       <description>Have you ever felt trapped in the maze of packages and library dependencies for your R or Python projects? Join us for a webinar to unravel the 'Dependency Hell' problem and provide practical strategies to tackle this issue while making your research more reproducible. This webinar is part of the 2024 UC Love Data Week Program.</description>
       <registration-page>https://cglink.me/2dD/r2258166</registration-page>
-      <recording></recording>
-      <slides></slides>
+      <recording>https://drive.google.com/file/d/1TAN7tlPftRgqviVyGmlDCwSFzUz9Ds5H/view?usp=sharing</recording>
+      <slides>https://docs.google.com/presentation/d/1aookDrahyh683uwC-F8uxmeH-JAG9HVFDUVjec6ilgs/</slides>
     </depend>
     <drone>
       <title>Drone Data 101: The Data Pipeline</title>
@@ -2681,8 +2682,8 @@ This workshop is particularly relevant for researchers and students engaged in v
       <type>lecture</type>
       <description>Drones are well-known for their breathtaking photos and video, but the real magic for researchers occurs when a series of images are stitched together with modern photogrammetry software, generating extremely high resolution, georectified orthomosaic images and 3D surface models. This workshop will cover the full data pipeline to utilize this remarkable technology, from flight planning, to data analysis, to visualization of the final results, with examples from plant science and ecology.</description>
       <registration-page>https://igis.ucanr.edu/DroneData101_Feb24/</registration-page>
-      <recording></recording>
-      <slides></slides>
+      <recording>https://youtu.be/SpF9z8FbCFA</recording>
+      <slides>https://drive.google.com/file/d/1Eo6Y3X9EKsnfD52Ew8Kgg2kUWwF70yKb/</slides>
     </drone>
     <wikipedia>
       <title>Wikipedia Edit-a-thon</title>
@@ -2748,7 +2749,7 @@ This workshop is particularly relevant for researchers and students engaged in v
       <description>From virtual reality and animation to cultural research and preservation, thanks to advancing technologies, 3D data and imaging has expanded in accessibility and application integration. In this workshop, we will cover the basics of 3D data and imaging: different types, and where to find and share files. We will list openly available software used to modify 3D image data files, and describe situations to use which software and hardware.</description>
       <registration-page>https://www.eventbrite.com/e/3d-data-and-images-tickets-791572032257</registration-page>
       <recording></recording>
-      <slides></slides>
+      <slides>https://docs.google.com/presentation/d/14e2Dwf8gLZnVCGyTdwPTjmvUanGmZgzizbXPsAXjPhI/</slides>
     </str_3d>
     <hpc>
       <title>Overview of Remote and High Performance Computing (HPC)</title>
@@ -2792,40 +2793,11 @@ By the end of this workshop attendees should be able to: - compare local, remote
       <start>12</start>
       <duration>60</duration>
       <type>hands-on</type>
-      <description>Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.</description>
+      <description>Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis. In addition to Zoom, there is an on-site attendance option at UCLA in Public Affairs Building Room 2035B.</description>
       <registration-page>https://ucla.zoom.us/meeting/register/tJUpceGgqjwrHNA4pb3vegevbU4mzt_OuDkg</registration-page>
-      <recording></recording>
-      <slides></slides>
+      <recording>https://drive.google.com/file/d/1MZUMAAAPMFD_Eyg58Qs00hnkK-qyQ9E7/view?usp=drive_link</recording>
+      <slides>https://docs.google.com/presentation/d/1c8zhPqCgSPTbY0CT0YEBzWiPygfJQlyR/edit?usp=drive_link</slides>
     </tableau>
-    <aibias>
-      <title>Understanding Bias in AI Tools</title>
-      <name>aibias</name>
-      <speaker-type>Speaker</speaker-type>
-      <speakers>
-        <name>Shelby Hallman</name>
-        <org>ucla-lib</org>
-      </speakers>
-      <speakers>
-        <name>Alex Solodkaya</name>
-        <org>ucla-lib</org>
-      </speakers>
-      <speakers>
-        <name>Ashley Peterson</name>
-        <org>ucla-lib</org>
-      </speakers>
-      <img>ldw-circuit-color-506_2022.png</img>
-      <thumbnail>ldw-circuit-color-506_2022.png</thumbnail>
-      <alt>love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed</alt>
-      <day>h</day>
-      <time>1-2:30pm</time>
-      <start>1</start>
-      <duration>90</duration>
-      <type>hands-on</type>
-      <description>Generative AI is having a moment. As tools like ChatGPT, Bing, and DALL-E grow in popularity, how can we cut through the hype and engage them critically? In this workshop, we will explore how consumer-facing AI tools perpetuate bias and discrimination, discuss strategies for ethical use, and challenge the inevitability of robot overlords. It is open to learners of all backgrounds and experience.</description>
-      <registration-page>https://calendar.library.ucla.edu/event/11743099</registration-page>
-      <recording></recording>
-      <slides></slides>
-    </aibias>
     <story>
       <title>Telling Your Data Story</title>
       <name>story</name>
@@ -2869,7 +2841,7 @@ By the end of this workshop attendees should be able to: - compare local, remote
       <type>demo</type>
       <description>First Session: Sharing and reusing data can effectively reduce redundant efforts in data collection, ultimately saving valuable time and resources, especially for smaller laboratories. Additionally, it enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture relies on frameworks that comprise policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike. A critical step in the data sharing and (re)use cycle involves researchers identifying data that are (re)usable for their needs. It is a common challenge among researchers to locate data that appear (re)usable. In this session, I aim to introduce 2-3 data repositories ideal for researchers seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively. The session is structured to last approximately 45 minutes, encompassing a 25-minute presentation, a 5-minute question-and-answer segment, and a 10-minute practical workshop exercise. Second Session: Social media is increasingly becoming an important site for data collection and research for students, researchers, and scholars across the Humanities and Social Sciences. This workshop introduces participants to the existing landscape of social media data and the fluctuating access academics have to ‘big datasets’. Using Facebook, Twitter (or X), and Reddit as examples of data archives, we discuss the latest guidelines and restrictions on scraping social media data from these three platforms and how they affect researchers conducting social media research. The workshop urges participants to rethink their notion of “Data” concerning social media to foreground the issue of research ethics that is often sidestepped or not taken seriously due to the presumed publicness of social media data.</description>
       <registration-page>https://ucla.zoom.us/meeting/register/tJEud-iopz0qGtWjfkEE6qpHILTKNErjqi7c#/registration</registration-page>
-      <recording></recording>
+      <recording>https://drive.google.com/file/d/1fy1Rdrf3DqZTqxX0iDVVV4gxAQSNV1Yh/view</recording>
       <slides></slides>
     </socsciethics>
     <socscidata>
