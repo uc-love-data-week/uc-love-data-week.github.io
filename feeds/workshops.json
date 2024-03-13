@@ -2630,7 +2630,7 @@
         "description": "How can you demonstrate your technical skills to a potential employer, supervisor, funder, or collaborator? During this workshop we will discuss digital (online) portfolios, which complement your CV/resume by showcasing your coding, data visualization, data analysis, mapmaking, and other skilled technical abilities. We will discuss various purposes for digital portfolios, the components of a digital portfolio, methods and tools for creating one, and considerations for carefully curating and presenting your work in an engaging manner. This workshop is being offered virtually in conjunction with [UC Love Data Week](https://uc-love-data-week.github.io/).",
         "registration-page": "https://reservations.library.ucdavis.edu/event/11932102",
         "recording": null,
-        "slides": null
+        "reader": "https://ucdavisdatalab.github.io/workshop_portfolios/"
       },
       "largedata": {
         "title": "Tips and Tools for Dealing with Large Datasets",
@@ -2734,7 +2734,7 @@
         "type": "lecture",
         "description": "Join presenters across the UC system for a lively discussion on finding and accessing open data for research. We'll set the table with an overview of open data, then have lightning talks about data resources we love, including: - curated collection of health data resources - international survey and census data - public datasets from Google BigQuery - searchable repository of municipal-level data - and a stockpile of unique and curious datasets from unexpected sources!",
         "registration-page": "https://ucsd.zoom.us/meeting/register/tJ0kceyurzsvH9b0_Hny2siBVzKwopBWaVyz#/registration",
-        "recording": null,
+        "recording": "https://www.youtube.com/watch?v=Z3J9ezswZJU",
         "slides": null
       },
       "codefree": {
@@ -2815,8 +2815,8 @@
         "type": "lecture",
         "description": "Embark on a transformative journey by participating in resource demonstration at UC Love Data Week 2024 tailored for individuals engaged in data governance or health research involving algorithmic applications. Delve into the intricate world of Artificial Intelligence (AI) within the healthcare domain, where subject matter experts from various Clinical and Translational Science Award programs will guide you through the nuances of managing AI complexity. Our workshop places a special emphasis on establishing trust in AI applications and offers a unique maturity model designed specifically for health AI projects. Join us to explore best practices in evaluating AI within the context of technology, processes, and people. Uncover our systematic approach to navigating through diverse frameworks, as we elucidate the key elements and sub elements. This model, carefully crafted with research teams and data governance structures in mind, provides a comprehensive framework for ensuring the ethical and effective implementation of AI in health-related endeavors. Embrace this opportunity to gain valuable insights and enhance your proficiency in the evolving intersection of healthcare and artificial intelligence.",
         "registration-page": "https://bit.ly/TruHealthAI-UCLDW2024",
-        "recording": null,
-        "slides": null
+        "recording": "https://video.ucdavis.edu/media/TRUST+TREKA+NAVIGATING+THE+AI+TRUST+MATURITY+MAZE/1_tmnjtns1",
+        "reader": "https://airtable.com/appYaCmI6Mx6YZiCB/shre3rwluv78M9k77/tbluv9LG3BOYYrOPi"
       },
       "depend": {
         "title": "Dependency Management 101",
