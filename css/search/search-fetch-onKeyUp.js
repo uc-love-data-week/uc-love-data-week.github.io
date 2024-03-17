@@ -95,6 +95,20 @@ document.addEventListener('DOMContentLoaded', () => {
 				}// endif key
 			}// endfor data
 //	    	console.log('workshop javascript object:', workshops);
+			
+			// alphabetical sort by title
+			workshops.sort((a,b) => 
+		    {
+		    let fa = a.title.toLowerCase();
+		    let fb = b.title.toLowerCase();
+		    if (fa < fb) return -1;
+		    if (fa > fb) return 1;
+		    return 0;
+		    });
+
+			// reverse year sort
+			workshops.sort((a, b) => b.year - a.year);
+
 
 	    	window.myFetchedData = workshops;
 	    })
