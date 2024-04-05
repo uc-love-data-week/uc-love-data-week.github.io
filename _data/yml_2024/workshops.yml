@@ -142,8 +142,8 @@
   type: hands-on
   description: "Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We’ll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools, R libraries, and file formats to get the most out of your laptop."
   registration-page: https://uclahs.zoom.us/j/99517728610
-  recording:
-  slides: 
+  recording: https://www.youtube.com/watch?v=FSbt6-OKlrw&list=PLPtVwXLu7HGUzcBla2eHY7tBTsOgwU5OT&index=23&t=2s
+  slides: https://docs.google.com/presentation/d/1nwA4uZpo74DoSazPSJGoEmJ26nZ8VHndpJzh3gaTJmg/edit#slide=id.g64ea3792a7_0_0 
 
 - title: "Cultivating Collaboration: Getting Started with Open Research"
   name: openresearch
@@ -218,7 +218,7 @@
   description: Python and Stata and R, oh my! Is the prospect of having to learn to code getting you down? Do you ever feel like you'd like to just get into the data directly but aren't sure how? In this workshop we'll explore the many ways you can perform data analysis without needing to know statistical packages or languages first. We'll look at tools which let you upload your own data, tools for data visualization, and administrative data sites and tools which allow for interactive data requests and table creation, among other possibilities. No prior data analysis experience necessary.
   registration-page: https://berkeley.libcal.com/event/11904743
   recording:
-  slides:
+  slides: https://drive.google.com/file/d/1Zm6RwWYiFDM_Qm29DSlvJRldOSsVaRnN/view?usp=sharing
 
 #Wednesday
 
@@ -484,4 +484,4 @@ By the end of this workshop attendees should be able to:
   description: "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed. Additional resources will be mentioned and the slides/links made available."
   registration-page: https://berkeley.libcal.com/calendar/workshops/QDAToolsMethods
   recording:
-  slides:
+  slides: https://drive.google.com/file/d/1OpRdQEWHX5GtGg82Gl8qPHYkRDPF8Fpa/view?usp=sharing
