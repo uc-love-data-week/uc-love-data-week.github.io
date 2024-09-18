@@ -1,6 +1,7 @@
 ---
 layout: 2024_default
 permalink: /agenda
+permalink: /2024/agenda
 title: Agenda
 published: true
 ---
@@ -29,7 +30,7 @@ published: true
                     <tr>
                         {% if agenda.day == day.day-abbv %}
                             <td>{{ agenda.time }}</td>
-                            <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = agenda.speaker-type | append: ": " %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2024.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}{% assign dates = site.data.yml_2024.dates %}{% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}{% if currentDate <= dates.last.iso8601 %}{% if agenda.registration-page %} 
+                            <td><u>{{ agenda.title }}</u><br>{% if agenda.speakers[0].name!="none" %}{% assign workshop-speakers = agenda.speaker-type | append: ": " %}{% for speaker in agenda.speakers %}{% capture temp-speakers %} {{workshop-speakers}}{{ speaker.name }}{% for campus in site.data.yml_2024.campuses %}{% if speaker.org == campus.abbv %} ({{campus.name}}){% endif %}{% endfor %}{% if forloop.index != agenda.speakers.size %}, {% endif %}{% endcapture %}{% assign workshop-speakers = temp-speakers %}{% endfor %}<b>{{ workshop-speakers }}</b><br>{% endif %}<br>{{ agenda.description }}{% assign dates = site.data.yml_2024.dates %}{% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}{% if currentDate <= dates.last.iso8601 %}{% if agenda.registration-page %}
                                         <br> Click <a href="{{agenda.registration-page}}" target="_blank"  title="Link to Registration page" onclick="getOutboundLink( {{agenda.registration-page}} ); return false;"><b>here</b></a> to register. {% assign reg = false %}{% endif %}{% endif %}{% endif %}
                 {% endfor %}
             </table>
