@@ -2493,7 +2493,7 @@
         "type": "hands-on",
         "description": "This workshop is an introduction to the Julia programming language for people familiar with R, Python, or MATLAB. Compared to those languages, Julia code typically runs orders of magnitude faster but has a similar level of abstraction, so you can focus on your research problem rather than hardware minutiae. Julia also provides out-of-the-box Unicode support, an easy-to-use package manager, multithreading facilities, a macro system, and a rich type system to optimize and prevent bugs in your code. Workshop topics include a concise overview of Julia's syntax and features, an end-to-end introduction to using built-in functions and contributed packages to read, summarize, and visualize tabular data, and real-world examples where we've found Julia beneficial.  UCLA is hosting a watch-party at YRL: https://calendar.library.ucla.edu/event/11985555",
         "registration-page": "https://reservations.library.ucdavis.edu/event/11931842",
-        "recording": null,
+        "recording": "https://video.ucdavis.edu/media/Julia%20Basics%20-%202024-02-12/1_octpdi3e",
         "slides": null
       },
       "healthdata": {
@@ -2656,8 +2656,8 @@
         "type": "hands-on",
         "description": "Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We'll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools, R libraries, and file formats to get the most out of your laptop.",
         "registration-page": "https://uclahs.zoom.us/j/99517728610",
-        "recording": null,
-        "slides": null
+        "recording": "https://www.youtube.com/watch?v=FSbt6-OKlrw&list=PLPtVwXLu7HGUzcBla2eHY7tBTsOgwU5OT&index=23&t=2s",
+        "slides": "https://docs.google.com/presentation/d/1nwA4uZpo74DoSazPSJGoEmJ26nZ8VHndpJzh3gaTJmg/edit#slide=id.g64ea3792a7_0_0"
       },
       "openresearch": {
         "title": "Cultivating Collaboration: Getting Started with Open Research",
@@ -2758,7 +2758,7 @@
         "description": "Python and Stata and R, oh my! Is the prospect of having to learn to code getting you down? Do you ever feel like you'd like to just get into the data directly but aren't sure how? In this workshop we'll explore the many ways you can perform data analysis without needing to know statistical packages or languages first. We'll look at tools which let you upload your own data, tools for data visualization, and administrative data sites and tools which allow for interactive data requests and table creation, among other possibilities. No prior data analysis experience necessary.",
         "registration-page": "https://berkeley.libcal.com/event/11904743",
         "recording": null,
-        "slides": null
+        "slides": "https://drive.google.com/file/d/1Zm6RwWYiFDM_Qm29DSlvJRldOSsVaRnN/view?usp=sharing"
       },
       "allofus": {
         "title": "All of Us: A Comprehensive Precision Medicine Data Hub for UC Researchers",
@@ -2784,7 +2784,7 @@
         "type": "demo",
         "description": "All of Us (AoU) Research Program, is a National Institutes of Health (NIH) program that aims to enroll one million diverse participants to address historical gaps in medical research. The goal of the program is better health for all of us. Its mission is to accelerate health research and medical breakthroughs, enabling individualized prevention, treatment, and care for all. The program does this by leveraging the power of cloud computing, the program facilitates extensive collaborations and robust analyses. AoU compiles a comprehensive dataset (the All of Us Researcher Workbench) which includes survey responses, physical measurements, bio samples, Electronic Health Records (EHRs), and genomic data. As of November 2023, All of Us boasts over 741,000 enrolled participants, with 508,000 completing initial program steps, over 409,000 electronic medical records, and 525,000 bio samples. Notably, 75% of participants with available data on the All of Us Researcher Workbench identify with underrepresented communities, and 45% belong to racial and ethnic minority groups.\nThe All of Us program provides a user-friendly environment for researchers to use the database through the All of Us Researcher Workbench. This platform offers an accessible and secure space to conduct analyses, ensuring that the wealth of data collected is readily available for scientific exploration. This dataset provides a significant step toward fostering innovation and cultivating a comprehensive understanding of health determinants in diverse populations. By encompassing this broad spectrum of health-related data, the All of Us dataset opens doors for a myriad of analyses, including Exposure Assessment, Health Disparities, Environmental Justice, Genetic-Environmental Interactions, and Behavioral Responses to Environmental Factors.\nSession Content: In the first hour, we will deliver an informative presentation covering the purpose All of Us program, the available participant data and resources, and key benefits for researchers. Additionally, we will showcase various research examples conducted using this extensive database.\nThe second hour, we will focus on guiding participants through enrollment including where to access the database. We will elaborate on the different tools and resources available which provide insights into the workbench. This will include a detailed presentation on creating cohorts and datasets and instructions on exporting data for further analysis.\nThis workshop is particularly relevant for researchers and students engaged in various fields, including public health, epidemiology, medicine, genetics, psychology, and any area where data from Fitbit, medical records, genetics, and social health determinants play a crucial role.",
         "registration-page": "https://reservations.library.ucdavis.edu/event/11932106",
-        "recording": null,
+        "recording": "https://video.ucdavis.edu/media/All%20of%20Us%3A%20A%20Comprehensive%20Precision%20Medicine%20Data%20Hub%20for%20UC%20Researchers%20-%202024-02-14/1_j4bz5lst",
         "slides": null
       },
       "aitrust": {
@@ -2970,7 +2970,7 @@
         "type": "lecture",
         "description": "Working on a research project but your data or models are too big and complex for your laptop? You need more compute power! During this session we'll discuss the differences and advantages of various remote and networked computing options, from servers in your lab to institutional HPC and cloud services. We'll cover an overview of HPC terminology, architecture, and general workflows. We'll also provide information about UC-specific computing resources and contacts. This workshop is a prerequisite introduction to DataLab's Introduction to Remote Computing series where you'll learn how to access and work efficiently on the UC Davis FARM HPC.\nBy the end of this workshop attendees should be able to: - compare local, remote, HPC, and cloud computing options - define common compute jargon including cluster, supercomputer, nodes, - identify the skills needed for working on remote and HPC systems - describe how remote and HPC could benefit their research - identify where to go to learn more!",
         "registration-page": "https://reservations.library.ucdavis.edu/event/11932107",
-        "recording": null,
+        "recording": "https://video.ucdavis.edu/media/Overview%20of%20Remote%20and%20High%20Performance%20Computing%20(HPC)%20-%202024-02-15/1_zulcobsl",
         "slides": null
       },
       "tableau": {
@@ -3016,7 +3016,7 @@
         "type": "lecture",
         "description": "Have you ever wondered if you should include a particular figure in a presentation? Or what about the order that you present you data in? This workshop will discuss tips, tricks, and approaches to using your data as a tool to tell your research story. We will discuss how data can fit into a narrative strucutre, how to keep a good flow going while presenting data, and more in this workshop. No previous experience or expertise is required to participate.",
         "registration-page": "https://reservations.library.ucdavis.edu/event/11932116",
-        "recording": null,
+        "recording": "https://video.ucdavis.edu/media/Telling%20Your%20Data%20Story%20-%202024-02-15/1_r9esdkdf",
         "slides": null
       },
       "socsciethics": {
@@ -3066,7 +3066,7 @@
         "type": "demo",
         "description": "This presentation on data discovery and evaluation examines today's data landscape by providing an overview of data aggregators, repositories, and government information, as well as tips and tools that can be used to find and evaluate historical data sources. Participants will be introduced to a discovery process that will allow them to think creatively about how data is socially structured and how it can be repurposed for contemporary research.",
         "registration-page": "https://reservations.library.ucdavis.edu/event/11932115",
-        "recording": null,
+        "recording": "https://video.ucdavis.edu/media/Data%20Discovery%20and%20Evaluation%20in%20the%20Social%20Sciences%3A%20Present%20and%20Historical%20-%202024-02-14/1_1iqzrhgg",
         "slides": null
       },
       "qualitative": {
@@ -3090,7 +3090,7 @@
         "description": "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed. Additional resources will be mentioned and the slides/links made available.",
         "registration-page": "https://berkeley.libcal.com/calendar/workshops/QDAToolsMethods",
         "recording": null,
-        "slides": null
+        "slides": "https://drive.google.com/file/d/1OpRdQEWHX5GtGg82Gl8qPHYkRDPF8Fpa/view?usp=sharing"
       }
     }
   }
