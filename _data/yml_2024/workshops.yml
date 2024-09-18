@@ -58,7 +58,7 @@
   type: lecture
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the UCs have to offer? This virtual workshop is for you! I'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project. No experience or special software is required to participate in this workshop."
   registration-page: https://berkeley.libcal.com/event/11887043
-  recording:
+  recording: https://www.youtube.com/watch?v=te1GuZRCdmA
   slides: http://ucblib.link/GIS-LDW24 
 
 - title: "To Scan or Not to Scan: Construct 3D objects with Photogrammetry"
@@ -217,7 +217,7 @@
   type: demo
   description: Python and Stata and R, oh my! Is the prospect of having to learn to code getting you down? Do you ever feel like you'd like to just get into the data directly but aren't sure how? In this workshop we'll explore the many ways you can perform data analysis without needing to know statistical packages or languages first. We'll look at tools which let you upload your own data, tools for data visualization, and administrative data sites and tools which allow for interactive data requests and table creation, among other possibilities. No prior data analysis experience necessary.
   registration-page: https://berkeley.libcal.com/event/11904743
-  recording:
+  recording: https://www.youtube.com/watch?v=jLIWUQLTTMo&list=PLzAdVSw-UwkTKihViYf4jPuPI3lIP1Etl&index=7
   slides: https://drive.google.com/file/d/1Zm6RwWYiFDM_Qm29DSlvJRldOSsVaRnN/view?usp=sharing
 
 #Wednesday
@@ -483,5 +483,5 @@ By the end of this workshop attendees should be able to:
   type: demo
   description: "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed. Additional resources will be mentioned and the slides/links made available."
   registration-page: https://berkeley.libcal.com/calendar/workshops/QDAToolsMethods
-  recording:
+  recording: https://www.youtube.com/watch?v=hhHfU8zn5Jg
   slides: https://drive.google.com/file/d/1OpRdQEWHX5GtGg82Gl8qPHYkRDPF8Fpa/view?usp=sharing
