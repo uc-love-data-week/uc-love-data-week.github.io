@@ -14,7 +14,7 @@ social:
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2016_pages', '_2021_pages', '_2022_pages', '_2023_pages', '_2024_pages']
+include: ['_2016_pages', '_2021_pages', '_2022_pages', '_2023_pages', '_2024_pages', '_2025_pages']
 
 plugins:
   - jekyll-sitemap
