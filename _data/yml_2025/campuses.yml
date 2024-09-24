@@ -1,0 +1,168 @@
+- name: UC Berkeley
+  abbv: ucb-datapeer
+  image: ../assets/img/campuses/ucb-datapeer.png
+  alt: Berkeley Data Peer Consulting
+  url: https://data.berkeley.edu/ds-peer-consulting
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb
+  image: 
+  alt: 
+  url: https://www.berkeley.edu
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb-iso
+  image: ../assets/img/campuses/ucb-iso.png
+  alt: Berkeley Information Security Office
+  url: https://security.berkeley.edu/
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb-lib
+  image: ../assets/img/campuses/ucb-lib.png
+  alt: Library Data Services Program
+  url: https://www.lib.berkeley.edu/research/data-services
+  p-campus: y  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb-rit
+  image: ../assets/img/campuses/ucb-rit.png
+  alt: Berkeley Research IT
+  url: https://research-it.berkeley.edu/
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Berkeley
+  abbv: ucb-rdm
+  image: ../assets/img/campuses/ucb-rdm.png
+  alt: Berkeley Research Data Management
+  url: https://researchdata.berkeley.edu/
+  p-campus: y  # p-campus: will it show on front page logo for particpating campus
+
+- name: UC Davis
+  abbv: ucd-dl
+  image: /assets/img/campuses/ucd-dl.png
+  alt: UC Davis DataLab, Data Science and Informatics
+  url: https://datalab.ucdavis.edu/
+  p-campus: y
+
+- name: UC Davis Health Clinical and Translational Science Center
+  abbv: ucd-ctsc
+  image: /assets/img/campuses/ucd-ctsc.png
+  alt: UC Davis, Health
+  url: https://health.ucdavis.edu/ctsc/
+  p-campus: y
+
+- name: UC Irvine
+  abbv: uci
+  image: /assets/img/campuses/uci-lib.png
+  alt: UC Irvine Libraries
+  url: https://www.lib.uci.edu/dss
+  p-campus: y
+
+- name: UCLA
+  abbv: ucla-dsc
+  image: /assets/img/campuses/ucla-dsc.png
+  alt: UCLA Library Data Science Center
+  url: https://www.library.ucla.edu/location/data-science-center
+  p-campus: y
+
+- name: UCLA
+  abbv: ucla-lib
+  image: /assets/img/campuses/ucla-lib-2022.png
+  alt: UCLA Library
+  url: https://www.library.ucla.edu/location/data-science-center
+  p-campus: y
+
+- name: UC Merced
+  abbv: ucm
+  image: /assets/img/campuses/ucm-lib.png
+  alt: UC Merced Library
+  url: http://library.ucmerced.edu/research-data-curation
+  p-campus: y
+
+- name: UC Riverside
+  abbv: ucr-lib
+  image: /assets/img/campuses/ucr-lib.png
+  alt: UC Riverside Library
+  url: https://guides.lib.ucr.edu/datamanagement
+  p-campus: y
+
+- name: UC Santa Barbara
+  abbv: ucsb
+  image: /assets/img/campuses/ucsb-library.png
+  alt: UC Santa Barbara Library
+  url: https://www.library.ucsb.edu/research-data-services
+  p-campus: y
+
+- name: UC San Diego
+  abbv: ucsd-lib
+  image: /assets/img/campuses/ucsd-lib.png
+  alt: The Library, UC San Diego
+  url: https://library.ucsd.edu/research-and-collections/data-curation/
+  p-campus: y
+
+- name: UC San Francisco
+  abbv: ucsf
+  image: /assets/img/campuses/ucsf-lib.svg
+  alt: UCSF Library
+  url: https://www.library.ucsf.edu/ask-an-expert/data-science/data-management/
+  p-campus: y
+
+- name: California Digital Library
+  abbv: cdl
+  image: /assets/img/campuses/cdl.png
+  alt: California Digital Library
+  url: https://cdlib.org/
+  p-campus: y
+
+- name: UC San Diego
+  abbv: ucsd
+  image: /assets/img/campuses/ucsd.png
+  alt: UC San Diego
+  url: https://www.ucsd.edu
+  p-campus: n
+
+- name: UCLA
+  abbv: ucla
+  image: 
+  alt: 
+  url: https://www.ucla.edu
+  p-campus: n
+
+- name: California Digital Library
+  abbv: cdl
+  image: /assets/img/campuses/uc3.png
+  alt: UC3
+  url: https://uc3.cdlib.org/
+  p-campus: n
+
+- name: UC Davis
+  abbv: ucd-lib
+  image: /assets/img/campuses/ucd-lib.jpg
+  alt: UC Davis Library
+  url: https://www.library.ucdavis.edu/
+  p-campus: n
+
+- name: UC Davis
+  abbv: ucd
+  image: /assets/img/campuses/ucd.png
+  alt: UC Davis
+  url: https://www.ucdavis.edu/
+  p-campus: n
+
+- name: UC ANR
+  abbv: uc-anr
+  image: ../assets/img/campuses/uc-anr.png
+  alt: UC Agriculture and Natural Resources
+  url: https://ucanr.edu/
+  p-campus: y  # p-campus: will it show on front page logo for particpating campus
+
+- name: University of Michigan
+  abbv: umich
+  image: 
+  alt: 
+  url: 
+  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+
