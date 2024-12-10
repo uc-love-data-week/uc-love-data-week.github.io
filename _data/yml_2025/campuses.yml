@@ -131,6 +131,13 @@
   url: https://www.ucsd.edu
   p-campus: n
 
+- name: San Diego Supercomputer Center
+  abbv: sdsc
+  image: /assets/img/campuses/sdsc.png
+  alt: San Diego Supercomputer Center
+  url: https://www.sdsc.edu/ 
+  p-campus: n
+
 - name: UC San Francisco
   abbv: ucsf
   image: /assets/img/campuses/ucsf-lib.svg
