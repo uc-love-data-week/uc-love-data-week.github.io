@@ -163,10 +163,10 @@
   duration: 60
   type: lecture
   description: "Open research or open science is the practice of making the process and products of research transparent and accessible to others for collaboration, reproducibility, and broader reuse. This workshop will provide an overview of open principles and practices that foster collaboration and make research outputs, such as data, methods, and publications, openly available. By the end of this workshop you will be able to:
-- Define open research and describe the benefits of putting it into practice
-- Adopt transparent and collaborative practices in your own research 
-- Explore approaches to collaborative team science that promote openness
-- Locate key resources for open science and collaboration available at the University of California"
+<ul><li>Define open research and describe the benefits of putting it into practice</li><li>
+Adopt transparent and collaborative practices in your own research </li><li>
+Explore approaches to collaborative team science that promote openness</li><li>
+Locate key resources for open science and collaboration available at the University of California</li></ul>"
   registration-page: https://uci.zoom.us/meeting/register/tJIuf-CsrzgiHtQuZ-Tfqtv9MJUNNzy1UuHt 
   recording:  https://vimeo.com/913398996
   slides: http://ucberk.li/LDW-openresearch
