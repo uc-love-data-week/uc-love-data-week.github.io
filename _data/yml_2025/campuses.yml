@@ -47,6 +47,20 @@
   url: https://datalab.ucdavis.edu/
   p-campus: y
 
+- name: UC Davis
+  abbv: ucd-lib
+  image: /assets/img/campuses/ucd-lib.jpg
+  alt: UC Davis Library
+  url: https://www.library.ucdavis.edu/
+  p-campus: n
+
+- name: UC Davis
+  abbv: ucd
+  image: /assets/img/campuses/ucd.png
+  alt: UC Davis
+  url: https://www.ucdavis.edu/
+  p-campus: n
+
 - name: UC Davis Health Clinical and Translational Science Center
   abbv: ucd-ctsc
   image: /assets/img/campuses/ucd-ctsc.png
@@ -74,6 +88,13 @@
   alt: UCLA Library
   url: https://www.library.ucla.edu/location/data-science-center
   p-campus: y
+
+- name: UCLA
+  abbv: ucla
+  image: 
+  alt: 
+  url: https://www.ucla.edu
+  p-campus: n
 
 - name: UC Merced
   abbv: ucm
@@ -103,20 +124,6 @@
   url: https://library.ucsd.edu/research-and-collections/data-curation/
   p-campus: y
 
-- name: UC San Francisco
-  abbv: ucsf
-  image: /assets/img/campuses/ucsf-lib.svg
-  alt: UCSF Library
-  url: https://www.library.ucsf.edu/ask-an-expert/data-science/data-management/
-  p-campus: y
-
-- name: California Digital Library
-  abbv: cdl
-  image: /assets/img/campuses/cdl.png
-  alt: California Digital Library
-  url: https://cdlib.org/
-  p-campus: y
-
 - name: UC San Diego
   abbv: ucsd
   image: /assets/img/campuses/ucsd.png
@@ -124,33 +131,19 @@
   url: https://www.ucsd.edu
   p-campus: n
 
-- name: UCLA
-  abbv: ucla
-  image: 
-  alt: 
-  url: https://www.ucla.edu
+- name: San Diego Supercomputer Center
+  abbv: sdsc
+  image: /assets/img/campuses/sdsc.png
+  alt: San Diego Supercomputer Center
+  url: https://www.sdsc.edu/ 
   p-campus: n
 
-- name: California Digital Library
-  abbv: cdl
-  image: /assets/img/campuses/uc3.png
-  alt: UC3
-  url: https://uc3.cdlib.org/
-  p-campus: n
-
-- name: UC Davis
-  abbv: ucd-lib
-  image: /assets/img/campuses/ucd-lib.jpg
-  alt: UC Davis Library
-  url: https://www.library.ucdavis.edu/
-  p-campus: n
-
-- name: UC Davis
-  abbv: ucd
-  image: /assets/img/campuses/ucd.png
-  alt: UC Davis
-  url: https://www.ucdavis.edu/
-  p-campus: n
+- name: UC San Francisco
+  abbv: ucsf
+  image: /assets/img/campuses/ucsf-lib.svg
+  alt: UCSF Library
+  url: https://www.library.ucsf.edu/ask-an-expert/data-science/data-management/
+  p-campus: y
 
 - name: UC ANR
   abbv: uc-anr
@@ -159,10 +152,17 @@
   url: https://ucanr.edu/
   p-campus: y  # p-campus: will it show on front page logo for particpating campus
 
-- name: University of Michigan
-  abbv: umich
-  image: 
-  alt: 
-  url: 
-  p-campus: n  # p-campus: will it show on front page logo for particpating campus
+- name: California Digital Library
+  abbv: cdl
+  image: /assets/img/campuses/cdl.png
+  alt: California Digital Library
+  url: https://cdlib.org/
+  p-campus: y
+
+- name: California Digital Library
+  abbv: uc3
+  image: /assets/img/campuses/uc3.png
+  alt: UC3
+  url: https://uc3.cdlib.org/
+  p-campus: n
 
