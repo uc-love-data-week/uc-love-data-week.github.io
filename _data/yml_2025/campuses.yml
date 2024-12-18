@@ -117,6 +117,13 @@
   url: https://www.library.ucsb.edu/research-data-services
   p-campus: y
 
+- name: NCEAS
+  abbv: nceas
+  image: /assets/img/campuses/nceas.png
+  alt: NCEAS
+  url: https://www.nceas.ucsb.edu/ 
+  p-campus: n
+
 - name: UC San Diego
   abbv: ucsd-lib
   image: /assets/img/campuses/ucsd-lib.png
