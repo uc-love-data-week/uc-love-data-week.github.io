@@ -1,24 +1,23 @@
 #Monday
-
-- title: "R Clone: What is it? Why do I need it?"
-  name: r-clone
+- title: "Designing Clinical Trial Protocol Extraction Workflows: Unleashing Large Language Modes (LLM) and Retrieval Augmented Generation (RAG)"
+  name: clinical-llm
   speaker-type: "Speaker"
   speakers: [
-    {name: Jamie Jamison, org: ucla-dsc}
+    {name: Ramya Sri Baluguri, org: ucd}
  ]
   img: 
   thumbnail: 
   alt: 
   day: m
-  time: 1:00pm-1:50pm
-  start: 1
+  time: 10:00am-10:50am
+  start: 10
   duration: 50
-  type: 
-  description: 
+  type: demo
+  description: This session will demonstrate a process for reducing time and labor in operational oversight by submitting reports to <a href="https://clinicaltrials.gov" target="_blank">clinicaltrials.gov</a> from IRB protocols.
   registration-page: 
   recording: 
   slides: 
-
+  
 - title: "Tips and Tools for Dealing with Large Datasets at the Command Line"
   name: command-line
   speaker-type: "Speaker"
@@ -34,7 +33,7 @@
   start: 11
   duration: 50
   type: 
-  description: 
+  description: Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We’ll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools and file formats to get the most out of your laptop.
   registration-page: 
   recording: 
   slides: 
@@ -53,6 +52,25 @@
   time: 12:00pm-1:30pm
   start: 12
   duration: 90
+  type: 
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
+  
+- title: "R Clone: What is it? Why do I need it?"
+  name: r-clone
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jamie Jamison, org: ucla-dsc}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: m
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 50
   type: 
   description: 
   registration-page: 
@@ -79,88 +97,31 @@
 In this session, we’ll demystify APIs and showcase their potential through the Library of Congress API. Participants will see step-by-step how to identify if a collection has API access, construct requests, and interpret responses, all with tools like Postman. We’ll walk through concepts like authentication, endpoints, parameters, and how to transform JSON responses into tabular data for visualization.
 
 This session is designed as a show-and-tell introduction—perfect for researchers and students with no prior coding or data analysis experience. By the end, attendees will have a clear understanding of how APIs work, their practical applications, and how to start integrating them into their research workflows. Get ready to see what APIs can do for your projects!"
-  registration-page: 
+  registration-page: https://cglink.me/2dD/r2264477
   recording: 
   slides: 
 
-- title: "Designing Clinical Trial Protocol Extraction Workflows: Unleashing Large Language Modes (LLM) and Retrieval Augmented Generation (RAG)"
-  name: clinical-llm
+- title: "Working with Large Language Models (LLMs) on Your Laptop"
+  name: LLM
   speaker-type: "Speaker"
   speakers: [
-    {name: Ramya Sri Baluguri, org: ucd}
+    {name: Carl Stahmer, org: ucd-dl},
+    {name: Pamela Reynolds, org: ucd-dl}
  ]
   img: 
   thumbnail: 
   alt: 
   day: m
-  time: 2:00pm-2:50pm
-  start: 2
+  time: 3:00pm-4:50pm
+  start: 3
   duration: 50
-  type: demo
-  description: This session will demonstrate a process for reducing time and labor in operational oversight by submitting  reports to <a href="https://clinicaltrials.gov" target="_blank">clinicaltrials.gov</a> from IRB protocols.
+  type: 
+  description: Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We’ll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification.
   registration-page: 
   recording: 
   slides: 
 
 #Tuesday
-
-- title: "Mapping & Critical Cartogrphy"
-  name: map-cartography
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Maggie Tarmey, org: ucla}
- ]
-  img: 
-  thumbnail: 
-  alt: 
-  day: t
-  time: 1:00pm-1:50pm
-  start: 1
-  duration: 50
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-
-- title: "Critical and Creative Applications of Data Centric Research: Critical Data Lab Projects in Progress Conversation"
-  name: critical-data
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Cindy Nguyen, org: ucla}
- ]
-  img: 
-  thumbnail: 
-  alt: 
-  day: t
-  time: 12:00pm-12:50pm
-  start: 12
-  duration: 50
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-
-- title: "To Be or Not To Be: Photogrammetry and Virtual Reality Environments"
-  name: photogrammetry
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Alvaro Alvarez, org: ucr-lib},
-    {name: Brendon Wheeler, org: ucr-lib}
- ]
-  img: 
-  thumbnail: 
-  alt: 
-  day: t
-  time: 2:00pm-2:50pm
-  start: 2
-  duration: 50
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
 
 - title: "Data Research Repositories, Digital Scholarly Ecosystems, Open Science & AI Possibilities"
   name: open-sci
@@ -177,7 +138,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   start: 10
   duration: 50
   type: 
-  description: 
+  description: Learn about the research possibilities through the lens of the UCR Library Research Services Department. Topics such as data repositories, digital scholarship ecosystems and research with AI will be discussed to help illustrate relationships between data and artificial intelligence.
   registration-page: 
   recording: 
   slides: 
@@ -196,7 +157,69 @@ This session is designed as a show-and-tell introduction—perfect for researche
   start: 11
   duration: 50
   type: 
+  description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
+
+No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "Critical and Creative Applications of Data Centric Research: Critical Data Lab Projects in Progress Conversation"
+  name: critical-data
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Cindy Nguyen, org: ucla}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: t
+  time: 12:00pm-12:50pm
+  start: 12
+  duration: 50
+  type: 
+  description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
+  registration-page: 
+  recording: 
+  slides: 
+
+
+- title: "Mapping & Critical Cartography"
+  name: map-cartography
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Maggie Tarmey, org: ucla}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: t
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 50
+  type: 
   description: 
+  registration-page: 
+  recording: 
+  slides: 
+
+
+- title: "To Be or Not To Be: Photogrammetry and Virtual Reality Environments"
+  name: photogrammetry
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Alvaro Alvarez, org: ucr-lib},
+    {name: Brendon Wheeler, org: ucr-lib}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: t
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 50
+  type: 
+  description: Learn how to store captured 3D data with the help of the CreatR Lab Makerspace and Innovative Media Librarian at the UCR Library. We will go over how to store 3D data and to engage the data with virtual reality to use in personal or academic projects. Learn about scene making in Unity and how to successfully setup environments without overburdening your resources.
   registration-page: 
   recording: 
   slides: 
@@ -219,12 +242,10 @@ This session is designed as a show-and-tell introduction—perfect for researche
   start: 3
   duration: 50
   type: discussion
-  description: 
+  description: Open Source Program Offices (OSPOs) are transforming how universities support open-source innovation. With support from the Sloan Foundation, UC campuses are building a first-of-its-kind multi-campus OSPO network inspired by UCSC's leadership and collaboration with UCLA, UCSD, UCB, UCD, and UCSB. This session invites researchers to explore how "open" practices intersect with their work, from open science to open educational resources. We'll also discuss opportunities to collaborate and build a vibrant, inclusive OSPO network across the UC system.
   registration-page: 
   recording: 
   slides: 
-
-
 
 #Wednesday
 
@@ -243,11 +264,11 @@ This session is designed as a show-and-tell introduction—perfect for researche
   duration: 50
   type: demo
   description: "Join us for practical tips on qualitative data de-identification and strategies to tackle the unique challenges researchers face when working with human subject data. This session will feature QualiAnon, an open-source tool designed to help researchers securely anonymize and pseudonymize sensitive qualitative data with precision and flexibility. Unlike automated tools that rely on blind substitutions, QualiAnon gives you full control over how and when data is anonymized, allowing you to manually define replacement rules for specific datasets or variables. This approach ensures a higher level of accuracy and privacy by stripping identifying information without compromising the richness of the data. In this session, we’ll demonstrate how QualiAnon can streamline your data protection efforts, improve your workflow, and ensure compliance with privacy standards. Don’t miss the chance to discover how this tool can simplify the de-identification process while safeguarding sensitive information in your research!"
-  registration-page: 
+  registration-page: https://cglink.me/2dD/r2264475
   recording: 
   slides: 
 
-- title: "DataPlanet"
+- title: "DataPlanet - Data for Data Science"
   name: dataplanet
   speaker-type: "Speaker"
   speakers: [
@@ -285,7 +306,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   duration: 50
   type: demo
   description: "Quarto is a publication tool built into the RStudio multilanguage data analysis and visualization platform, often used in conjunction with code notebooks. Quarto enables a more reproducible approach to data-driven research by integrating documentation, code, and results in one document. But it’s also a great publication platform on its own! In this session a panel of Quarto users will showcase what Quarto is capable of, especially when used in concert with GitHub Pages hosting, including creating websites (course websites, personal websites, blogs), presentations, dashboards, academic papers, and books. We will also demonstrate, in real-time, how easy it is to create such research deliverables. Prepare to be sold on using Quarto!"
-  registration-page: 
+  registration-page: https://cglink.me/2dD/r2264473
   recording: 
   slides: 
 
@@ -328,6 +349,25 @@ This session is designed as a show-and-tell introduction—perfect for researche
   recording: 
   slides: 
 
+- title: "Get credit for your work with ORCID"
+  name: orcid
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Megan Van Noord, org: ucd-lib},
+    {name: Pamela Reynolds, org: ucd-dl}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: w
+  time: 4:00pm-4:50pm
+  start: 4
+  duration: 50
+  type: demo
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
 
 #Thursday
 
@@ -391,7 +431,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   start: 1
   duration: 90
   type: 
-  description: 
+  description: No matter whether you love it, fear it, or are sick of hearing about it, artificial intelligence impacts our lives. In this workshop, we will go beyond what AI tools do (or their creators say they do) and take a hard look at the broader implications of developing and using artificial intelligence. We will explore the power structures that inform the human labor behind AI, as well as the impacts of AI development and use on natural ecosystems, systematic oppression, and information economies. We will also discuss the agency we retain as students, teachers, and lifelong learners to co-create critical frameworks that challenge the inevitability of robot overlords.
   registration-page: 
   recording: 
   slides: 
@@ -429,7 +469,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   start: 4
   duration: 50
   type: 
-  description: 
+  description: UCLA library holds one of the largest collections of Islamic manuscripts (roughly 10,000 items) covering multiple languages including Arabic, Persian, Turkish, and Urdu, and spanning nearly 9 centuries (12th-20th). Currently, UCLA Library Special Collections is in the process of a multi-year effort to create digital records for its Islamic Manuscript holdings. At HumTech, our team is engaged in a project to visualize the cataloged manuscripts through Tableau. The goal of this project is to represent a birds eye view of the Islamic manuscript holdings for interested researchers. Through representation of multiple data points that the library cataloging process captured from the manuscripts, the visualization hopes to provide easy access to researchers for dissecting the data in multiple ways and helping them in drawing useful insights into the Islamic manuscript holdings at UCLA. In this presentation, we will be discussing the challenges that we faced in data cleaning, wrangling and visualization that are specific to manuscript collections, especially one that is primarily in non-Latin script and spans to the pre-modern period.
   registration-page: 
   recording: 
   slides: 
@@ -456,11 +496,13 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   recording: 
   slides: 
 
-- title: "Data in Context - Exploring US National Parks Visit Data"
+- title: "Data in Context: Strategies for Evaluating and Utilizing Existing Datasets for Research"
   name: data-context
   speaker-type: "Speaker"
   speakers: [
-    {name: Wasila Dahdul, org: uci}
+    {name: Wasila Dahdul, org: uci},
+    {name: Pamela Reynolds, org: ucd-dl}
+
  ]
   img: 
   thumbnail: 
@@ -470,7 +512,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   start: 12
   duration: 50 
   type: 
-  description: 
+  description: Join us for a workshop designed to equip you with the skills to responsibly assess and use existing datasets for new research. Using the U.S. National Parks Visit Data as a real-world example, we will consider key issues in reusing data, including historical context, data collection methods, and ethical aspects of the dataset. This workshop will underscore the importance of documentation, provenance, and context in utilizing existing datasets for research, and participants will gain skills in evaluating data for reuse and suitability for their work.
   registration-page: 
   recording: 
   slides: 
@@ -489,7 +531,28 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   start: 1
   duration: 110
   type: 
-  description: 
+  description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "Unlocking image, audio, and video data in the Industry Documents Library: a Python based, open source stack for audio transcription, text extraction, sentiment analysis, and topic classification."
+  name: industry
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Geoffrey Boushey, org: ucsf},
+    {name: Kate Tasker, org: ucsf}
+
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: 
+  time: 
+  start: 
+  duration: 
+  type: 
+  description: The Industry Documents Library is a digital archive of documents created by industries which influence public health, hosted by the University of California, San Francisco Library. This archive contains millions of video, audio, and image files from the tobacco, opioids, fossil fuel, drug, and food industries, including advertisements, legal depositions, internal marketing documents, public health campaigns, and other historical records. This session will start with a presentation and overview of the contents of the IDL and search interface. Next, we will introduce a python based, open-source stack researchers can use to analyze, transcribe, and categorize data in IDL video, audio, and image files. Although participants will have an opportunity to try out these technologies during the workshop, the primary focus will be an overview of available tools and data, and participation in the programming sections is optional.
   registration-page: 
   recording: 
   slides: 
