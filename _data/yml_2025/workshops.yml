@@ -105,7 +105,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   name: LLM
   speaker-type: "Speaker"
   speakers: [
-    {name: Carl Stahmer, org: ucd-dl}
+    {name: Carl Stahmer, org: ucd-dl},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
   img: 
