@@ -73,8 +73,12 @@
   time: 2:00pm-2:50pm
   start: 2
   duration: 50
-  type: 
-  description: 
+  type: demo
+  description: "APIs (Application Programming Interfaces) serve as powerful tools for accessing and interacting with data in a structured and automated manner, providing capabilities far beyond what is possible through traditional interfaces. Despite their ubiquity in software development, APIs remain underutilized in humanities research, where they offer immense potential for innovative data collection and analysis.
+
+In this session, we’ll demystify APIs and showcase their potential through the Library of Congress API. Participants will see step-by-step how to identify if a collection has API access, construct requests, and interpret responses, all with tools like Postman. We’ll walk through concepts like authentication, endpoints, parameters, and how to transform JSON responses into tabular data for visualization.
+
+This session is designed as a show-and-tell introduction—perfect for researchers and students with no prior coding or data analysis experience. By the end, attendees will have a clear understanding of how APIs work, their practical applications, and how to start integrating them into their research workflows. Get ready to see what APIs can do for your projects!"
   registration-page: 
   recording: 
   slides: 
@@ -92,8 +96,8 @@
   time: 2:00pm-2:50pm
   start: 2
   duration: 50
-  type: 
-  description: 
+  type: demo
+  description: This session will demonstrate a process for reducing time and labor in operational oversight by submitting  reports to <a href="https://clinicaltrials.gov" target="_blank">clinicaltrials.gov</a> from IRB protocols.
   registration-page: 
   recording: 
   slides: 
@@ -178,11 +182,34 @@
   recording: 
   slides: 
 
+- title: "GIS & Mapping: Where to Start"
+  name: gis-map
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Susan Powell, org: ucb-lib}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: t
+  time: 11:00pm-11:50pm
+  start: 11
+  duration: 50
+  type: 
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
+
 - title: "OSPOs in Higher Ed Discussion Group"
   name: ospo
   speaker-type: "Speaker"
   speakers: [
-    {name: Tim Dennis, org: ucla-dsc}
+    {name: Tim Dennis, org: ucla-dsc},
+    {name: Reid Otsuji, org: ucsd-lib},
+    {name: Todd  Grappone, org: ucla-lib},
+    {name: David Minor, org: ucsd-lib}
+
  ]
   img: 
   thumbnail: 
@@ -191,7 +218,7 @@
   time: 3:00pm-3:50pm
   start: 3
   duration: 50
-  type: 
+  type: discussion
   description: 
   registration-page: 
   recording: 
@@ -214,8 +241,8 @@
   time: 10:00pm-10:50pm
   start: 10
   duration: 50
-  type: 
-  description: 
+  type: demo
+  description: "Join us for practical tips on qualitative data de-identification and strategies to tackle the unique challenges researchers face when working with human subject data. This session will feature QualiAnon, an open-source tool designed to help researchers securely anonymize and pseudonymize sensitive qualitative data with precision and flexibility. Unlike automated tools that rely on blind substitutions, QualiAnon gives you full control over how and when data is anonymized, allowing you to manually define replacement rules for specific datasets or variables. This approach ensures a higher level of accuracy and privacy by stripping identifying information without compromising the richness of the data. In this session, we’ll demonstrate how QualiAnon can streamline your data protection efforts, improve your workflow, and ensure compliance with privacy standards. Don’t miss the chance to discover how this tool can simplify the de-identification process while safeguarding sensitive information in your research!"
   registration-page: 
   recording: 
   slides: 
@@ -240,32 +267,13 @@
   recording: 
   slides: 
 
-- title: "GIS & Mapping: Where to Start"
-  name: gis-map
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Susan Powell, org: ucb-lib}
- ]
-  img: 
-  thumbnail: 
-  alt: 
-  day: w
-  time: 11:00pm-11:50pm
-  start: 11
-  duration: 50
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-
 - title: "Quarto Showcase"
   name: quarto
   speaker-type: "Speaker"
   speakers: [
     {name: Greg Janée, org: ucsb-lib},
     {name: Julien Brun, org: ucsb-lib},
-    {name: Sam Csik, org: ucsb-lib},
+    {name: Sam Csik, org: nceas},
     {name: Renata Curty, org: ucsb-lib},
  ]
   img: 
@@ -275,8 +283,8 @@
   time: 12:00pm-12:50pm
   start: 12
   duration: 50
-  type: 
-  description: 
+  type: demo
+  description: "Quarto is a publication tool built into the RStudio multilanguage data analysis and visualization platform, often used in conjunction with code notebooks. Quarto enables a more reproducible approach to data-driven research by integrating documentation, code, and results in one document. But it’s also a great publication platform on its own! In this session a panel of Quarto users will showcase what Quarto is capable of, especially when used in concert with GitHub Pages hosting, including creating websites (course websites, personal websites, blogs), presentations, dashboards, academic papers, and books. We will also demonstrate, in real-time, how easy it is to create such research deliverables. Prepare to be sold on using Quarto!"
   registration-page: 
   recording: 
   slides: 
@@ -294,8 +302,8 @@
   time: 1:00pm-1:50pm
   start: 1
   duration: 50
-  type: 
-  description: 
+  type: hands-on
+  description: 'Qualitative research encompasses many methodological approaches, and one of the most powerful is oral history. As described by the UC Berkeley Oral History Center, this approach involves producing "first-person narrative topical and life histories that explore the narrator’s understanding of events through a recorded interview...[this] results in a lightly edited transcript of the interview that the narrator reviews, which is then published." This differs from the more familiar qualitative research interview, in that it is a two-directional, and transparent process... which comes with its own challenges. In this workshop you will learn more about these synergies and contrasts between and within methods, hear more about best practices for conducting oral history projects, and have time to ask questions about project ideas of your own.'
   registration-page: 
   recording: 
   slides: 
@@ -337,18 +345,22 @@
   time: 10:00pm-10:50pm
   start: 10
   duration: 50
-  type: 
-  description: 
+  type: hands-on
+  description: 'In this workshop, we will discuss why you might consider relational databases to store research data. We will go over how to insert data in and retrieve data from a database using R and <a href="https://duckdb.org" target="_blank">duckDB</a>. We will focus on how to use the R <a href=" https://dbplyr.tidyverse.org" target="_blank"> dbplyr </a> package to integrate databases into tidyverse-focused analytical workflows. 
+  This workshop will cover three main points:
+<ul><li>Introduce concepts of a database and discuss why you might want to have/want to use one </li><li>
+How to integrate the use of a database into an R analytical workflow </li><li>
+Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL basics. </li></ul>'
   registration-page: 
   recording: 
   slides: 
 
 
-- title: "FAIR and ML, AI Readiness, and AI Reproducibility (FARR)"
+- title: "AI Readiness, AI Reproducibility, and Data Stewardship"
   name: farr
   speaker-type: "Speaker"
   speakers: [
-    {name: Christine Kirkpatrick, org: ucsd}
+    {name: Christine Kirkpatrick, org: sdsc}
  ]
   img: 
   thumbnail: 
@@ -357,8 +369,8 @@
   time: 12:00pm-12:50pm
   start: 12
   duration: 50
-  type: 
-  description: 
+  type: discussion
+  description: This session will discuss lessons learned and emerging community practices as they relate to AI Readiness and AI Reproducibility. Insights into ways to leverage Gen-AI and LLMs for data stewardship will be shared, as well as open research questions, and gaps in practices at the intersection of AI and data. Please bring your own practices and insights to the session so they can inform the NSF-funded <a href="https://www.farr-rcn.org/" target="_blank">FAIR in Machine Learning, AI Readiness, (AI) Reproducibility Research Coordination Network (FARR)</a>.
   registration-page: 
   recording: 
   slides: 
@@ -448,10 +460,7 @@
   name: data-context
   speaker-type: "Speaker"
   speakers: [
-    {name: Wasila Dahdul, org: uci},
-    {name: , org: },
-    {name: , org: },
-    {name: , org: }
+    {name: Wasila Dahdul, org: uci}
  ]
   img: 
   thumbnail: 
