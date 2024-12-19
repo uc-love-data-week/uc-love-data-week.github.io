@@ -500,7 +500,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   name: data-context
   speaker-type: "Speaker"
   speakers: [
-    {name: Wasila Dahdul, org: uci}
+    {name: Wasila Dahdul, org: uci},
     {name: Pamela Reynolds, org: ucd-dl}
 
  ]
@@ -540,7 +540,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   name: industry
   speaker-type: "Speaker"
   speakers: [
-    {name: Geoffrey Boushey, org: ucsf}
+    {name: Geoffrey Boushey, org: ucsf},
     {name: Kate Tasker, org: ucsf}
 
  ]
