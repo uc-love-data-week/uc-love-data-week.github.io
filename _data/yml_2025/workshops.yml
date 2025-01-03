@@ -32,8 +32,27 @@
   time: 11:00pm-11:50pm
   start: 11
   duration: 50
-  type: 
+  type: hands-on
   description: Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We’ll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools and file formats to get the most out of your laptop.
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "R Clone: What is it? Why do I need it?"
+  name: r-clone
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jamie Jamison, org: ucla-dsc}
+ ]
+  img: 
+  thumbnail: 
+  alt: 
+  day: m
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 50
+  type: 
+  description: 
   registration-page: 
   recording: 
   slides: 
@@ -52,26 +71,7 @@
   time: 12:00pm-1:30pm
   start: 12
   duration: 90
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-  
-- title: "R Clone: What is it? Why do I need it?"
-  name: r-clone
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Jamie Jamison, org: ucla-dsc}
- ]
-  img: 
-  thumbnail: 
-  alt: 
-  day: m
-  time: 1:00pm-1:50pm
-  start: 1
-  duration: 50
-  type: 
+  type: hands-on
   description: 
   registration-page: 
   recording: 
@@ -115,7 +115,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   time: 3:00pm-4:50pm
   start: 3
   duration: 50
-  type: 
+  type: hands-on
   description: Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We’ll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification.
   registration-page: 
   recording: 
@@ -137,7 +137,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   time: 10:00pm-10:50pm
   start: 10
   duration: 50
-  type: 
+  type: lecture
   description: Learn about the research possibilities through the lens of the UCR Library Research Services Department. Topics such as data repositories, digital scholarship ecosystems and research with AI will be discussed to help illustrate relationships between data and artificial intelligence.
   registration-page: 
   recording: 
@@ -156,7 +156,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   time: 11:00pm-11:50pm
   start: 11
   duration: 50
-  type: 
+  type: lecture
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
 
 No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
@@ -218,7 +218,7 @@ No experience or special software is required to participate in this workshop. T
   time: 2:00pm-2:50pm
   start: 2
   duration: 50
-  type: 
+  type: lecture 
   description: Learn how to store captured 3D data with the help of the CreatR Lab Makerspace and Innovative Media Librarian at the UCR Library. We will go over how to store 3D data and to engage the data with virtual reality to use in personal or academic projects. Learn about scene making in Unity and how to successfully setup environments without overburdening your resources.
   registration-page: 
   recording: 
@@ -343,7 +343,7 @@ No experience or special software is required to participate in this workshop. T
   time: 2:00pm-3:50pm
   start: 2
   duration: 110
-  type: 
+  type: hands-on
   description: 
   registration-page: 
   recording: 
@@ -364,7 +364,7 @@ No experience or special software is required to participate in this workshop. T
   start: 4
   duration: 50
   type: demo
-  description: 
+  description: This session discusses how to curate your scholarly identity and increase your research impact using ORCID, a tool for connecting researchers with their scholarship and collaborators across disciplines, borders, and time.
   registration-page: 
   recording: 
   slides: 
@@ -511,7 +511,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   time: 12:00pm-12:50pm
   start: 12
   duration: 50 
-  type: 
+  type: hands-on
   description: Join us for a workshop designed to equip you with the skills to responsibly assess and use existing datasets for new research. Using the U.S. National Parks Visit Data as a real-world example, we will consider key issues in reusing data, including historical context, data collection methods, and ethical aspects of the dataset. This workshop will underscore the importance of documentation, provenance, and context in utilizing existing datasets for research, and participants will gain skills in evaluating data for reuse and suitability for their work.
   registration-page: 
   recording: 
@@ -547,11 +547,11 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   img: 
   thumbnail: 
   alt: 
-  day: 
-  time: 
-  start: 
-  duration: 
-  type: 
+  day: f
+  time: 3:00pm - 4:15pm
+  start: 3
+  duration: 75
+  type: hands-on
   description: The Industry Documents Library is a digital archive of documents created by industries which influence public health, hosted by the University of California, San Francisco Library. This archive contains millions of video, audio, and image files from the tobacco, opioids, fossil fuel, drug, and food industries, including advertisements, legal depositions, internal marketing documents, public health campaigns, and other historical records. This session will start with a presentation and overview of the contents of the IDL and search interface. Next, we will introduce a python based, open-source stack researchers can use to analyze, transcribe, and categorize data in IDL video, audio, and image files. Although participants will have an opportunity to try out these technologies during the workshop, the primary focus will be an overview of available tools and data, and participation in the programming sections is optional.
   registration-page: 
   recording: 
