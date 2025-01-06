@@ -266,7 +266,7 @@
                 }
 /*                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+ modal_html +'<span>'+recording+' '+slides+' '+reader+' </span></td>';/**/
             }
-                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+ modal_html +'<span>'+registration+' '+url+mats+recording+' '+slides+' '+reader+' </span></td>';/**/
+                week_rows[timeIndex][dayIndex]=week_rows[timeIndex][dayIndex]+ ' <td style="border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1; width: 8%;" colspan="1" rowspan="'+blocks+'"  class='+workshop_type[i]+ modal_html +'<span>'+registration+' '+url+mats+recording+' '+slides+' '+reader+' </span></td>';/**/
 
             for (let k = timeIndex; k < (blocks+timeIndex); k++){
                 week_workshops_written[k][dayIndex] = (week_workshops_written[k][dayIndex])+1;
@@ -300,10 +300,10 @@
   <body class="calendar" >
   </colgroup>
     <thead><tr>
-            <th style="text-align: center;  border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" scope="col">Time</th>
+            <th style="text-align: center;  border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1; width: 5%;" scope="col">Time</th>
             <script>
                 for (let i = 0; i < conference_days_text.length; i++){
-                    document.write ('<th style="text-align: center;  border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1;" scope="col" colspan="'+ maxCol[i]+ '"">'+ conference_days_text[i]+ '<br>' +conference_days_date[i]+ '</th>')
+                    document.write ('<th style="text-align: center;  border: 1px solid white; border-radius: 10px 10px 10px 10px; border-spacing: 1; width: 19%;" scope="col" colspan="'+ maxCol[i]+ '"">'+ conference_days_text[i]+ '<br>' +conference_days_date[i]+ '</th>')
                 }
             </script>
 
