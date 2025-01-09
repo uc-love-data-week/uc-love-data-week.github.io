@@ -11,7 +11,7 @@
   day: m
   time: 10:00am-10:50am
   start: 10
-  duration: 50
+  duration: 60
   type: demo
   description: This session will demonstrate a process for reducing time and labor in operational oversight by submitting reports to <a href="https://clinicaltrials.gov" target="_blank">clinicaltrials.gov</a> from IRB protocols.
   registration-page: 
@@ -31,7 +31,7 @@
   day: m
   time: 11:00pm-11:50pm
   start: 11
-  duration: 50
+  duration: 60
   type: hands-on
   description: Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We’ll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools and file formats to get the most out of your laptop.
   registration-page: 
@@ -50,7 +50,7 @@
   day: m
   time: 1:00pm-1:50pm
   start: 1
-  duration: 50
+  duration: 60
   type: 
   description: 
   registration-page: 
@@ -90,7 +90,7 @@
   day: m
   time: 2:00pm-2:50pm
   start: 2
-  duration: 50
+  duration: 60
   type: demo
   description: "APIs (Application Programming Interfaces) serve as powerful tools for accessing and interacting with data in a structured and automated manner, providing capabilities far beyond what is possible through traditional interfaces. Despite their ubiquity in software development, APIs remain underutilized in humanities research, where they offer immense potential for innovative data collection and analysis.
 
@@ -114,7 +114,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   day: m
   time: 3:00pm-4:50pm
   start: 3
-  duration: 50
+  duration: 60
   type: hands-on
   description: Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We’ll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification.
   registration-page: 
@@ -136,7 +136,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   day: t
   time: 10:00pm-10:50pm
   start: 10
-  duration: 50
+  duration: 60
   type: lecture
   description: Learn about the research possibilities through the lens of the UCR Library Research Services Department. Topics such as data repositories, digital scholarship ecosystems and research with AI will be discussed to help illustrate relationships between data and artificial intelligence.
   registration-page: 
@@ -155,7 +155,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   day: t
   time: 11:00pm-11:50pm
   start: 11
-  duration: 50
+  duration: 60
   type: lecture
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
 
@@ -176,7 +176,7 @@ No experience or special software is required to participate in this workshop. T
   day: t
   time: 12:00pm-12:50pm
   start: 12
-  duration: 50
+  duration: 60
   type: 
   description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
   registration-page: 
@@ -196,7 +196,7 @@ No experience or special software is required to participate in this workshop. T
   day: t
   time: 1:00pm-1:50pm
   start: 1
-  duration: 50
+  duration: 60
   type: 
   description: 
   registration-page: 
@@ -217,7 +217,7 @@ No experience or special software is required to participate in this workshop. T
   day: t
   time: 2:00pm-2:50pm
   start: 2
-  duration: 50
+  duration: 60
   type: lecture 
   description: Learn how to store captured 3D data with the help of the CreatR Lab Makerspace and Innovative Media Librarian at the UCR Library. We will go over how to store 3D data and to engage the data with virtual reality to use in personal or academic projects. Learn about scene making in Unity and how to successfully setup environments without overburdening your resources.
   registration-page: 
@@ -240,7 +240,7 @@ No experience or special software is required to participate in this workshop. T
   day: t
   time: 3:00pm-3:50pm
   start: 3
-  duration: 50
+  duration: 60
   type: discussion
   description: Open Source Program Offices (OSPOs) are transforming how universities support open-source innovation. With support from the Sloan Foundation, UC campuses are building a first-of-its-kind multi-campus OSPO network inspired by UCSC's leadership and collaboration with UCLA, UCSD, UCB, UCD, and UCSB. This session invites researchers to explore how "open" practices intersect with their work, from open science to open educational resources. We'll also discuss opportunities to collaborate and build a vibrant, inclusive OSPO network across the UC system.
   registration-page: 
@@ -261,7 +261,7 @@ No experience or special software is required to participate in this workshop. T
   day: w
   time: 10:00pm-10:50pm
   start: 10
-  duration: 50
+  duration: 60
   type: demo
   description: "Join us for practical tips on qualitative data de-identification and strategies to tackle the unique challenges researchers face when working with human subject data. This session will feature QualiAnon, an open-source tool designed to help researchers securely anonymize and pseudonymize sensitive qualitative data with precision and flexibility. Unlike automated tools that rely on blind substitutions, QualiAnon gives you full control over how and when data is anonymized, allowing you to manually define replacement rules for specific datasets or variables. This approach ensures a higher level of accuracy and privacy by stripping identifying information without compromising the richness of the data. In this session, we’ll demonstrate how QualiAnon can streamline your data protection efforts, improve your workflow, and ensure compliance with privacy standards. Don’t miss the chance to discover how this tool can simplify the de-identification process while safeguarding sensitive information in your research!"
   registration-page: https://cglink.me/2dD/r2264475
@@ -281,7 +281,7 @@ No experience or special software is required to participate in this workshop. T
   day: w
   time: 11:00pm-11:50pm
   start: 11
-  duration: 50
+  duration: 60
   type: 
   description: 
   registration-page: 
@@ -303,7 +303,7 @@ No experience or special software is required to participate in this workshop. T
   day: w
   time: 12:00pm-12:50pm
   start: 12
-  duration: 50
+  duration: 60
   type: demo
   description: "Quarto is a publication tool built into the RStudio multilanguage data analysis and visualization platform, often used in conjunction with code notebooks. Quarto enables a more reproducible approach to data-driven research by integrating documentation, code, and results in one document. But it’s also a great publication platform on its own! In this session a panel of Quarto users will showcase what Quarto is capable of, especially when used in concert with GitHub Pages hosting, including creating websites (course websites, personal websites, blogs), presentations, dashboards, academic papers, and books. We will also demonstrate, in real-time, how easy it is to create such research deliverables. Prepare to be sold on using Quarto!"
   registration-page: https://cglink.me/2dD/r2264473
@@ -322,7 +322,7 @@ No experience or special software is required to participate in this workshop. T
   day: w
   time: 1:00pm-1:50pm
   start: 1
-  duration: 50
+  duration: 60
   type: hands-on
   description: 'Qualitative research encompasses many methodological approaches, and one of the most powerful is oral history. As described by the UC Berkeley Oral History Center, this approach involves producing "first-person narrative topical and life histories that explore the narrator’s understanding of events through a recorded interview...[this] results in a lightly edited transcript of the interview that the narrator reviews, which is then published." This differs from the more familiar qualitative research interview, in that it is a two-directional, and transparent process... which comes with its own challenges. In this workshop you will learn more about these synergies and contrasts between and within methods, hear more about best practices for conducting oral history projects, and have time to ask questions about project ideas of your own.'
   registration-page: 
@@ -342,7 +342,7 @@ No experience or special software is required to participate in this workshop. T
   day: w
   time: 2:00pm-3:50pm
   start: 2
-  duration: 110
+  duration: 120
   type: hands-on
   description: 
   registration-page: 
@@ -362,7 +362,7 @@ No experience or special software is required to participate in this workshop. T
   day: w
   time: 4:00pm-4:50pm
   start: 4
-  duration: 50
+  duration: 60
   type: demo
   description: This session discusses how to curate your scholarly identity and increase your research impact using ORCID, a tool for connecting researchers with their scholarship and collaborators across disciplines, borders, and time.
   registration-page: 
@@ -384,7 +384,7 @@ No experience or special software is required to participate in this workshop. T
   day: h
   time: 10:00pm-10:50pm
   start: 10
-  duration: 50
+  duration: 60
   type: hands-on
   description: 'In this workshop, we will discuss why you might consider relational databases to store research data. We will go over how to insert data in and retrieve data from a database using R and <a href="https://duckdb.org" target="_blank">duckDB</a>. We will focus on how to use the R <a href=" https://dbplyr.tidyverse.org" target="_blank"> dbplyr </a> package to integrate databases into tidyverse-focused analytical workflows. 
   This workshop will cover three main points:
@@ -408,7 +408,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: h
   time: 12:00pm-12:50pm
   start: 12
-  duration: 50
+  duration: 60
   type: discussion
   description: This session will discuss lessons learned and emerging community practices as they relate to AI Readiness and AI Reproducibility. Insights into ways to leverage Gen-AI and LLMs for data stewardship will be shared, as well as open research questions, and gaps in practices at the intersection of AI and data. Please bring your own practices and insights to the session so they can inform the NSF-funded <a href="https://www.farr-rcn.org/" target="_blank">FAIR in Machine Learning, AI Readiness, (AI) Reproducibility Research Coordination Network (FARR)</a>.
   registration-page: 
@@ -448,7 +448,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: h
   time: 3:00pm-3:50pm
   start: 3
-  duration: 50
+  duration: 60
   type: 
   description: 
   registration-page: 
@@ -467,7 +467,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: h
   time: 4:00pm-4:50pm
   start: 4
-  duration: 50
+  duration: 60
   type: 
   description: UCLA library holds one of the largest collections of Islamic manuscripts (roughly 10,000 items) covering multiple languages including Arabic, Persian, Turkish, and Urdu, and spanning nearly 9 centuries (12th-20th). Currently, UCLA Library Special Collections is in the process of a multi-year effort to create digital records for its Islamic Manuscript holdings. At HumTech, our team is engaged in a project to visualize the cataloged manuscripts through Tableau. The goal of this project is to represent a birds eye view of the Islamic manuscript holdings for interested researchers. Through representation of multiple data points that the library cataloging process captured from the manuscripts, the visualization hopes to provide easy access to researchers for dissecting the data in multiple ways and helping them in drawing useful insights into the Islamic manuscript holdings at UCLA. In this presentation, we will be discussing the challenges that we faced in data cleaning, wrangling and visualization that are specific to manuscript collections, especially one that is primarily in non-Latin script and spans to the pre-modern period.
   registration-page: 
@@ -489,7 +489,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: f
   time: 10:00am-11:50pm
   start: 10
-  duration: 110
+  duration: 120
   type: 
   description: 
   registration-page: 
@@ -510,7 +510,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: f
   time: 12:00pm-12:50pm
   start: 12
-  duration: 50 
+  duration: 60 
   type: hands-on
   description: Join us for a workshop designed to equip you with the skills to responsibly assess and use existing datasets for new research. Using the U.S. National Parks Visit Data as a real-world example, we will consider key issues in reusing data, including historical context, data collection methods, and ethical aspects of the dataset. This workshop will underscore the importance of documentation, provenance, and context in utilizing existing datasets for research, and participants will gain skills in evaluating data for reuse and suitability for their work.
   registration-page: 
@@ -529,7 +529,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: f
   time: 1:00pm-2:50pm
   start: 1
-  duration: 110
+  duration: 120
   type: 
   description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.
   registration-page: 
@@ -550,7 +550,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   day: f
   time: 3:00pm - 4:15pm
   start: 3
-  duration: 75
+  duration: 90
   type: hands-on
   description: The Industry Documents Library is a digital archive of documents created by industries which influence public health, hosted by the University of California, San Francisco Library. This archive contains millions of video, audio, and image files from the tobacco, opioids, fossil fuel, drug, and food industries, including advertisements, legal depositions, internal marketing documents, public health campaigns, and other historical records. This session will start with a presentation and overview of the contents of the IDL and search interface. Next, we will introduce a python based, open-source stack researchers can use to analyze, transcribe, and categorize data in IDL video, audio, and image files. Although participants will have an opportunity to try out these technologies during the workshop, the primary focus will be an overview of available tools and data, and participation in the programming sections is optional.
   registration-page: 
