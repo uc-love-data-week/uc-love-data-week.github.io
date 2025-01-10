@@ -5,9 +5,9 @@
   speakers: [
     {name: Ramya Sri Baluguri, org: ucd}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 10:00am-10:50am
   start: 10
@@ -25,9 +25,9 @@
     {name: Leigh Phan, org: ucla-dsc},
     {name: Kristian Allen, org: ucla-dsc}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 11:00pm-11:50pm
   start: 11
@@ -44,9 +44,9 @@
   speakers: [
     {name: Jamie Jamison, org: ucla-dsc}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 1:00pm-1:50pm
   start: 1
@@ -64,9 +64,9 @@
     {name: Corliss Lee, org: ucb},
     {name: Bee Lehman, org: ucb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  wikipedia_logo.png
+  thumbnail:  wikipedia_logo.png
+  alt:  "wikipedia logo: globe with icons over the words wikipedia"
   day: m
   time: 12:00pm-1:30pm
   start: 12
@@ -84,9 +84,9 @@
     {name: Jairo Melo, org: ucsb},
     {name: Jose Nino, org: ucsb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img: apis.png
+  thumbnail: apis_thumb.png
+  alt: Picture of tree of items controlled on the internet
   day: m
   time: 2:00pm-2:50pm
   start: 2
@@ -108,9 +108,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
     {name: Carl Stahmer, org: ucd-dl},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 3:00pm-4:50pm
   start: 3
@@ -130,9 +130,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
     {name: Ray Uzwyshyn, org: ucr-lib},
     {name: Brendon Wheeler, org: ucr-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 10:00pm-10:50pm
   start: 10
@@ -149,9 +149,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
   speakers: [
     {name: Susan Powell, org: ucb-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  gis.png
+  thumbnail:  gis.png
+  alt:  "stylized globe of the earth"
   day: t
   time: 11:00pm-11:50pm
   start: 11
@@ -170,9 +170,9 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Cindy Nguyen, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 12:00pm-12:50pm
   start: 12
@@ -190,9 +190,9 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Maggie Tarmey, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 1:00pm-1:50pm
   start: 1
@@ -211,9 +211,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Alvaro Alvarez, org: ucr-lib},
     {name: Brendon Wheeler, org: ucr-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 2:00pm-2:50pm
   start: 2
@@ -234,9 +234,9 @@ No experience or special software is required to participate in this workshop. T
     {name: David Minor, org: ucsd-lib}
 
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 3:00pm-3:50pm
   start: 3
@@ -255,9 +255,9 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Renata Curty, org: ucsb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 10:00pm-10:50pm
   start: 10
@@ -275,9 +275,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Jingbo Shang, org: ucsd},
     {name: TBD, org: ucsd}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 11:00pm-11:50pm
   start: 11
@@ -297,9 +297,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Sam Csik, org: nceas},
     {name: Renata Curty, org: ucsb},
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 12:00pm-12:50pm
   start: 12
@@ -316,9 +316,9 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Ann Glusker, org: ucb-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 1:00pm-1:50pm
   start: 1
@@ -336,9 +336,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Colton Baumler, org: ucd-dl},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 2:00pm-3:50pm
   start: 2
@@ -356,9 +356,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Megan Van Noord, org: ucd-lib},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 4:00pm-4:50pm
   start: 4
@@ -378,9 +378,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Julien Brun, org: ucsb},
     {name: Greg Janée, org: ucsb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 10:00pm-10:50pm
   start: 10
@@ -402,9 +402,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Christine Kirkpatrick, org: sdsc}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 12:00pm-12:50pm
   start: 12
@@ -423,9 +423,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
     {name: Alexandra Solodkaya, org: ucla-lib},
     {name: Ashley Peterson, org: ucla-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 1:00pm-2:30pm
   start: 1
@@ -442,9 +442,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Tianji Jiang, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 3:00pm-3:50pm
   start: 3
@@ -461,9 +461,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Saad Shaukat, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 4:00pm-4:50pm
   start: 4
@@ -483,9 +483,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Michele Tobias , org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
   time: 10:00am-11:50pm
   start: 10
@@ -504,9 +504,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
     {name: Pamela Reynolds, org: ucd-dl}
 
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
   time: 12:00pm-12:50pm
   start: 12
@@ -523,9 +523,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Madison Bautista, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  Tableau_logo.png
+  thumbnail:  Tableau_logo.png
+  alt:  "Tableau logo: the word Tableau under multicolored plus signs"
   day: f
   time: 1:00pm-2:50pm
   start: 1
@@ -544,9 +544,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
     {name: Kate Tasker, org: ucsf}
 
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
   time: 3:00pm - 4:15pm
   start: 3
