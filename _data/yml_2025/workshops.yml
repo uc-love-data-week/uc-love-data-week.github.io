@@ -5,9 +5,9 @@
   speakers: [
     {name: Ramya Sri Baluguri, org: ucd}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 10:00am-10:50am
   start: 10
@@ -25,9 +25,9 @@
     {name: Leigh Phan, org: ucla-dsc},
     {name: Kristian Allen, org: ucla-dsc}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 11:00pm-11:50pm
   start: 11
@@ -44,15 +44,15 @@
   speakers: [
     {name: Jamie Jamison, org: ucla-dsc}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 1:00pm-1:50pm
   start: 1
   duration: 60
-  type: 
-  description: 
+  type: hands-on
+  description: Rclone is a command-line tool that allows users to transfer and synchronize files between cloud storage services, servers, and local machines. Rclone is a cross-platform application that runs on Linux, Windows and MacOS.
   registration-page: 
   recording: 
   slides: 
@@ -64,9 +64,9 @@
     {name: Corliss Lee, org: ucb},
     {name: Bee Lehman, org: ucb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  wikipedia_logo.png
+  thumbnail:  wikipedia_logo.png
+  alt:  "wikipedia logo: globe with icons over the words wikipedia"
   day: m
   time: 12:00pm-1:30pm
   start: 12
@@ -84,9 +84,9 @@
     {name: Jairo Melo, org: ucsb},
     {name: Jose Nino, org: ucsb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img: apis.png
+  thumbnail: apis_thumb.png
+  alt: Picture of tree of items controlled on the internet
   day: m
   time: 2:00pm-2:50pm
   start: 2
@@ -108,9 +108,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
     {name: Carl Stahmer, org: ucd-dl},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
   time: 3:00pm-4:50pm
   start: 3
@@ -130,9 +130,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
     {name: Ray Uzwyshyn, org: ucr-lib},
     {name: Brendon Wheeler, org: ucr-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 10:00pm-10:50pm
   start: 10
@@ -149,9 +149,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
   speakers: [
     {name: Susan Powell, org: ucb-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  gis.png
+  thumbnail:  gis.png
+  alt:  "stylized globe of the earth"
   day: t
   time: 11:00pm-11:50pm
   start: 11
@@ -170,35 +170,35 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Cindy Nguyen, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 12:00pm-12:50pm
   start: 12
   duration: 60
-  type: 
+  type: lecture
   description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
   registration-page: 
   recording: 
   slides: 
 
 
-- title: "Mapping & Critical Cartography"
-  name: map-cartography
+- title: "Historical Maps as Data (and how to use them)"
+  name: historical-maps
   speaker-type: "Speaker"
   speakers: [
     {name: Maggie Tarmey, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 1:00pm-1:50pm
   start: 1
   duration: 60
-  type: 
-  description: 
+  type: lecture
+  description: Historical maps are fascinating objects and often beautiful to look at. However, they are often underutilized as research tools. Did you know that maps are data visualizations? In this 50-minute session, we’ll discuss the hows and whys behind historical maps as data and then discuss how you can use them in your own research. No prior experience with maps is required, and this session welcomes those from any and all research backgrounds.
   registration-page: 
   recording: 
   slides: 
@@ -211,9 +211,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Alvaro Alvarez, org: ucr-lib},
     {name: Brendon Wheeler, org: ucr-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 2:00pm-2:50pm
   start: 2
@@ -234,9 +234,9 @@ No experience or special software is required to participate in this workshop. T
     {name: David Minor, org: ucsd-lib}
 
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
   time: 3:00pm-3:50pm
   start: 3
@@ -253,11 +253,11 @@ No experience or special software is required to participate in this workshop. T
   name: qualianon
   speaker-type: "Speaker"
   speakers: [
-    {name: Renata Curty, org: ucsb-lib}
+    {name: Renata Curty, org: ucsb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 10:00pm-10:50pm
   start: 10
@@ -268,23 +268,23 @@ No experience or special software is required to participate in this workshop. T
   recording: 
   slides: 
 
-- title: "DataPlanet - Data for Data Science"
+- title: "DataPlanet: Data for Data Science"
   name: dataplanet
   speaker-type: "Speaker"
   speakers: [
     {name: Jingbo Shang, org: ucsd},
     {name: TBD, org: ucsd}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 11:00pm-11:50pm
   start: 11
   duration: 60
-  type: 
-  description: 
-  registration-page: 
+  type: demo
+  description: Coming soon!
+  registration-page: https://ucsd.zoom.us/meeting/register/tJYlf-uvrTopEtTx2zar8KiABlrerH7tzjWK#/registration
   recording: 
   slides: 
 
@@ -292,14 +292,14 @@ No experience or special software is required to participate in this workshop. T
   name: quarto
   speaker-type: "Speaker"
   speakers: [
-    {name: Greg Janée, org: ucsb-lib},
-    {name: Julien Brun, org: ucsb-lib},
+    {name: Greg Janée, org: ucsb},
+    {name: Julien Brun, org: ucsb},
     {name: Sam Csik, org: nceas},
-    {name: Renata Curty, org: ucsb-lib},
+    {name: Renata Curty, org: ucsb},
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 12:00pm-12:50pm
   start: 12
@@ -316,9 +316,9 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Ann Glusker, org: ucb-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 1:00pm-1:50pm
   start: 1
@@ -336,15 +336,15 @@ No experience or special software is required to participate in this workshop. T
     {name: Colton Baumler, org: ucd-dl},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 2:00pm-3:50pm
   start: 2
   duration: 120
   type: hands-on
-  description: 
+  description: Coming soon! 
   registration-page: 
   recording: 
   slides: 
@@ -356,9 +356,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Megan Van Noord, org: ucd-lib},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
   time: 4:00pm-4:50pm
   start: 4
@@ -375,12 +375,12 @@ No experience or special software is required to participate in this workshop. T
   name: sql-r
   speaker-type: "Speaker"
   speakers: [
-    {name: Julien Brun, org: ucsb-lib},
-    {name: Greg Janée, org: ucsb-lib}
+    {name: Julien Brun, org: ucsb},
+    {name: Greg Janée, org: ucsb}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 10:00pm-10:50pm
   start: 10
@@ -391,7 +391,7 @@ No experience or special software is required to participate in this workshop. T
 <ul><li>Introduce concepts of a database and discuss why you might want to have/want to use one </li><li>
 How to integrate the use of a database into an R analytical workflow </li><li>
 Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL basics. </li></ul>'
-  registration-page: 
+  registration-page: https://cglink.me/2dD/r2264476
   recording: 
   slides: 
 
@@ -402,16 +402,16 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Christine Kirkpatrick, org: sdsc}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 12:00pm-12:50pm
   start: 12
   duration: 60
   type: discussion
   description: This session will discuss lessons learned and emerging community practices as they relate to AI Readiness and AI Reproducibility. Insights into ways to leverage Gen-AI and LLMs for data stewardship will be shared, as well as open research questions, and gaps in practices at the intersection of AI and data. Please bring your own practices and insights to the session so they can inform the NSF-funded <a href="https://www.farr-rcn.org/" target="_blank">FAIR in Machine Learning, AI Readiness, (AI) Reproducibility Research Coordination Network (FARR)</a>.
-  registration-page: 
+  registration-page: https://ucsd.zoom.us/meeting/register/tJUtd-2prTIsE9MoCX6unVmmWYg69Pq-VQDu#/registration
   recording: 
   slides: 
 
@@ -423,14 +423,14 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
     {name: Alexandra Solodkaya, org: ucla-lib},
     {name: Ashley Peterson, org: ucla-lib}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 1:00pm-2:30pm
   start: 1
   duration: 90
-  type: 
+  type: lecture
   description: No matter whether you love it, fear it, or are sick of hearing about it, artificial intelligence impacts our lives. In this workshop, we will go beyond what AI tools do (or their creators say they do) and take a hard look at the broader implications of developing and using artificial intelligence. We will explore the power structures that inform the human labor behind AI, as well as the impacts of AI development and use on natural ecosystems, systematic oppression, and information economies. We will also discuss the agency we retain as students, teachers, and lifelong learners to co-create critical frameworks that challenge the inevitability of robot overlords.
   registration-page: 
   recording: 
@@ -442,15 +442,15 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Tianji Jiang, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 3:00pm-3:50pm
   start: 3
   duration: 60
-  type: 
-  description: 
+  type: other
+  description: Coming soon!
   registration-page: 
   recording: 
   slides: 
@@ -461,14 +461,14 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Saad Shaukat, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
   time: 4:00pm-4:50pm
   start: 4
   duration: 60
-  type: 
+  type: lecture
   description: UCLA library holds one of the largest collections of Islamic manuscripts (roughly 10,000 items) covering multiple languages including Arabic, Persian, Turkish, and Urdu, and spanning nearly 9 centuries (12th-20th). Currently, UCLA Library Special Collections is in the process of a multi-year effort to create digital records for its Islamic Manuscript holdings. At HumTech, our team is engaged in a project to visualize the cataloged manuscripts through Tableau. The goal of this project is to represent a birds eye view of the Islamic manuscript holdings for interested researchers. Through representation of multiple data points that the library cataloging process captured from the manuscripts, the visualization hopes to provide easy access to researchers for dissecting the data in multiple ways and helping them in drawing useful insights into the Islamic manuscript holdings at UCLA. In this presentation, we will be discussing the challenges that we faced in data cleaning, wrangling and visualization that are specific to manuscript collections, especially one that is primarily in non-Latin script and spans to the pre-modern period.
   registration-page: 
   recording: 
@@ -483,15 +483,15 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Michele Tobias , org: ucd-dl}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
   time: 10:00am-11:50pm
   start: 10
   duration: 120
-  type: 
-  description: 
+  type: demo
+  description: Coming soon!
   registration-page: 
   recording: 
   slides: 
@@ -504,9 +504,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
     {name: Pamela Reynolds, org: ucd-dl}
 
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
   time: 12:00pm-12:50pm
   start: 12
@@ -523,14 +523,14 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   speakers: [
     {name: Madison Bautista, org: ucla}
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  Tableau_logo.png
+  thumbnail:  Tableau_logo.png
+  alt:  "Tableau logo: the word Tableau under multicolored plus signs"
   day: f
   time: 1:00pm-2:50pm
   start: 1
   duration: 120
-  type: 
+  type: hands-on
   description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.
   registration-page: 
   recording: 
@@ -544,9 +544,9 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
     {name: Kate Tasker, org: ucsf}
 
  ]
-  img: 
-  thumbnail: 
-  alt: 
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
   time: 3:00pm - 4:15pm
   start: 3
