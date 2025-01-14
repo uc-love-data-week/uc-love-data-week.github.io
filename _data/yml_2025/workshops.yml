@@ -44,9 +44,9 @@
   speakers: [
     {name: Jamie Jamison, org: ucla-dsc}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  rclone.png
+  thumbnail:  rclone.png
+  alt:  "rclone logo"
   day: m
   time: 1:00pm-1:50pm
   start: 1
@@ -72,7 +72,7 @@
   start: 12
   duration: 90
   type: hands-on
-  description: 
+  description: Coming soon!
   registration-page: 
   recording: 
   slides: 
@@ -108,9 +108,9 @@ This session is designed as a show-and-tell introduction—perfect for researche
     {name: Carl Stahmer, org: ucd-dl},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  ollama.png
+  thumbnail:  ollama.png
+  alt:  "cartoon lama with words 'get up and running with large language models'"
   day: m
   time: 3:00pm-4:50pm
   start: 3
@@ -139,7 +139,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   duration: 60
   type: lecture
   description: Learn about the research possibilities through the lens of the UCR Library Research Services Department. Topics such as data repositories, digital scholarship ecosystems and research with AI will be discussed to help illustrate relationships between data and artificial intelligence.
-  registration-page: 
+  registration-page: https://forms.gle/vxs13rwW9MRTA2Dx9
   recording: 
   slides: 
 
@@ -190,9 +190,9 @@ No experience or special software is required to participate in this workshop. T
   speakers: [
     {name: Maggie Tarmey, org: ucla}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  historical_map.png
+  thumbnail:  historical_map.png
+  alt:  "1832 map of Europe on faded parchment"
   day: t
   time: 1:00pm-1:50pm
   start: 1
@@ -220,7 +220,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: lecture 
   description: Learn how to store captured 3D data with the help of the CreatR Lab Makerspace and Innovative Media Librarian at the UCR Library. We will go over how to store 3D data and to engage the data with virtual reality to use in personal or academic projects. Learn about scene making in Unity and how to successfully setup environments without overburdening your resources.
-  registration-page: 
+  registration-page: https://forms.gle/Ephb6bU1pYnK2ckm9
   recording: 
   slides: 
 
@@ -297,9 +297,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Sam Csik, org: nceas},
     {name: Renata Curty, org: ucsb},
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  quarto.png
+  thumbnail:  quarto.png
+  alt:  "quarto logo"
   day: w
   time: 12:00pm-12:50pm
   start: 12
@@ -356,9 +356,9 @@ No experience or special software is required to participate in this workshop. T
     {name: Megan Van Noord, org: ucd-lib},
     {name: Pamela Reynolds, org: ucd-dl}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  orcid.png
+  thumbnail:  orcid.png
+  alt:  "orcid logo"
   day: w
   time: 4:00pm-4:50pm
   start: 4
@@ -436,7 +436,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   recording: 
   slides: 
 
-- title: "Social Sciences & Social Media Data Ethics"
+- title: "Sharing and Locating Research Data in Humanities and Social Science Studies"
   name: social-media
   speaker-type: "Speaker"
   speakers: [
@@ -449,8 +449,14 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   time: 3:00pm-3:50pm
   start: 3
   duration: 60
-  type: other
-  description: Coming soon!
+  type: seminar
+  description: "Sharing and reusing data can effectively reduce redundant efforts in data collection. It also enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture requires frameworks that include policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike.
+
+A critical step in the data sharing and (re)use cycle involves researchers depositing their research data into data-sharing infrastructures, keeping their data in a sharable and usable form, making other researchers aware of their data, and identifying data that are (re)usable for their needs.
+
+In this session, I aim to introduce some ideas and techniques for preparing research data for sharing. I will also introduce 2 to 3 data repositories ideal for researchers depositing their data and seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively.
+
+The session is structured to last approximately 50 minutes, comprising a 40-minute presentation followed by a 10-minute question-and-answer segment."
   registration-page: 
   recording: 
   slides: 

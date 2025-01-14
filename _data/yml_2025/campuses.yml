@@ -7,8 +7,8 @@
 
 - name: UC Berkeley
   abbv: ucb
-  image: 
-  alt: 
+  image: ../assets/img/campuses/ucb.png
+  alt: UC Berkeley
   url: https://www.berkeley.edu
   p-campus: n  # p-campus: will it show on front page logo for particpating campus
 
@@ -77,7 +77,7 @@
 
 - name: UCLA
   abbv: ucla-dsc
-  image: /assets/img/campuses/ucla-dsc.png
+  image: ../assets/img/campuses/ucla-dsc.png
   alt: UCLA Library Data Science Center
   url: https://www.library.ucla.edu/location/data-science-center
   p-campus: y
@@ -91,8 +91,8 @@
 
 - name: UCLA
   abbv: ucla
-  image: 
-  alt: 
+  image: /assets/img/campuses/ucla.png
+  alt: UCLA
   url: https://www.ucla.edu
   p-campus: n
 
