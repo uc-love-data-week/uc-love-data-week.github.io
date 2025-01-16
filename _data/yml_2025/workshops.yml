@@ -29,7 +29,7 @@
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: m
-  time: 11:00pm-11:50pm
+  time: 11:00pm-11:50am
   start: 11
   duration: 60
   type: hands-on
@@ -134,7 +134,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: t
-  time: 10:00pm-10:50pm
+  time: 10:00pm-10:50am
   start: 10
   duration: 60
   type: lecture
@@ -153,7 +153,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   thumbnail:  gis.png
   alt:  "stylized globe of the earth"
   day: t
-  time: 11:00pm-11:50pm
+  time: 11:00pm-11:50am
   start: 11
   duration: 60
   type: lecture
@@ -259,7 +259,7 @@ No experience or special software is required to participate in this workshop. T
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
-  time: 10:00pm-10:50pm
+  time: 10:00pm-10:50am
   start: 10
   duration: 60
   type: demo
@@ -279,7 +279,7 @@ No experience or special software is required to participate in this workshop. T
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: w
-  time: 11:00pm-11:50pm
+  time: 11:00pm-11:50am
   start: 11
   duration: 60
   type: demo
@@ -382,7 +382,7 @@ No experience or special software is required to participate in this workshop. T
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
-  time: 10:00pm-10:50pm
+  time: 10:00pm-10:50am
   start: 10
   duration: 60
   type: hands-on
@@ -493,7 +493,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
-  time: 10:00am-11:50pm
+  time: 10:00am-11:50am
   start: 10
   duration: 120
   type: demo
