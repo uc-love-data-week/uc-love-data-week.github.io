@@ -160,7 +160,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   description: "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.
 
 No experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance."
-  registration-page: 
+  registration-page: https://berkeley.libcal.com/event/14014901
   recording: 
   slides: 
 
@@ -559,6 +559,6 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   duration: 90
   type: hands-on
   description: The Industry Documents Library is a digital archive of documents created by industries which influence public health, hosted by the University of California, San Francisco Library. This archive contains millions of video, audio, and image files from the tobacco, opioids, fossil fuel, drug, and food industries, including advertisements, legal depositions, internal marketing documents, public health campaigns, and other historical records. This session will start with a presentation and overview of the contents of the IDL and search interface. Next, we will introduce a python based, open-source stack researchers can use to analyze, transcribe, and categorize data in IDL video, audio, and image files. Although participants will have an opportunity to try out these technologies during the workshop, the primary focus will be an overview of available tools and data, and participation in the programming sections is optional.
-  registration-page: 
+  registration-page: https://calendars.library.ucsf.edu/event/14014117
   recording: 
   slides: 
