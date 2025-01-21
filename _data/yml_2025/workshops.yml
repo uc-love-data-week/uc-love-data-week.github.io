@@ -34,7 +34,7 @@
   duration: 60
   type: hands-on
   description: Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We'll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools and file formats to get the most out of your laptop.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/JFoZQD_oRWS_u0URkOcbvA
   recording: 
   slides: 
 
@@ -53,7 +53,7 @@
   duration: 60
   type: hands-on
   description: Rclone is a command-line tool that allows users to transfer and synchronize files between cloud storage services, servers, and local machines. Rclone is a cross-platform application that runs on Linux, Windows and MacOS.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/a1ivl0-nTNOyhdZQNhlywA
   recording: 
   slides: 
 
@@ -179,7 +179,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: lecture
   description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/JWF019B0RvWljFV6zyLZ4w
   recording: 
   slides: 
 
@@ -199,7 +199,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: lecture
   description: Historical maps are fascinating objects and often beautiful to look at. However, they are often underutilized as research tools. Did you know that maps are data visualizations? In this 50-minute session, we’ll discuss the hows and whys behind historical maps as data and then discuss how you can use them in your own research. No prior experience with maps is required, and this session welcomes those from any and all research backgrounds.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/ysYKfU97R9apU0FNkMzggQ
   recording: 
   slides: 
 
@@ -243,7 +243,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: discussion
   description: Open Source Program Offices (OSPOs) are transforming how universities support open-source innovation. With support from the Sloan Foundation, UC campuses are building a first-of-its-kind multi-campus OSPO network inspired by UCSC's leadership and collaboration with UCLA, UCSD, UCB, UCD, and UCSB. This session invites researchers to explore how "open" practices intersect with their work, from open science to open educational resources. We'll also discuss opportunities to collaborate and build a vibrant, inclusive OSPO network across the UC system.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/1x0fCGZbQmWSQteb6GZg0w
   recording: 
   slides: 
 
@@ -457,7 +457,7 @@ A critical step in the data sharing and (re)use cycle involves researchers depos
 In this session, I aim to introduce some ideas and techniques for preparing research data for sharing. I will also introduce 2 to 3 data repositories ideal for researchers depositing their data and seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively.
 
 The session is structured to last approximately 50 minutes, comprising a 40-minute presentation followed by a 10-minute question-and-answer segment."
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/-aWEZ2DYS9C85h0OudaQTA
   recording: 
   slides: 
 
@@ -476,7 +476,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   duration: 60
   type: lecture
   description: UCLA library holds one of the largest collections of Islamic manuscripts (roughly 10,000 items) covering multiple languages including Arabic, Persian, Turkish, and Urdu, and spanning nearly 9 centuries (12th-20th). Currently, UCLA Library Special Collections is in the process of a multi-year effort to create digital records for its Islamic Manuscript holdings. At HumTech, our team is engaged in a project to visualize the cataloged manuscripts through Tableau. The goal of this project is to represent a birds eye view of the Islamic manuscript holdings for interested researchers. Through representation of multiple data points that the library cataloging process captured from the manuscripts, the visualization hopes to provide easy access to researchers for dissecting the data in multiple ways and helping them in drawing useful insights into the Islamic manuscript holdings at UCLA. In this presentation, we will be discussing the challenges that we faced in data cleaning, wrangling and visualization that are specific to manuscript collections, especially one that is primarily in non-Latin script and spans to the pre-modern period.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/XF9-dFppQ5idX43FCE5uYA
   recording: 
   slides: 
 
@@ -538,7 +538,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   duration: 120
   type: hands-on
   description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/pSI9eZFdS82Lo6cjcwNJvg
   recording: 
   slides: 
 
