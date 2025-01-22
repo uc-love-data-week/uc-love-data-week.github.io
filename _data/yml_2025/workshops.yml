@@ -1,9 +1,9 @@
 #Monday
-- title: "Designing Clinical Trial Protocol Extraction Workflows: Unleashing Large Language Modes (LLM) and Retrieval Augmented Generation (RAG)"
+- title: "REAP: Retrieval Enhanced AI for Research Protocol Extraction and Submission"
   name: clinical-llm
   speaker-type: "Speaker"
   speakers: [
-    {name: Ramya Sri Baluguri, org: ucd}
+    {name: Ramya Sri Baluguri, org: ucd-ctsc}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -13,8 +13,8 @@
   start: 10
   duration: 60
   type: demo
-  description: This session will demonstrate a process for reducing time and labor in operational oversight by submitting reports to <a href="https://clinicaltrials.gov" target="_blank">clinicaltrials.gov</a> from IRB protocols.
-  registration-page: 
+  description: Join us for a novel research use case to design a clinical trial protocol extraction workflow using pre-trained Large Language Models (LLM) and Retrieval Augmented Generation (RAG).
+  registration-page: https://www.eventbrite.com/e/reap-retrieval-enhanced-ai-for-research-protocol-extraction-and-submission-tickets-1206066329859
   recording: 
   slides: 
   
