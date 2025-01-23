@@ -116,8 +116,8 @@ This session is designed as a show-and-tell introduction—perfect for researche
   start: 3
   duration: 60
   type: hands-on
-  description: Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We’ll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification.
-  registration-page: 
+  description: "Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We’ll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification."
+  registration-page: https://events.library.ucdavis.edu/event/llms-locally-ollama-2025
   recording: 
   slides: 
 
@@ -345,7 +345,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 120
   type: hands-on
   description: Coming soon! 
-  registration-page: 
+  registration-page: https://events.library.ucdavis.edu/event/modern-practical-scholar-3-bibliometrics
   recording: 
   slides: 
 
@@ -365,7 +365,7 @@ No experience or special software is required to participate in this workshop. T
   duration: 60
   type: demo
   description: This session discusses how to curate your scholarly identity and increase your research impact using ORCID, a tool for connecting researchers with their scholarship and collaborators across disciplines, borders, and time.
-  registration-page: 
+  registration-page: https://events.library.ucdavis.edu/event/orcid_2025
   recording: 
   slides: 
 
@@ -483,8 +483,8 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
 
 #Friday
 
-- title: "Finding Geospatial Data"
-  name: geospatial-data
+- title: "Finding Spatial Data"
+  name: spatial-data
   speaker-type: "Speaker"
   speakers: [
     {name: Michele Tobias , org: ucd-dl}
@@ -496,9 +496,9 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   time: 10:00am-11:50am
   start: 10
   duration: 120
-  type: demo
-  description: Coming soon!
-  registration-page: 
+  type: discussion
+  description: "We'll discuss how people approach finding spatial data to identify which methods work for certain kinds of data. Participants should be prepared to discuss their own process and to ask questions. This will be more of a discussion than an instructor-lead workshop. We'll work as a group to document and share what we discover together."
+  registration-page: https://events.library.ucdavis.edu/event/finding-spatial-data-maptimedavis
   recording: 
   slides: 
 
