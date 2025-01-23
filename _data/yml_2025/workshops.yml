@@ -114,7 +114,7 @@ This session is designed as a show-and-tell introduction—perfect for researche
   day: m
   time: 3:00pm-4:50pm
   start: 3
-  duration: 60
+  duration: 120
   type: hands-on
   description: "Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We’ll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification."
   registration-page: https://events.library.ucdavis.edu/event/llms-locally-ollama-2025
