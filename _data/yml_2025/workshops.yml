@@ -344,7 +344,16 @@ No experience or special software is required to participate in this workshop. T
   start: 2
   duration: 120
   type: hands-on
-  description: Coming soon! 
+  description: "This is the third in a 3-part Modern Practical Scholar workshop series designed to share inclusive, equitable, and sustainable practices for knowledge acquisition. We'll focus on setting up and using free, open source software to swiftly gather, organize, and curate research literature. These workshops are applicable for any level of scholarship, and may be attended as a series or separately. This specific workshop is being offered in person on the UC Davis campus with a Zoom broadcast for remote participants.
+<p>After this workshop on bibliometrics in R, learners will be able to apply a bibliometric analysis framework to quickly gather the most relevant documents in a domain of science, and specifically</p>
+<ul>
+<li>Describe the base principles and purpose of using bibliometric analysis</li>
+<li>Recognize and apply R packages and functions to perform bibliometric analysis</li>
+<li>Analyze bibliometric data to identify patterns and relationships in a corpus</li>
+<li>Create and rapidly review a subset of most important documents from a corpus</li>
+</ul>
+<p><b>Prerequisites.</b>
+All members of the UC Davis and UC Love Data Week community are welcome to attend. If you'd like to code along, bring your laptop with internet access and the latest version of R installed. Note that this workshop is not an introduction to R and learners are expected to have already acquired basic fluency in the language.</p>"
   registration-page: https://events.library.ucdavis.edu/event/modern-practical-scholar-3-bibliometrics
   recording: 
   slides: 
