@@ -168,7 +168,9 @@ No experience or special software is required to participate in this workshop. T
   name: critical-data
   speaker-type: "Speaker"
   speakers: [
-    {name: Cindy Nguyen, org: ucla}
+    {name: Cindy Anh Nguyen, org: ucla},
+    {name: Meredith Cohen, org: ucla},
+    {name: Anna Robinson-Sweet, org: ucla}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -178,7 +180,7 @@ No experience or special software is required to participate in this workshop. T
   start: 12
   duration: 60
   type: lecture
-  description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
+  description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Presentations of projects by Cindy Anh Nguyen, Meredith Cohen, and Anna Robinson-Sweet. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
   registration-page: https://ucla.zoom.us/meeting/register/JWF019B0RvWljFV6zyLZ4w
   recording: 
   slides: 
