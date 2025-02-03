@@ -275,7 +275,8 @@ No experience or special software is required to participate in this workshop. T
   speaker-type: "Speaker"
   speakers: [
     {name: Jingbo Shang, org: ucsd},
-    {name: TBD, org: ucsd}
+    {name: Shuheng Li, org: ucsd},
+    {name: "Alessandro D'Amico", org: ucsd}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -285,7 +286,27 @@ No experience or special software is required to participate in this workshop. T
   start: 11
   duration: 60
   type: demo
-  description: Coming soon!
+  description: "Join us for two presentations from the fellows of the <a href=\"https://adalabucsd.github.io/DataPlanet/\" target=\"_blank\">UC San Diego Data Planet Initiative</a>, a new data sharing resource to make it easier to find and use research-ready datasets. 
+
+<p>
+Speaker: Shuheng Li
+</p>
+
+<p>
+Title: The Collection and Application of MASD, a Multimodal Activity Sensing Dataset
+</p>
+<p>
+Description: This project collects and presents MASD, an open-source Multimodal Activity Sensing Dataset designed to advance machine learning research in human activity recognition (HAR). MASD integrates data collected from three daily sensing devices: Inertial Measurement Unit (IMU) data in smartwatches and smartphones, WiFi Channel State Information (CSI) extracted by routers and body skeleton data captured by a Kinect camera. MASD enables various HAR research directions, including WiFi-based HAR, multimodal integration, sensing domain adaptation, and foundation model development. We highlight its potential by introducing a recently accepted paper that learns skeleton representation for downstream HAR tasks.
+</p>
+
+<p>
+Speaker: Alessandro D'Amico
+</p>
+<p>
+Title: Towards Large-Scale EEG Data Collection
+</p>
+<p>
+Description: Novel insights into human cognition can benefit from advancements in machine learning and artificial intelligence. However, these modern models are dependent on large volumes of high quality datasets. This talk describes some groundwork conducted on validating low-cost EEG amplifiers for studying human cognition, as well as pilot studies into data collection in non-lab environments in order to explore the feasibility of large-scale EEG data acquisition.</p>"
   registration-page: https://ucsd.zoom.us/meeting/register/tJYlf-uvrTopEtTx2zar8KiABlrerH7tzjWK#/registration
   recording: 
   slides: 
