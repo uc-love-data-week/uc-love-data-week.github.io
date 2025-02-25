@@ -99,7 +99,7 @@ In this session, we’ll demystify APIs and showcase their potential through the
 This session is designed as a show-and-tell introduction—perfect for researchers and students with no prior coding or data analysis experience. By the end, attendees will have a clear understanding of how APIs work, their practical applications, and how to start integrating them into their research workflows. Get ready to see what APIs can do for your projects!"
   registration-page: https://cglink.me/2dD/r2264477
   recording: 
-  slides: 
+  slides: https://jairomelo.com/intro2APIs/chapters/
 
 - title: "Working with Large Language Models (LLMs) on Your Laptop"
   name: LLM
@@ -182,7 +182,7 @@ No experience or special software is required to participate in this workshop. T
   type: lecture
   description: Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Presentations of projects by Cindy Anh Nguyen, Meredith Cohen, and Anna Robinson-Sweet. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.
   registration-page: https://ucla.zoom.us/meeting/register/JWF019B0RvWljFV6zyLZ4w
-  recording: 
+  recording: https://zenodo.org/records/14868007
   slides: 
 
 
@@ -202,7 +202,7 @@ No experience or special software is required to participate in this workshop. T
   type: lecture
   description: Historical maps are fascinating objects and often beautiful to look at. However, they are often underutilized as research tools. Did you know that maps are data visualizations? In this 50-minute session, we’ll discuss the hows and whys behind historical maps as data and then discuss how you can use them in your own research. No prior experience with maps is required, and this session welcomes those from any and all research backgrounds.
   registration-page: https://ucla.zoom.us/meeting/register/ysYKfU97R9apU0FNkMzggQ
-  recording: 
+  recording: https://zenodo.org/records/14868036
   slides: 
 
 
@@ -308,8 +308,8 @@ Title: Towards Large-Scale EEG Data Collection
 <p>
 Description: Novel insights into human cognition can benefit from advancements in machine learning and artificial intelligence. However, these modern models are dependent on large volumes of high quality datasets. This talk describes some groundwork conducted on validating low-cost EEG amplifiers for studying human cognition, as well as pilot studies into data collection in non-lab environments in order to explore the feasibility of large-scale EEG data acquisition.</p>"
   registration-page: https://ucsd.zoom.us/meeting/register/tJYlf-uvrTopEtTx2zar8KiABlrerH7tzjWK#/registration
-  recording: 
-  slides: 
+  recording: https://zenodo.org/records/14926693
+  slides: https://zenodo.org/records/14926693
 
 - title: "Quarto Showcase"
   name: quarto
@@ -444,8 +444,8 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   type: discussion
   description: This session will discuss lessons learned and emerging community practices as they relate to AI Readiness and AI Reproducibility. Insights into ways to leverage Gen-AI and LLMs for data stewardship will be shared, as well as open research questions, and gaps in practices at the intersection of AI and data. Please bring your own practices and insights to the session so they can inform the NSF-funded <a href="https://www.farr-rcn.org/" target="_blank">FAIR in Machine Learning, AI Readiness, (AI) Reproducibility Research Coordination Network (FARR)</a>.
   registration-page: https://ucsd.zoom.us/meeting/register/tJUtd-2prTIsE9MoCX6unVmmWYg69Pq-VQDu#/registration
-  recording: 
-  slides: 
+  recording: https://zenodo.org/records/14926744
+  slides: https://zenodo.org/records/14926744
 
 - title: "From &quot;Could we…?&quot; to &quot;Should we…?&quot;: Developing a critical Framework for Engaging Artificial Intelligence"
   name: critical-ai
@@ -465,7 +465,7 @@ Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL 
   type: lecture
   description: No matter whether you love it, fear it, or are sick of hearing about it, artificial intelligence impacts our lives. In this workshop, we will go beyond what AI tools do (or their creators say they do) and take a hard look at the broader implications of developing and using artificial intelligence. We will explore the power structures that inform the human labor behind AI, as well as the impacts of AI development and use on natural ecosystems, systematic oppression, and information economies. We will also discuss the agency we retain as students, teachers, and lifelong learners to co-create critical frameworks that challenge the inevitability of robot overlords.
   registration-page: https://calendar.library.ucla.edu/event/13650085
-  recording: 
+  recording: https://zenodo.org/records/14889799
   slides: 
 
 - title: "Sharing and Locating Research Data in Humanities and Social Science Studies"
@@ -490,7 +490,7 @@ In this session, I aim to introduce some ideas and techniques for preparing rese
 
 The session is structured to last approximately 50 minutes, comprising a 40-minute presentation followed by a 10-minute question-and-answer segment."
   registration-page: https://ucla.zoom.us/meeting/register/-aWEZ2DYS9C85h0OudaQTA
-  recording: 
+  recording: https://zenodo.org/records/14868119
   slides: 
 
 - title: "Visualizing Islamic Manuscripts data at UCLA Library"
@@ -509,7 +509,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   type: lecture
   description: UCLA library holds one of the largest collections of Islamic manuscripts (roughly 10,000 items) covering multiple languages including Arabic, Persian, Turkish, and Urdu, and spanning nearly 9 centuries (12th-20th). Currently, UCLA Library Special Collections is in the process of a multi-year effort to create digital records for its Islamic Manuscript holdings. At HumTech, our team is engaged in a project to visualize the cataloged manuscripts through Tableau. The goal of this project is to represent a birds eye view of the Islamic manuscript holdings for interested researchers. Through representation of multiple data points that the library cataloging process captured from the manuscripts, the visualization hopes to provide easy access to researchers for dissecting the data in multiple ways and helping them in drawing useful insights into the Islamic manuscript holdings at UCLA. In this presentation, we will be discussing the challenges that we faced in data cleaning, wrangling and visualization that are specific to manuscript collections, especially one that is primarily in non-Latin script and spans to the pre-modern period.
   registration-page: https://ucla.zoom.us/meeting/register/XF9-dFppQ5idX43FCE5uYA
-  recording: 
+  recording: https://zenodo.org/records/14868191
   slides: 
 
 
@@ -553,7 +553,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   description: Join us for a workshop designed to equip you with the skills to responsibly assess and use existing datasets for new research. Using the U.S. National Parks Visit Data as a real-world example, we will consider key issues in reusing data, including historical context, data collection methods, and ethical aspects of the dataset. This workshop will underscore the importance of documentation, provenance, and context in utilizing existing datasets for research, and participants will gain skills in evaluating data for reuse and suitability for their work.
   registration-page: https://uci.zoom.us/meeting/register/tJMrceGqqjIiHNxDjDzPw3YbR3i0ja_k0TwG
   recording: 
-  slides: 
+  slides: https://zenodo.org/records/14907570
 
 - title: "Tableau Workshop"
   name: tableau
