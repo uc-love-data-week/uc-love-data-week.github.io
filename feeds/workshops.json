@@ -2540,7 +2540,7 @@
         "type": "lecture",
         "description": "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the UCs have to offer? This virtual workshop is for you! I'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project. No experience or special software is required to participate in this workshop.",
         "registration-page": "https://berkeley.libcal.com/event/11887043",
-        "recording": null,
+        "recording": "https://www.youtube.com/watch?v=te1GuZRCdmA",
         "slides": "http://ucblib.link/GIS-LDW24"
       },
       "photogram": {
@@ -2689,7 +2689,7 @@
         "start": 1,
         "duration": 60,
         "type": "lecture",
-        "description": "Open research or open science is the practice of making the process and products of research transparent and accessible to others for collaboration, reproducibility, and broader reuse. This workshop will provide an overview of open principles and practices that foster collaboration and make research outputs, such as data, methods, and publications, openly available. By the end of this workshop you will be able to: - Define open research and describe the benefits of putting it into practice - Adopt transparent and collaborative practices in your own research - Explore approaches to collaborative team science that promote openness - Locate key resources for open science and collaboration available at the University of California",
+        "description": "Open research or open science is the practice of making the process and products of research transparent and accessible to others for collaboration, reproducibility, and broader reuse. This workshop will provide an overview of open principles and practices that foster collaboration and make research outputs, such as data, methods, and publications, openly available. By the end of this workshop you will be able to: <ul><li>Define open research and describe the benefits of putting it into practice</li><li> Adopt transparent and collaborative practices in your own research </li><li> Explore approaches to collaborative team science that promote openness</li><li> Locate key resources for open science and collaboration available at the University of California</li></ul>",
         "registration-page": "https://uci.zoom.us/meeting/register/tJIuf-CsrzgiHtQuZ-Tfqtv9MJUNNzy1UuHt",
         "recording": "https://vimeo.com/913398996",
         "slides": "http://ucberk.li/LDW-openresearch"
@@ -2757,7 +2757,7 @@
         "type": "demo",
         "description": "Python and Stata and R, oh my! Is the prospect of having to learn to code getting you down? Do you ever feel like you'd like to just get into the data directly but aren't sure how? In this workshop we'll explore the many ways you can perform data analysis without needing to know statistical packages or languages first. We'll look at tools which let you upload your own data, tools for data visualization, and administrative data sites and tools which allow for interactive data requests and table creation, among other possibilities. No prior data analysis experience necessary.",
         "registration-page": "https://berkeley.libcal.com/event/11904743",
-        "recording": null,
+        "recording": "https://www.youtube.com/watch?v=jLIWUQLTTMo&list=PLzAdVSw-UwkTKihViYf4jPuPI3lIP1Etl&index=7",
         "slides": "https://drive.google.com/file/d/1Zm6RwWYiFDM_Qm29DSlvJRldOSsVaRnN/view?usp=sharing"
       },
       "allofus": {
@@ -3089,8 +3089,723 @@
         "type": "demo",
         "description": "This workshop will give an overview of basic qualitative research methods, starting with (a little) theory, and moving on to sampling and theme development. We will then take a look at open tools for qualitative data analysis. After a brief demo of Taguette, other tools, such as QDA Miner, qcoder and QualCoder, will be reviewed. Additional resources will be mentioned and the slides/links made available.",
         "registration-page": "https://berkeley.libcal.com/calendar/workshops/QDAToolsMethods",
-        "recording": null,
+        "recording": "https://www.youtube.com/watch?v=hhHfU8zn5Jg",
         "slides": "https://drive.google.com/file/d/1OpRdQEWHX5GtGg82Gl8qPHYkRDPF8Fpa/view?usp=sharing"
+      }
+    },
+    "year_2025": {
+      "clinical-llm": {
+        "title": "REAP: Retrieval Enhanced AI for Research Protocol Extraction and Submission",
+        "name": "clinical-llm",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Ramya Sri Baluguri",
+            "org": "ucd-ctsc"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "m",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "demo",
+        "description": "Join us for a novel research use case to design a clinical trial protocol extraction workflow using pre-trained Large Language Models (LLM) and Retrieval Augmented Generation (RAG).",
+        "registration-page": "https://www.eventbrite.com/e/reap-retrieval-enhanced-ai-for-research-protocol-extraction-and-submission-tickets-1206066329859",
+        "recording": null,
+        "slides": null
+      },
+      "command-line": {
+        "title": "Tips and Tools for Dealing with Large Datasets at the Command Line",
+        "name": "command-line",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Leigh Phan",
+            "org": "ucla-dsc"
+          },
+          {
+            "name": "Kristian Allen",
+            "org": "ucla-dsc"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "m",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We'll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools and file formats to get the most out of your laptop.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/JFoZQD_oRWS_u0URkOcbvA",
+        "recording": null,
+        "slides": null
+      },
+      "r-clone": {
+        "title": "R Clone: What is it? Why do I need it?",
+        "name": "r-clone",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Jamie Jamison",
+            "org": "ucla-dsc"
+          }
+        ],
+        "img": "rclone.png",
+        "thumbnail": "rclone.png",
+        "alt": "rclone logo",
+        "day": "m",
+        "time": "1:00pm-1:50pm",
+        "start": 1,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Rclone is a command-line tool that allows users to transfer and synchronize files between cloud storage services, servers, and local machines. Rclone is a cross-platform application that runs on Linux, Windows and MacOS.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/a1ivl0-nTNOyhdZQNhlywA",
+        "recording": null,
+        "slides": null
+      },
+      "wiki-edit": {
+        "title": "Wikipedia Editathon",
+        "name": "wiki-edit",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Corliss Lee",
+            "org": "ucb"
+          },
+          {
+            "name": "Bee Lehman",
+            "org": "ucb"
+          }
+        ],
+        "img": "wikipedia_logo.png",
+        "thumbnail": "wikipedia_logo.png",
+        "alt": "wikipedia logo: globe with icons over the words wikipedia",
+        "day": "m",
+        "time": "12:00pm-1:30pm",
+        "start": 12,
+        "duration": 90,
+        "type": "hands-on",
+        "description": "Wikipedia is among the most visited websites in the world, but even Wikipedia&#39;s staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are &#39;notable&#39; and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. Read more in our blog post, <a href='https://update.lib.berkeley.edu/2025/01/09/the-bias-of-notability-in-wikipedia/' target='_blank'>The Bias of Notability in Wikipedia</a>.You can be part of the solution! Join us on February 10 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href= 'https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page' target='_blank'>Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you&#39;d like to edit, or we&#39;ll help you find a way to make a difference in an area of interest to you.",
+        "registration-page": "https://berkeley.libcal.com/calendar/workshops/editathon-2025",
+        "recording": null,
+        "slides": null
+      },
+      "apis": {
+        "title": "Unlocking Data: A Gentle Introduction to APIs",
+        "name": "apis",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Jairo Melo",
+            "org": "ucsb"
+          },
+          {
+            "name": "Jose Nino",
+            "org": "ucsb"
+          }
+        ],
+        "img": "apis.png",
+        "thumbnail": "apis_thumb.png",
+        "alt": "Picture of tree of items controlled on the internet",
+        "day": "m",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "demo",
+        "description": "APIs (Application Programming Interfaces) serve as powerful tools for accessing and interacting with data in a structured and automated manner, providing capabilities far beyond what is possible through traditional interfaces. Despite their ubiquity in software development, APIs remain underutilized in humanities research, where they offer immense potential for innovative data collection and analysis.\nIn this session, we'll demystify APIs and showcase their potential through the Library of Congress API. Participants will see step-by-step how to identify if a collection has API access, construct requests, and interpret responses, all with tools like Postman. We'll walk through concepts like authentication, endpoints, parameters, and how to transform JSON responses into tabular data for visualization.\nThis session is designed as a show-and-tell introduction—perfect for researchers and students with no prior coding or data analysis experience. By the end, attendees will have a clear understanding of how APIs work, their practical applications, and how to start integrating them into their research workflows. Get ready to see what APIs can do for your projects!",
+        "registration-page": "https://cglink.me/2dD/r2264477",
+        "recording": null,
+        "slides": "https://jairomelo.com/intro2APIs/chapters/"
+      },
+      "LLM": {
+        "title": "Working with Large Language Models (LLMs) on Your Laptop",
+        "name": "LLM",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Carl Stahmer",
+            "org": "ucd-dl"
+          },
+          {
+            "name": "Pamela Reynolds",
+            "org": "ucd-dl"
+          }
+        ],
+        "img": "ollama.png",
+        "thumbnail": "ollama.png",
+        "alt": "cartoon lama with words 'get up and running with large language models'",
+        "day": "m",
+        "time": "3:00pm-4:50pm",
+        "start": 3,
+        "duration": 120,
+        "type": "hands-on",
+        "description": "Avoid the privacy issues of sending prompts to cloud based LLMs (like ChatGPT) by installing and managing a local instance of OLLAMA, an open source downloadable LLM and API. We'll set up a chatbot and practice directly querying the LLM for generative outputs, text clustering and classification.",
+        "registration-page": "https://events.library.ucdavis.edu/event/llms-locally-ollama-2025",
+        "recording": null,
+        "slides": null
+      },
+      "open-sci": {
+        "title": "Data Research Repositories, Digital Scholarly Ecosystems, Open Science & AI Possibilities",
+        "name": "open-sci",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Ray Uzwyshyn",
+            "org": "ucr-lib"
+          },
+          {
+            "name": "Brendon Wheeler",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Learn about the research possibilities through the lens of the UCR Library Research Services Department. Topics such as data repositories, digital scholarship ecosystems and research with AI will be discussed to help illustrate relationships between data and artificial intelligence.",
+        "registration-page": "https://forms.gle/vxs13rwW9MRTA2Dx9",
+        "recording": null,
+        "slides": null
+      },
+      "gis-map": {
+        "title": "GIS & Mapping: Where to Start",
+        "name": "gis-map",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Susan Powell",
+            "org": "ucb-lib"
+          }
+        ],
+        "img": "gis.png",
+        "thumbnail": "gis.png",
+        "alt": "stylized globe of the earth",
+        "day": "t",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Interested in digital mapping and GIS (geographic information science), but not sure where to start? Have some experience, but want to learn more about what the campus has to offer? This virtual workshop is for you! We'll provide an overview of the GIS and digital mapping landscape as a whole, including: which tools are out there and how to choose the right one for your needs, common terms used in the field, resources for learning how to get started mapping, and where to go to find data to create your first project.\nNo experience or special software is required to participate in this workshop. The Zoom link to the workshop will be sent to registrants 24 hours in advance.",
+        "registration-page": "https://berkeley.libcal.com/event/14014901",
+        "recording": null,
+        "slides": null
+      },
+      "critical-data": {
+        "title": "Critical and Creative Applications of Data Centric Research: Critical Data Lab Projects in Progress Conversation",
+        "name": "critical-data",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Cindy Anh Nguyen",
+            "org": "ucla"
+          },
+          {
+            "name": "Meredith Cohen",
+            "org": "ucla"
+          },
+          {
+            "name": "Anna Robinson-Sweet",
+            "org": "ucla"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Critical Data Lab is a collaborative convergence network with UCLA scholars to explore critical and creative applications within sociocultural data centric research. Through invited speakers and workshopping problems and projects, we seek to cultivate an inclusive community at UCLA of transdisciplinary experimentation built on ethical engagement and thoughtful exchange. This presentation and discussion will share works in progress from some of the projects at UCLA as well as the conversation from our fall convening focused on broader questions related to data curation, production, circulation, and publishing in the realms of teaching and research. Some topics and projects discussed include sustainable and ethical collaborations and reciprocity, multilingual and multimodal data analysis and access, humanistic and literary data, global south and colonial knowledge. Presentations of projects by Cindy Anh Nguyen, Meredith Cohen, and Anna Robinson-Sweet. Critical Data Lab is convened by Cindy Nguyen and with support from UCLA DataX, Institute for Digital Research and Education, and Office of Advanced Research Computing.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/JWF019B0RvWljFV6zyLZ4w",
+        "recording": "https://zenodo.org/records/14868007",
+        "slides": null
+      },
+      "historical-maps": {
+        "title": "Historical Maps as Data (and how to use them)",
+        "name": "historical-maps",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Maggie Tarmey",
+            "org": "ucla"
+          }
+        ],
+        "img": "historical_map.png",
+        "thumbnail": "historical_map.png",
+        "alt": "1832 map of Europe on faded parchment",
+        "day": "t",
+        "time": "1:00pm-1:50pm",
+        "start": 1,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Historical maps are fascinating objects and often beautiful to look at. However, they are often underutilized as research tools. Did you know that maps are data visualizations? In this 50-minute session, we'll discuss the hows and whys behind historical maps as data and then discuss how you can use them in your own research. No prior experience with maps is required, and this session welcomes those from any and all research backgrounds.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/ysYKfU97R9apU0FNkMzggQ",
+        "recording": "https://zenodo.org/records/14868036",
+        "slides": null
+      },
+      "photogrammetry": {
+        "title": "To Be or Not To Be: Photogrammetry and Virtual Reality Environments",
+        "name": "photogrammetry",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Alvaro Alvarez",
+            "org": "ucr-lib"
+          },
+          {
+            "name": "Brendon Wheeler",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Learn how to store captured 3D data with the help of the CreatR Lab Makerspace and Innovative Media Librarian at the UCR Library. We will go over how to store 3D data and to engage the data with virtual reality to use in personal or academic projects. Learn about scene making in Unity and how to successfully setup environments without overburdening your resources.",
+        "registration-page": "https://forms.gle/Ephb6bU1pYnK2ckm9",
+        "recording": null,
+        "slides": null
+      },
+      "ospo": {
+        "title": "OSPOs in Higher Ed Discussion Group",
+        "name": "ospo",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Tim Dennis",
+            "org": "ucla-dsc"
+          },
+          {
+            "name": "Reid Otsuji",
+            "org": "ucsd-lib"
+          },
+          {
+            "name": "Todd  Grappone",
+            "org": "ucla-lib"
+          },
+          {
+            "name": "David Minor",
+            "org": "ucsd-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "3:00pm-3:50pm",
+        "start": 3,
+        "duration": 60,
+        "type": "discussion",
+        "description": "Open Source Program Offices (OSPOs) are transforming how universities support open-source innovation. With support from the Sloan Foundation, UC campuses are building a first-of-its-kind multi-campus OSPO network inspired by UCSC's leadership and collaboration with UCLA, UCSD, UCB, UCD, and UCSB. This session invites researchers to explore how 'open' practices intersect with their work, from open science to open educational resources. We'll also discuss opportunities to collaborate and build a vibrant, inclusive OSPO network across the UC system.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/1x0fCGZbQmWSQteb6GZg0w",
+        "recording": null,
+        "slides": null
+      },
+      "qualianon": {
+        "title": "Safeguarding Privacy in Qualitative Research with QualiAnon",
+        "name": "qualianon",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Renata Curty",
+            "org": "ucsb"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "demo",
+        "description": "Join us for practical tips on qualitative data de-identification and strategies to tackle the unique challenges researchers face when working with human subject data. This session will feature QualiAnon, an open-source tool designed to help researchers securely anonymize and pseudonymize sensitive qualitative data with precision and flexibility. Unlike automated tools that rely on blind substitutions, QualiAnon gives you full control over how and when data is anonymized, allowing you to manually define replacement rules for specific datasets or variables. This approach ensures a higher level of accuracy and privacy by stripping identifying information without compromising the richness of the data. In this session, we'll demonstrate how QualiAnon can streamline your data protection efforts, improve your workflow, and ensure compliance with privacy standards. Don't miss the chance to discover how this tool can simplify the de-identification process while safeguarding sensitive information in your research!",
+        "registration-page": "https://cglink.me/2dD/r2264475",
+        "recording": null,
+        "slides": null
+      },
+      "dataplanet": {
+        "title": "DataPlanet: Data for Data Science",
+        "name": "dataplanet",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Jingbo Shang",
+            "org": "ucsd"
+          },
+          {
+            "name": "Shuheng Li",
+            "org": "ucsd"
+          },
+          {
+            "name": "Alessandro D'Amico",
+            "org": "ucsd"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "demo",
+        "description": "Join us for two presentations from the fellows of the <a href='https://adalabucsd.github.io/DataPlanet/' target='_blank'>UC San Diego Data Planet Initiative</a>, a new data sharing resource to make it easier to find and use research-ready datasets.\n<p> Speaker: Shuheng Li </p>\n<p> Title: The Collection and Application of MASD, a Multimodal Activity Sensing Dataset </p> <p> Description: This project collects and presents MASD, an open-source Multimodal Activity Sensing Dataset designed to advance machine learning research in human activity recognition (HAR). MASD integrates data collected from three daily sensing devices: Inertial Measurement Unit (IMU) data in smartwatches and smartphones, WiFi Channel State Information (CSI) extracted by routers and body skeleton data captured by a Kinect camera. MASD enables various HAR research directions, including WiFi-based HAR, multimodal integration, sensing domain adaptation, and foundation model development. We highlight its potential by introducing a recently accepted paper that learns skeleton representation for downstream HAR tasks. </p>\n<p> Speaker: Alessandro D'Amico </p> <p> Title: Towards Large-Scale EEG Data Collection </p> <p> Description: Novel insights into human cognition can benefit from advancements in machine learning and artificial intelligence. However, these modern models are dependent on large volumes of high quality datasets. This talk describes some groundwork conducted on validating low-cost EEG amplifiers for studying human cognition, as well as pilot studies into data collection in non-lab environments in order to explore the feasibility of large-scale EEG data acquisition.</p>",
+        "registration-page": "https://ucsd.zoom.us/meeting/register/tJYlf-uvrTopEtTx2zar8KiABlrerH7tzjWK#/registration",
+        "recording": "https://zenodo.org/records/14926693",
+        "slides": "https://zenodo.org/records/14926693"
+      },
+      "quarto": {
+        "title": "Quarto Showcase",
+        "name": "quarto",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Greg Janée",
+            "org": "ucsb"
+          },
+          {
+            "name": "Julien Brun",
+            "org": "ucsb"
+          },
+          {
+            "name": "Sam Csik",
+            "org": "nceas"
+          },
+          {
+            "name": "Renata Curty",
+            "org": "ucsb"
+          }
+        ],
+        "img": "quarto.png",
+        "thumbnail": "quarto.png",
+        "alt": "quarto logo",
+        "day": "w",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "demo",
+        "description": "Quarto is a publication tool built into the RStudio multilanguage data analysis and visualization platform, often used in conjunction with code notebooks. Quarto enables a more reproducible approach to data-driven research by integrating documentation, code, and results in one document. But it's also a great publication platform on its own! In this session a panel of Quarto users will showcase what Quarto is capable of, especially when used in concert with GitHub Pages hosting, including creating websites (course websites, personal websites, blogs), presentations, dashboards, academic papers, and books. We will also demonstrate, in real-time, how easy it is to create such research deliverables. Prepare to be sold on using Quarto!",
+        "registration-page": "https://cglink.me/2dD/r2264473",
+        "recording": null,
+        "slides": null
+      },
+      "oral-history": {
+        "title": "Oral History Methodology for the Qualitative Researcher",
+        "name": "oral-history",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Ann Glusker",
+            "org": "ucb-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "1:00pm-1:50pm",
+        "start": 1,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Qualitative research encompasses many methodological approaches, and one of the most powerful is oral history. As described by the UC Berkeley Oral History Center, this approach involves producing 'first-person narrative topical and life histories that explore the narrator's understanding of events through a recorded interview...[this] results in a lightly edited transcript of the interview that the narrator reviews, which is then published.' This differs from the more familiar qualitative research interview, in that it is a two-directional, and transparent process... which comes with its own challenges. In this workshop you will learn more about these synergies and contrasts between and within methods, hear more about best practices for conducting oral history projects, and have time to ask questions about project ideas of your own.",
+        "registration-page": "https://berkeley.libcal.com/calendar/workshops/OralHistoryForQualResearchers",
+        "recording": null,
+        "slides": null
+      },
+      "bibliometrics-r": {
+        "title": "Distilling a research domain with bibliometric analysis in R",
+        "name": "bibliometrics-r",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Colton Baumler",
+            "org": "ucd-dl"
+          },
+          {
+            "name": "Pamela Reynolds",
+            "org": "ucd-dl"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "2:00pm-3:50pm",
+        "start": 2,
+        "duration": 120,
+        "type": "hands-on",
+        "description": "This is the third in a 3-part Modern Practical Scholar workshop series designed to share inclusive, equitable, and sustainable practices for knowledge acquisition. We'll focus on setting up and using free, open source software to swiftly gather, organize, and curate research literature. These workshops are applicable for any level of scholarship, and may be attended as a series or separately. This specific workshop is being offered in person on the UC Davis campus with a Zoom broadcast for remote participants. <p>After this workshop on bibliometrics in R, learners will be able to apply a bibliometric analysis framework to quickly gather the most relevant documents in a domain of science, and specifically</p> <ul> <li>Describe the base principles and purpose of using bibliometric analysis</li> <li>Recognize and apply R packages and functions to perform bibliometric analysis</li> <li>Analyze bibliometric data to identify patterns and relationships in a corpus</li> <li>Create and rapidly review a subset of most important documents from a corpus</li> </ul> <p><b>Prerequisites.</b> All members of the UC Davis and UC Love Data Week community are welcome to attend. If you'd like to code along, bring your laptop with internet access and the latest version of R installed. Note that this workshop is not an introduction to R and learners are expected to have already acquired basic fluency in the language.</p>",
+        "registration-page": "https://events.library.ucdavis.edu/event/modern-practical-scholar-3-bibliometrics",
+        "recording": null,
+        "slides": null
+      },
+      "orcid": {
+        "title": "Get credit for your work with ORCID",
+        "name": "orcid",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Megan Van Noord",
+            "org": "ucd-lib"
+          },
+          {
+            "name": "Pamela Reynolds",
+            "org": "ucd-dl"
+          }
+        ],
+        "img": "orcid.png",
+        "thumbnail": "orcid.png",
+        "alt": "orcid logo",
+        "day": "w",
+        "time": "4:00pm-4:50pm",
+        "start": 4,
+        "duration": 60,
+        "type": "demo",
+        "description": "This session discusses how to curate your scholarly identity and increase your research impact using ORCID, a tool for connecting researchers with their scholarship and collaborators across disciplines, borders, and time.",
+        "registration-page": "https://events.library.ucdavis.edu/event/orcid_2025",
+        "recording": null,
+        "slides": null
+      },
+      "sql-r": {
+        "title": "Integrating SQL into R analytical workflows using duckDB & dbplyr",
+        "name": "sql-r",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Julien Brun",
+            "org": "ucsb"
+          },
+          {
+            "name": "Greg Janée",
+            "org": "ucsb"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "In this workshop, we will discuss why you might consider relational databases to store research data. We will go over how to insert data in and retrieve data from a database using R and <a href='https://duckdb.org' target='_blank'>duckDB</a>. We will focus on how to use the R <a href=' https://dbplyr.tidyverse.org' target='_blank'> dbplyr </a> package to integrate databases into tidyverse-focused analytical workflows. This workshop will cover three main points: <ul><li>Introduce concepts of a database and discuss why you might want to have/want to use one </li><li> How to integrate the use of a database into an R analytical workflow </li><li> Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL basics. </li></ul>",
+        "registration-page": "https://cglink.me/2dD/r2264476",
+        "recording": null,
+        "slides": null
+      },
+      "farr": {
+        "title": "AI Readiness, AI Reproducibility, and Data Stewardship",
+        "name": "farr",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Christine Kirkpatrick",
+            "org": "sdsc"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "discussion",
+        "description": "This session will discuss lessons learned and emerging community practices as they relate to AI Readiness and AI Reproducibility. Insights into ways to leverage Gen-AI and LLMs for data stewardship will be shared, as well as open research questions, and gaps in practices at the intersection of AI and data. Please bring your own practices and insights to the session so they can inform the NSF-funded <a href='https://www.farr-rcn.org/' target='_blank'>FAIR in Machine Learning, AI Readiness, (AI) Reproducibility Research Coordination Network (FARR)</a>.",
+        "registration-page": "https://ucsd.zoom.us/meeting/register/tJUtd-2prTIsE9MoCX6unVmmWYg69Pq-VQDu#/registration",
+        "recording": "https://zenodo.org/records/14926744",
+        "slides": "https://zenodo.org/records/14926744"
+      },
+      "critical-ai": {
+        "title": "From &quot;Could we…?&quot; to &quot;Should we…?&quot;: Developing a critical Framework for Engaging Artificial Intelligence",
+        "name": "critical-ai",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Shelby Hallman",
+            "org": "ucla-lib"
+          },
+          {
+            "name": "Alexandra Solodkaya",
+            "org": "ucla-lib"
+          },
+          {
+            "name": "Ashley Peterson",
+            "org": "ucla-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "1:00pm-2:30pm",
+        "start": 1,
+        "duration": 90,
+        "type": "lecture",
+        "description": "No matter whether you love it, fear it, or are sick of hearing about it, artificial intelligence impacts our lives. In this workshop, we will go beyond what AI tools do (or their creators say they do) and take a hard look at the broader implications of developing and using artificial intelligence. We will explore the power structures that inform the human labor behind AI, as well as the impacts of AI development and use on natural ecosystems, systematic oppression, and information economies. We will also discuss the agency we retain as students, teachers, and lifelong learners to co-create critical frameworks that challenge the inevitability of robot overlords.",
+        "registration-page": "https://calendar.library.ucla.edu/event/13650085",
+        "recording": "https://zenodo.org/records/14889799",
+        "slides": null
+      },
+      "social-media": {
+        "title": "Sharing and Locating Research Data in Humanities and Social Science Studies",
+        "name": "social-media",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Tianji Jiang",
+            "org": "ucla"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "3:00pm-3:50pm",
+        "start": 3,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Sharing and reusing data can effectively reduce redundant efforts in data collection. It also enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture requires frameworks that include policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike.\nA critical step in the data sharing and (re)use cycle involves researchers depositing their research data into data-sharing infrastructures, keeping their data in a sharable and usable form, making other researchers aware of their data, and identifying data that are (re)usable for their needs.\nIn this session, I aim to introduce some ideas and techniques for preparing research data for sharing. I will also introduce 2 to 3 data repositories ideal for researchers depositing their data and seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively.\nThe session is structured to last approximately 50 minutes, comprising a 40-minute presentation followed by a 10-minute question-and-answer segment.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/-aWEZ2DYS9C85h0OudaQTA",
+        "recording": "https://zenodo.org/records/14868119",
+        "slides": null
+      },
+      "manuscripts-viz": {
+        "title": "Visualizing Islamic Manuscripts data at UCLA Library",
+        "name": "manuscripts-viz",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Saad Shaukat",
+            "org": "ucla"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "4:00pm-4:50pm",
+        "start": 4,
+        "duration": 60,
+        "type": "lecture",
+        "description": "UCLA library holds one of the largest collections of Islamic manuscripts (roughly 10,000 items) covering multiple languages including Arabic, Persian, Turkish, and Urdu, and spanning nearly 9 centuries (12th-20th). Currently, UCLA Library Special Collections is in the process of a multi-year effort to create digital records for its Islamic Manuscript holdings. At HumTech, our team is engaged in a project to visualize the cataloged manuscripts through Tableau. The goal of this project is to represent a birds eye view of the Islamic manuscript holdings for interested researchers. Through representation of multiple data points that the library cataloging process captured from the manuscripts, the visualization hopes to provide easy access to researchers for dissecting the data in multiple ways and helping them in drawing useful insights into the Islamic manuscript holdings at UCLA. In this presentation, we will be discussing the challenges that we faced in data cleaning, wrangling and visualization that are specific to manuscript collections, especially one that is primarily in non-Latin script and spans to the pre-modern period.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/XF9-dFppQ5idX43FCE5uYA",
+        "recording": "https://zenodo.org/records/14868191",
+        "slides": null
+      },
+      "spatial-data": {
+        "title": "Finding Spatial Data",
+        "name": "spatial-data",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Michele Tobias",
+            "org": "ucd-dl"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "f",
+        "time": "10:00am-11:50am",
+        "start": 10,
+        "duration": 120,
+        "type": "discussion",
+        "description": "We'll discuss how people approach finding spatial data to identify which methods work for certain kinds of data. Participants should be prepared to discuss their own process and to ask questions. This will be more of a discussion than an instructor-lead workshop. We'll work as a group to document and share what we discover together.",
+        "registration-page": "https://events.library.ucdavis.edu/event/finding-spatial-data-maptimedavis",
+        "recording": null,
+        "slides": null
+      },
+      "data-context": {
+        "title": "Data in Context: Strategies for Evaluating and Utilizing Existing Datasets for Research",
+        "name": "data-context",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Wasila Dahdul",
+            "org": "uci"
+          },
+          {
+            "name": "Pamela Reynolds",
+            "org": "ucd-dl"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "f",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Join us for a workshop designed to equip you with the skills to responsibly assess and use existing datasets for new research. Using the U.S. National Parks Visit Data as a real-world example, we will consider key issues in reusing data, including historical context, data collection methods, and ethical aspects of the dataset. This workshop will underscore the importance of documentation, provenance, and context in utilizing existing datasets for research, and participants will gain skills in evaluating data for reuse and suitability for their work.",
+        "registration-page": "https://uci.zoom.us/meeting/register/tJMrceGqqjIiHNxDjDzPw3YbR3i0ja_k0TwG",
+        "recording": null,
+        "slides": "https://zenodo.org/records/14907570"
+      },
+      "tableau": {
+        "title": "Tableau Workshop",
+        "name": "tableau",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Madison Bautista",
+            "org": "ucla"
+          }
+        ],
+        "img": "Tableau_logo.png",
+        "thumbnail": "Tableau_logo.png",
+        "alt": "Tableau logo: the word Tableau under multicolored plus signs",
+        "day": "f",
+        "time": "1:00pm-2:50pm",
+        "start": 1,
+        "duration": 120,
+        "type": "hands-on",
+        "description": "Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/pSI9eZFdS82Lo6cjcwNJvg",
+        "recording": null,
+        "slides": null
+      },
+      "industry": {
+        "title": "Unlocking image, audio, and video data in the Industry Documents Library: a Python based, open source stack for audio transcription, text extraction, sentiment analysis, and topic classification.",
+        "name": "industry",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Geoffrey Boushey",
+            "org": "ucsf"
+          },
+          {
+            "name": "Kate Tasker",
+            "org": "ucsf"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "f",
+        "time": "3:00pm - 4:15pm",
+        "start": 3,
+        "duration": 90,
+        "type": "hands-on",
+        "description": "The Industry Documents Library is a digital archive of documents created by industries which influence public health, hosted by the University of California, San Francisco Library. This archive contains millions of video, audio, and image files from the tobacco, opioids, fossil fuel, drug, and food industries, including advertisements, legal depositions, internal marketing documents, public health campaigns, and other historical records. This session will start with a presentation and overview of the contents of the IDL and search interface. Next, we will introduce a python based, open-source stack researchers can use to analyze, transcribe, and categorize data in IDL video, audio, and image files. Although participants will have an opportunity to try out these technologies during the workshop, the primary focus will be an overview of available tools and data, and participation in the programming sections is optional.",
+        "registration-page": "https://calendars.library.ucsf.edu/event/14014117",
+        "recording": null,
+        "slides": null
       }
     }
   }
