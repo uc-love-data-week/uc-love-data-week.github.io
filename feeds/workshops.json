@@ -3192,7 +3192,7 @@
         "description": "Wikipedia is among the most visited websites in the world, but even Wikipedia&#39;s staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are &#39;notable&#39; and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. Read more in our blog post, <a href='https://update.lib.berkeley.edu/2025/01/09/the-bias-of-notability-in-wikipedia/' target='_blank'>The Bias of Notability in Wikipedia</a>.You can be part of the solution! Join us on February 10 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href= 'https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page' target='_blank'>Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you&#39;d like to edit, or we&#39;ll help you find a way to make a difference in an area of interest to you.",
         "registration-page": "https://berkeley.libcal.com/calendar/workshops/editathon-2025",
         "recording": null,
-        "slides": null
+        "slides": "https://guides.lib.berkeley.edu/wikipedia-edit-a-thon"
       },
       "apis": {
         "title": "Unlocking Data: A Gentle Introduction to APIs",
@@ -3605,7 +3605,7 @@
         "description": "In this workshop, we will discuss why you might consider relational databases to store research data. We will go over how to insert data in and retrieve data from a database using R and <a href='https://duckdb.org' target='_blank'>duckDB</a>. We will focus on how to use the R <a href=' https://dbplyr.tidyverse.org' target='_blank'> dbplyr </a> package to integrate databases into tidyverse-focused analytical workflows. This workshop will cover three main points: <ul><li>Introduce concepts of a database and discuss why you might want to have/want to use one </li><li> How to integrate the use of a database into an R analytical workflow </li><li> Hands-on exercise using duckDB, dbplyr and how it can be used to learn some SQL basics. </li></ul>",
         "registration-page": "https://cglink.me/2dD/r2264476",
         "recording": null,
-        "slides": null
+        "slides": "https://zenodo.org/records/15008866"
       },
       "farr": {
         "title": "AI Readiness, AI Reproducibility, and Data Stewardship",
@@ -3804,8 +3804,8 @@
         "type": "hands-on",
         "description": "The Industry Documents Library is a digital archive of documents created by industries which influence public health, hosted by the University of California, San Francisco Library. This archive contains millions of video, audio, and image files from the tobacco, opioids, fossil fuel, drug, and food industries, including advertisements, legal depositions, internal marketing documents, public health campaigns, and other historical records. This session will start with a presentation and overview of the contents of the IDL and search interface. Next, we will introduce a python based, open-source stack researchers can use to analyze, transcribe, and categorize data in IDL video, audio, and image files. Although participants will have an opportunity to try out these technologies during the workshop, the primary focus will be an overview of available tools and data, and participation in the programming sections is optional.",
         "registration-page": "https://calendars.library.ucsf.edu/event/14014117",
-        "recording": null,
-        "slides": null
+        "recording": "https://zenodo.org/records/14991508",
+        "slides": "https://zenodo.org/records/14991508"
       }
     }
   }
