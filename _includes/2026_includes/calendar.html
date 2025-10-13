@@ -3,16 +3,16 @@
     {% endcomment %}
 
     {%- capture workshop_info -%}
-        {%- for workshop in site.data.yml_2025.workshops -%}
+        {%- for workshop in site.data.yml_2026.workshops -%}
              {{workshop.title}}&&{{workshop.day}}&&{{workshop.time}}&&{{workshop.start}}&&{{workshop.duration}}&&{{workshop.type}}&&{{workshop.recording}}&&{{workshop.slides}}&&{{workshop.reader}}&&{{workshop.registration-page}}&&{{workshop.url}}&&{{workshop.temp}}&&{{workshop.name}}%%
         {%- endfor -%}
     {%- endcapture -%}
 
-            {% assign dates = site.data.yml_2025.dates %}
+            {% assign dates = site.data.yml_2026.dates %}
         {% assign currentDate = 'now' | date: "%Y%m%d" | plus:0 %}
 
     {%- capture days_info -%}
-        {%- for day in site.data.yml_2025.dates -%}
+        {%- for day in site.data.yml_2026.dates -%}
              {{day.date}}&&{{day.day-full}}&&{{day.day-abbv}}&&{{day.iso8601}}%%
         {%- endfor -%}
     {%- endcapture -%}
@@ -293,7 +293,7 @@
 
 
     <div  class="event calendar-frame" <!-- -->
-        <!-- p><center>2025 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
+        <!-- p><center>2026 Calendar coming soon.  In the meantime, check out the recordings, slides, and other materials from last year's event.</center></p -->
       <h1>2025 Calendar</h1>
 <div class="tableFixHead">
 <table class="calendar">
@@ -325,7 +325,7 @@
       <div style="display:inline-block; background-color: #d3d3d3; padding:5px; margin:5px; overflow-x: hidden; width:auto; border-radius: 10px 10px 10px 10px;">
         <table class="calendar" style="width: auto; border: 1px dashed lightgrey; border-radius: 10px 10px 10px 10px;">
             <tr><td>Workshop legend:</td>
-                {%- for legend in site.data.yml_2023.workshop_type -%}
+                {%- for legend in site.data.yml_2026.workshop_type -%}
                      <td style="border: 1px solid #d3d3d3; border-radius: 10px 10px 10px 10px; border-spacing: 1;  text-align: center;" class='{{legend.type}}'>{{legend.type_description_short}}</td>
                 {%- endfor -%}
             </tr>

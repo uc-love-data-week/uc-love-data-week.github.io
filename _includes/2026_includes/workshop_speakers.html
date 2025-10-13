@@ -1,5 +1,5 @@
 <!-- gather and sort speakers. value for no speaker is "none" -->
-{% assign speakers-list = site.data.yml_2025.workshops | map: "speakers" %}
+{% assign speakers-list = site.data.yml_2026.workshops | map: "speakers" %}
 {% assign speakers-list-temp = speakers-list | uniq | sort_natural: "name" %}
 {% assign speakers-list = speakers-list-temp %}
 
@@ -19,7 +19,7 @@
                         <div  style="height:200px; border: 1px solid lightgrey; padding: 0 15px 15px 15px;">
                             <h2>{{ speaker.name }}</h2>
                             <hr class="star-primary">
-                                {% for campus in site.data.yml_2025.campuses %}
+                                {% for campus in site.data.yml_2026.campuses %}
                                     {% if speaker.org == campus.abbv %}
                                         <img src="{{ campus.image }}" class="img-responsive img-centered" alt="{{ campus.alt }}" style="max-height: 85px;">
                                     {% endif %}

@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-          {% for post in site.data.yml_2025.workshops %}
+          {% for post in site.data.yml_2026.workshops %}
                 <div class="col-md-4 col-sm-6 speakers-item">
                     <div style="height:600px;">
                         <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
@@ -47,7 +47,7 @@
                             {% endif %}
                             <p class="text-muted-dark">
                             {%- for workshop_day in workshop_days -%}
-                                {%- for day in site.data.yml_2025.dates -%}
+                                {%- for day in site.data.yml_2026.dates -%}
                                     {%- if workshop_day == day.day-abbv -%}
                                     {{day.day-full }}
                                     {%- endif -%}

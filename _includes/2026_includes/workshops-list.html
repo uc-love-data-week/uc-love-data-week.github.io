@@ -8,7 +8,7 @@
                           <div style="display:inline-block; background-color: #d3d3d3; padding:5px; margin:5px; overflow-x: hidden; width:auto; border-radius: 10px 10px 10px 10px;">
         <div class="container-fluid">
         <div class="row p-4" > <strong>Workshop Legend</strong><br>
-                {%- for legend in site.data.yml_2025.workshop_type -%}
+                {%- for legend in site.data.yml_2026.workshop_type -%}
                      <div class="col-4 {{legend.type}} workshop-list " style="float:right;">{{legend.type_description_short}}</div>
                 {%- endfor -%}
         </div>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             
-          {% for post in site.data.yml_2025.workshops %}
+          {% for post in site.data.yml_2026.workshops %}
           <div class="row {{post.type}} workshop-list">
 
                 <div class="col-sm-4">
@@ -29,7 +29,7 @@
                             {% endif %}
                             <span class="text-dark">
                             {%- for workshop_day in workshop_days -%}
-                                {%- for day in site.data.yml_2025.dates -%}
+                                {%- for day in site.data.yml_2026.dates -%}
                                     {%- if workshop_day == day.day-abbv -%}
                                     {{day.day-full }}
                                     {%- endif -%}
