@@ -1,24 +1,24 @@
-- date: Feb 10, 2025
+- date: Feb 9, 2026
   day-full: Monday
   day-abbv: m
-  iso8601: 20250210
+  iso8601: 20260209
 
-- date: Feb 11, 2025
+- date: Feb 10, 2026
   day-full: Tuesday
   day-abbv: t
-  iso8601: 20250211
+  iso8601: 20260210
 
-- date: Feb 12, 2025
+- date: Feb 11, 2026
   day-full: Wednesday
   day-abbv: w
-  iso8601: 20250212
+  iso8601: 20260211
 
-- date: Feb 13, 2025
+- date: Feb 12, 2026
   day-full: Thursday
   day-abbv: h
-  iso8601: 20250213
+  iso8601: 20260212
 
-- date: Feb 14, 2025
+- date: Feb 13, 2026
   day-full: Friday
   day-abbv: f
-  iso8601: 20250214
+  iso8601: 20260213
