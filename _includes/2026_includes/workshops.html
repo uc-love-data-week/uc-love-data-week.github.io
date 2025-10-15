@@ -1,0 +1,65 @@
+<!-- Portfolio Grid Section -->
+    <section id="workshops" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Workshop Info</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+          {% for post in site.data.yml_2026.workshops %}
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <div style="height:600px;">
+                        <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
+                            <div class="speakers-hover">
+                                <div class="speakers-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <div style="display: table-cell; height:310px; vertical-align: middle;">
+                            <img src="../assets/img/workshops/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}" width="300">
+                        </div>
+                        </a>
+                        <div class="speakers-caption">
+                            <h4>{{ post.title }}</h4>
+                            {% assign mats = false %}
+                            {% if post.slides or post.reader %}
+                                {% assign mats = true %}
+                            {% endif %}
+                            {% if mats or post.recording %}
+                            <p><i>
+                                {% if post.recording %}
+                                    Recording
+                                {% endif %}
+                                {% if post.recording and mats %}
+                                and
+                                {% endif %}
+                                {% if mats %}
+                                    Materials
+                                {% endif %}
+                             Available</i></p>
+                            {% endif %}
+                            {% if post.day | size > 1 %}
+                                {% assign workshop_days = post.day | split: "," %}
+                            {% else %}
+                                {% assign workshop_days = post.day %}
+                            {% endif %}
+                            <p class="text-muted-dark">
+                            {%- for workshop_day in workshop_days -%}
+                                {%- for day in site.data.yml_2026.dates -%}
+                                    {%- if workshop_day == day.day-abbv -%}
+                                    {{day.day-full }}
+                                    {%- endif -%}
+                                {%- endfor -%}
+                                {%- if forloop.index != workshop_days.size -%}
+                                &nbsp;-&nbsp;
+                                {%- endif -%}
+                            {%- endfor -%}, {{ post.time }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,106 @@
+#Monday
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: ucr-lib},
+    {name: placeholder, org: ucd-dl}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: m
+  time: 
+  start:
+  duration:
+  type: 
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
+  
+#Tuesday
+
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: ucb-lib},
+    {name: placeholder, org: ucsd}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 
+  start:
+  duration:
+  type: 
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
+
+#Wednesday
+
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time:
+  start: 
+  duration: 
+  type: 
+  description:
+  registration-page: 
+  recording: 
+  slides: 
+
+#Thursday
+
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: ucla-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: h
+  time:
+  start: 
+  duration: 
+  type: 
+  description:
+  registration-page: 
+  recording: 
+  slides: 
+
+#Friday
+
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: uci}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: f
+  time:
+  start: 
+  duration: 
+  type: 
+  description:
+  registration-page: 
+  recording: 
+  slides: 
+

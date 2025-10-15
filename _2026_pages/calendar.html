@@ -1,0 +1,30 @@
+---
+layout: 2026_default
+permalink: /2026/calendar
+title: Calendar
+published: true
+---
+
+<!-- calendar on main page -->
+{% include 2026_includes/head.html %}
+
+<!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div class="misc">
+        <div class="misc visible-md visible-lg">
+    	   {% include /2026_includes/calendar.html %}
+        </div>
+    </div>
+    <div class="misc">
+        <div class="misc visible-sm visible-xs">
+            <div style="padding: 0 1vw 0 1vw;">
+                {% include 2026_includes/workshops-list.html %}
+            </div>
+        </div>
+    </div>
+
+ 	{% include 2026_includes/workshops_info.html %}
+ 	{% include 2026_includes/js.html %}

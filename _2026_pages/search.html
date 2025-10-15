@@ -1,0 +1,42 @@
+---
+layout: 2026_default
+permalink: /2026/search
+title: Search
+published: true
+---
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div style="margin: 0 10vw 0 10vw;">
+    <div class="event black-frame">
+      <h1>{{ page.title }}</h1>
+      <p>Search prior workshops and presentations for links to session recordings and other materials. Content is added as available.</p>
+      <p>Some recordings and other materials are also available through the <a href="https://zenodo.org/communities/ucldw">UC Love Data Week community on Zenodo</a>.</p>
+
+<br>
+<div id="searcharea" style="padding-left:10px;">
+    <div id="searchinput">
+    <center>
+        <form id="search" onsubmit="search_workshops(); return false;">
+        <input type="text" id="searchIn" onkeyup="search_workshops()" name="search" style="border:1px solid #004993;" placeholder=" enter search term"/>
+        <input type="submit" id="startsearch" value="search" />
+        </form></center>
+    </div>
+
+    <div id="searchoutput">
+        <h2 id="kh2"></h2>
+
+        <ul id="list-holder">
+        </ul>
+    </div>
+
+</div>
+
+
+
+    <!-- /div-->
+    </div>
+<script src="../css/search/kek.js"></script>
+<script src="../css/search/search-fetch-onKeyUp.js"></script>
