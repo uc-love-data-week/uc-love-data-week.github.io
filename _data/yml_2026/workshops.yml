@@ -1,32 +1,121 @@
-#Monday
+#Monday Feb 9
+- title: "Five Ways to Love Your Data"
+  name: love-five
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Stephanie Labou, org: ucsd-lib},
+    {name: Reid Otsuji, org: ucsd-lib},
+    {name: Kat Koziar, org: }
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: m
+  time: 12:00pm-12:50pm
+  start: 12
+  duration: 60
+  type: lecture
+  description: "Kick off UC Love Data Week with a fun and interactive session about five of the ways you can love your data. Learn how to write love notes to your future self in the form of robust documentation, how to share the love through citation and licensing, and other ways to give your data the quality time and attention it deserves. Whether you’re an undergraduate with a couple of spreadsheets, or a researcher with GBs of data, this session will provide useful tips and tricks to ensure a healthy long term relationship with your data."
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "UC Loves UC Data"
+  name: uc-data
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Stephanie Labou, org: ucsd-lib},
+    {name: Wasila Dahdul, org: uci},
+    {name: Jade Yonehiro, org: cdl}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: m
+  time: 3:00pm-4:00pm
+  start: 3
+  duration: 60
+  type: lecture
+  description: "Have you ever wondered:
+    <ul>
+    <li> How many incoming UC freshman are California residents? </li>
+    <li> How many students are majoring in mechanical engineering at UC San Diego? </li>
+    <li> How many patients are served by UC’s six medical centers? </li>
+    <li> What country does UC publish more research than annually? </li>
+    </ul>
+    These questions, and many others, are answerable – if you know where to find the data! In this workshop, we'll learn how to find and access raw data and aggregate statistics, using UC-specific questions as examples. Attendees will leave with a better understanding of where to locate UC data, levels of data availability, common data privacy considerations, and how UC librarians can help you get data!"
+  registration-page: 
+  recording: 
+  slides: 
+  
+#Tuesday Feb 10
+
+- title: "Can AI Tell a Cigarette from a High Tech Gadget?"
+  name: ai-high-tech
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Geoffrey Boushey, org: ucsf}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 10:00am-10:50am
+  start: 10
+  duration: 60
+  type: lecture
+  description: "Modern GenAI vision models can describe scenes and identify objects impressively well, but their classifications can still shift depending on how they are prompted. This talk explores a GenAI system’s ability to detect smoking imagery in a visually busy ’80s sci-fi video by breaking the video into 1-second frames and evaluating two prompts: one that encourages detection and one that emphasizes neutrality. Multiple runs of each prompt are compared to examine changes in precision, recall, accuracy, and overall consistency. The session offers a practical look at how prompt phrasing and model variability affect real-world use cases, and what to keep in mind when using GenAI tools for content analysis."
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "Data Rescue Project"
+  name: data-rescue
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Lena Bohman, org: }
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 12:00pm-12:50pm
+  start: 12
+  duration: 60
+  type: lecture
+  description: "Public data from governmental agencies like the Bureau of Labor Statistics and Dept. of Education is increasingly at risk. This talk details the Data Rescue Project (DRP), a concerted effort by librarians and archivists to preserve at-risk public U.S. governmental data. We will cover the DRP's progress as a data rescue clearinghouse: running volunteer training, utilizing ICPSR's Data Lumos repository, and operating the Data Rescue Portal to track rescued datasets. Learn what we are doing and how you can contribute to public data preservation efforts.
+
+    Speaker: Lena Bohman -  Steering Committee Member, Data Rescue Project"
+  registration-page: https://uclahs.fyi/researchtechtalks
+  recording: 
+  slides: 
+
+- title: "Accessible Data for Everyone"
+  name: accessible-data
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Kristin Briney, org: }
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 60
+  type: lecture
+  description: How do you format a dataset so it can be understood by a blind person, deaf person, or other disabled individual? This question is increasingly relevant given new requirements from the US Department of Justice to make all public university websites and web content accessible to people with disabilities in the next year. This workshop reviews why accessible research data matters, general accessibility principles, and how to make various data files (spreadsheets, images, etc.) more accessible for everyone.
+  registration-page: 
+  recording: 
+  slides: 
+
+
 - title: "TBD"
   name: 
   speaker-type: "Speaker"
   speakers: [
     {name: placeholder, org: ucr-lib},
     {name: placeholder, org: ucd-dl}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: m
-  time: 
-  start:
-  duration:
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-  
-#Tuesday
-
-- title: "TBD"
-  name: 
-  speaker-type: "Speaker"
-  speakers: [
-    {name: placeholder, org: ucb-lib},
-    {name: placeholder, org: ucsd}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -41,7 +130,30 @@
   recording: 
   slides: 
 
-#Wednesday
+
+#Wednesday Feb 11
+
+- title: "Making Research Software Citable and Discoverable: Practical FAIR4RS Wins"
+  name: fair4rs
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Tim Dennis, org: ucla-dsc},
+    {name: Laura Langdon, org: ucd-lib},
+    {name: Reid Otsuji, org: ucsd-lib},
+    {name: Leigh Phan, org: ucla-dsc}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 12:00pm-12:50pm
+  start: 12
+  duration: 60 
+  type: hands-on
+  description: This workshop is intended for researchers, graduate students, and librarians who work with research code and want practical ways to make software easier to find, cite, and reuse.
+  registration-page: 
+  recording: 
+  slides: 
 
 - title: "TBD"
   name: 
@@ -62,7 +174,7 @@
   recording: 
   slides: 
 
-#Thursday
+#Thursday Feb 12
 
 - title: "TBD"
   name: 
@@ -83,7 +195,27 @@
   recording: 
   slides: 
 
-#Friday
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: ucr-lib},
+    {name: placeholder, org: ucd-dl}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: h
+  time: 
+  start:
+  duration:
+  type: 
+  description: 
+  registration-page: 
+  recording: 
+  slides: 
+
+#Friday Feb 13
 
 - title: "TBD"
   name: 
@@ -100,6 +232,26 @@
   duration: 
   type: 
   description:
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "TBD"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: placeholder, org: ucr-lib},
+    {name: placeholder, org: ucd-dl}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: f
+  time: 
+  start:
+  duration:
+  type: 
+  description: 
   registration-page: 
   recording: 
   slides: 
