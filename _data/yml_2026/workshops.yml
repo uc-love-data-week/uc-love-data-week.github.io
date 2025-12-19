@@ -83,9 +83,7 @@
   start: 12
   duration: 60
   type: lecture
-  description: "Public data from governmental agencies like the Bureau of Labor Statistics and Dept. of Education is increasingly at risk. This talk details the Data Rescue Project (DRP), a concerted effort by librarians and archivists to preserve at-risk public U.S. governmental data. We will cover the DRP's progress as a data rescue clearinghouse: running volunteer training, utilizing ICPSR's Data Lumos repository, and operating the Data Rescue Portal to track rescued datasets. Learn what we are doing and how you can contribute to public data preservation efforts.
-
-    Speaker: Lena Bohman -  Steering Committee Member, Data Rescue Project"
+  description: "Public data from governmental agencies like the Bureau of Labor Statistics and Dept. of Education is increasingly at risk. This talk details the Data Rescue Project (DRP), a concerted effort by librarians and archivists to preserve at-risk public U.S. governmental data. We will cover the DRP's progress as a data rescue clearinghouse: running volunteer training, utilizing ICPSR's Data Lumos repository, and operating the Data Rescue Portal to track rescued datasets. Learn what we are doing and how you can contribute to public data preservation efforts. Speaker: Lena Bohman -  Steering Committee Member, Data Rescue Project"
   registration-page: https://uclahs.fyi/researchtechtalks
   recording: 
   slides: 
@@ -155,6 +153,26 @@
   recording: 
   slides: 
 
+- title: "Publication-Ready Data Tables in R"
+  name: R-tables
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Stephanie Labou, org: ucsd-lib},
+    {name: Julien Brun, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 60
+  type: lecture
+  description: Are you tired of spending your time manually formatting tables for article submission? Does the idea of pasting regression coefficients from R to Excel make you wince? This session will demo how to make publication-quality (and reproducible!) data tables in R. We'll use the `gt` package to showcase options for table customization and the `gtsummary` package for ways to combine model outputs with table creation. Note that this session assumes a working knowledge of R; we will dive straight into main table content without a general overview of R.
+  registration-page: 
+  recording: 
+  slides: 
+
 - title: "TBD"
   name: 
   speaker-type: "Speaker"
@@ -176,21 +194,59 @@
 
 #Thursday Feb 12
 
-- title: "TBD"
+- title: "Getting Started with Raspberry Pi and the Sense HAT"
   name: 
   speaker-type: "Speaker"
   speakers: [
-    {name: placeholder, org: ucla-lib}
+    {name: Alvaro Alvarez, org: ucr-lib}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: h
-  time:
-  start: 
-  duration: 
-  type: 
-  description:
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 60
+  type: hands-on
+  description: This hands-on workshop introduces beginners to the Raspberry Pi and its versatile Sense HAT add-on. You'll learn the essentials of Python programming to control an LED matrix and collect real-world, high-quality data on temperature, humidity, and device orientation (gyroscope). These foundational skills are crucial for building academic and research projects, from environmental monitoring to robotics and physics experiments. No prior coding experience is necessary!
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "Introduction to Data Cleaning with Python and Pandas"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Barbara Martinez Neda, org: ucr-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: h
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 60 
+  type: lecture
+  description: Join us to learn how to transform messy, raw spreadsheets into clean, usable data. This workshop will guide you through the essentials of the Pandas library, a key tool for data manipulation. By the end, you’ll be able to load messy files, understand the structure of a DataFrame, and produce the clean data needed for analysis and visualization.
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "Building Decision Support Web Apps with R-Shiny"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Andy Lyons, org: uc-anr}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: h
+  time: 2:00pm-3:50pm
+  start: 3
+  duration: 120
+  type: hands-on
+  description: Although R is an incredibly powerful programming language for data analysis and decision support, it is not widely known among the general public. The Shiny package enables R users to turn their data analysis code into web applications with user-friendly interfaces that are easy to deploy. This hands-on workshop will provide an introduction to Shiny including the principles of reactive programming, fundamentals of UI design, and deployment options. By the end of the workshop, participants will be able to convert a spreadsheet based model into a Shiny web app. Some experience with R is expected, see registration page for details.
   registration-page: 
   recording: 
   slides: 
@@ -217,21 +273,46 @@
 
 #Friday Feb 13
 
-- title: "TBD"
+- title: "AI-Assisted Data Visualization and Dashboards"
   name: 
   speaker-type: "Speaker"
   speakers: [
-    {name: placeholder, org: uci}
+    {name: Raymond Uzwyshyn, org: ucr-lib}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
   alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
   day: f
-  time:
-  start: 
-  duration: 
-  type: 
-  description:
+  time: 10:00am-10:50am
+  start: 10
+  duration: 60 
+  type: lecture
+  description: "This interactive seminar introduces participants to the transformative potential of AI-assisted data visualization. Drawing on emerging practices in 'vibe coding'—an intuitive, natural language approach to AI-assisted development—attendees will explore best practices for generating sophisticated, data-driven dashboards through prompting and iterative collaboration with AI.
+
+    The session will overview key principles for effective interactive data visualization, demonstrate practical workflows for AI-assisted coding, and showcase real-world applications ranging from exploratory data analysis to publication-ready research dashboards. Participants will learn how to leverage AI tools to rapidly prototype visualizations and iterate design concepts while maintaining analytical rigor and aesthetic sophistication.
+
+    Whether you're looking to extract deeper insights from existing datasets, build interactive dashboards for research, or develop comprehensive analytic framework for ongoing work, this seminar will equip you with practical strategies for integrating AI assistance into your data visualization workflows.
+
+    No advanced coding experience required—just curiosity about how AI can augment your data practice."
+  registration-page: 
+  recording: 
+  slides: 
+
+- title: "Measuring Research Impact with OpenAlex: A Data-Driven DIY Approach"
+  name: 
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jing Han, org: ucr-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: f
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 60
+  type: lecture
+  description: This session begins with an introduction to OpenAlex, then guides participants through exploring the web interface and working with the API to access, clean, and interpret open data to measure institutional research impact.
   registration-page: 
   recording: 
   slides: 
