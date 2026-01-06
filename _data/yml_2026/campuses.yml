@@ -173,3 +173,11 @@
   url: https://uc3.cdlib.org/
   p-campus: n
 
+# Non-UC affiliates
+
+- name: CalTech Library
+  abbv: caltech-lib
+  image: /assets/img/campuses/CaltechLibrary_Logo.jpeg
+  alt: CalTech Library
+  url: https://library.caltech.edu/library/home
+  p-campus: n
