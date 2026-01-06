@@ -20,6 +20,25 @@
   recording: 
   slides: 
 
+- title: "Tools for Discovering and Evaluating Data Repositories"
+  name: data-repos
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Sadie Davenport, org: ucd-lib},
+    {name: Emily Atkinson, org: ucd-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: m
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 60
+  type: lecture
+  description: "Choosing a repository is an important task that can impact the discoverability and long-term maintenance of your research data. There are several interactive tools designed to help with the selection process. These include filterable repository “finders,” lists of desirable repository characteristics outlined by funders, and subject-specific repository searching sites. In this session, learners will get an overview of these tools and a summary document with links."
+  recording: 
+  slides: 
+
 - title: "UC Loves UC Data"
   name: uc-data
   speaker-type: "Speaker"
@@ -131,6 +150,25 @@
   recording: 
   slides: 
 
+- title: "Wikipedia Editathon"
+  name: wiki-edit
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Bee Lehman, org: ucb-lib},
+    {name: Ann Glusker, org: ucb-lib}
+ ]
+  img:  wikipedia_logo.png
+  thumbnail:  wikipedia_logo.png
+  alt:  "wikipedia logo: globe with icons over the words wikipedia"
+  day: w
+  time: 1:00pm-2:30pm 
+  start: 1 
+  duration: 90
+  type: hands-on
+  description: "Wikipedia is among the most visited websites in the world, but even Wikipedia's staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are 'notable' and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. You can be part of the solution! Join us on February 11 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href=\"https://auth.wikimedia.org/enwiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1&returnto=Main+Page&centralauthLoginToken=1388602bd46760cc02df3da9c78c6528\" target=\"_blank\">Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you'd like to edit, or we'll help you find a way to make a difference in an area of interest to you."
+  recording: 
+  slides: 
+
 - title: "Publication-Ready Data Tables in R"
   name: R-tables
   speaker-type: "Speaker"
@@ -152,6 +190,26 @@
   slides: 
 
 #Thursday Feb 12
+
+- title: "From Static to Dynamic: Exploring Interactive Data Visualization"
+  name: interactive-data-viz
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Xiuqi "Jade" Li, org: ucsb},
+    {name: Julien Brun, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: h 
+  time: 12:00pm-12:30pm
+  start: 12
+  duration: 30
+  type: lecture
+  description: "Most of us are used to making figures that are meant to be read, not explored – plots designed for PDFs and journal pages. Interactive graphics open up new possibilities by letting viewers zoom in, filter, and engage with data in ways static figures cannot. In this session, we’ll explore what makes a visualization interactive, when it’s worth using, and how simple interactions can add insight. We’ll look at a few short examples using tools such as DataTables, Plotly, and Shiny. You will leave with practical tips on creating, sharing, and sustaining interactive graphics. <p>No prior experience with interactive visualization is required.</p>"
+  recording: 
+  slides: 
+
 
 - title: "Getting Started with Raspberry Pi and the Sense HAT"
   name: 
@@ -236,6 +294,44 @@
   registration-page: 
   recording: 
   slides: 
+
+- title: "Critical Integration of GenAI in Qualitative Analysis"
+  name: genAI-qual
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Renata Curty, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: f
+  time: 11:00am-11:50am
+  start: 11
+  duration: 60
+  type: demo
+  description: "Join us for an exploration of how Generative AI can be strategically integrated into qualitative research workflows. This session introduces the Guided AI Thematic Analysis (GAITA) framework, a structured approach to using AI for coding and theme development while upholding rigorous analytical standards. Participants will then experience a live demonstration of an AI assistant embedded in QualCoder, showcasing how AI can support qualitative data analysis without replacing researcher judgment. Attendees may follow along step by step or observe the workflow in action, gaining practical insights and best practices for critically and effectively incorporating AI tools into qualitative research."
+  recording: 
+  slides: 
+
+- title: "Deep Learning with Drone Imagery in ArcGIS Pro"
+  name: deep-learning-drone
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Maggi Kelly, org: uc-anr},
+    {name: Shane Feirer, org: uc-anr}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: f
+  time: 1:00pm-2:50pm
+  start: 1
+  duration: 120
+  type: lecture
+  description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will examine how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be shown, and the results of three commonly used DL algorithms compared using drone imagery of orchard trees taken at different times of the year."
+  recording: 
+  slides: 
+
 
 - title: "Measuring Research Impact with OpenAlex: A Data-Driven DIY Approach"
   name: 
