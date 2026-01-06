@@ -181,3 +181,10 @@
   alt: CalTech Library
   url: https://library.caltech.edu/library/home
   p-campus: n
+
+- name: Posit
+  abbv: posit
+  image: /assets/img/campuses/posit.png
+  alt: posit
+  url: https://posit.co/
+  p-campus: n
