@@ -20,6 +20,25 @@
   recording: 
   slides: 
 
+- title: "One Metric to Fool Yourself - A Cautionary Tale in Machine Learning Evaluation"
+  name: ml-eval
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Emil Hvitfelt, org: posit}
+ ]
+  img:  posit.png
+  thumbnail:  posit.png
+  alt:  "Posit logo"
+  day: m
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 60
+  type: hands-on
+  description: "When fitting a model, statistical or machine learning, we often want to evaluate its performance. We have a wealth of different methods for all types of scenarios, from classification and regression to survival analysis. While these performance metrics work as intended, we can often get more out of models by carefully combining and using these metrics to capture what we really care about in our models. Optimal performance and minimal bias.<p>UC Love Data Week guest speaker: Emil Hvitfelt from <a href='https://posit.co/' target='_blank'>Posit</a>.</p>"
+  registration-page:  
+  recording: 
+  slides: 
+
 - title: "Tools for Discovering and Evaluating Data Repositories"
   name: data-repos
   speaker-type: "Speaker"
@@ -36,6 +55,7 @@
   duration: 60
   type: lecture
   description: "Choosing a repository is an important task that can impact the discoverability and long-term maintenance of your research data. There are several interactive tools designed to help with the selection process. These include filterable repository “finders,” lists of desirable repository characteristics outlined by funders, and subject-specific repository searching sites. In this session, learners will get an overview of these tools and a summary document with links."
+  registration-page: 
   recording: 
   slides: 
 
@@ -122,6 +142,7 @@
   duration: 60
   type: hands-on
   description: "Are you wondering if there’s a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows."
+  registration-page: 
   recording: 
   slides: 
 
@@ -146,6 +167,31 @@
   slides: 
 
 #Wednesday Feb 11
+
+- title: "How I Slacked at Work and Accidentally Built an Automated, AI Driven ETL Pipeline"
+  name: ai-etl-pipeline
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Beth Tweedy, org: ucd-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 10:00am-10:50am
+  start: 10
+  duration: 60
+  type: lecture
+  description: "Learning new technologies like Artificial Intelligence can feel risky when you are working with critical research data. It started when I was daydreaming at work about my Dungeons & Dragons campaign and realized the best way to learn these tools (for me) was to take the 'work' out of the equation.<p>Join me for a case study on how I used a personal D&D database as a 'sandbox' to learn high-impact data skills. By working with data I knew intimately (and didn't mind breaking), I was able to experiment with AI tools, fail safely, and eventually build a working automated pipeline. This isn't a talk about being a coding genius; it's about how a librarian harnessed curiosity and personal passion to gain a better understanding of how these often intimidating black-box tools actually work.</p><p>This session is designed for:
+    <ul>
+    <li>Researchers, Scholars, and Practitioners interested in 'Ground Truth' testing—using known data to safely audit the strengths, weaknesses, and limits of AI tools before trusting them with your scholarship.</li>
+    <li>Librarians who want a practical look at how a researcher might approach the steep learning curve of this landscape. This session offers a viable path for building the technical vocabulary to translate user needs to technical experts/developers as well as applying these skills to your own work.</li>
+    <li>Technical Experts & Data Scientists who support research. By watching a 'research hacker' navigate the messy reality of AI integration, you will see how users who 'know enough to be dangerous' actually approach these problems—offering insights on how to better anticipate pitfalls and guide the campus community.</li>
+    </ul>
+    </p> "
+  registration-page:  
+  recording: 
+  slides: 
 
 - title: "Making Research Software Citable and Discoverable: Practical FAIR4RS Wins"
   name: fair4rs
@@ -185,6 +231,7 @@
   duration: 90
   type: hands-on
   description: "Wikipedia is among the most visited websites in the world, but even Wikipedia's staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are 'notable' and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. You can be part of the solution! Join us on February 11 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href=\"https://auth.wikimedia.org/enwiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1&returnto=Main+Page&centralauthLoginToken=1388602bd46760cc02df3da9c78c6528\" target=\"_blank\">Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you'd like to edit, or we'll help you find a way to make a difference in an area of interest to you."
+  registration-page: 
   recording: 
   slides: 
 
@@ -333,6 +380,7 @@
   duration: 60
   type: demo
   description: "Join us for an exploration of how Generative AI can be strategically integrated into qualitative research workflows. This session introduces the Guided AI Thematic Analysis (GAITA) framework, a structured approach to using AI for coding and theme development while upholding rigorous analytical standards. Participants will then experience a live demonstration of an AI assistant embedded in QualCoder, showcasing how AI can support qualitative data analysis without replacing researcher judgment. Attendees may follow along step by step or observe the workflow in action, gaining practical insights and best practices for critically and effectively incorporating AI tools into qualitative research."
+  registration-page: 
   recording: 
   slides: 
 
@@ -352,6 +400,7 @@
   duration: 90
   type: lecture
   description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year."
+  registration-page: 
   recording: 
   slides: 
 
