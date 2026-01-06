@@ -102,32 +102,10 @@
   start: 2
   duration: 60
   type: lecture
-  description: How do you format a dataset so it can be understood by a blind person, deaf person, or other disabled individual? This question is increasingly relevant given new requirements from the US Department of Justice to make all public university websites and web content accessible to people with disabilities in the next year. This workshop reviews why accessible research data matters, general accessibility principles, and how to make various data files (spreadsheets, images, etc.) more accessible for everyone.
+  description: "How do you format a dataset so it can be understood by a blind person, deaf person, or other disabled individual? This question is increasingly relevant given new requirements from the US Department of Justice to make all public university websites and web content accessible to people with disabilities in the next year. This workshop reviews why accessible research data matters, general accessibility principles, and how to make various data files (spreadsheets, images, etc.) more accessible for everyone."
   registration-page: 
   recording: 
   slides: 
-
-
-- title: "TBD"
-  name: 
-  speaker-type: "Speaker"
-  speakers: [
-    {name: placeholder, org: ucr-lib},
-    {name: placeholder, org: ucd-dl}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 
-  start:
-  duration:
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-
 
 #Wednesday Feb 11
 
@@ -169,25 +147,6 @@
   duration: 60
   type: lecture
   description: Are you tired of spending your time manually formatting tables for article submission? Does the idea of pasting regression coefficients from R to Excel make you wince? This session will demo how to make publication-quality (and reproducible!) data tables in R. We'll use the `gt` package to showcase options for table customization and the `gtsummary` package for ways to combine model outputs with table creation. Note that this session assumes a working knowledge of R; we will dive straight into main table content without a general overview of R.
-  registration-page: 
-  recording: 
-  slides: 
-
-- title: "TBD"
-  name: 
-  speaker-type: "Speaker"
-  speakers: [
-    {name: placeholder, org: ucsb}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: w
-  time:
-  start: 
-  duration: 
-  type: 
-  description:
   registration-page: 
   recording: 
   slides: 
@@ -251,26 +210,6 @@
   recording: 
   slides: 
 
-- title: "TBD"
-  name: 
-  speaker-type: "Speaker"
-  speakers: [
-    {name: placeholder, org: ucr-lib},
-    {name: placeholder, org: ucd-dl}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: h
-  time: 
-  start:
-  duration:
-  type: 
-  description: 
-  registration-page: 
-  recording: 
-  slides: 
-
 #Friday Feb 13
 
 - title: "AI-Assisted Data Visualization and Dashboards"
@@ -313,26 +252,6 @@
   duration: 60
   type: lecture
   description: This session begins with an introduction to OpenAlex, then guides participants through exploring the web interface and working with the API to access, clean, and interpret open data to measure institutional research impact.
-  registration-page: 
-  recording: 
-  slides: 
-
-- title: "TBD"
-  name: 
-  speaker-type: "Speaker"
-  speakers: [
-    {name: placeholder, org: ucr-lib},
-    {name: placeholder, org: ucd-dl}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: f
-  time: 
-  start:
-  duration:
-  type: 
-  description: 
   registration-page: 
   recording: 
   slides: 
