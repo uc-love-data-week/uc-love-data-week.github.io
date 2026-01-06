@@ -107,11 +107,30 @@
   recording: 
   slides: 
 
+- title: "Collecting Cultural Heritage Data with the DPLA API"
+  name: dpla-api
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jairo Melo, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 12:00pm-12:50pm
+  start: 12
+  duration: 60
+  type: hands-on
+  description: "Are you wondering if there’s a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows."
+  recording: 
+  slides: 
+
+
 - title: "Accessible Data for Everyone"
   name: accessible-data
   speaker-type: "Speaker"
   speakers: [
-    {name: Kristin Briney, org: }
+    {name: Kristin Briney, org: caltech-lib}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
@@ -207,12 +226,13 @@
   duration: 30
   type: lecture
   description: "Most of us are used to making figures that are meant to be read, not explored – plots designed for PDFs and journal pages. Interactive graphics open up new possibilities by letting viewers zoom in, filter, and engage with data in ways static figures cannot. In this session, we’ll explore what makes a visualization interactive, when it’s worth using, and how simple interactions can add insight. We’ll look at a few short examples using tools such as DataTables, Plotly, and Shiny. You will leave with practical tips on creating, sharing, and sustaining interactive graphics. <p>No prior experience with interactive visualization is required.</p>"
+  registration-page: https://ucsb.zoom.us/meeting/register/td3yvwiLRrSoS-X9p_rnHA 
   recording: 
   slides: 
 
 
 - title: "Getting Started with Raspberry Pi and the Sense HAT"
-  name: 
+  name: raspberry-pi
   speaker-type: "Speaker"
   speakers: [
     {name: Alvaro Alvarez, org: ucr-lib}
@@ -231,14 +251,14 @@
   slides: 
 
 - title: "Introduction to Data Cleaning with Python and Pandas"
-  name: 
+  name: data-cleaning
   speaker-type: "Speaker"
   speakers: [
     {name: Barbara Martinez Neda, org: ucr-lib}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  Python_logo.png
+  thumbnail:  Python_logo.png
+  alt:  "Python logo: the words Python under a blue and yellow symbol"
   day: h
   time: 2:00pm-2:50pm
   start: 2
@@ -250,7 +270,7 @@
   slides: 
 
 - title: "Building Decision Support Web Apps with R-Shiny"
-  name: 
+  name: r-shiny
   speaker-type: "Speaker"
   speakers: [
     {name: Andy Lyons, org: uc-anr}
@@ -264,6 +284,9 @@
   duration: 120
   type: hands-on
   description: Although R is an incredibly powerful programming language for data analysis and decision support, it is not widely known among the general public. The Shiny package enables R users to turn their data analysis code into web applications with user-friendly interfaces that are easy to deploy. This hands-on workshop will provide an introduction to Shiny including the principles of reactive programming, fundamentals of UI design, and deployment options. By the end of the workshop, participants will be able to convert a spreadsheet based model into a Shiny web app. Some experience with R is expected, see registration page for details.
+      <p><b>Prequesites</b></p>
+      Some experience with R is expected (at least enough to run prepared scripts). The hands-on exercises (recommended but not required) will require participants to have a free account on Posit Cloud (i.e., so you can run prepared scripts in RStudio in a browser). Experienced R users are welcome to run the exercises in RStudio Desktop or Positron, but support will be limited.
+      Parts of the workshop will require you to follow along as the instructor demonstrates code to solve a problem. It is therefore highly recommended that you have a computer with two monitors, so you can view the instructor's screen on one monitor, and work in RStudio in the other. Participants who only have a small laptop with no external monitor may find it challenging to complete the hands-on exercises, and may just want to watch.    
   registration-page: 
   recording: 
   slides: 
@@ -271,7 +294,7 @@
 #Friday Feb 13
 
 - title: "AI-Assisted Data Visualization and Dashboards"
-  name: 
+  name: ai-data-viz
   speaker-type: "Speaker"
   speakers: [
     {name: Raymond Uzwyshyn, org: ucr-lib}
@@ -320,21 +343,21 @@
     {name: Maggi Kelly, org: uc-anr},
     {name: Shane Feirer, org: uc-anr}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img: drone.png
+  thumbnail: drone.png
+  alt: "drone flying over field, with stylized pixels within drone field of view to symbolize retrieved data"
   day: f
-  time: 1:00pm-2:50pm
+  time: 1:00pm-2:30pm
   start: 1
-  duration: 120
+  duration: 90
   type: lecture
-  description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will examine how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be shown, and the results of three commonly used DL algorithms compared using drone imagery of orchard trees taken at different times of the year."
+  description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year."
   recording: 
   slides: 
 
 
 - title: "Measuring Research Impact with OpenAlex: A Data-Driven DIY Approach"
-  name: 
+  name: openalex
   speaker-type: "Speaker"
   speakers: [
     {name: Jing Han, org: ucr-lib}
