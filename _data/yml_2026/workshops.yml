@@ -108,6 +108,26 @@
   recording: 
   slides: 
 
+- title: "Publishing a Quarto website on GitHub "
+  name: quarto
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Julien Brun, org: ucsb},
+    {name: Greg Janée, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 11:00am-11:50am 
+  start: 11
+  duration: 60
+  type: demo
+  description: Coming soon!
+  registration-page:  
+  recording: 
+  slides: 
+
 - title: "Data Rescue Project"
   name: data-rescue
   speaker-type: "Speaker"
@@ -143,6 +163,63 @@
   type: hands-on
   description: "Are you wondering if there’s a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows."
   registration-page: 
+  recording: 
+  slides: 
+
+- title: "Web Scraping, Crawling and Spoofing [Part 1]"
+  name: web1
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jake Anderson, org: ucla}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 11:00am-11:50am
+  start: 11
+  duration: 60
+  type: hands-on
+  description: "This workshop connects applied social science research with practical data skills in a two-part format. The first part presents a large-scale research project on discrimination in the labor market, focusing on how novel data are accessed, constructed, and managed to answer substantive empirical questions. The second part is a hands-on session on web scraping with Selenium, where participants learn how to responsibly collect structured data from public websites using reproducible workflows. The session emphasizes good data practices, from acquisition and documentation to downstream analysis, and is designed to be accessible to researchers working with a wide range of data types.<p><b>Note</b>: This workshop is two parts. The workshop will run for one hour starting at 11:00am, have a one hour break, and resume at 1:00pm for the final hour.</p>"
+  registration-page:  
+  recording: 
+  slides: 
+
+- title: "Web Scraping, Crawling and Spoofing [Part 2]"
+  name: web2
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jake Anderson, org: ucla}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 60
+  type: hands-on
+  description: "This workshop connects applied social science research with practical data skills in a two-part format. The first part presents a large-scale research project on discrimination in the labor market, focusing on how novel data are accessed, constructed, and managed to answer substantive empirical questions. The second part is a hands-on session on web scraping with Selenium, where participants learn how to responsibly collect structured data from public websites using reproducible workflows. The session emphasizes good data practices, from acquisition and documentation to downstream analysis, and is designed to be accessible to researchers working with a wide range of data types.<p><b>Note</b>: This workshop is two parts. The workshop will run for one hour starting at 11:00am, have a one hour break, and resume at 1:00pm for the final hour.</p>"
+  registration-page:  
+  recording: 
+  slides: 
+
+- title: "Prototyping Data Solutions with Arduino"
+  name: arduino
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Brendon Wheeler, org: ucr-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 1:00pm-1:50pm
+  start: 1
+  duration: 60
+  type: hands-on
+  description: "This event will follow a hands-on introductory workshop with Tinkercad on how to use the Arduino microcontroller and how data plays a key role in its usefulness. Attendees will learn how to use the Arduino microcontroller with code and simulations that will allow attendees to create research projects with a little imagination. This workshop will be recorded and hands-on."
+  registration-page:  
   recording: 
   slides: 
 
@@ -193,6 +270,26 @@
   recording: 
   slides: 
 
+- title: "Moving Your Data Around with RClone"
+  name: R-clone
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jamie Jamieson, org: ucla-dsc},
+    {name: Tim Dennis, org: ucla-dsc}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 11:00am-11:50am
+  start: 11
+  duration: 60
+  type: hands-on
+  description: Coming soon!
+  registration-page:  
+  recording: 
+  slides: 
+
 - title: "Making Research Software Citable and Discoverable: Practical FAIR4RS Wins"
   name: fair4rs
   speaker-type: "Speaker"
@@ -228,7 +325,7 @@
   day: w
   time: 1:00pm-2:30pm 
   start: 1 
-  duration: 90
+  duration: 60
   type: hands-on
   description: "Wikipedia is among the most visited websites in the world, but even Wikipedia's staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are 'notable' and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. You can be part of the solution! Join us on February 11 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href=\"https://auth.wikimedia.org/enwiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1&returnto=Main+Page&centralauthLoginToken=1388602bd46760cc02df3da9c78c6528\" target=\"_blank\">Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you'd like to edit, or we'll help you find a way to make a difference in an area of interest to you."
   registration-page: 
@@ -255,7 +352,47 @@
   recording: 
   slides: 
 
+- title: "Introduction to Public Health Data"
+  name: public-health
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Elisa Cortez, org: ucr-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: w
+  time: 3:00pm-3:50pm
+  start: 3
+  duration: 60
+  type: lecture
+  description: "This session will provide an overview of public health data resources. More information coming soon!"
+  registration-page:  
+  recording: 
+  slides: 
+
+
 #Thursday Feb 12
+
+- title: "Static data visualization using ggplot in R"
+  name: ggplot
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Pamela Reynolds, org: ucd-dl},
+    {name: Nick Ulle, org: ucd-dl}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: h
+  time: 10:00am-11:50pm
+  start: 10
+  duration: 120
+  type: hands-on
+  description: Coming soon!
+  registration-page:  
+  recording: 
+  slides: 
 
 - title: "From Static to Dynamic: Exploring Interactive Data Visualization"
   name: interactive-data-viz
