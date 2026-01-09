@@ -188,3 +188,10 @@
   alt: posit
   url: https://posit.co/
   p-campus: n
+
+- name: Fresno State Library
+  abbv: fresnoState-lib
+  image: /assets/img/campuses/fresnoState-lib.png
+  alt: Fresno State Library
+  url: https://library.fresnostate.edu/
+  p-campus: n
