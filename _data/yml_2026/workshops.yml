@@ -1,4 +1,37 @@
 #Monday Feb 9
+
+- title: "Intro to OpenRefine"
+  name: open-refine
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Megan Van Noord, org: ucd-lib}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: m
+  time: 11:00am-11:50am
+  start: 11
+  duration: 60
+  type: hands-on
+  description: "Learn how to clean, standardize, and transform messy data using OpenRefine, a powerful open source tool for working with large or inconsistent datasets. This hands on session will introduce key features such as faceting, clustering, data transformation, and enrichment. OpenRefine runs locally in your web browser and works especially well with CSV and TSV files.<p></p>
+      <b>What You’ll Learn</b>
+      <ul>
+      <li>How to explore and assess a dataset </li>
+      <li>Techniques for identifying and resolving inconsistencies </li>
+      <li>Ways to split, transform, and standardize data </li>
+      </ul>
+      <b>Prerequisites</b>
+      <ul>
+      <li>Install <a href='https://openrefine.org/' target='_blank'>OpenRefine</a> before the workshop </li>
+      <li>Basic familiarity with Excel or Google Sheets </li>
+      </ul>
+      <b>Who Should Attend</b><p>
+      Researchers, students, librarians, and anyone who works with structured data and wants faster, more reliable cleanup workflows."
+  registration-page:  
+  recording: 
+  slides: 
+
 - title: "Five Ways to Love Your Data"
   name: love-five
   speaker-type: "Speaker"
