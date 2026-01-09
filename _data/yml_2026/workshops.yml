@@ -6,9 +6,9 @@
   speakers: [
     {name: Megan Van Noord, org: ucd-lib}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  openrefine_logo.png
+  thumbnail:  openrefine_logo.png
+  alt:  "OpenRefine logo with blue diamond"
   day: m
   time: 11:00am-11:50am
   start: 11
@@ -59,8 +59,8 @@
   speakers: [
     {name: Emil Hvitfelt, org: posit}
  ]
-  img:  posit.png
-  thumbnail:  posit.png
+  img:  posit_logo.png
+  thumbnail:  posit_logo.png
   alt:  "Posit logo"
   day: m
   time: 1:00pm-1:50pm
@@ -100,9 +100,9 @@
     {name: Wasila Dahdul, org: uci},
     {name: Jade Yonehiro, org: cdl}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  UC_logo.png
+  thumbnail:  UC_logo.png
+  alt:  "University of California"
   day: m
   time: 3:00pm-4:00pm
   start: 3
@@ -310,9 +310,9 @@
     {name: Jamie Jamieson, org: ucla-dsc},
     {name: Tim Dennis, org: ucla-dsc}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  rclone.png
+  thumbnail:  rclone.png
+  alt:  "rclone logo"
   day: w
   time: 11:00am-11:50am
   start: 11
