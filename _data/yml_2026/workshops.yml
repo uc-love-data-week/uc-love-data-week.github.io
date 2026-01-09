@@ -1,3 +1,10 @@
+# minimum required data for each event
+#   * to render calendar: start, duration
+#     ** the calendar will not render properly if start & duration are missing
+#   * to add to calendar: day (plus everything above)
+#     ** if title is missing, there will be a space on the calendar, but nothing in it. 
+#   * for pop-up event detail: name (plus everything above)
+
 #Monday Feb 9
 
 - title: "Intro to OpenRefine"
