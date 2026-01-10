@@ -75,7 +75,7 @@
   duration: 60
   type: hands-on
   description: "When fitting a model, statistical or machine learning, we often want to evaluate its performance. We have a wealth of different methods for all types of scenarios, from classification and regression to survival analysis. While these performance metrics work as intended, we can often get more out of models by carefully combining and using these metrics to capture what we really care about in our models. Optimal performance and minimal bias.<p>UC Love Data Week guest speaker: Emil Hvitfelt from <a href='https://posit.co/' target='_blank'>Posit</a>.</p>"
-  registration-page:  
+  registration-page:  https://ucla.zoom.us/j/96843661938?jst=2
   recording: 
   slides: 
 
@@ -221,7 +221,7 @@
   duration: 60
   type: hands-on
   description: "This workshop connects applied social science research with practical data skills in a two-part format. The first part presents a large-scale research project on discrimination in the labor market, focusing on how novel data are accessed, constructed, and managed to answer substantive empirical questions. The second part is a hands-on session on web scraping with Selenium, where participants learn how to responsibly collect structured data from public websites using reproducible workflows. The session emphasizes good data practices, from acquisition and documentation to downstream analysis, and is designed to be accessible to researchers working with a wide range of data types.<p><b>Note</b>: This workshop is two parts. The workshop will run for one hour starting at 11:00am, have a one hour break, and resume at 1:00pm for the final hour.</p>"
-  registration-page:  
+  registration-page:  https://ucla.zoom.us/j/98429984322?jst=2
   recording: 
   slides: 
 
@@ -240,7 +240,7 @@
   duration: 60
   type: hands-on
   description: "This workshop connects applied social science research with practical data skills in a two-part format. The first part presents a large-scale research project on discrimination in the labor market, focusing on how novel data are accessed, constructed, and managed to answer substantive empirical questions. The second part is a hands-on session on web scraping with Selenium, where participants learn how to responsibly collect structured data from public websites using reproducible workflows. The session emphasizes good data practices, from acquisition and documentation to downstream analysis, and is designed to be accessible to researchers working with a wide range of data types.<p><b>Note</b>: This workshop is two parts. The workshop will run for one hour starting at 11:00am, have a one hour break, and resume at 1:00pm for the final hour.</p>"
-  registration-page:  
+  registration-page:  https://ucla.zoom.us/j/98429984322?jst=2
   recording: 
   slides: 
 
