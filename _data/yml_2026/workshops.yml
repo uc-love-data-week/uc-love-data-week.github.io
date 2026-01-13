@@ -155,9 +155,9 @@
     {name: Julien Brun, org: ucsb},
     {name: Greg Janée, org: ucsb}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  quarto.png
+  thumbnail:  quarto.png
+  alt:  "quarto logo"
   day: t
   time: 11:00am-11:50am 
   start: 11
@@ -174,9 +174,9 @@
   speakers: [
     {name: Lena Bohman, org: }
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  drp-brand.png
+  thumbnail:  drp-brand.png
+  alt:  "Data Rescue Project logo: life preserver with floppy disk in middle, next to words Data Rescue Project"
   day: t
   time: 12:00pm-12:50pm
   start: 12
@@ -379,9 +379,9 @@
     {name: Stephanie Labou, org: ucsd-lib},
     {name: Julien Brun, org: ucsb}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img: R_logo.png
+  thumbnail:  R_logo.png
+  alt:  "R logo: large letter R"
   day: w
   time: 2:00pm-2:50pm
   start: 2
@@ -588,9 +588,9 @@
   speakers: [
     {name: Jing Han, org: ucr-lib}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  openalex_logo.png
+  thumbnail:  lopenalex_logo.png
+  alt:  "OpenAlex logo"
   day: f
   time: 2:00pm-2:50pm
   start: 2
