@@ -187,25 +187,6 @@
   recording: 
   slides: 
 
-- title: "Collecting Cultural Heritage Data with the DPLA API"
-  name: dpla-api
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Jairo Melo, org: ucsb}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 12:00pm-12:50pm
-  start: 12
-  duration: 60
-  type: hands-on
-  description: "Are you wondering if there’s a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows."
-  registration-page: https://ucsb.zoom.us/meeting/register/D-FFjPfOTci_rv9EJi1kfQ
-  recording: 
-  slides: 
-
 - title: "Web Scraping, Crawling and Spoofing [Part 1]"
   name: web1
   speaker-type: "Speaker"
@@ -260,6 +241,25 @@
   type: hands-on
   description: "This event will follow a hands-on introductory workshop with Tinkercad on how to use the Arduino microcontroller and how data plays a key role in its usefulness. Attendees will learn how to use the Arduino microcontroller with code and simulations that will allow attendees to create research projects with a little imagination. This workshop will be recorded and hands-on."
   registration-page: https://ucr.zoom.us/meeting/register/0t7a5PPoRAmbUJBRVgvUhQ?_x_zm_rtaid=jwvKN9qCQYODD3aCvlMzTA.1768336021969.7bfe1ccec311c835b5eea536622dc101&_x_zm_rhtaid=357#/registration 
+  recording: 
+  slides: 
+
+- title: "Collecting Cultural Heritage Data with the DPLA API"
+  name: dpla-api
+  speaker-type: "Speaker"
+  speakers: [
+    {name: Jairo Melo, org: ucsb}
+ ]
+  img:  ldw-circuit-color-506_2022.png
+  thumbnail:  ldw-circuit-color-506_2022.png
+  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  day: t
+  time: 2:00pm-2:50pm
+  start: 2
+  duration: 60
+  type: hands-on
+  description: "Are you wondering if there’s a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows."
+  registration-page: https://ucsb.zoom.us/meeting/register/D-FFjPfOTci_rv9EJi1kfQ
   recording: 
   slides: 
 
