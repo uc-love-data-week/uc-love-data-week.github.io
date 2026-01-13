@@ -56,7 +56,7 @@
   duration: 60
   type: lecture
   description: "Kick off UC Love Data Week with a fun and interactive session about five of the ways you can love your data. Learn how to write love notes to your future self in the form of robust documentation, how to share the love through citation and licensing, and other ways to give your data the quality time and attention it deserves. Whether you’re an undergraduate with a couple of spreadsheets, or a researcher with GBs of data, this session will provide useful tips and tricks to ensure a healthy long term relationship with your data."
-  registration-page: 
+  registration-page: https://ucsd.zoom.us/meeting/register/Vf3IGSG2QjCzkdcy6ja3NA#/registration
   recording: 
   slides: 
 
@@ -123,7 +123,7 @@
     <li> What country does UC publish more research than annually? </li>
     </ul>
     These questions, and many others, are answerable – if you know where to find the data! In this workshop, we'll learn how to find and access raw data and aggregate statistics, using UC-specific questions as examples. Attendees will leave with a better understanding of where to locate UC data, levels of data availability, common data privacy considerations, and how UC librarians can help you get data!"
-  registration-page: 
+  registration-page: https://ucsd.zoom.us/meeting/register/D0JhSPCuQ7--DrTOQO8GIw#/registration 
   recording: 
   slides: 
   
@@ -388,7 +388,7 @@
   duration: 60
   type: lecture
   description: Are you tired of spending your time manually formatting tables for article submission? Does the idea of pasting regression coefficients from R to Excel make you wince? This session will demo how to make publication-quality (and reproducible!) data tables in R. We'll use the `gt` package to showcase options for table customization and the `gtsummary` package for ways to combine model outputs with table creation. Note that this session assumes a working knowledge of R; we will dive straight into main table content without a general overview of R.
-  registration-page: 
+  registration-page: https://ucsd.zoom.us/meeting/register/U2EwnvgUQiGL9VkivKWK-Q#/registration
   recording: 
   slides: 
 
