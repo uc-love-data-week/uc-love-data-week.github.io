@@ -386,7 +386,7 @@
   time: 2:00pm-2:50pm
   start: 2
   duration: 60
-  type: lecture
+  type: demo
   description: Are you tired of spending your time manually formatting tables for article submission? Does the idea of pasting regression coefficients from R to Excel make you wince? This session will demo how to make publication-quality (and reproducible!) data tables in R. We'll use the `gt` package to showcase options for table customization and the `gtsummary` package for ways to combine model outputs with table creation. Note that this session assumes a working knowledge of R; we will dive straight into main table content without a general overview of R.
   registration-page: https://ucsd.zoom.us/meeting/register/U2EwnvgUQiGL9VkivKWK-Q#/registration
   recording: 
@@ -421,9 +421,9 @@
     {name: Pamela Reynolds, org: ucd-dl},
     {name: Nick Ulle, org: ucd-dl}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  ggplot2_logo.png
+  thumbnail:  ggplot2_logo.png
+  alt:  "ggplot2 logo: hex design with line plot"
   day: h
   time: 10:00am-11:50pm
   start: 10
@@ -499,9 +499,9 @@
   speakers: [
     {name: Andy Lyons, org: uc-anr}
  ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
+  img:  shiny-logo.png
+  thumbnail:  shiny-logo.png
+  alt:  "shiny logo: hex design with word 'shiny' inside"
   day: h
   time: 2:00pm-3:50pm
   start: 3
