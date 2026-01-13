@@ -79,7 +79,7 @@
   recording: 
   slides: 
 
-- title: "Tools for Discovering and Evaluating Data Repositories"
+- title: "How to Use Repository Finders"
   name: data-repos
   speaker-type: "Speaker"
   speakers: [
@@ -94,7 +94,7 @@
   start: 2
   duration: 60
   type: lecture
-  description: "Choosing a repository is an important task that can impact the discoverability and long-term maintenance of your research data. There are several interactive tools designed to help with the selection process. These include filterable repository “finders,” lists of desirable repository characteristics outlined by funders, and subject-specific repository searching sites. In this session, learners will get an overview of these tools and a summary document with links."
+  description: "Choosing a repository is an important task that can impact the discoverability and long-term maintenance of your research data. There are several interactive tools designed to help with the selection process. These include filterable repository 'finders,' which allow researchers to identify and compare relevant repositories. In this session, learners will learn when to use repository finders, receive demonstrations of two repository finders, and participate in evaluating repositories based on their characteristics. Learners will receive a summary handout after attending this session."
   registration-page: 
   recording: 
   slides: 
@@ -449,7 +449,7 @@
   start: 12
   duration: 30
   type: lecture
-  description: "Most of us are used to making figures that are meant to be read, not explored – plots designed for PDFs and journal pages. Interactive graphics open up new possibilities by letting viewers zoom in, filter, and engage with data in ways static figures cannot. In this session, we’ll explore what makes a visualization interactive, when it’s worth using, and how simple interactions can add insight. We’ll look at a few short examples using tools such as DataTables, Plotly, and Shiny. You will leave with practical tips on creating, sharing, and sustaining interactive graphics. <p>No prior experience with interactive visualization is required.</p>"
+  description: "Most of us are used to making figures that are meant to be read, not explored – plots designed for PDFs and journal pages. Interactive graphics open up new possibilities by letting viewers zoom in, filter, and engage with data in ways static figures cannot. In this session, we’ll explore what makes a visualization interactive, when it’s worth using, and how simple interactions can add insight. We’ll look at a few short examples using tools such as DataTables, Plotly, and Shiny. You will leave with practical tips on creating, sharing, and sustaining interactive graphics. <p>No prior experience with interactive visualization is required.</p><p>Note: This session is part of Data to Discovery, a biweekly virtual series hosted by the UCSB Library. This series highlights practical tools and core principles for working with data and engaging in open science. Each 30-minute session is designed to be concise, focused, and practical.</p>"
   registration-page: https://ucsb.zoom.us/meeting/register/td3yvwiLRrSoS-X9p_rnHA 
   recording: 
   slides: 
@@ -557,7 +557,7 @@
   duration: 60
   type: demo
   description: "Join us for an exploration of how Generative AI can be strategically integrated into qualitative research workflows. This session introduces the Guided AI Thematic Analysis (GAITA) framework, a structured approach to using AI for coding and theme development while upholding rigorous analytical standards. Participants will then experience a live demonstration of an AI assistant embedded in QualCoder, showcasing how AI can support qualitative data analysis without replacing researcher judgment. Attendees may follow along step by step or observe the workflow in action, gaining practical insights and best practices for critically and effectively incorporating AI tools into qualitative research."
-  registration-page: 
+  registration-page: https://ucsb.zoom.us/meeting/register/XtWciI8mRA65DRsjR-J9dw
   recording: 
   slides: 
 
