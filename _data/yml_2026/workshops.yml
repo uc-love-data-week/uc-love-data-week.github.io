@@ -280,7 +280,7 @@
   duration: 60
   type: lecture
   description: "How do you format a dataset so it can be understood by a blind person, deaf person, or other disabled individual? This question is increasingly relevant given new requirements from the US Department of Justice to make all public university websites and web content accessible to people with disabilities in the next year. This workshop reviews why accessible research data matters, general accessibility principles, and how to make various data files (spreadsheets, images, etc.) more accessible for everyone."
-  registration-page: 
+  registration-page: https://libcal.caltech.edu/event/16205574
   recording: 
   slides: 
 
@@ -407,7 +407,7 @@
   start: 3
   duration: 60
   type: lecture
-  description: "This session will provide an overview of public health data resources. More information coming soon!"
+  description: "Are you looking for public health data but don't know where to start? Join us for a practical guide on locating the specific public health data and information you need."
   registration-page:  
   recording: 
   slides: 
