@@ -52,7 +52,7 @@
   image: /assets/img/campuses/ucd-lib.jpg
   alt: UC Davis Library
   url: https://www.library.ucdavis.edu/
-  p-campus: n
+  p-campus: y
 
 - name: UC Davis
   abbv: ucd
@@ -182,6 +182,13 @@
   url: https://library.caltech.edu/library/home
   p-campus: n
 
+- name: Fresno State Library
+  abbv: fresnoState-lib
+  image: /assets/img/campuses/fresnoState-lib.png
+  alt: Fresno State Library
+  url: https://library.fresnostate.edu/
+  p-campus: n
+
 - name: Posit
   abbv: posit
   image: /assets/img/campuses/posit.png
@@ -189,9 +196,9 @@
   url: https://posit.co/
   p-campus: n
 
-- name: Fresno State Library
-  abbv: fresnoState-lib
-  image: /assets/img/campuses/fresnoState-lib.png
-  alt: Fresno State Library
-  url: https://library.fresnostate.edu/
+- name: Data Rescue Project
+  abbv: drp
+  image: /assets/img/workshops/drp-brand.png
+  alt: Data Rescue Project
+  url: https://www.datarescueproject.org/
   p-campus: n

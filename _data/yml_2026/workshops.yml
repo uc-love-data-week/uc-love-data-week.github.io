@@ -172,7 +172,7 @@
   name: data-rescue
   speaker-type: "Speaker"
   speakers: [
-    {name: Lena Bohman, org: }
+    {name: Lena Bohman, org: drp}
  ]
   img:  drp-brand.png
   thumbnail:  drp-brand.png
