@@ -369,7 +369,7 @@
   duration: 60
   type: hands-on
   description: "Wikipedia is among the most visited websites in the world, but even Wikipedia's staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are 'notable' and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. You can be part of the solution! Join us on February 11 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href=\"https://auth.wikimedia.org/enwiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1&returnto=Main+Page&centralauthLoginToken=1388602bd46760cc02df3da9c78c6528\" target=\"_blank\">Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you'd like to edit, or we'll help you find a way to make a difference in an area of interest to you."
-  registration-page: 
+  registration-page: https://berkeley.libcal.com/event/16182783
   recording: 
   slides: 
 
@@ -408,7 +408,7 @@
   duration: 60
   type: lecture
   description: "Are you looking for public health data but don't know where to start? Join us for a practical guide on locating the specific public health data and information you need."
-  registration-page:  
+  registration-page: https://ucr.zoom.us/webinar/register/WN_otnM1R8KQFiiLthpU74Gjw
   recording: 
   slides: 
 
@@ -471,7 +471,7 @@
   duration: 60
   type: hands-on
   description: This hands-on workshop introduces beginners to the Raspberry Pi and its versatile Sense HAT add-on. You'll learn the essentials of Python programming to control an LED matrix and collect real-world, high-quality data on temperature, humidity, and device orientation (gyroscope). These foundational skills are crucial for building academic and research projects, from environmental monitoring to robotics and physics experiments. No prior coding experience is necessary!
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_fNLe7pwtTsypjnAUqj_SJg
   recording: 
   slides: 
 
@@ -490,7 +490,7 @@
   duration: 60 
   type: lecture
   description: Join us to learn how to transform messy, raw spreadsheets into clean, usable data. This workshop will guide you through the essentials of the Pandas library, a key tool for data manipulation. By the end, you’ll be able to load messy files, understand the structure of a DataFrame, and produce the clean data needed for analysis and visualization.
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_cu3ix3xKRmexHOdjt4F2xQ
   recording: 
   slides: 
 
@@ -539,7 +539,7 @@
     Whether you're looking to extract deeper insights from existing datasets, build interactive dashboards for research, or develop comprehensive analytic framework for ongoing work, this seminar will equip you with practical strategies for integrating AI assistance into your data visualization workflows.
 
     No advanced coding experience required—just curiosity about how AI can augment your data practice."
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_XFfiy6qlQaeMRsiUJmX1Fw
   recording: 
   slides: 
 
@@ -598,7 +598,7 @@
   duration: 60
   type: lecture
   description: This session begins with an introduction to OpenAlex, then guides participants through exploring the web interface and working with the API to access, clean, and interpret open data to measure institutional research impact.
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_Uryj_RrPR7uUQj0vKoh3tA
   recording: 
   slides: 
 
