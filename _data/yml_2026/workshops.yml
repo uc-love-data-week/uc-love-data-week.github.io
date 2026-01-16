@@ -7,7 +7,7 @@
 
 #Monday Feb 9
 
-- title: "Intro to OpenRefine"
+- title: "Intro to  for Data Cleaning"
   name: open-refine
   speaker-type: "Speaker"
   speakers: [
@@ -35,7 +35,7 @@
       </ul>
       <b>Who Should Attend</b><p>
       Researchers, students, librarians, and anyone who works with structured data and wants faster, more reliable cleanup workflows."
-  registration-page:  
+  registration-page: https://events.library.ucdavis.edu/event/workshop-w2026-open-refine
   recording: 
   slides: 
 
@@ -79,7 +79,7 @@
   recording: 
   slides: 
 
-- title: "How to Use Repository Finders"
+- title: "How to Use Data Repository Finders"
   name: data-repos
   speaker-type: "Speaker"
   speakers: [
@@ -95,7 +95,7 @@
   duration: 60
   type: lecture
   description: "Choosing a repository is an important task that can impact the discoverability and long-term maintenance of your research data. There are several interactive tools designed to help with the selection process. These include filterable repository 'finders,' which allow researchers to identify and compare relevant repositories. In this session, learners will learn when to use repository finders, receive demonstrations of two repository finders, and participate in evaluating repositories based on their characteristics. Learners will receive a summary handout after attending this session."
-  registration-page: 
+  registration-page: https://events.library.ucdavis.edu/event/workshop-w2026-repository-finders
   recording: 
   slides: 
 
@@ -241,7 +241,7 @@
   duration: 60
   type: hands-on
   description: "This event will follow a hands-on introductory workshop with Tinkercad on how to use the Arduino microcontroller and how data plays a key role in its usefulness. Attendees will learn how to use the Arduino microcontroller with code and simulations that will allow attendees to create research projects with a little imagination. This workshop will be recorded and hands-on."
-  registration-page: https://ucr.zoom.us/meeting/register/0t7a5PPoRAmbUJBRVgvUhQ?_x_zm_rtaid=jwvKN9qCQYODD3aCvlMzTA.1768336021969.7bfe1ccec311c835b5eea536622dc101&_x_zm_rhtaid=357#/registration 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_rJr2oOT2QxqF9z_q2lIc0w#/registration 
   recording: 
   slides: 
 
@@ -408,14 +408,14 @@
   duration: 60
   type: lecture
   description: "Are you looking for public health data but don't know where to start? Join us for a practical guide on locating the specific public health data and information you need."
-  registration-page:  
+  registration-page: https://ucr.zoom.us/webinar/register/WN_otnM1R8KQFiiLthpU74Gjw#/registration
   recording: 
   slides: 
 
 
 #Thursday Feb 12
 
-- title: "Static data visualization using ggplot in R"
+- title: "Visualizing Data with Ggplot for R Users"
   name: ggplot
   speaker-type: "Speaker"
   speakers: [
@@ -430,8 +430,19 @@
   start: 10
   duration: 120
   type: hands-on
-  description: Coming soon!
-  registration-page:  
+  description: "If a picture tells a thousand words then a data visualization can convey a million! Join us to learn how to apply data visualization principles and best practices to generate compelling plots with ggplot in R. Through a series of case studies, we'll make static plots and practice iterating to improve upon them and the data stories they tell.
+    <p>This workshop is for current R users who want to expand their plotting skills, and thus is not an introduction to the R programming langauge. It is part of DataLab's 'Intermediate R' training series, which you can learn more about on our training website.</p>
+    <p>After completing this workshop, learners should be able to:
+      <ul>
+      <li>write code to generate plots in R using the ggplot2 package</li>
+      <li>develop various different plot types (dot plots, histograms, bar charts, boxplots, time series, etc.)</li>
+      <li>employ ggplot's grammar of graphics syntax to customize plots,</li>
+      <li>effectively use layers and aesthetics to make plots more informative and meaningful (including adding groupings, scaling, color, faceting, labels, and trendlines)</li>
+      </ul>
+      <p>This workshop is offered in person and as a virtual broadcast as part of UC Love Data Week. Local learners are encouraged to attend in person. All members of the University of California system are welcome to register. Advance registration required.</p>
+      <b>Prerequisites</b><p>
+      This workshop is intended for motivated learners from all domains at UC Davis and the other UCs who want to hone their existing R skills. Thus, we won't cover introductory R questions during this session. Participants should be comfortable with basic R syntax, and have the latest version of R and RStudio pre-installed and running on their laptops. If you're new to R, or want to brush up, we suggest you start with our 'R Basics' workshop curriculum."
+  registration-page: https://events.library.ucdavis.edu/event/workshop-w2026-intermediate-r-ggplot?
   recording: 
   slides: 
 
@@ -471,7 +482,7 @@
   duration: 60
   type: hands-on
   description: This hands-on workshop introduces beginners to the Raspberry Pi and its versatile Sense HAT add-on. You'll learn the essentials of Python programming to control an LED matrix and collect real-world, high-quality data on temperature, humidity, and device orientation (gyroscope). These foundational skills are crucial for building academic and research projects, from environmental monitoring to robotics and physics experiments. No prior coding experience is necessary!
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_fNLe7pwtTsypjnAUqj_SJg#/registration
   recording: 
   slides: 
 
@@ -490,7 +501,7 @@
   duration: 60 
   type: lecture
   description: Join us to learn how to transform messy, raw spreadsheets into clean, usable data. This workshop will guide you through the essentials of the Pandas library, a key tool for data manipulation. By the end, you’ll be able to load messy files, understand the structure of a DataFrame, and produce the clean data needed for analysis and visualization.
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_cu3ix3xKRmexHOdjt4F2xQ#/registration
   recording: 
   slides: 
 
@@ -512,7 +523,7 @@
       <p><b>Prequesites</b></p>
       Some experience with R is expected (at least enough to run prepared scripts). The hands-on exercises (recommended but not required) will require participants to have a free account on Posit Cloud (i.e., so you can run prepared scripts in RStudio in a browser). Experienced R users are welcome to run the exercises in RStudio Desktop or Positron, but support will be limited.
       Parts of the workshop will require you to follow along as the instructor demonstrates code to solve a problem. It is therefore highly recommended that you have a computer with two monitors, so you can view the instructor's screen on one monitor, and work in RStudio in the other. Participants who only have a small laptop with no external monitor may find it challenging to complete the hands-on exercises, and may just want to watch.    
-  registration-page: 
+  registration-page: https://ucanr.edu/program/informatics-and-gis-program/r-shiny-s26
   recording: 
   slides: 
 
@@ -539,7 +550,7 @@
     Whether you're looking to extract deeper insights from existing datasets, build interactive dashboards for research, or develop comprehensive analytic framework for ongoing work, this seminar will equip you with practical strategies for integrating AI assistance into your data visualization workflows.
 
     No advanced coding experience required—just curiosity about how AI can augment your data practice."
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_XFfiy6qlQaeMRsiUJmX1Fw#/registration
   recording: 
   slides: 
 
@@ -578,7 +589,7 @@
   duration: 90
   type: lecture
   description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year."
-  registration-page: 
+  registration-page: https://ucanr.edu/program/informatics-and-gis-program/deep-learning-drone-imagery-s26
   recording: 
   slides: 
 
@@ -590,7 +601,7 @@
     {name: Jing Han, org: ucr-lib}
  ]
   img:  openalex_logo.png
-  thumbnail:  lopenalex_logo.png
+  thumbnail:  openalex_logo.png
   alt:  "OpenAlex logo"
   day: f
   time: 2:00pm-2:50pm
@@ -598,7 +609,7 @@
   duration: 60
   type: lecture
   description: This session begins with an introduction to OpenAlex, then guides participants through exploring the web interface and working with the API to access, clean, and interpret open data to measure institutional research impact.
-  registration-page: 
+  registration-page: https://ucr.zoom.us/webinar/register/WN_Uryj_RrPR7uUQj0vKoh3tA#/registration
   recording: 
   slides: 
 
