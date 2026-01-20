@@ -369,7 +369,7 @@
   duration: 60
   type: hands-on
   description: "Wikipedia is among the most visited websites in the world, but even Wikipedia's staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are 'notable' and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. You can be part of the solution! Join us on February 11 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href=\"https://auth.wikimedia.org/enwiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1&returnto=Main+Page&centralauthLoginToken=1388602bd46760cc02df3da9c78c6528\" target=\"_blank\">Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you'd like to edit, or we'll help you find a way to make a difference in an area of interest to you."
-  registration-page: 
+  registration-page: https://berkeley.libcal.com/event/16182783
   recording: 
   slides: 
 
