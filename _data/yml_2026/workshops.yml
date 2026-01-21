@@ -327,7 +327,7 @@
   duration: 60
   type: hands-on
   description: Coming soon!
-  registration-page:  
+  registration-page: https://ucla.zoom.us/meeting/register/nwL0RbzvRnmK42AjgfyouA
   recording: 
   slides: 
 
@@ -349,7 +349,7 @@
   duration: 60 
   type: hands-on
   description: This workshop is intended for researchers, graduate students, and librarians who work with research code and want practical ways to make software easier to find, cite, and reuse.
-  registration-page: 
+  registration-page: https://ucla.zoom.us/meeting/register/k47lNtROR2KNaP7SPvOaIQ
   recording: 
   slides: 
 
