@@ -326,7 +326,7 @@
   start: 11
   duration: 60
   type: hands-on
-  description: Coming soon!
+  description: Rclone is a command-line tool for transferring and managing files between local systems and cloud storage services. In this hands-on workshop, participants will learn how to install and configure rclone, run common commands to copy, sync, and move data, and mount cloud storage as a local file system. The session also covers how rclone compares to tools like rsync and how to use documentation to troubleshoot common issues.
   registration-page: https://ucla.zoom.us/meeting/register/nwL0RbzvRnmK42AjgfyouA
   recording: 
   slides: 
