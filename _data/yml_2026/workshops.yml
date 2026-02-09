@@ -60,25 +60,6 @@
   recording: 
   slides: 
 
-- title: "One Metric to Fool Yourself - A Cautionary Tale in Machine Learning Evaluation"
-  name: ml-eval
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Emil Hvitfelt, org: posit}
- ]
-  img:  posit_logo.png
-  thumbnail:  posit_logo.png
-  alt:  "Posit logo"
-  day: m
-  time: 1:00pm-1:50pm
-  start: 1
-  duration: 60
-  type: hands-on
-  description: "When fitting a model, statistical or machine learning, we often want to evaluate its performance. We have a wealth of different methods for all types of scenarios, from classification and regression to survival analysis. While these performance metrics work as intended, we can often get more out of models by carefully combining and using these metrics to capture what we really care about in our models. Optimal performance and minimal bias.<p>UC Love Data Week guest speaker: Emil Hvitfelt from <a href='https://posit.co/' target='_blank'>Posit</a>.</p>"
-  registration-page:  
-  recording: 
-  slides: 
-
 - title: "How to Use Data Repository Finders"
   name: data-repos
   speaker-type: "Speaker"
@@ -168,25 +149,6 @@
   recording: 
   slides: 
 
-- title: "Web Scraping, Crawling and Spoofing [Part 1]"
-  name: web1
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Jake Anderson, org: ucla}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 11:00am-11:50am
-  start: 11
-  duration: 60
-  type: hands-on
-  description: "This workshop connects applied social science research with practical data skills in a two-part format. The first part presents a large-scale research project on discrimination in the labor market, focusing on how novel data are accessed, constructed, and managed to answer substantive empirical questions. The second part is a hands-on session on web scraping with Selenium, where participants learn how to responsibly collect structured data from public websites using reproducible workflows. The session emphasizes good data practices, from acquisition and documentation to downstream analysis, and is designed to be accessible to researchers working with a wide range of data types.<p><b>Note</b>: This workshop is two parts. The workshop will run for one hour starting at 11:00am, have a one hour break, and resume at 1:00pm for the final hour.</p>"
-  registration-page:  
-  recording: 
-  slides: 
-
 - title: "Data Rescue Project"
   name: data-rescue
   speaker-type: "Speaker"
@@ -203,26 +165,6 @@
   type: lecture
   description: "Public data from governmental agencies like the Bureau of Labor Statistics and Dept. of Education is increasingly at risk. This talk details the Data Rescue Project (DRP), a concerted effort by librarians and archivists to preserve at-risk public U.S. governmental data. We will cover the DRP's progress as a data rescue clearinghouse: running volunteer training, utilizing ICPSR's Data Lumos repository, and operating the Data Rescue Portal to track rescued datasets. Learn what we are doing and how you can contribute to public data preservation efforts. Speaker: Lena Bohman -  Steering Committee Member, Data Rescue Project"
   registration-page: https://uclahs.fyi/researchtechtalks
-  recording: 
-  slides: 
-
-
-- title: "Web Scraping, Crawling and Spoofing [Part 2]"
-  name: web2
-  speaker-type: "Speaker"
-  speakers: [
-    {name: Jake Anderson, org: ucla}
- ]
-  img:  ldw-circuit-color-506_2022.png
-  thumbnail:  ldw-circuit-color-506_2022.png
-  alt:  "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed"
-  day: t
-  time: 1:00pm-1:50pm
-  start: 1
-  duration: 60
-  type: hands-on
-  description: "This workshop connects applied social science research with practical data skills in a two-part format. The first part presents a large-scale research project on discrimination in the labor market, focusing on how novel data are accessed, constructed, and managed to answer substantive empirical questions. The second part is a hands-on session on web scraping with Selenium, where participants learn how to responsibly collect structured data from public websites using reproducible workflows. The session emphasizes good data practices, from acquisition and documentation to downstream analysis, and is designed to be accessible to researchers working with a wide range of data types.<p><b>Note</b>: This workshop is two parts. The workshop will run for one hour starting at 11:00am, have a one hour break, and resume at 1:00pm for the final hour.</p>"
-  registration-page:  
   recording: 
   slides: 
 
