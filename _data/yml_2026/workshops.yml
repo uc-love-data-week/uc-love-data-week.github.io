@@ -114,7 +114,8 @@
   name: ai-high-tech
   speaker-type: "Speaker"
   speakers: [
-    {name: Geoffrey Boushey, org: ucsf}
+    {name: Geoffrey Boushey, org: ucsf},
+    {name: Peter Kovacs, org: ucsf}
  ]
   img:  ldw-circuit-color-506_2022.png
   thumbnail:  ldw-circuit-color-506_2022.png
