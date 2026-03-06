@@ -19,8 +19,8 @@
   zoom: tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
   registration-page:
   url:  https://uci.zoom.us/meeting/register/tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl
-  recording:  https://drive.google.com/file/d/1jLw1Wo8E73df3KiYvpePa9kC71xXxrJB/preview
-  slides: https://docs.google.com/presentation/d/11kRmEMvwqvMK0CqJuXUzMpsjHDX54gWb9ejxEx7d7x0/edit#slide=id.gb5cab6d681_0_5
+  recording:  https://doi.org/10.5281/zenodo.14399672
+  slides: https://doi.org/10.5281/zenodo.14399672
 
 
 - title: A Gentle and Friendly Introduction to APIs
@@ -314,8 +314,8 @@
   zoom: tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
   registration-page:
   url: https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh
-  recording: https://drive.google.com/file/d/1GjXh1APnZQWThZ2NW5Xi5BoQfpV2mD2Z/preview
-  slides: https://docs.google.com/presentation/d/1-AWB8XLuJNuFzX78BFk9FjyVZBnsU1DfVL6AHV6OKQc/edit?usp=sharing 
+  recording: https://doi.org/10.5281/zenodo.14402063
+  slides: https://doi.org/10.5281/zenodo.14402063 
 
 - title:  ICPSR presentation
   name:   icpsr

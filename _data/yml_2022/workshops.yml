@@ -272,7 +272,7 @@
   registration-page: https://uci.zoom.us/meeting/register/tJMsd-6grTgtHtzl5Rsoua9AOPC8MVvCLqcp
   temp:
   recording:                                             
-  slides:  https://docs.google.com/presentation/d/1SAgVipg9ZvmF-CYNpgiQRKtoS2Ma5oscX_vuW8nataA/edit?usp=sharing 
+  slides:  https://doi.org/10.5281/zenodo.14399442 
 
 - title:  "Intro to High Performance and Remote Computing"
   name:   high
@@ -572,7 +572,7 @@
   registration-page: https://uci.zoom.us/meeting/register/tJUvdumvpz0sHNBtBjdjOjvOBL1mEJPVWaHN  
   url: 
   recording: 
-  slides:  https://docs.google.com/presentation/d/10s3ShZlZ7Gddk9SIp2Hu5cgntTkIXbuTxavCjb7khvw/edit?usp=sharing 
+  slides:  https://doi.org/10.5281/zenodo.14402189 
   reader:  
   
 - title:  "Gale Digital Scholar Lab"
@@ -621,7 +621,7 @@
   registration-page: https://www.eventbrite.com/e/handling-sensitive-data-in-a-sensible-way-tickets-229587401097
   url: 
   recording:
-  slides:  https://drive.google.com/file/d/1fi4YMda4t6cjoobX-1M8dB4up5FZdwST/view?usp=sharing
+  slides:  https://doi.org/10.5281/zenodo.10828318
   reader:  
   
   
