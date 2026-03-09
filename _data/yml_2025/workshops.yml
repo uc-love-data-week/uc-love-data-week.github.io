@@ -54,7 +54,7 @@
   type: hands-on
   description: Rclone is a command-line tool that allows users to transfer and synchronize files between cloud storage services, servers, and local machines. Rclone is a cross-platform application that runs on Linux, Windows and MacOS.
   registration-page: https://ucla.zoom.us/meeting/register/a1ivl0-nTNOyhdZQNhlywA
-  recording: 
+  recording: https://doi.org/10.5281/zenodo.14867986
   slides: 
 
 - title: "Wikipedia Editathon"
@@ -268,7 +268,7 @@ No experience or special software is required to participate in this workshop. T
   description: "Join us for practical tips on qualitative data de-identification and strategies to tackle the unique challenges researchers face when working with human subject data. This session will feature QualiAnon, an open-source tool designed to help researchers securely anonymize and pseudonymize sensitive qualitative data with precision and flexibility. Unlike automated tools that rely on blind substitutions, QualiAnon gives you full control over how and when data is anonymized, allowing you to manually define replacement rules for specific datasets or variables. This approach ensures a higher level of accuracy and privacy by stripping identifying information without compromising the richness of the data. In this session, we’ll demonstrate how QualiAnon can streamline your data protection efforts, improve your workflow, and ensure compliance with privacy standards. Don’t miss the chance to discover how this tool can simplify the de-identification process while safeguarding sensitive information in your research!"
   registration-page: https://cglink.me/2dD/r2264475
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.14861920
 
 - title: "DataPlanet: Data for Data Science"
   name: dataplanet
@@ -331,7 +331,7 @@ Description: Novel insights into human cognition can benefit from advancements i
   description: "Quarto is a publication tool built into the RStudio multilanguage data analysis and visualization platform, often used in conjunction with code notebooks. Quarto enables a more reproducible approach to data-driven research by integrating documentation, code, and results in one document. But it’s also a great publication platform on its own! In this session a panel of Quarto users will showcase what Quarto is capable of, especially when used in concert with GitHub Pages hosting, including creating websites (course websites, personal websites, blogs), presentations, dashboards, academic papers, and books. We will also demonstrate, in real-time, how easy it is to create such research deliverables. Prepare to be sold on using Quarto!"
   registration-page: https://cglink.me/2dD/r2264473
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.15000956
 
 - title: "Oral History Methodology for the Qualitative Researcher"
   name: oral-history
@@ -571,7 +571,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
   type: hands-on
   description: Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.
   registration-page: https://ucla.zoom.us/meeting/register/pSI9eZFdS82Lo6cjcwNJvg
-  recording: 
+  recording: https://doi.org/10.5281/zenodo.14889793
   slides: 
 
 - title: "Unlocking image, audio, and video data in the Industry Documents Library: a Python based, open source stack for audio transcription, text extraction, sentiment analysis, and topic classification."

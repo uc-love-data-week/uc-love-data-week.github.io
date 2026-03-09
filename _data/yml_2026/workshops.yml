@@ -58,7 +58,7 @@
   description: "Kick off UC Love Data Week with a fun and interactive session about five of the ways you can love your data. Learn how to write love notes to your future self in the form of robust documentation, how to share the love through citation and licensing, and other ways to give your data the quality time and attention it deserves. Whether you’re an undergraduate with a couple of spreadsheets, or a researcher with GBs of data, this session will provide useful tips and tricks to ensure a healthy long term relationship with your data."
   registration-page: https://ucsd.zoom.us/meeting/register/Vf3IGSG2QjCzkdcy6ja3NA#/registration
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.18792834
 
 - title: "How to Use Data Repository Finders"
   name: data-repos
@@ -105,8 +105,8 @@
     </ul>
     These questions, and many others, are answerable – if you know where to find the data! In this workshop, we'll learn how to find and access raw data and aggregate statistics, using UC-specific questions as examples. Attendees will leave with a better understanding of where to locate UC data, levels of data availability, common data privacy considerations, and how UC librarians can help you get data!"
   registration-page: https://ucsd.zoom.us/meeting/register/D0JhSPCuQ7--DrTOQO8GIw#/registration 
-  recording: 
-  slides: 
+  recording: https://doi.org/10.5281/zenodo.18792081
+  slides: https://doi.org/10.5281/zenodo.18792081
   
 #Tuesday Feb 10
 
@@ -148,7 +148,7 @@
   description: "Are you looking for a simple, professional way to showcase your research, CV, and/or complement your publications with more interactive content? What if we were to tell you you can create a free website with Quarto & GitHub pages to promote your wokr? Join us for a hands-on workshop on building websites using Quarto and GitHub Pages.  If you can write in Markdown, you can build a website — no web development knowledge is needed. In this session, you will learn how to turn your analysis and writing into a sleek website hosted for free on GitHub. Whether you use R, Python, or just plain text, this workflow allows you to maintain a dynamic academic portfolio with minimal effort."
   registration-page:  https://ucsb.zoom.us/meeting/register/c4j26ikuRw-T0MhvL-cnHQ
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.18675395
 
 - title: "Data Rescue Project"
   name: data-rescue
@@ -205,7 +205,7 @@
   description: "Are you wondering if there’s a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows."
   registration-page: https://ucsb.zoom.us/meeting/register/D-FFjPfOTci_rv9EJi1kfQ
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.18614568
 
 
 - title: "Accessible Data for Everyone"
@@ -224,8 +224,8 @@
   type: lecture
   description: "How do you format a dataset so it can be understood by a blind person, deaf person, or other disabled individual? This question is increasingly relevant given new requirements from the US Department of Justice to make all public university websites and web content accessible to people with disabilities in the next year. This workshop reviews why accessible research data matters, general accessibility principles, and how to make various data files (spreadsheets, images, etc.) more accessible for everyone."
   registration-page: https://libcal.caltech.edu/event/16205574
-  recording: 
-  slides: 
+  recording: https://doi.org/10.5281/zenodo.18615267
+  slides: https://doi.org/10.5281/zenodo.18615267
 
 #Wednesday Feb 11
 
@@ -251,8 +251,8 @@
     </ul>
     </p> "
   registration-page: https://events.library.ucdavis.edu/event/talk-w2026-ucldw-casestudy 
-  recording: 
-  slides: 
+  recording: https://doi.org/10.5281/zenodo.18614589
+  slides: https://doi.org/10.5281/zenodo.18614589
 
 - title: "Moving Your Data Around with RClone"
   name: R-clone
@@ -333,8 +333,8 @@
   type: demo
   description: Are you tired of spending your time manually formatting tables for article submission? Does the idea of pasting regression coefficients from R to Excel make you wince? This session will demo how to make publication-quality (and reproducible!) data tables in R. We'll use the `gt` package to showcase options for table customization and the `gtsummary` package for ways to combine model outputs with table creation. Note that this session assumes a working knowledge of R; we will dive straight into main table content without a general overview of R.
   registration-page: https://ucsd.zoom.us/meeting/register/U2EwnvgUQiGL9VkivKWK-Q#/registration
-  recording: 
-  slides: 
+  recording:
+  slides: https://doi.org/10.5281/zenodo.18675452
 
 - title: "Introduction to Public Health Data"
   name: public-health
@@ -407,7 +407,7 @@
   description: "Most of us are used to making figures that are meant to be read, not explored – plots designed for PDFs and journal pages. Interactive graphics open up new possibilities by letting viewers zoom in, filter, and engage with data in ways static figures cannot. In this session, we’ll explore what makes a visualization interactive, when it’s worth using, and how simple interactions can add insight. We’ll look at a few short examples using tools such as DataTables, Plotly, and Shiny. You will leave with practical tips on creating, sharing, and sustaining interactive graphics. <p>No prior experience with interactive visualization is required.</p><p>Note: This session is part of Data to Discovery, a biweekly virtual series hosted by the UCSB Library. This series highlights practical tools and core principles for working with data and engaging in open science. Each 30-minute session is designed to be concise, focused, and practical.</p>"
   registration-page: https://ucsb.zoom.us/meeting/register/td3yvwiLRrSoS-X9p_rnHA 
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.18675472
 
 
 - title: "Getting Started with Raspberry Pi and the Sense HAT"
@@ -467,8 +467,8 @@
       Some experience with R is expected (at least enough to run prepared scripts). The hands-on exercises (recommended but not required) will require participants to have a free account on Posit Cloud (i.e., so you can run prepared scripts in RStudio in a browser). Experienced R users are welcome to run the exercises in RStudio Desktop or Positron, but support will be limited.
       Parts of the workshop will require you to follow along as the instructor demonstrates code to solve a problem. It is therefore highly recommended that you have a computer with two monitors, so you can view the instructor's screen on one monitor, and work in RStudio in the other. Participants who only have a small laptop with no external monitor may find it challenging to complete the hands-on exercises, and may just want to watch.    
   registration-page: https://ucanr.edu/program/informatics-and-gis-program/r-shiny-s26
-  recording: 
-  slides: 
+  recording: https://youtu.be/cdDDf80JwyU
+  slides:
 
 #Friday Feb 13
 
@@ -514,7 +514,7 @@
   description: "Join us for an exploration of how Generative AI can be strategically integrated into qualitative research workflows. This session introduces the Guided AI Thematic Analysis (GAITA) framework, a structured approach to using AI for coding and theme development while upholding rigorous analytical standards. Participants will then experience a live demonstration of an AI assistant embedded in QualCoder, showcasing how AI can support qualitative data analysis without replacing researcher judgment. Attendees may follow along step by step or observe the workflow in action, gaining practical insights and best practices for critically and effectively incorporating AI tools into qualitative research."
   registration-page: https://ucsb.zoom.us/meeting/register/XtWciI8mRA65DRsjR-J9dw
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.18686484
 
 - title: "Deep Learning with Drone Imagery in ArcGIS Pro"
   name: deep-learning-drone
@@ -533,7 +533,7 @@
   type: lecture
   description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year."
   registration-page: https://ucanr.edu/program/informatics-and-gis-program/deep-learning-drone-imagery-s26
-  recording: 
+  recording: https://youtu.be/BySO-PiPD9I
   slides: 
 
 
@@ -554,5 +554,5 @@
   description: This session begins with an introduction to OpenAlex, then guides participants through exploring the web interface and working with the API to access, clean, and interpret open data to measure institutional research impact.
   registration-page: https://ucr.zoom.us/webinar/register/WN_Uryj_RrPR7uUQj0vKoh3tA#/registration
   recording: 
-  slides: 
+  slides: https://doi.org/10.5281/zenodo.18637147
 
