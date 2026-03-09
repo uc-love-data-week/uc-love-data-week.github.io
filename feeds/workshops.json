@@ -27,8 +27,8 @@
         "zoom": "tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl",
         "registration-page": null,
         "url": "https://uci.zoom.us/meeting/register/tJIpd-irrTwqHNLB90P2fTxUDR2m126PZ4Kl",
-        "recording": "https://drive.google.com/file/d/1jLw1Wo8E73df3KiYvpePa9kC71xXxrJB/preview",
-        "slides": "https://docs.google.com/presentation/d/11kRmEMvwqvMK0CqJuXUzMpsjHDX54gWb9ejxEx7d7x0/edit#slide=id.gb5cab6d681_0_5"
+        "recording": "https://doi.org/10.5281/zenodo.14399672",
+        "slides": "https://doi.org/10.5281/zenodo.14399672"
       },
       "apis": {
         "title": "A Gentle and Friendly Introduction to APIs",
@@ -398,8 +398,8 @@
         "zoom": "tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh",
         "registration-page": null,
         "url": "https://uci.zoom.us/meeting/register/tJUrduurqjgjH9djWsAtxaYv3_BaRiaTPzIh",
-        "recording": "https://drive.google.com/file/d/1GjXh1APnZQWThZ2NW5Xi5BoQfpV2mD2Z/preview",
-        "slides": "https://docs.google.com/presentation/d/1-AWB8XLuJNuFzX78BFk9FjyVZBnsU1DfVL6AHV6OKQc/edit?usp=sharing"
+        "recording": "https://doi.org/10.5281/zenodo.14402063",
+        "slides": "https://doi.org/10.5281/zenodo.14402063"
       },
       "icpsr": {
         "title": "ICPSR presentation",
@@ -1180,7 +1180,7 @@
         "registration-page": "https://uci.zoom.us/meeting/register/tJMsd-6grTgtHtzl5Rsoua9AOPC8MVvCLqcp",
         "temp": null,
         "recording": null,
-        "slides": "https://docs.google.com/presentation/d/1SAgVipg9ZvmF-CYNpgiQRKtoS2Ma5oscX_vuW8nataA/edit?usp=sharing"
+        "slides": "https://doi.org/10.5281/zenodo.14399442"
       },
       "high": {
         "title": "Intro to High Performance and Remote Computing",
@@ -1579,7 +1579,7 @@
         "registration-page": "https://uci.zoom.us/meeting/register/tJUvdumvpz0sHNBtBjdjOjvOBL1mEJPVWaHN",
         "url": null,
         "recording": null,
-        "slides": "https://docs.google.com/presentation/d/10s3ShZlZ7Gddk9SIp2Hu5cgntTkIXbuTxavCjb7khvw/edit?usp=sharing",
+        "slides": "https://doi.org/10.5281/zenodo.14402189",
         "reader": null
       },
       "gale": {
@@ -1645,7 +1645,7 @@
         "registration-page": "https://www.eventbrite.com/e/handling-sensitive-data-in-a-sensible-way-tickets-229587401097",
         "url": null,
         "recording": null,
-        "slides": "https://drive.google.com/file/d/1fi4YMda4t6cjoobX-1M8dB4up5FZdwST/view?usp=sharing",
+        "slides": "https://doi.org/10.5281/zenodo.10828318",
         "reader": null
       },
       "api": {
@@ -1804,8 +1804,8 @@
         "type": "lecture",
         "description": "NIH has issued a new Data Management and Sharing Policy (effective January 25, 2023) to promote the sharing of scientific data and its reuse in future research. Join this workshop to learn about data sharing strategies and resources that will help you comply with the new NIH policy. We will cover good practices for data management, how to find standards for data and metadata, and selecting an appropriate data repository for your discipline or data type. Participants will come away with a better understanding of the process of data management and how to locate resources that align with the new NIH policy.",
         "registration-page": "https://spaces.lib.uci.edu/event/9988808",
-        "recording": "https://vimeo.com/799560197",
-        "slides": "https://drive.google.com/file/d/1Jqp_mLUj34Dh042vWKRE9__OmCP9BRXv/view?usp=sharing"
+        "recording": "https://doi.org/10.5281/zenodo.14396422",
+        "slides": "https://doi.org/10.5281/zenodo.14396422"
       },
       "nihdmp": {
         "title": "Writing a Data Management and Sharing Plan for NIH",
@@ -1831,8 +1831,8 @@
         "type": "hands-on",
         "description": "Have you heard of the new NIH Data Management and Sharing Policy but want to learn more about how to comply? Want some more guidance on writing your Data Management and Sharing Plan (DMS plan)? In this hands-on workshop we will quickly introduce the new policy and then work through each section of the DMS plan so you understand what to write and can start drafting your own plan. We will also cover how to locate DMS plan templates and sample plans, and highlight resources for learning more.",
         "registration-page": "https://calendars.library.ucsf.edu/event/9986694",
-        "recording": "https://ucsf.box.com/s/96uscqs1sj8xc4gd7p1d657zjzc1lwx4",
-        "slides": "https://ucsf.box.com/s/96uscqs1sj8xc4gd7p1d657zjzc1lwx4"
+        "recording": "https://doi.org/10.5281/zenodo.14426632",
+        "slides": "https://doi.org/10.5281/zenodo.14426632"
       },
       "dataloofah": {
         "title": "Data Loofah - help you identify errors in your data",
@@ -1904,7 +1904,7 @@
         "type": "hands-on",
         "description": "With the emergence of machine learning (ML) usage in research comes greater complexity for data stewards, research facilitators, and researchers. This session will introduce FAIR and ML, AI Readiness with a focus on the role of institutions and data repositories, and AI reproducibility. Participants will be encouraged through interactive, live polls, and open discussion to discuss their challenges, pain points, and interest as it relates to any of the topics.",
         "registration-page": "https://ucsd.zoom.us/meeting/register/tJcofu-tqTIjHNK69ooj3jOSFeZ6pJUVhH92",
-        "recording": "https://drive.google.com/file/d/1UhViT37xdq4RZbPFsngNNLj0cTTdA6X-/view?usp=share_link",
+        "recording": "https://doi.org/10.5281/zenodo.14425638",
         "slides": "https://static.mentimeter.com/screenshot/pdfs/I%20Love%20Data%20FARR.pdf?seriesId=alk55qh6hfjcf9ti11rgcsck9vp6dcn3&screenshotTargetUrl=https%3A%2F%2Fwww.mentimeter.com%2Fpreview&_ga=2.208398994.1621205896.1676319283-1974507888.1675723459&_gl=1*s5wv8y*_ga*MTk3NDUwNzg4OC4xNjc1NzIzNDU5*_ga_TCT6BBBKGN*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA..*_ga_5V8GZ3NSZE*MTY3NjQwNTc0OS44LjEuMTY3NjQwNTc1NS4wLjAuMA"
       },
       "dataviz": {
@@ -1985,8 +1985,8 @@
         "type": "demo",
         "description": "Put on your digital historian hat and join us for an exploration of web archiving as data! In this session we will answer questions such as: What even is web archiving? Why should I care about it? How do I access web archived stuff? What kind of analysis can I do with it? We will use as a case study UC San Diego's guidance for covid prevention, as posted on websites, from Spring 2020 - present. We'll demonstrate how to retrieve the history of a website, work with the html text data in Python, and track changes regarding campus guidance on topics like masking and remote instruction.",
         "registration-page": "https://ucsd.zoom.us/meeting/register/tJMtdOyuqT4oE9ZLbhii8F9S80JeEKZH92j-",
-        "recording": "https://drive.google.com/file/d/1MOCOac8uZRcO3y519yT2dwYNFv0VkIAp/view?usp=share_link",
-        "slides": "https://docs.google.com/presentation/d/1VW6vpZWEiKu7O55pWAAbafXYvrJ82_0EDsg-pnsWrE8/edit?usp=sharing"
+        "recording": "https://doi.org/10.5281/zenodo.14396014",
+        "slides": "https://doi.org/10.5281/zenodo.14396014"
       },
       "everyone": {
         "title": "Reproducibility for Everyone",
@@ -2214,7 +2214,7 @@
         "description": "This workshop will cover key definitions, recommendations, and techniques to implement data de-identification/anonymization. Attendees will be invited to follow along and complete exercises with a provided dataset using the online graphical user interface of the R sdcMicro package for disclosure control. No R programming experience is required.",
         "registration-page": "https://www.library.ucsb.edu/events-exhibitions/data-de-identification-practice",
         "recording": null,
-        "slides": "https://docs.google.com/presentation/d/1F3GigLLjrrpF3MEr3gxct9dM62W6kICbuO-gongmKUg/edit?usp=share_link"
+        "slides": "https://doi.org/10.5281/zenodo.10828335"
       },
       "digiarchives": {
         "title": "Exploring Digital Archives",
@@ -2572,7 +2572,7 @@
         "description": "In this hands-on hybrid workshop, learners will explore the relationships within data clouds and images to build and render 3D images. What does that really mean? That we'll take lots of photos of an object to create 3d image data. We will step through capturing images using openly available software with a smart phone or tablet.  We will also discuss what contributes to successful 3D scanning, and touch on different techniques currently used.  Choose your favorite object (about 1 foot or 12 inches in height) to practice with during this hands-on workshop.",
         "registration-page": "https://www.eventbrite.com/e/to-scan-or-not-to-scan-construct-3d-objects-with-photogrammetry-tickets-791560367367",
         "recording": null,
-        "slides": "https://docs.google.com/presentation/d/10afXVLUx8z0H8gkmU43A_XK30trKG94oB3klMuviksA/edit?usp=sharing"
+        "slides": "https://doi.org/10.5281/zenodo.14395558"
       },
       "github": {
         "title": "GitHub for Everyone",
@@ -2657,7 +2657,7 @@
         "description": "Do you lie awake at night waiting for your R script to finish? Is your laptop running out of memory due to merging million row data frames? Do you panic at the thought of opening your data file in Excel? This presentation is for you! We'll cover some low hanging fruit and basic approaches to squeeze the most out of your local machine when dealing with larger data sets. We will walk through some efficient command line tools, R libraries, and file formats to get the most out of your laptop.",
         "registration-page": "https://uclahs.zoom.us/j/99517728610",
         "recording": "https://www.youtube.com/watch?v=FSbt6-OKlrw&list=PLPtVwXLu7HGUzcBla2eHY7tBTsOgwU5OT&index=23&t=2s",
-        "slides": "https://docs.google.com/presentation/d/1nwA4uZpo74DoSazPSJGoEmJ26nZ8VHndpJzh3gaTJmg/edit#slide=id.g64ea3792a7_0_0"
+        "slides": "https://doi.org/10.5281/zenodo.14395968"
       },
       "openresearch": {
         "title": "Cultivating Collaboration: Getting Started with Open Research",
@@ -2691,8 +2691,8 @@
         "type": "lecture",
         "description": "Open research or open science is the practice of making the process and products of research transparent and accessible to others for collaboration, reproducibility, and broader reuse. This workshop will provide an overview of open principles and practices that foster collaboration and make research outputs, such as data, methods, and publications, openly available. By the end of this workshop you will be able to: <ul><li>Define open research and describe the benefits of putting it into practice</li><li> Adopt transparent and collaborative practices in your own research </li><li> Explore approaches to collaborative team science that promote openness</li><li> Locate key resources for open science and collaboration available at the University of California</li></ul>",
         "registration-page": "https://uci.zoom.us/meeting/register/tJIuf-CsrzgiHtQuZ-Tfqtv9MJUNNzy1UuHt",
-        "recording": "https://vimeo.com/913398996",
-        "slides": "http://ucberk.li/LDW-openresearch"
+        "recording": "https://doi.org/10.5281/zenodo.14395933",
+        "slides": "https://doi.org/10.5281/zenodo.14395933"
       },
       "opendata": {
         "title": "Feeding Curiosity: A smorgasbord of open data sources for research",
@@ -2846,8 +2846,8 @@
         "type": "lecture",
         "description": "Have you ever felt trapped in the maze of packages and library dependencies for your R or Python projects? Join us for a webinar to unravel the 'Dependency Hell' problem and provide practical strategies to tackle this issue while making your research more reproducible. This webinar is part of the 2024 UC Love Data Week Program.",
         "registration-page": "https://cglink.me/2dD/r2258166",
-        "recording": "https://drive.google.com/file/d/1TAN7tlPftRgqviVyGmlDCwSFzUz9Ds5H/view?usp=sharing",
-        "slides": "https://docs.google.com/presentation/d/1aookDrahyh683uwC-F8uxmeH-JAG9HVFDUVjec6ilgs/"
+        "recording": "https://doi.org/10.5281/zenodo.10810774",
+        "slides": "https://doi.org/10.5281/zenodo.10810774"
       },
       "drone": {
         "title": "Drone Data 101: The Data Pipeline",
@@ -2874,7 +2874,7 @@
         "description": "Drones are well-known for their breathtaking photos and video, but the real magic for researchers occurs when a series of images are stitched together with modern photogrammetry software, generating extremely high resolution, georectified orthomosaic images and 3D surface models. This workshop will cover the full data pipeline to utilize this remarkable technology, from flight planning, to data analysis, to visualization of the final results, with examples from plant science and ecology.",
         "registration-page": "https://igis.ucanr.edu/DroneData101_Feb24/",
         "recording": "https://youtu.be/SpF9z8FbCFA",
-        "slides": "https://drive.google.com/file/d/1Eo6Y3X9EKsnfD52Ew8Kgg2kUWwF70yKb/"
+        "slides": "https://doi.org/10.5281/zenodo.14396456"
       },
       "wikipedia": {
         "title": "Wikipedia Edit-a-thon",
@@ -2944,7 +2944,7 @@
         "description": "From virtual reality and animation to cultural research and preservation, thanks to advancing technologies, 3D data and imaging has expanded in accessibility and application integration. In this workshop, we will cover the basics of 3D data and imaging: different types, and where to find and share files. We will list openly available software used to modify 3D image data files, and describe situations to use which software and hardware.",
         "registration-page": "https://www.eventbrite.com/e/3d-data-and-images-tickets-791572032257",
         "recording": null,
-        "slides": "https://docs.google.com/presentation/d/14e2Dwf8gLZnVCGyTdwPTjmvUanGmZgzizbXPsAXjPhI/"
+        "slides": "https://doi.org/10.5281/zenodo.14396312"
       },
       "hpc": {
         "title": "Overview of Remote and High Performance Computing (HPC)",
@@ -2993,8 +2993,8 @@
         "type": "hands-on",
         "description": "Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis. In addition to Zoom, there is an on-site attendance option at UCLA in Public Affairs Building Room 2035B.",
         "registration-page": "https://ucla.zoom.us/meeting/register/tJUpceGgqjwrHNA4pb3vegevbU4mzt_OuDkg",
-        "recording": "https://drive.google.com/file/d/1MZUMAAAPMFD_Eyg58Qs00hnkK-qyQ9E7/view?usp=drive_link",
-        "slides": "https://docs.google.com/presentation/d/1c8zhPqCgSPTbY0CT0YEBzWiPygfJQlyR/edit?usp=drive_link"
+        "recording": "https://doi.org/10.5281/zenodo.14396055",
+        "slides": "https://doi.org/10.5281/zenodo.14396055"
       },
       "story": {
         "title": "Telling Your Data Story",
@@ -3043,7 +3043,7 @@
         "type": "demo",
         "description": "First Session: Sharing and reusing data can effectively reduce redundant efforts in data collection, ultimately saving valuable time and resources, especially for smaller laboratories. Additionally, it enhances the efficiency of scientific research investments by preventing the reinvention of the wheel. Building a sustainable data-reuse process and culture relies on frameworks that comprise policies, standards, roles, and responsibilities, all of which must address the diverse needs of data providers, curators, and (re)users alike. A critical step in the data sharing and (re)use cycle involves researchers identifying data that are (re)usable for their needs. It is a common challenge among researchers to locate data that appear (re)usable. In this session, I aim to introduce 2-3 data repositories ideal for researchers seeking (re)usable data for their studies. Additionally, I will offer several tips and strategies for identifying and utilizing (re)usable data effectively. The session is structured to last approximately 45 minutes, encompassing a 25-minute presentation, a 5-minute question-and-answer segment, and a 10-minute practical workshop exercise. Second Session: Social media is increasingly becoming an important site for data collection and research for students, researchers, and scholars across the Humanities and Social Sciences. This workshop introduces participants to the existing landscape of social media data and the fluctuating access academics have to ‘big datasets'. Using Facebook, Twitter (or X), and Reddit as examples of data archives, we discuss the latest guidelines and restrictions on scraping social media data from these three platforms and how they affect researchers conducting social media research. The workshop urges participants to rethink their notion of “Data” concerning social media to foreground the issue of research ethics that is often sidestepped or not taken seriously due to the presumed publicness of social media data.",
         "registration-page": "https://ucla.zoom.us/meeting/register/tJEud-iopz0qGtWjfkEE6qpHILTKNErjqi7c#/registration",
-        "recording": "https://drive.google.com/file/d/1fy1Rdrf3DqZTqxX0iDVVV4gxAQSNV1Yh/view",
+        "recording": "https://doi.org/10.5281/zenodo.14396298",
         "slides": null
       },
       "socscidata": {
@@ -3164,7 +3164,7 @@
         "type": "hands-on",
         "description": "Rclone is a command-line tool that allows users to transfer and synchronize files between cloud storage services, servers, and local machines. Rclone is a cross-platform application that runs on Linux, Windows and MacOS.",
         "registration-page": "https://ucla.zoom.us/meeting/register/a1ivl0-nTNOyhdZQNhlywA",
-        "recording": null,
+        "recording": "https://doi.org/10.5281/zenodo.14867986",
         "slides": null
       },
       "wiki-edit": {
@@ -3435,7 +3435,7 @@
         "description": "Join us for practical tips on qualitative data de-identification and strategies to tackle the unique challenges researchers face when working with human subject data. This session will feature QualiAnon, an open-source tool designed to help researchers securely anonymize and pseudonymize sensitive qualitative data with precision and flexibility. Unlike automated tools that rely on blind substitutions, QualiAnon gives you full control over how and when data is anonymized, allowing you to manually define replacement rules for specific datasets or variables. This approach ensures a higher level of accuracy and privacy by stripping identifying information without compromising the richness of the data. In this session, we'll demonstrate how QualiAnon can streamline your data protection efforts, improve your workflow, and ensure compliance with privacy standards. Don't miss the chance to discover how this tool can simplify the de-identification process while safeguarding sensitive information in your research!",
         "registration-page": "https://cglink.me/2dD/r2264475",
         "recording": null,
-        "slides": null
+        "slides": "https://doi.org/10.5281/zenodo.14861920"
       },
       "dataplanet": {
         "title": "DataPlanet: Data for Data Science",
@@ -3501,7 +3501,7 @@
         "description": "Quarto is a publication tool built into the RStudio multilanguage data analysis and visualization platform, often used in conjunction with code notebooks. Quarto enables a more reproducible approach to data-driven research by integrating documentation, code, and results in one document. But it's also a great publication platform on its own! In this session a panel of Quarto users will showcase what Quarto is capable of, especially when used in concert with GitHub Pages hosting, including creating websites (course websites, personal websites, blogs), presentations, dashboards, academic papers, and books. We will also demonstrate, in real-time, how easy it is to create such research deliverables. Prepare to be sold on using Quarto!",
         "registration-page": "https://cglink.me/2dD/r2264473",
         "recording": null,
-        "slides": null
+        "slides": "https://doi.org/10.5281/zenodo.15000956"
       },
       "oral-history": {
         "title": "Oral History Methodology for the Qualitative Researcher",
@@ -3777,7 +3777,7 @@
         "type": "hands-on",
         "description": "Learn how to utilize Tableau Prep Builder and Tableau to showcase your data. From data cleaning, hiding blank fields, to data filtering, Tableau Prep can be used to organize your data more efficiently. Once the data is clean, Tableau can be used to visualize the data ranging from charts, graphs, and even GPS coordinates. This small workshop will show you how anyone can easily use Tableau Prep and Tableau for data organization and analysis.",
         "registration-page": "https://ucla.zoom.us/meeting/register/pSI9eZFdS82Lo6cjcwNJvg",
-        "recording": null,
+        "recording": "https://doi.org/10.5281/zenodo.14889793",
         "slides": null
       },
       "industry": {
@@ -3806,6 +3806,647 @@
         "registration-page": "https://calendars.library.ucsf.edu/event/14014117",
         "recording": "https://zenodo.org/records/14991508",
         "slides": "https://zenodo.org/records/14991508"
+      }
+    },
+    "year_2026": {
+      "open-refine": {
+        "title": "Intro to OpenRefine for Data Cleaning",
+        "name": "open-refine",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Megan Van Noord",
+            "org": "ucd-lib"
+          }
+        ],
+        "img": "openrefine_logo.png",
+        "thumbnail": "openrefine_logo.png",
+        "alt": "OpenRefine logo with blue diamond",
+        "day": "m",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Learn how to clean, standardize, and transform messy data using OpenRefine, a powerful open source tool for working with large or inconsistent datasets. This hands on session will introduce key features such as faceting, clustering, data transformation, and enrichment. OpenRefine runs locally in your web browser and works especially well with CSV and TSV files.<p></p> <b>What You'll Learn</b> <ul> <li>How to explore and assess a dataset </li> <li>Techniques for identifying and resolving inconsistencies </li> <li>Ways to split, transform, and standardize data </li> </ul> <b>Prerequisites</b> <ul> <li>Install <a href='https://openrefine.org/' target='_blank'>OpenRefine</a> before the workshop </li> <li>Basic familiarity with Excel or Google Sheets </li> </ul> <b>Who Should Attend</b><p> Researchers, students, librarians, and anyone who works with structured data and wants faster, more reliable cleanup workflows.",
+        "registration-page": "https://events.library.ucdavis.edu/event/workshop-w2026-open-refine",
+        "recording": null,
+        "slides": null
+      },
+      "love-five": {
+        "title": "Five Ways to Love Your Data",
+        "name": "love-five",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Stephanie Labou",
+            "org": "ucsd-lib"
+          },
+          {
+            "name": "Reid Otsuji",
+            "org": "ucsd-lib"
+          },
+          {
+            "name": "Kat Koziar",
+            "org": "fresnoState-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "m",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Kick off UC Love Data Week with a fun and interactive session about five of the ways you can love your data. Learn how to write love notes to your future self in the form of robust documentation, how to share the love through citation and licensing, and other ways to give your data the quality time and attention it deserves. Whether you're an undergraduate with a couple of spreadsheets, or a researcher with GBs of data, this session will provide useful tips and tricks to ensure a healthy long term relationship with your data.",
+        "registration-page": "https://ucsd.zoom.us/meeting/register/Vf3IGSG2QjCzkdcy6ja3NA#/registration",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18792834"
+      },
+      "data-repos": {
+        "title": "How to Use Data Repository Finders",
+        "name": "data-repos",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Sadie Davenport",
+            "org": "ucd-lib"
+          },
+          {
+            "name": "Emily Atkinson",
+            "org": "ucd-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "m",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Choosing a repository is an important task that can impact the discoverability and long-term maintenance of your research data. There are several interactive tools designed to help with the selection process. These include filterable repository 'finders,' which allow researchers to identify and compare relevant repositories. In this session, learners will learn when to use repository finders, receive demonstrations of two repository finders, and participate in evaluating repositories based on their characteristics. Learners will receive a summary handout after attending this session.",
+        "registration-page": "https://events.library.ucdavis.edu/event/workshop-w2026-repository-finders",
+        "recording": null,
+        "slides": null
+      },
+      "uc-data": {
+        "title": "UC Loves UC Data",
+        "name": "uc-data",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Stephanie Labou",
+            "org": "ucsd-lib"
+          },
+          {
+            "name": "Wasila Dahdul",
+            "org": "uci"
+          },
+          {
+            "name": "Jade Yonehiro",
+            "org": "cdl"
+          }
+        ],
+        "img": "UC_logo.png",
+        "thumbnail": "UC_logo.png",
+        "alt": "University of California",
+        "day": "m",
+        "time": "3:00pm-4:00pm",
+        "start": 3,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Have you ever wondered: <ul> <li> How many incoming UC freshman are California residents? </li> <li> How many students are majoring in mechanical engineering at UC San Diego? </li> <li> How many patients are served by UC's six medical centers? </li> <li> What country does UC publish more research than annually? </li> </ul> These questions, and many others, are answerable – if you know where to find the data! In this workshop, we'll learn how to find and access raw data and aggregate statistics, using UC-specific questions as examples. Attendees will leave with a better understanding of where to locate UC data, levels of data availability, common data privacy considerations, and how UC librarians can help you get data!",
+        "registration-page": "https://ucsd.zoom.us/meeting/register/D0JhSPCuQ7--DrTOQO8GIw#/registration",
+        "recording": "https://doi.org/10.5281/zenodo.18792081",
+        "slides": "https://doi.org/10.5281/zenodo.18792081"
+      },
+      "ai-high-tech": {
+        "title": "Can AI Tell a Cigarette from a High Tech Gadget?",
+        "name": "ai-high-tech",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Geoffrey Boushey",
+            "org": "ucsf"
+          },
+          {
+            "name": "Peter Kovacs",
+            "org": "ucsf"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Modern GenAI vision models can describe scenes and identify objects impressively well, but their classifications can still shift depending on how they are prompted. This talk explores a GenAI system's ability to detect smoking imagery in a visually busy '80s sci-fi video by breaking the video into 1-second frames and evaluating two prompts: one that encourages detection and one that emphasizes neutrality. Multiple runs of each prompt are compared to examine changes in precision, recall, accuracy, and overall consistency. The session offers a practical look at how prompt phrasing and model variability affect real-world use cases, and what to keep in mind when using GenAI tools for content analysis.",
+        "registration-page": "https://calendars.library.ucsf.edu/event/16174344?",
+        "recording": null,
+        "slides": null
+      },
+      "quarto": {
+        "title": "Publishing a Quarto website on GitHub ",
+        "name": "quarto",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Julien Brun",
+            "org": "ucsb"
+          },
+          {
+            "name": "Greg Janée",
+            "org": "ucsb"
+          }
+        ],
+        "img": "quarto.png",
+        "thumbnail": "quarto.png",
+        "alt": "quarto logo",
+        "day": "t",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "demo",
+        "description": "Are you looking for a simple, professional way to showcase your research, CV, and/or complement your publications with more interactive content? What if we were to tell you you can create a free website with Quarto & GitHub pages to promote your wokr? Join us for a hands-on workshop on building websites using Quarto and GitHub Pages.  If you can write in Markdown, you can build a website — no web development knowledge is needed. In this session, you will learn how to turn your analysis and writing into a sleek website hosted for free on GitHub. Whether you use R, Python, or just plain text, this workflow allows you to maintain a dynamic academic portfolio with minimal effort.",
+        "registration-page": "https://ucsb.zoom.us/meeting/register/c4j26ikuRw-T0MhvL-cnHQ",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18675395"
+      },
+      "data-rescue": {
+        "title": "Data Rescue Project",
+        "name": "data-rescue",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Lena Bohman",
+            "org": "drp"
+          }
+        ],
+        "img": "drp-brand.png",
+        "thumbnail": "drp-brand.png",
+        "alt": "Data Rescue Project logo: life preserver with floppy disk in middle, next to words Data Rescue Project",
+        "day": "t",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Public data from governmental agencies like the Bureau of Labor Statistics and Dept. of Education is increasingly at risk. This talk details the Data Rescue Project (DRP), a concerted effort by librarians and archivists to preserve at-risk public U.S. governmental data. We will cover the DRP's progress as a data rescue clearinghouse: running volunteer training, utilizing ICPSR's Data Lumos repository, and operating the Data Rescue Portal to track rescued datasets. Learn what we are doing and how you can contribute to public data preservation efforts. Speaker: Lena Bohman -  Steering Committee Member, Data Rescue Project",
+        "registration-page": "https://uclahs.fyi/researchtechtalks",
+        "recording": null,
+        "slides": null
+      },
+      "arduino": {
+        "title": "Prototyping Data Solutions with Arduino",
+        "name": "arduino",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Brendon Wheeler",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "1:00pm-1:50pm",
+        "start": 1,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "This event will follow a hands-on introductory workshop with Tinkercad on how to use the Arduino microcontroller and how data plays a key role in its usefulness. Attendees will learn how to use the Arduino microcontroller with code and simulations that will allow attendees to create research projects with a little imagination. This workshop will be recorded and hands-on.",
+        "registration-page": "https://ucr.zoom.us/webinar/register/WN_rJr2oOT2QxqF9z_q2lIc0w#/registration",
+        "recording": null,
+        "slides": null
+      },
+      "dpla-api": {
+        "title": "Collecting Cultural Heritage Data with the DPLA API",
+        "name": "dpla-api",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Jairo Melo",
+            "org": "ucsb"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Are you wondering if there's a better way to collect information from digital archives, libraries, and museum collections than downloading items one by one? In this workshop, we will explore how to take advantage of API services provided by cultural institutions using Python to collect and structure data and digital artifacts. Using open cultural heritage data from the Digital Public Library of America (DPLA), participants will retrieve a sample of digital objects and relevant metadata, simulating a real research scenario. The session introduces key concepts such as pagination, filtering, and basic data inspection, with a focus on realistic data collection workflows.",
+        "registration-page": "https://ucsb.zoom.us/meeting/register/D-FFjPfOTci_rv9EJi1kfQ",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18614568"
+      },
+      "accessible-data": {
+        "title": "Accessible Data for Everyone",
+        "name": "accessible-data",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Kristin Briney",
+            "org": "caltech-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "t",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "lecture",
+        "description": "How do you format a dataset so it can be understood by a blind person, deaf person, or other disabled individual? This question is increasingly relevant given new requirements from the US Department of Justice to make all public university websites and web content accessible to people with disabilities in the next year. This workshop reviews why accessible research data matters, general accessibility principles, and how to make various data files (spreadsheets, images, etc.) more accessible for everyone.",
+        "registration-page": "https://libcal.caltech.edu/event/16205574",
+        "recording": "https://doi.org/10.5281/zenodo.18615267",
+        "slides": "https://doi.org/10.5281/zenodo.18615267"
+      },
+      "ai-etl-pipeline": {
+        "title": "How I Slacked at Work and Accidentally Built an Automated, AI Driven ETL Pipeline",
+        "name": "ai-etl-pipeline",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Beth Tweedy",
+            "org": "ucd-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Learning new technologies like Artificial Intelligence can feel risky when you are working with critical research data. It started when I was daydreaming at work about my Dungeons & Dragons campaign and realized the best way to learn these tools (for me) was to take the 'work' out of the equation.<p>Join me for a case study on how I used a personal D&D database as a 'sandbox' to learn high-impact data skills. By working with data I knew intimately (and didn't mind breaking), I was able to experiment with AI tools, fail safely, and eventually build a working automated pipeline. This isn't a talk about being a coding genius; it's about how a librarian harnessed curiosity and personal passion to gain a better understanding of how these often intimidating black-box tools actually work.</p><p>This session is designed for: <ul> <li>Researchers, Scholars, and Practitioners interested in 'Ground Truth' testing—using known data to safely audit the strengths, weaknesses, and limits of AI tools before trusting them with your scholarship.</li> <li>Librarians who want a practical look at how a researcher might approach the steep learning curve of this landscape. This session offers a viable path for building the technical vocabulary to translate user needs to technical experts/developers as well as applying these skills to your own work.</li> <li>Technical Experts & Data Scientists who support research. By watching a 'research hacker' navigate the messy reality of AI integration, you will see how users who 'know enough to be dangerous' actually approach these problems—offering insights on how to better anticipate pitfalls and guide the campus community.</li> </ul> </p> ",
+        "registration-page": "https://events.library.ucdavis.edu/event/talk-w2026-ucldw-casestudy",
+        "recording": "https://doi.org/10.5281/zenodo.18614589",
+        "slides": "https://doi.org/10.5281/zenodo.18614589"
+      },
+      "R-clone": {
+        "title": "Moving Your Data Around with RClone",
+        "name": "R-clone",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Jamie Jamieson",
+            "org": "ucla-dsc"
+          },
+          {
+            "name": "Tim Dennis",
+            "org": "ucla-dsc"
+          }
+        ],
+        "img": "rclone.png",
+        "thumbnail": "rclone.png",
+        "alt": "rclone logo",
+        "day": "w",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Rclone is a command-line tool for transferring and managing files between local systems and cloud storage services. In this hands-on workshop, participants will learn how to install and configure rclone, run common commands to copy, sync, and move data, and mount cloud storage as a local file system. The session also covers how rclone compares to tools like rsync and how to use documentation to troubleshoot common issues.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/nwL0RbzvRnmK42AjgfyouA",
+        "recording": null,
+        "slides": null
+      },
+      "fair4rs": {
+        "title": "Making Research Software Citable and Discoverable: Practical FAIR4RS Wins",
+        "name": "fair4rs",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Tim Dennis",
+            "org": "ucla-dsc"
+          },
+          {
+            "name": "Laura Langdon",
+            "org": "ucd-lib"
+          },
+          {
+            "name": "Reid Otsuji",
+            "org": "ucsd-lib"
+          },
+          {
+            "name": "Leigh Phan",
+            "org": "ucla-dsc"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "12:00pm-12:50pm",
+        "start": 12,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "This workshop is intended for researchers, graduate students, and librarians who work with research code and want practical ways to make software easier to find, cite, and reuse.",
+        "registration-page": "https://ucla.zoom.us/meeting/register/k47lNtROR2KNaP7SPvOaIQ",
+        "recording": null,
+        "slides": null
+      },
+      "wiki-edit": {
+        "title": "Wikipedia Editathon",
+        "name": "wiki-edit",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Bee Lehman",
+            "org": "ucb-lib"
+          },
+          {
+            "name": "Ann Glusker",
+            "org": "ucb-lib"
+          }
+        ],
+        "img": "wikipedia_logo.png",
+        "thumbnail": "wikipedia_logo.png",
+        "alt": "wikipedia logo: globe with icons over the words wikipedia",
+        "day": "w",
+        "time": "1:00pm-2:30pm",
+        "start": 1,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "Wikipedia is among the most visited websites in the world, but even Wikipedia's staff acknowledge that its content reflects its editorship (75.6 percent of US editors are white and 90 percent are male). These editors decide which topics are 'notable' and therefore worthy of inclusion, which often excludes genderqueer and female individuals and topics from the global South. You can be part of the solution! Join us on February 11 on Zoom for a tutorial for the beginner Wikipedian, then edit some Wikipedia entries yourself. <a href='https://auth.wikimedia.org/enwiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1&returnto=Main+Page&centralauthLoginToken=1388602bd46760cc02df3da9c78c6528' target='_blank'>Sign up for a free Wikipedia account</a> in advance (optional). You may bring topic ideas or articles you'd like to edit, or we'll help you find a way to make a difference in an area of interest to you.",
+        "registration-page": "https://berkeley.libcal.com/event/16182783",
+        "recording": null,
+        "slides": null
+      },
+      "R-tables": {
+        "title": "Publication-Ready Data Tables in R",
+        "name": "R-tables",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Stephanie Labou",
+            "org": "ucsd-lib"
+          },
+          {
+            "name": "Julien Brun",
+            "org": "ucsb"
+          }
+        ],
+        "img": "R_logo.png",
+        "thumbnail": "R_logo.png",
+        "alt": "R logo: large letter R",
+        "day": "w",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "demo",
+        "description": "Are you tired of spending your time manually formatting tables for article submission? Does the idea of pasting regression coefficients from R to Excel make you wince? This session will demo how to make publication-quality (and reproducible!) data tables in R. We'll use the `gt` package to showcase options for table customization and the `gtsummary` package for ways to combine model outputs with table creation. Note that this session assumes a working knowledge of R; we will dive straight into main table content without a general overview of R.",
+        "registration-page": "https://ucsd.zoom.us/meeting/register/U2EwnvgUQiGL9VkivKWK-Q#/registration",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18675452"
+      },
+      "public-health": {
+        "title": "Introduction to Public Health Data",
+        "name": "public-health",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Elisa Cortez",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "w",
+        "time": "3:00pm-3:50pm",
+        "start": 3,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Are you looking for public health data but don't know where to start? Join us for a practical guide on locating the specific public health data and information you need.",
+        "registration-page": "https://ucr.zoom.us/webinar/register/WN_otnM1R8KQFiiLthpU74Gjw#/registration",
+        "recording": null,
+        "slides": null
+      },
+      "ggplot": {
+        "title": "Visualizing Data with Ggplot for R Users",
+        "name": "ggplot",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Pamela Reynolds",
+            "org": "ucd-dl"
+          },
+          {
+            "name": "Nick Ulle",
+            "org": "ucd-dl"
+          }
+        ],
+        "img": "ggplot2_logo.png",
+        "thumbnail": "ggplot2_logo.png",
+        "alt": "ggplot2 logo: hex design with line plot",
+        "day": "h",
+        "time": "10:00am-11:50pm",
+        "start": 10,
+        "duration": 120,
+        "type": "hands-on",
+        "description": "If a picture tells a thousand words then a data visualization can convey a million! Join us to learn how to apply data visualization principles and best practices to generate compelling plots with ggplot in R. Through a series of case studies, we'll make static plots and practice iterating to improve upon them and the data stories they tell. <p>This workshop is for current R users who want to expand their plotting skills, and thus is not an introduction to the R programming langauge. It is part of DataLab's 'Intermediate R' training series, which you can learn more about on our training website.</p> <p>After completing this workshop, learners should be able to: <ul> <li>write code to generate plots in R using the ggplot2 package</li> <li>develop various different plot types (dot plots, histograms, bar charts, boxplots, time series, etc.)</li> <li>employ ggplot's grammar of graphics syntax to customize plots,</li> <li>effectively use layers and aesthetics to make plots more informative and meaningful (including adding groupings, scaling, color, faceting, labels, and trendlines)</li> </ul> <p>This workshop is offered in person and as a virtual broadcast as part of UC Love Data Week. Local learners are encouraged to attend in person. All members of the University of California system are welcome to register. Advance registration required.</p> <b>Prerequisites</b><p> This workshop is intended for motivated learners from all domains at UC Davis and the other UCs who want to hone their existing R skills. Thus, we won't cover introductory R questions during this session. Participants should be comfortable with basic R syntax, and have the latest version of R and RStudio pre-installed and running on their laptops. If you're new to R, or want to brush up, we suggest you start with our 'R Basics' workshop curriculum.",
+        "registration-page": "https://events.library.ucdavis.edu/event/workshop-w2026-intermediate-r-ggplot?",
+        "recording": null,
+        "slides": null
+      },
+      "interactive-data-viz": {
+        "title": "From Static to Dynamic: Exploring Interactive Data Visualization",
+        "name": "interactive-data-viz",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Xiuqi 'Jade' Li",
+            "org": "ucsb"
+          },
+          {
+            "name": "Julien Brun",
+            "org": "ucsb"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "12:00pm-12:30pm",
+        "start": 12,
+        "duration": 30,
+        "type": "lecture",
+        "description": "Most of us are used to making figures that are meant to be read, not explored – plots designed for PDFs and journal pages. Interactive graphics open up new possibilities by letting viewers zoom in, filter, and engage with data in ways static figures cannot. In this session, we'll explore what makes a visualization interactive, when it's worth using, and how simple interactions can add insight. We'll look at a few short examples using tools such as DataTables, Plotly, and Shiny. You will leave with practical tips on creating, sharing, and sustaining interactive graphics. <p>No prior experience with interactive visualization is required.</p><p>Note: This session is part of Data to Discovery, a biweekly virtual series hosted by the UCSB Library. This series highlights practical tools and core principles for working with data and engaging in open science. Each 30-minute session is designed to be concise, focused, and practical.</p>",
+        "registration-page": "https://ucsb.zoom.us/meeting/register/td3yvwiLRrSoS-X9p_rnHA",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18675472"
+      },
+      "raspberry-pi": {
+        "title": "Getting Started with Raspberry Pi and the Sense HAT",
+        "name": "raspberry-pi",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Alvaro Alvarez",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "h",
+        "time": "1:00pm-1:50pm",
+        "start": 1,
+        "duration": 60,
+        "type": "hands-on",
+        "description": "This hands-on workshop introduces beginners to the Raspberry Pi and its versatile Sense HAT add-on. You'll learn the essentials of Python programming to control an LED matrix and collect real-world, high-quality data on temperature, humidity, and device orientation (gyroscope). These foundational skills are crucial for building academic and research projects, from environmental monitoring to robotics and physics experiments. No prior coding experience is necessary!",
+        "registration-page": "https://ucr.zoom.us/webinar/register/WN_fNLe7pwtTsypjnAUqj_SJg#/registration",
+        "recording": null,
+        "slides": null
+      },
+      "data-cleaning": {
+        "title": "Introduction to Data Cleaning with Python and Pandas",
+        "name": "data-cleaning",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Barbara Martinez Neda",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "Python_logo.png",
+        "thumbnail": "Python_logo.png",
+        "alt": "Python logo: the words Python under a blue and yellow symbol",
+        "day": "h",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "lecture",
+        "description": "Join us to learn how to transform messy, raw spreadsheets into clean, usable data. This workshop will guide you through the essentials of the Pandas library, a key tool for data manipulation. By the end, you'll be able to load messy files, understand the structure of a DataFrame, and produce the clean data needed for analysis and visualization.",
+        "registration-page": "https://ucr.zoom.us/webinar/register/WN_cu3ix3xKRmexHOdjt4F2xQ#/registration",
+        "recording": null,
+        "slides": null
+      },
+      "r-shiny": {
+        "title": "Building Decision Support Web Apps with R-Shiny",
+        "name": "r-shiny",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Andy Lyons",
+            "org": "uc-anr"
+          }
+        ],
+        "img": "shiny-logo.png",
+        "thumbnail": "shiny-logo.png",
+        "alt": "shiny logo: hex design with word 'shiny' inside",
+        "day": "h",
+        "time": "2:00pm-3:50pm",
+        "start": 3,
+        "duration": 120,
+        "type": "hands-on",
+        "description": "Although R is an incredibly powerful programming language for data analysis and decision support, it is not widely known among the general public. The Shiny package enables R users to turn their data analysis code into web applications with user-friendly interfaces that are easy to deploy. This hands-on workshop will provide an introduction to Shiny including the principles of reactive programming, fundamentals of UI design, and deployment options. By the end of the workshop, participants will be able to convert a spreadsheet based model into a Shiny web app. Some experience with R is expected, see registration page for details. <p><b>Prequesites</b></p> Some experience with R is expected (at least enough to run prepared scripts). The hands-on exercises (recommended but not required) will require participants to have a free account on Posit Cloud (i.e., so you can run prepared scripts in RStudio in a browser). Experienced R users are welcome to run the exercises in RStudio Desktop or Positron, but support will be limited. Parts of the workshop will require you to follow along as the instructor demonstrates code to solve a problem. It is therefore highly recommended that you have a computer with two monitors, so you can view the instructor's screen on one monitor, and work in RStudio in the other. Participants who only have a small laptop with no external monitor may find it challenging to complete the hands-on exercises, and may just want to watch.",
+        "registration-page": "https://ucanr.edu/program/informatics-and-gis-program/r-shiny-s26",
+        "recording": "https://youtu.be/cdDDf80JwyU",
+        "slides": null
+      },
+      "ai-data-viz": {
+        "title": "AI-Assisted Data Visualization and Dashboards",
+        "name": "ai-data-viz",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Raymond Uzwyshyn",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "f",
+        "time": "10:00am-10:50am",
+        "start": 10,
+        "duration": 60,
+        "type": "lecture",
+        "description": "This interactive seminar introduces participants to the transformative potential of AI-assisted data visualization. Drawing on emerging practices in 'vibe coding'—an intuitive, natural language approach to AI-assisted development—attendees will explore best practices for generating sophisticated, data-driven dashboards through prompting and iterative collaboration with AI.\nThe session will overview key principles for effective interactive data visualization, demonstrate practical workflows for AI-assisted coding, and showcase real-world applications ranging from exploratory data analysis to publication-ready research dashboards. Participants will learn how to leverage AI tools to rapidly prototype visualizations and iterate design concepts while maintaining analytical rigor and aesthetic sophistication.\nWhether you're looking to extract deeper insights from existing datasets, build interactive dashboards for research, or develop comprehensive analytic framework for ongoing work, this seminar will equip you with practical strategies for integrating AI assistance into your data visualization workflows.\nNo advanced coding experience required—just curiosity about how AI can augment your data practice.",
+        "registration-page": "https://ucr.zoom.us/webinar/register/WN_XFfiy6qlQaeMRsiUJmX1Fw#/registration",
+        "recording": null,
+        "slides": null
+      },
+      "genAI-qual": {
+        "title": "Critical Integration of GenAI in Qualitative Analysis",
+        "name": "genAI-qual",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Renata Curty",
+            "org": "ucsb"
+          }
+        ],
+        "img": "ldw-circuit-color-506_2022.png",
+        "thumbnail": "ldw-circuit-color-506_2022.png",
+        "alt": "love data week logo image: internal circuitry in the shape of a heart with abbreviations of the UC campuses, ANR, and CDL interspersed",
+        "day": "f",
+        "time": "11:00am-11:50am",
+        "start": 11,
+        "duration": 60,
+        "type": "demo",
+        "description": "Join us for an exploration of how Generative AI can be strategically integrated into qualitative research workflows. This session introduces the Guided AI Thematic Analysis (GAITA) framework, a structured approach to using AI for coding and theme development while upholding rigorous analytical standards. Participants will then experience a live demonstration of an AI assistant embedded in QualCoder, showcasing how AI can support qualitative data analysis without replacing researcher judgment. Attendees may follow along step by step or observe the workflow in action, gaining practical insights and best practices for critically and effectively incorporating AI tools into qualitative research.",
+        "registration-page": "https://ucsb.zoom.us/meeting/register/XtWciI8mRA65DRsjR-J9dw",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18686484"
+      },
+      "deep-learning-drone": {
+        "title": "Deep Learning with Drone Imagery in ArcGIS Pro",
+        "name": "deep-learning-drone",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Maggi Kelly",
+            "org": "uc-anr"
+          },
+          {
+            "name": "Shane Feirer",
+            "org": "uc-anr"
+          }
+        ],
+        "img": "drone.png",
+        "thumbnail": "drone.png",
+        "alt": "drone flying over field, with stylized pixels within drone field of view to symbolize retrieved data",
+        "day": "f",
+        "time": "1:00pm-2:30pm",
+        "start": 1,
+        "duration": 90,
+        "type": "lecture",
+        "description": "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year.",
+        "registration-page": "https://ucanr.edu/program/informatics-and-gis-program/deep-learning-drone-imagery-s26",
+        "recording": "https://youtu.be/BySO-PiPD9I",
+        "slides": null
+      },
+      "openalex": {
+        "title": "Measuring Research Impact with OpenAlex: A Data-Driven DIY Approach",
+        "name": "openalex",
+        "speaker-type": "Speaker",
+        "speakers": [
+          {
+            "name": "Jing Han",
+            "org": "ucr-lib"
+          }
+        ],
+        "img": "openalex_logo.png",
+        "thumbnail": "openalex_logo.png",
+        "alt": "OpenAlex logo",
+        "day": "f",
+        "time": "2:00pm-2:50pm",
+        "start": 2,
+        "duration": 60,
+        "type": "lecture",
+        "description": "This session begins with an introduction to OpenAlex, then guides participants through exploring the web interface and working with the API to access, clean, and interpret open data to measure institutional research impact.",
+        "registration-page": "https://ucr.zoom.us/webinar/register/WN_Uryj_RrPR7uUQj0vKoh3tA#/registration",
+        "recording": null,
+        "slides": "https://doi.org/10.5281/zenodo.18637147"
       }
     }
   }
