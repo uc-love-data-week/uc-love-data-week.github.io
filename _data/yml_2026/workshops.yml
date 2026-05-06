@@ -446,7 +446,7 @@
   description: Join us to learn how to transform messy, raw spreadsheets into clean, usable data. This workshop will guide you through the essentials of the Pandas library, a key tool for data manipulation. By the end, you’ll be able to load messy files, understand the structure of a DataFrame, and produce the clean data needed for analysis and visualization.
   registration-page: https://ucr.zoom.us/webinar/register/WN_cu3ix3xKRmexHOdjt4F2xQ#/registration
   recording: 
-  slides: 
+  slides: https://zenodo.org/records/18881265
 
 - title: "Building Decision Support Web Apps with R-Shiny"
   name: r-shiny
@@ -468,7 +468,7 @@
       Parts of the workshop will require you to follow along as the instructor demonstrates code to solve a problem. It is therefore highly recommended that you have a computer with two monitors, so you can view the instructor's screen on one monitor, and work in RStudio in the other. Participants who only have a small laptop with no external monitor may find it challenging to complete the hands-on exercises, and may just want to watch.    
   registration-page: https://ucanr.edu/program/informatics-and-gis-program/r-shiny-s26
   recording: https://youtu.be/cdDDf80JwyU
-  slides:
+  slides: https://zenodo.org/records/18870326
 
 #Friday Feb 13
 
@@ -534,7 +534,7 @@
   description: "Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year."
   registration-page: https://ucanr.edu/program/informatics-and-gis-program/deep-learning-drone-imagery-s26
   recording: https://youtu.be/BySO-PiPD9I
-  slides: 
+  slides: https://zenodo.org/records/18870206
 
 
 - title: "Measuring Research Impact with OpenAlex: A Data-Driven DIY Approach"

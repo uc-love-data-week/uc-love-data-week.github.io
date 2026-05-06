@@ -4036,7 +4036,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
       <description>Join us to learn how to transform messy, raw spreadsheets into clean, usable data. This workshop will guide you through the essentials of the Pandas library, a key tool for data manipulation. By the end, you’ll be able to load messy files, understand the structure of a DataFrame, and produce the clean data needed for analysis and visualization.</description>
       <registration-page>https://ucr.zoom.us/webinar/register/WN_cu3ix3xKRmexHOdjt4F2xQ#/registration</registration-page>
       <recording></recording>
-      <slides></slides>
+      <slides>https://zenodo.org/records/18881265</slides>
     </data-cleaning>
     <r-shiny>
       <title>Building Decision Support Web Apps with R-Shiny</title>
@@ -4057,7 +4057,7 @@ The session is structured to last approximately 50 minutes, comprising a 40-minu
       <description>Although R is an incredibly powerful programming language for data analysis and decision support, it is not widely known among the general public. The Shiny package enables R users to turn their data analysis code into web applications with user-friendly interfaces that are easy to deploy. This hands-on workshop will provide an introduction to Shiny including the principles of reactive programming, fundamentals of UI design, and deployment options. By the end of the workshop, participants will be able to convert a spreadsheet based model into a Shiny web app. Some experience with R is expected, see registration page for details. &lt;p&gt;&lt;b&gt;Prequesites&lt;/b&gt;&lt;/p&gt; Some experience with R is expected (at least enough to run prepared scripts). The hands-on exercises (recommended but not required) will require participants to have a free account on Posit Cloud (i.e., so you can run prepared scripts in RStudio in a browser). Experienced R users are welcome to run the exercises in RStudio Desktop or Positron, but support will be limited. Parts of the workshop will require you to follow along as the instructor demonstrates code to solve a problem. It is therefore highly recommended that you have a computer with two monitors, so you can view the instructor's screen on one monitor, and work in RStudio in the other. Participants who only have a small laptop with no external monitor may find it challenging to complete the hands-on exercises, and may just want to watch.</description>
       <registration-page>https://ucanr.edu/program/informatics-and-gis-program/r-shiny-s26</registration-page>
       <recording>https://youtu.be/cdDDf80JwyU</recording>
-      <slides></slides>
+      <slides>https://zenodo.org/records/18870326</slides>
     </r-shiny>
     <ai-data-viz>
       <title>AI-Assisted Data Visualization and Dashboards</title>
@@ -4127,7 +4127,7 @@ No advanced coding experience required—just curiosity about how AI can augment
       <description>Drone images have allowed researchers to investigate novel questions due to their incredible spatial resolution. Ironically however, the level of detail in drone imagery renders traditional image analysis methods largely ineffective. This webinar will describe how Deep Learning methods can be used for object detection and segmentation in high resolution imagery. A workflow for doing Deep Learning in ArcGIS Pro will be explained, with a comparison of the results of two commonly used Deep Learning algorithms (MASK R-CNN and SAM) applied to drone imagery of orchard trees taken at different times of the year.</description>
       <registration-page>https://ucanr.edu/program/informatics-and-gis-program/deep-learning-drone-imagery-s26</registration-page>
       <recording>https://youtu.be/BySO-PiPD9I</recording>
-      <slides></slides>
+      <slides>https://zenodo.org/records/18870206</slides>
     </deep-learning-drone>
     <openalex>
       <title>Measuring Research Impact with OpenAlex: A Data-Driven DIY Approach</title>
