@@ -350,7 +350,7 @@ Description: Novel insights into human cognition can benefit from advancements i
   description: 'Qualitative research encompasses many methodological approaches, and one of the most powerful is oral history. As described by the UC Berkeley Oral History Center, this approach involves producing "first-person narrative topical and life histories that explore the narrator’s understanding of events through a recorded interview...[this] results in a lightly edited transcript of the interview that the narrator reviews, which is then published." This differs from the more familiar qualitative research interview, in that it is a two-directional, and transparent process... which comes with its own challenges. In this workshop you will learn more about these synergies and contrasts between and within methods, hear more about best practices for conducting oral history projects, and have time to ask questions about project ideas of your own.'
   registration-page: https://berkeley.libcal.com/calendar/workshops/OralHistoryForQualResearchers
   recording: 
-  slides: 
+  slides: https://zenodo.org/records/15420226
 
 - title: "Distilling a research domain with bibliometric analysis in R"
   name: bibliometrics-r
